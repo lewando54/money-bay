@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+  testID="testxd"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4288142079,
+          4279654301,
+        ],
+        "endPoint": [
+          1,
+          0.5,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0.5,
+        ],
+      }
+    }
+    style={
+      [
+        {
+          "borderRadius": 10,
+          "padding": 15,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+            "textAlign": "center",
+          },
+          {
+            "color": "white",
+          },
+          false,
+        ]
+      }
+    >
+      Click me
+    </Text>
+  </ViewManagerAdapter_ExpoLinearGradient>
+</View>
+`;
+
+exports[`Button should render with primary color by default 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+      "width": "100%",
+    }
+  }
+  testID="testxd"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4288142079,
+          4279654301,
+        ],
+        "endPoint": [
+          1,
+          0.5,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0.5,
+        ],
+      }
+    }
+    style={
+      [
+        {
+          "borderRadius": 10,
+          "padding": 15,
+        },
+        false,
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+            "textAlign": "center",
+          },
+          {
+            "color": "white",
+          },
+          false,
+        ]
+      }
+    >
+      Click me
+    </Text>
+  </ViewManagerAdapter_ExpoLinearGradient>
+</View>
+`;

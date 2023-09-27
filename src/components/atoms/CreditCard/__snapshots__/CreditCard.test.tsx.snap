@@ -1,0 +1,1114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditCard should render correctly 1`] = `
+<View
+  style={
+    {
+      "aspectRatio": 1.7777777777777777,
+      "borderRadius": 10,
+      "flexDirection": "row",
+      "width": "80%",
+    }
+  }
+>
+  <RNCMaskedView
+    style={
+      {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "black",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+              },
+              {
+                "borderRadius": 10,
+                "flex": 1,
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <ViewManagerAdapter_ExpoBlurView
+            proxiedProperties={
+              {
+                "intensity": 100,
+                "tint": "default",
+              }
+            }
+            style={
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <ViewManagerAdapter_ExpoLinearGradient
+      proxiedProperties={
+        {
+          "colors": [
+            4279638374,
+            4289638911,
+            4294940596,
+          ],
+          "endPoint": [
+            1,
+            1,
+          ],
+          "locations": undefined,
+          "startPoint": [
+            0,
+            0,
+          ],
+        }
+      }
+      style={
+        {
+          "flex": 1,
+          "height": "100%",
+          "opacity": 0.5,
+        }
+      }
+    />
+  </RNCMaskedView>
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 14,
+        "height": "100%",
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "aspectRatio": 1.7777777777777777,
+            "resizeMode": "contain",
+            "width": 40,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "height": 21,
+            "opacity": 0.5,
+            "width": 0.5,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "white",
+              "fontSize": 14,
+              "letterSpacing": 3,
+            },
+          ]
+        }
+      >
+        bay platinum
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "fontSize": 12,
+            },
+          ]
+        }
+      >
+        1234 **** **** 1234
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": "auto",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Balance
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "fontSize": 23,
+                },
+                false,
+              ]
+            }
+          >
+            $
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "marginBottom": 0,
+                  },
+                  {
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              4863
+              .
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "height": "100%",
+                    "paddingTop": 11,
+                  },
+                ]
+              }
+            >
+              27
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 12,
+                    "marginLeft": 7,
+                    "paddingTop": 12.6,
+                  },
+                  {
+                    "display": "none",
+                  },
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Expire
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishMedium",
+                  },
+                  {
+                    "opacity": 0.8,
+                  },
+                ]
+              }
+            >
+              12
+              /
+              23
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CreditCard should render currency symbol on the right when chosen 1`] = `
+<View
+  style={
+    {
+      "aspectRatio": 1.7777777777777777,
+      "borderRadius": 10,
+      "flexDirection": "row",
+      "width": "80%",
+    }
+  }
+>
+  <RNCMaskedView
+    style={
+      {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "black",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+              },
+              {
+                "borderRadius": 10,
+                "flex": 1,
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <ViewManagerAdapter_ExpoBlurView
+            proxiedProperties={
+              {
+                "intensity": 100,
+                "tint": "default",
+              }
+            }
+            style={
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <ViewManagerAdapter_ExpoLinearGradient
+      proxiedProperties={
+        {
+          "colors": [
+            4279638374,
+            4289638911,
+            4294940596,
+          ],
+          "endPoint": [
+            1,
+            1,
+          ],
+          "locations": undefined,
+          "startPoint": [
+            0,
+            0,
+          ],
+        }
+      }
+      style={
+        {
+          "flex": 1,
+          "height": "100%",
+          "opacity": 0.5,
+        }
+      }
+    />
+  </RNCMaskedView>
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 14,
+        "height": "100%",
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "aspectRatio": 1.7777777777777777,
+            "resizeMode": "contain",
+            "width": 40,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "height": 21,
+            "opacity": 0.5,
+            "width": 0.5,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "white",
+              "fontSize": 14,
+              "letterSpacing": 3,
+            },
+          ]
+        }
+      >
+        bay platinum
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "fontSize": 12,
+            },
+          ]
+        }
+      >
+        1234 **** **** 1234
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": "auto",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Balance
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "fontSize": 23,
+                },
+                {
+                  "display": "none",
+                },
+              ]
+            }
+          >
+            zł
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "marginBottom": 0,
+                  },
+                  {
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              4863
+              .
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "height": "100%",
+                    "paddingTop": 11,
+                  },
+                ]
+              }
+            >
+              27
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 12,
+                    "marginLeft": 7,
+                    "paddingTop": 12.6,
+                  },
+                  false,
+                ]
+              }
+            >
+              zł
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Expire
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishMedium",
+                  },
+                  {
+                    "opacity": 0.8,
+                  },
+                ]
+              }
+            >
+              12
+              /
+              23
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CreditCard should render mastercard logo when chosen 1`] = `
+<View
+  style={
+    {
+      "aspectRatio": 1.7777777777777777,
+      "borderRadius": 10,
+      "flexDirection": "row",
+      "width": "80%",
+    }
+  }
+>
+  <RNCMaskedView
+    style={
+      {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderColor": "black",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+              },
+              {
+                "borderRadius": 10,
+                "flex": 1,
+                "height": "100%",
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <ViewManagerAdapter_ExpoBlurView
+            proxiedProperties={
+              {
+                "intensity": 100,
+                "tint": "default",
+              }
+            }
+            style={
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <ViewManagerAdapter_ExpoLinearGradient
+      proxiedProperties={
+        {
+          "colors": [
+            4279638374,
+            4289638911,
+            4294940596,
+          ],
+          "endPoint": [
+            1,
+            1,
+          ],
+          "locations": undefined,
+          "startPoint": [
+            0,
+            0,
+          ],
+        }
+      }
+      style={
+        {
+          "flex": 1,
+          "height": "100%",
+          "opacity": 0.5,
+        }
+      }
+    />
+  </RNCMaskedView>
+  <View
+    style={
+      {
+        "flex": 1,
+        "gap": 14,
+        "height": "100%",
+        "paddingHorizontal": 20,
+        "paddingVertical": 20,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "aspectRatio": 1.7777777777777777,
+            "resizeMode": "contain",
+            "width": 40,
+          }
+        }
+      />
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "height": 21,
+            "opacity": 0.5,
+            "width": 0.5,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "white",
+              "fontSize": 14,
+              "letterSpacing": 3,
+            },
+          ]
+        }
+      >
+        bay platinum
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "fontSize": 12,
+            },
+          ]
+        }
+      >
+        1234 **** **** 1234
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": "auto",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Balance
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "fontSize": 23,
+                },
+                false,
+              ]
+            }
+          >
+            $
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "marginBottom": 0,
+                  },
+                  {
+                    "fontSize": 24,
+                  },
+                ]
+              }
+            >
+              4863
+              .
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "height": "100%",
+                    "paddingTop": 11,
+                  },
+                ]
+              }
+            >
+              27
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 12,
+                    "marginLeft": 7,
+                    "paddingTop": 12.6,
+                  },
+                  {
+                    "display": "none",
+                  },
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "gap": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 8,
+                "opacity": 0.5,
+                "textTransform": "uppercase",
+              },
+            ]
+          }
+        >
+          Expire
+        </Text>
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+              "gap": 7,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishMedium",
+                  },
+                  {
+                    "opacity": 0.8,
+                  },
+                ]
+              }
+            >
+              12
+              /
+              23
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
