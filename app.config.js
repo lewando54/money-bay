@@ -4,7 +4,7 @@ export default ({ config }) => ({
   slug: "storybook-tutorial-template",
   splash: {
       image: "./assets/splash.png",
-      backgroundColor: "#1B1D4Dr"
+      backgroundColor: "#1B1D4D"
   },
   extra: {
     storybookEnabled: process.env.STORYBOOK_ENABLED,

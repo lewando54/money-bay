@@ -51,6 +51,7 @@ const getStories = () => {
     "./src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx": require("../src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx"),
     "./src/components/atoms/CreditCard/CreditCard.stories.tsx": require("../src/components/atoms/CreditCard/CreditCard.stories.tsx"),
     "./src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx": require("../src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx"),
+    "./src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx": require("../src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx"),
   };
 };
 
