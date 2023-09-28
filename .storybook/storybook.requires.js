@@ -48,6 +48,7 @@ try {
 const getStories = () => {
   return {
     "./src/components/atoms/Button/Button.stories.tsx": require("../src/components/atoms/Button/Button.stories.tsx"),
+    "./src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx": require("../src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx"),
     "./src/components/atoms/CreditCard/CreditCard.stories.tsx": require("../src/components/atoms/CreditCard/CreditCard.stories.tsx"),
   };
 };
