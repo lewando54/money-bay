@@ -20,7 +20,7 @@ export default function ButtonCircleWithText({
     testID='square-button-with-icon'
 }: IButtonCircleWithTextProps){
     return (
-        <TouchableOpacity onPress={onClick} style={buttonCircleWithTextStyle.container}>
+        <TouchableOpacity onPress={onClick} testID={testID} style={buttonCircleWithTextStyle.container}>
             <CircleWithIcon icon={icon} backgroundColor={circleBackgroundColor} size={60}/>
             <Text style={[GlobalThemeStyle.text_SemiBold, buttonCircleWithTextStyle.text]}>{text}</Text>
         </TouchableOpacity>

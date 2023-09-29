@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonCircleWithText should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "elevation": 20,
+      "gap": 10,
+      "height": 95,
+      "justifyContent": "center",
+      "opacity": 1,
+      "shadowColor": "#1B1D4D",
+      "shadowOffset": {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.08,
+      "shadowRadius": 16,
+      "width": 60,
+    }
+  }
+  testID="square-button-with-icon"
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#3EB290",
+          "borderRadius": 120,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        false,
+      ]
+    }
+  >
+    <Text />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishSemiBold",
+        },
+        {
+          "color": "#1B1D4D",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Top-Up Payment
+  </Text>
+</View>
+`;

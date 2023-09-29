@@ -23,8 +23,8 @@ export default function SquareButtonWithIcon({
     testID='square-button-with-icon'
 }: ISquareButtonWithIconProps){
     return (
-        <TouchableOpacity onPress={onClick} style={squareButtonWithIconStyle.outerContainer}>
-            <UniversalContainer padding={20} height={'100%'} castShadow={true}>
+        <TouchableOpacity onPress={onClick} testID={testID} style={squareButtonWithIconStyle.outerContainer}>
+            <UniversalContainer padding={20} height={'100%'} castShadow={true} backgroundColor={buttonBackgroundColor}>
                 <View style={squareButtonWithIconStyle.innerContainer}>
                     <CircleWithIcon icon={icon} backgroundColor={circleBackgroundColor} size={50} />
                     <Text style={[globalThemeStyle.text_SemiBold, {color: MAIN_DARK, fontSize: 16}]}>{text}</Text>

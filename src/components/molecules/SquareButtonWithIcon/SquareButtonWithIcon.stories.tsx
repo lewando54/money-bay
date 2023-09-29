@@ -6,7 +6,10 @@ import SquareButtonWithIcon from './SquareButtonWithIcon'
 const meta = {
 	component: SquareButtonWithIcon,
 	argTypes: {
-        // To write
+        text: { control: 'text' },
+		onclick: { action: 'clicked' },
+		buttonBackgroundColor: { control: 'color' },
+		circleBackgroundColor: { control: 'object' },
 	}
 } satisfies Meta<typeof SquareButtonWithIcon>
 
@@ -15,6 +18,16 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
 	args: {
-        // To write
+        text: 'Add new card',
+		buttonBackgroundColor: '#fff',
+		circleBackgroundColor: '#3EB290'
+	}
+}
+
+export const Gradient: Story = {
+	args: {
+        text: 'Add new card',
+		buttonBackgroundColor: '#fff',
+		circleBackgroundColor: ['#3EB290', '#ff0']
 	}
 }
