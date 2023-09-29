@@ -52,6 +52,10 @@ const getStories = () => {
     "./src/components/atoms/CreditCard/CreditCard.stories.tsx": require("../src/components/atoms/CreditCard/CreditCard.stories.tsx"),
     "./src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx": require("../src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx"),
     "./src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx": require("../src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx"),
+    "./src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx": require("../src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx"),
+    "./src/components/molecules/MoneyBox/MoneyBox.stories.tsx": require("../src/components/molecules/MoneyBox/MoneyBox.stories.tsx"),
+    "./src/components/molecules/SquareButtonWithIcon/SquareButtonWithIcon.stories.tsx": require("../src/components/molecules/SquareButtonWithIcon/SquareButtonWithIcon.stories.tsx"),
+    "./src/components/molecules/TransactionBar/TransactionBar.stories.tsx": require("../src/components/molecules/TransactionBar/TransactionBar.stories.tsx"),
   };
 };
 

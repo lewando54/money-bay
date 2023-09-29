@@ -31,4 +31,28 @@ describe('CircleWithIcon', () => {
     const tree = renderer.create(<CircleWithIcon backgroundColor={['#f00', '#ff0']} start={{x: 0, y: 0}} end={{x: 1, y: 1}}/>)
     expect(tree).toMatchSnapshot()
   })
+
+  it('should render with shadow', () => {
+    const tree = renderer.create(<CircleWithIcon castShadow={true} />)
+    expect(tree).toMatchSnapshot()
+  })
+
+  it('should render with shadow when clickable', () => {
+    const onClick = jest.fn()
+    const { getByTestId } = render(<CircleWithIcon castShadow={true} testID='test' onClick={onClick}/>)
+    fireEvent.press(getByTestId('test'))
+    expect(onClick).toHaveBeenCalled()
+  })
+
+  it('should render with shadow when clickable and gradient is applied', () => {
+    const onClick = jest.fn()
+    const { getByTestId } = render(<CircleWithIcon castShadow={true} testID='test' onClick={onClick} backgroundColor={['#f00', '#ff0']}/>)
+    fireEvent.press(getByTestId('test'))
+    expect(onClick).toHaveBeenCalled()
+  })
+
+  it('should render with shadow when gradient is applied', () => {
+    const tree = renderer.create(<CircleWithIcon castShadow={true} backgroundColor={['#f00', '#ff0']}/>)
+    expect(tree).toMatchSnapshot()
+  })
 })

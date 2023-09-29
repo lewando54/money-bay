@@ -9,6 +9,7 @@ interface ICircleWithIconProps {
     backgroundColor?: string | Array<string>,
     start?: {x: number, y: number},
     end?: {x: number, y: number},
+    castShadow?: boolean
     onClick?: () => void
     testID?: string
 }
@@ -19,19 +20,29 @@ export default function CircleWithIcon({
     backgroundColor='#F1F5FD',
     start={x: 0.5, y: 0},
     end={x: 0.5, y: 1},
+    castShadow=false,
     onClick,
     testID
 }: ICircleWithIconProps){
+    const shadow = {
+        shadowOffset: {width: 0, height: 6},
+        shadowRadius: 16,
+        shadowColor: '#161966',
+        shadowOpacity: 0.08,
+        elevation: 20,
+    }
+
     if(onClick && backgroundColor instanceof Array){
         return (
             <TouchableOpacity 
                 style={[
-                    circleWithIconStyle({size, backgroundColor: '#fff'}).circle
+                    circleWithIconStyle({size, backgroundColor: '#fff0'}).circle,
+                    castShadow && shadow
                 ]}
                 testID={testID}
                 onPress={onClick}
             >
-                <LinearGradient colors={backgroundColor} start={start} end={end}>
+                <LinearGradient style={circleWithIconStyle({size, backgroundColor: '#fff0'}).circle} colors={backgroundColor} start={start} end={end}>
                     {icon}
                 </LinearGradient>
             </TouchableOpacity>
@@ -41,7 +52,8 @@ export default function CircleWithIcon({
         return (
             <TouchableOpacity 
                 style={[
-                    circleWithIconStyle({size, backgroundColor}).circle
+                    circleWithIconStyle({size, backgroundColor}).circle,
+                    castShadow && shadow
                 ]}
                 testID={testID}
                 onPress={onClick}
@@ -54,11 +66,12 @@ export default function CircleWithIcon({
         return (
             <View 
                 style={[
-                    circleWithIconStyle({size, backgroundColor: '#fff'}).circle
+                    circleWithIconStyle({size, backgroundColor: '#fff0'}).circle,
+                    castShadow && shadow
                 ]}
                 testID={testID}
             >
-                <LinearGradient colors={backgroundColor} start={start} end={end}>
+                <LinearGradient style={circleWithIconStyle({size, backgroundColor: '#fff0'}).circle} colors={backgroundColor} start={start} end={end}>
                     {icon}
                 </LinearGradient>
             </View>
@@ -68,7 +81,8 @@ export default function CircleWithIcon({
         return (
             <View 
                 style={[
-                    circleWithIconStyle({size, backgroundColor}).circle
+                    circleWithIconStyle({size, backgroundColor}).circle,
+                    castShadow && shadow
                 ]}
                 testID={testID}
             >

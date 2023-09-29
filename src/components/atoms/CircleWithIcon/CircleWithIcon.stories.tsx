@@ -6,7 +6,9 @@ import CircleWithIcon from './CircleWithIcon'
 const meta = {
 	component: CircleWithIcon,
 	argTypes: {
-        // To write
+		backgroundColor: { control: 'object' },
+		castShadow: { control: 'boolean' },
+		onClick: {action: 'clicked', disable: true }
 	}
 } satisfies Meta<typeof CircleWithIcon>
 
@@ -15,6 +17,31 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
 	args: {
-        // To write
+		backgroundColor: '#fff',
+		onClick: null
+	}
+}
+
+export const Pressable: Story = {}
+
+export const CustomBackgroundColor: Story = {
+	args: {
+        backgroundColor: '#F00',
+		onClick: null
+	}
+}
+
+export const Gradient: Story = {
+	args: {
+        backgroundColor: ['#6B99CB', '#161966'],
+		onClick: null
+	}
+}
+
+export const CastShadow: Story = {
+	args: {
+        backgroundColor: '#fff',
+		castShadow: true,
+		onClick: null
 	}
 }

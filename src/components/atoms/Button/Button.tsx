@@ -1,14 +1,16 @@
 import { Pressable, Text, TouchableOpacity, GestureResponderEvent } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import buttonStyle from './Button.style'
-import { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '../../../styling/GlobalTheme.style'
+import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '../../../styling/GlobalTheme.style'
 import { ReactElement } from 'react'
 
 type colorProp = 'primary' | 'secondary' | string
+type sizeProp = 'normal' | 'small'
 
 interface IButtonProps{
     children: React.ReactNode
     color?: colorProp,
+    size?: sizeProp,
     width?: string,
     onClick?: ((event: GestureResponderEvent) => void) | null | undefined
     testID?: string
@@ -17,6 +19,7 @@ interface IButtonProps{
 export default function Button({
     children,
     color = 'primary',
+    size = 'normal',
     width = '100%',
     onClick,
     testID
@@ -34,12 +37,14 @@ export default function Button({
                 end={{x: 1, y: 0.5}}
                 style={[
                     buttonStyle.button,
+                    size === 'small' && { padding: 10 },
                     color === 'secondary' && buttonStyle.secondaryButton
                 ]}>
                     <Text style={[
                         buttonStyle.text,
                         color === 'primary' && buttonStyle.primaryText,
-                        color === 'secondary' && buttonStyle.secondaryText
+                        color === 'secondary' && buttonStyle.secondaryText,
+                        size === 'small' && [{ fontSize: 12 }, GlobalThemeStyle.text_SemiBold]
                     ]}>
                         {children}
                     </Text>

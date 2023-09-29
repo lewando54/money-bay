@@ -12,6 +12,6 @@ export default ({size, backgroundColor}: ICircleWithIconStyleProps) => StyleShee
         borderRadius: size * 2,
         backgroundColor: backgroundColor,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     }
 })

@@ -38,6 +38,16 @@ describe('Button', () => {
     expect(screen.getByTestId('button').props.children[0].props.colors[1]).toEqual('#fff')
   })
 
+  it('should render small variant', () => {
+    const tree = renderer.create(<Button testID='testxd' color="primary" size={'small'}>Click me</Button>).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  it('should render normal variant', () => {
+    const tree = renderer.create(<Button testID='testxd' color="primary" size={'normal'}>Click me</Button>).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
   it('should call onClick function when clicked', () => {
     const onClick = jest.fn()
     const { getByTestId } = render(<Button testID='testxd' onClick={onClick}>Click me</Button>)

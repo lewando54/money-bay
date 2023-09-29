@@ -293,7 +293,7 @@ exports[`CreditCard should render correctly 1`] = `
                   {
                     "fontSize": 12,
                     "marginLeft": 7,
-                    "paddingTop": 12.6,
+                    "paddingTop": 12.7,
                   },
                   {
                     "display": "none",
@@ -666,7 +666,7 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
                   {
                     "fontSize": 12,
                     "marginLeft": 7,
-                    "paddingTop": 12.6,
+                    "paddingTop": 12.7,
                   },
                   false,
                 ]
@@ -1035,7 +1035,7 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
                   {
                     "fontSize": 12,
                     "marginLeft": 7,
-                    "paddingTop": 12.6,
+                    "paddingTop": 12.7,
                   },
                   {
                     "display": "none",

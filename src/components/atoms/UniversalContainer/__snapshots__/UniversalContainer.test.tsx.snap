@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UniversalContainer should render children 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+  testID="universal-container"
+>
+  <Text>
+    Test
+  </Text>
+</View>
+`;
+
+exports[`UniversalContainer should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+  testID="universal-container"
+/>
+`;
+
+exports[`UniversalContainer should render with custom background color 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#ff0",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+  testID="universal-container"
+/>
+`;
+
+exports[`UniversalContainer should render with shadow 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      {
+        "elevation": 20,
+        "shadowColor": "#161966",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
+      undefined,
+    ]
+  }
+  testID="universal-container"
+/>
+`;

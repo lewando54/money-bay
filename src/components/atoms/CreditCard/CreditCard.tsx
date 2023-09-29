@@ -4,11 +4,8 @@ import { View, Text, Image } from 'react-native'
 import { BlurView } from 'expo-blur'
 import creditCardStyle from './CreditCard.style'
 import globalThemeStyle from '../../../styling/GlobalTheme.style'
-
-type TCardIssuer = 'visa' | 'mastercard'
-type TCurrencyISO = 'usd' | 'pln'
-type TCurrencySymbol = '$' | 'zł'
-type TBalanceCurrency = {iso: TCurrencyISO, symbol: TCurrencySymbol, left: boolean}
+import { TCurrency as TCurrency } from '../../../utils/currency'
+import { TCardIssuer, getIssuerLogo } from '../../../utils/cardIssuers'
 
 interface ICreditCardProps {
     cardIssuer?: TCardIssuer
@@ -16,7 +13,7 @@ interface ICreditCardProps {
     cardNumber?: string
     cardExpiryDate?: Date
     cardBalance?: number
-    cardCurrency?: TBalanceCurrency
+    cardCurrency?: TCurrency
     testID?: string
 }
 
@@ -52,10 +49,7 @@ export default function CreditCard({
                 <View style={{flexDirection: 'row', alignItems: 'center', gap: 13}}>
                     <Image 
                         style={creditCardStyle.cardIssuerLogo} 
-                        source={
-                            cardIssuer == 'visa' && require('./assets/visa.png') || 
-                            cardIssuer == 'mastercard' && require('./assets/mastercard.png')
-                        }>
+                        source={getIssuerLogo(cardIssuer)}>
                     </Image>
                     <View style={creditCardStyle.separator}></View>
                     <Text style={[globalThemeStyle.text_Regular, creditCardStyle.cardName]}>{cardName}</Text>
@@ -76,12 +70,12 @@ export default function CreditCard({
                             </Text>
                             <View style={creditCardStyle.balanceBox}>
                                 <Text style={[globalThemeStyle.text_Bold, {marginBottom: 0}, creditCardStyle.balanceInt]}>
-                                    {Math.floor(cardBalance).toLocaleString()}.
+                                    {Math.floor(cardBalance).toLocaleString().replace(',', ' ')}.
                                 </Text>
                                 <Text style={[globalThemeStyle.text_Bold, {height: '100%', paddingTop: 11}]}>
-                                    {Math.floor((cardBalance % 1) * 100)}
+                                    {((cardBalance * 100) % 100).toFixed(0)}
                                 </Text>
-                                <Text style={[globalThemeStyle.text_Bold, {fontSize: 12, marginLeft: 7, paddingTop: 12.6}, cardCurrency.left && {display: 'none'}]}>
+                                <Text style={[globalThemeStyle.text_Bold, {fontSize: 12, marginLeft: 7, paddingTop: 12.7}, cardCurrency.left && {display: 'none'}]}>
                                     {cardCurrency.symbol}
                                 </Text>
                             </View>

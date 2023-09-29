@@ -25,13 +25,13 @@ export default function TransactionBar({
     testID
 }: ITransactionBarProps){
     return (
-        <UniversalContainer testID={testID} style={{flexDirection: 'row', alignItems: 'center', gap: 13}}>
+        <UniversalContainer testID={testID} style={transactionBarStyle.container}>
             <CircleWithIcon icon={icon} size={40}/>
             <View>
                 <Text style={globalThemeStyle.text_Title}>{title}</Text>
                 <Text style={globalThemeStyle.text_SubTitle}>{subTitle}</Text>
             </View>
-            <View style={[{flexDirection: 'row', marginLeft: 'auto', gap: 5}]}>
+            <View style={transactionBarStyle.balanceContainer}>
                 <Text style={[globalThemeStyle.text_Title, !isExpense && {color: GOOD_GREEN}]}>{isExpense ? '-' : '+'}</Text>
                 <View>
                     <Text style={[globalThemeStyle.text_Title, !isExpense && {color: GOOD_GREEN}]}>{amount.toFixed(2)}</Text>
