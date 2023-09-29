@@ -42,7 +42,7 @@ exports[`SquareButtonWithIcon should render correctly 1`] = `
     style={
       [
         {
-          "backgroundColor": "white",
+          "backgroundColor": "#fff",
           "borderRadius": 10,
           "height": "100%",
           "padding": 20,
@@ -58,6 +58,7 @@ exports[`SquareButtonWithIcon should render correctly 1`] = `
           "shadowOpacity": 0.08,
           "shadowRadius": 16,
         },
+        undefined,
       ]
     }
     testID="universal-container"
