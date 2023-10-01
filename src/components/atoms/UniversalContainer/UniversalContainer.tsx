@@ -1,5 +1,6 @@
 import { StyleProp, View, ViewStyle } from 'react-native'
 import universalContainerStyle from './UniversalContainer.style'
+import globalThemeStyle from '../../../styling/GlobalTheme.style'
 
 interface IUniversalContainerProps {
     children?: React.ReactNode
@@ -27,13 +28,7 @@ export default function UniversalContainer({
             testID={testID} 
             style={[
                 universalContainerStyle({width, height, padding, backgroundColor}).container,
-                castShadow && {
-                    shadowOffset: {width: 0, height: 6},
-                    shadowRadius: 16,
-                    shadowColor: '#161966',
-                    shadowOpacity: 0.08,
-                    elevation: 20,
-                },
+                castShadow && globalThemeStyle.default_Shadow,
                 style
             ]}
         >

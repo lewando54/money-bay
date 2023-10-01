@@ -2,6 +2,7 @@ import { TouchableOpacity, Image, View } from 'react-native'
 import circleWithIconStyle from './CircleWithIcon.style'
 import { AntDesign } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient'
+import globalThemeStyle from '../../../styling/GlobalTheme.style'
 
 interface ICircleWithIconProps {
     size?: number,
@@ -24,20 +25,13 @@ export default function CircleWithIcon({
     onClick,
     testID
 }: ICircleWithIconProps){
-    const shadow = {
-        shadowOffset: {width: 0, height: 6},
-        shadowRadius: 16,
-        shadowColor: '#161966',
-        shadowOpacity: 0.08,
-        elevation: 20,
-    }
 
     if(onClick && backgroundColor instanceof Array){
         return (
             <TouchableOpacity 
                 style={[
                     circleWithIconStyle({size, backgroundColor: '#fff0'}).circle,
-                    castShadow && shadow
+                    castShadow && globalThemeStyle.default_Shadow
                 ]}
                 testID={testID}
                 onPress={onClick}
@@ -53,7 +47,7 @@ export default function CircleWithIcon({
             <TouchableOpacity 
                 style={[
                     circleWithIconStyle({size, backgroundColor}).circle,
-                    castShadow && shadow
+                    castShadow && globalThemeStyle.default_Shadow
                 ]}
                 testID={testID}
                 onPress={onClick}
@@ -67,7 +61,7 @@ export default function CircleWithIcon({
             <View 
                 style={[
                     circleWithIconStyle({size, backgroundColor: '#fff0'}).circle,
-                    castShadow && shadow
+                    castShadow && globalThemeStyle.default_Shadow
                 ]}
                 testID={testID}
             >
@@ -82,7 +76,7 @@ export default function CircleWithIcon({
             <View 
                 style={[
                     circleWithIconStyle({size, backgroundColor}).circle,
-                    castShadow && shadow
+                    castShadow && globalThemeStyle.default_Shadow
                 ]}
                 testID={testID}
             >

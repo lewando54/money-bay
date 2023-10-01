@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBar should render account icon when passed account product 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <Image
+    source={1}
+  />
+  <View>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#4C4C60",
+          },
+        ]
+      }
+    >
+      **** **** **** 7895
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
+      }
+    >
+      2500 00
+       
+      USD
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductBar should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4290938283,
+          4286226894,
+          4279967594,
+        ],
+        "endPoint": [
+          1,
+          1,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0,
+        ],
+      }
+    }
+    style={
+      {
+        "borderRadius": 5,
+        "height": 46,
+        "padding": 10,
+        "width": 72,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        {
+          "height": 15,
+          "marginLeft": "auto",
+          "marginTop": "auto",
+          "resizeMode": "contain",
+          "width": 25,
+        }
+      }
+    />
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#4C4C60",
+          },
+        ]
+      }
+    >
+      **** **** **** 7895
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
+      }
+    >
+      2500 00
+       
+      USD
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductBar should render minicreditcard when passed card product 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4290938283,
+          4286226894,
+          4279967594,
+        ],
+        "endPoint": [
+          1,
+          1,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0,
+        ],
+      }
+    }
+    style={
+      {
+        "borderRadius": 5,
+        "height": 46,
+        "padding": 10,
+        "width": 72,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        {
+          "height": 15,
+          "marginLeft": "auto",
+          "marginTop": "auto",
+          "resizeMode": "contain",
+          "width": 25,
+        }
+      }
+    />
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#4C4C60",
+          },
+        ]
+      }
+    >
+      **** **** **** 7895
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
+      }
+    >
+      2500 00
+       
+      USD
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductBar should render with menu button 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4290938283,
+          4286226894,
+          4279967594,
+        ],
+        "endPoint": [
+          1,
+          1,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0,
+        ],
+      }
+    }
+    style={
+      {
+        "borderRadius": 5,
+        "height": 46,
+        "padding": 10,
+        "width": 72,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        {
+          "height": 15,
+          "marginLeft": "auto",
+          "marginTop": "auto",
+          "resizeMode": "contain",
+          "width": 25,
+        }
+      }
+    />
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#4C4C60",
+          },
+        ]
+      }
+    >
+      **** **** **** 7895
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
+      }
+    >
+      2500 00
+       
+      USD
+    </Text>
+  </View>
+  <Text />
+</View>
+`;
+
+exports[`ProductBar should render without menu button 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 10,
+        "width": "100%",
+      },
+      false,
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    proxiedProperties={
+      {
+        "colors": [
+          4290938283,
+          4286226894,
+          4279967594,
+        ],
+        "endPoint": [
+          1,
+          1,
+        ],
+        "locations": undefined,
+        "startPoint": [
+          0,
+          0,
+        ],
+      }
+    }
+    style={
+      {
+        "borderRadius": 5,
+        "height": 46,
+        "padding": 10,
+        "width": 72,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        {
+          "height": 15,
+          "marginLeft": "auto",
+          "marginTop": "auto",
+          "resizeMode": "contain",
+          "width": 25,
+        }
+      }
+    />
+  </ViewManagerAdapter_ExpoLinearGradient>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#4C4C60",
+          },
+        ]
+      }
+    >
+      **** **** **** 7895
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
+      }
+    >
+      2500 00
+       
+      USD
+    </Text>
+  </View>
+</View>
+`;

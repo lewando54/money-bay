@@ -13,6 +13,8 @@ interface IMoneyBoxProps {
     name?: string
     currency?: TCurrency
     testID?: string
+    onTopUpClick?: () => void
+    onWithdrawalClick?: () => void
 }
 
 export default function MoneyBox({
@@ -20,7 +22,9 @@ export default function MoneyBox({
     currentAmount=650.27,
     name='New iPhone Pro Max',
     currency={iso: 'usd', symbol: '$', left: true},
-    testID
+    testID,
+    onTopUpClick,
+    onWithdrawalClick
 }: IMoneyBoxProps){
     const verifiedGoalAmount = 
         goalAmount <= 0 ? 
@@ -57,8 +61,8 @@ export default function MoneyBox({
                 </View>
             </View>
             <View style={moneyBoxStyle.buttonsContainer}>
-                <Button width='50%' color={PLAIN_BLUE} size='small'>Top - Up</Button>
-                <Button width='50%' color={GOOD_GREEN} size='small'>Withdrawal</Button>
+                <Button width='50%' color={PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
+                <Button width='50%' color={GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
             </View>
         </UniversalContainer>
     )

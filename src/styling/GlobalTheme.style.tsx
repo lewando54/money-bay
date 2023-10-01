@@ -6,6 +6,7 @@ export const MAIN_DARK = '#1B1D4D'
 export const BODY_TEXT_COLOR = '#4C4C60'
 export const GOOD_GREEN = '#3EB290'
 export const PLAIN_BLUE = '#55ACEE'
+export const ORANGE = '#FF8A71'
 export default StyleSheet.create({
     text_SemiBold: {
         fontFamily: 'MulishSemiBold',
@@ -32,5 +33,12 @@ export default StyleSheet.create({
         fontFamily: 'MulishRegular',
         fontSize: 12,
         color: BODY_TEXT_COLOR 
+    },
+    default_Shadow: {
+        shadowOffset: {width: 0, height: 6},
+        shadowRadius: 16,
+        shadowColor: '#161966',
+        shadowOpacity: 0.08,
+        elevation: 20,
     }
 })

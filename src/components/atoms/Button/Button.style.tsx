@@ -16,6 +16,13 @@ export default StyleSheet.create({
         textAlign: 'center',
         fontFamily: 'MulishSemiBold'
     },
+    shadow: {
+        shadowOffset: {width: 0, height: 6},
+        shadowRadius: 16,
+        shadowColor: '#161966',
+        shadowOpacity: 0.08,
+        elevation: 20,
+    },
     primaryText: {
         color: 'white'
     },

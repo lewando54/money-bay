@@ -37,7 +37,7 @@ export default function Button({
                 end={{x: 1, y: 0.5}}
                 style={[
                     buttonStyle.button,
-                    size === 'small' && { padding: 10 },
+                    size === 'small' && { padding: 8 },
                     color === 'secondary' && buttonStyle.secondaryButton
                 ]}>
                     <Text style={[

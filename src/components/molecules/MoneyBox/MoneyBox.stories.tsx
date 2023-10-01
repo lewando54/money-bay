@@ -10,6 +10,8 @@ const meta = {
 		goalAmount: { control: 'number' },
 		currentAmount: { control: 'number' },
 		currency: { control: 'object' },
+		onTopUpClick: { action: 'topped-up' },
+		onWithdrawalClick: { action: 'withdrawal' }
 	}
 } satisfies Meta<typeof MoneyBox>
 

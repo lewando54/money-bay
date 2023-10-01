@@ -2,12 +2,13 @@
 import { StoryObj, Meta } from '@storybook/react-native'
 
 import Button from './Button'
+import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 
 const meta = {
 	component: Button,
 	argTypes: {
 		color: { control: 'select', options: ['primary', 'secondary'] },
-		onClick: { action: 'clicked' }
+		size: { control: 'select', options: ['normal', 'small'] }
 	}
 } satisfies Meta<typeof Button>
 
@@ -17,6 +18,7 @@ type Story = StoryObj<typeof meta>
 export const Primary: Story = {
 	args: {
 		color: 'primary',
+		size: 'normal',
 		children: 'Button'
 	}
 }
@@ -24,6 +26,15 @@ export const Primary: Story = {
 export const Secondary: Story = {
 	args: {
 		color: 'secondary',
+		size: 'normal',
+		children: 'Button'
+	}
+}
+
+export const Small: Story = {
+	args: {
+		color: GOOD_GREEN,
+		size: 'small',
 		children: 'Button'
 	}
 }
