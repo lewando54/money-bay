@@ -56,6 +56,7 @@ const getStories = () => {
     "./src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx": require("../src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx"),
     "./src/components/molecules/DepositBox/DepositBox.stories.tsx": require("../src/components/molecules/DepositBox/DepositBox.stories.tsx"),
     "./src/components/molecules/MoneyBox/MoneyBox.stories.tsx": require("../src/components/molecules/MoneyBox/MoneyBox.stories.tsx"),
+    "./src/components/molecules/Notification/Notification.stories.tsx": require("../src/components/molecules/Notification/Notification.stories.tsx"),
     "./src/components/molecules/ProductBar/ProductBar.stories.tsx": require("../src/components/molecules/ProductBar/ProductBar.stories.tsx"),
     "./src/components/molecules/SquareButtonWithIcon/SquareButtonWithIcon.stories.tsx": require("../src/components/molecules/SquareButtonWithIcon/SquareButtonWithIcon.stories.tsx"),
     "./src/components/molecules/TransactionBar/TransactionBar.stories.tsx": require("../src/components/molecules/TransactionBar/TransactionBar.stories.tsx"),

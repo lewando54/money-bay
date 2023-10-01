@@ -7,6 +7,8 @@ export const BODY_TEXT_COLOR = '#4C4C60'
 export const GOOD_GREEN = '#3EB290'
 export const PLAIN_BLUE = '#55ACEE'
 export const ORANGE = '#FF8A71'
+export const WARNING_YELLOW = '#EECC55'
+export const LINK_COLOR = '#FF5887'
 export default StyleSheet.create({
     text_SemiBold: {
         fontFamily: 'MulishSemiBold',
