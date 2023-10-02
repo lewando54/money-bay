@@ -1,0 +1,676 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 22,
+        "width": "100%",
+      },
+      false,
+      {
+        "gap": 12,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#3EB290",
+            "borderRadius": 36,
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          },
+          false,
+        ]
+      }
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexShrink": 1,
+          "flexWrap": "wrap",
+          "marginTop": -3,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Your loan application has been approved!
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#4C4C60",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12 wrz 2022
+     at 
+    12:32
+  </Text>
+</View>
+`;
+
+exports[`Notification should render green icon with checkmark 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 22,
+        "width": "100%",
+      },
+      false,
+      {
+        "gap": 12,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#3EB290",
+            "borderRadius": 36,
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "white",
+              "fontSize": 10,
+            },
+            undefined,
+            {
+              "fontFamily": "material",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexShrink": 1,
+          "flexWrap": "wrap",
+          "marginTop": -3,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Your loan application has been approved!
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#4C4C60",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12 wrz 2022
+     at 
+    12:32
+  </Text>
+</View>
+`;
+
+exports[`Notification should render green icon with checkmark by default 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 22,
+        "width": "100%",
+      },
+      false,
+      {
+        "gap": 12,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#3EB290",
+            "borderRadius": 36,
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "white",
+              "fontSize": 10,
+            },
+            undefined,
+            {
+              "fontFamily": "material",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexShrink": 1,
+          "flexWrap": "wrap",
+          "marginTop": -3,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Your loan application has been approved!
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#4C4C60",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12 wrz 2022
+     at 
+    12:32
+  </Text>
+</View>
+`;
+
+exports[`Notification should render red icon with x 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 22,
+        "width": "100%",
+      },
+      false,
+      {
+        "gap": 12,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#FF5887",
+            "borderRadius": 36,
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "white",
+              "fontSize": 10,
+            },
+            undefined,
+            {
+              "fontFamily": "material",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexShrink": 1,
+          "flexWrap": "wrap",
+          "marginTop": -3,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Your loan application has been approved!
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#4C4C60",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12 wrz 2022
+     at 
+    12:32
+  </Text>
+</View>
+`;
+
+exports[`Notification should render yellow/orange icon with warning sign 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 22,
+        "width": "100%",
+      },
+      false,
+      {
+        "gap": 12,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#EECC55",
+            "borderRadius": 36,
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          },
+          false,
+        ]
+      }
+    >
+      <Text />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "flex-start",
+          "flexShrink": 1,
+          "flexWrap": "wrap",
+          "marginTop": -3,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Your loan application has been approved!
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#4C4C60",
+          "fontSize": 12,
+        },
+      ]
+    }
+  >
+    12 wrz 2022
+     at 
+    12:32
+  </Text>
+</View>
+`;

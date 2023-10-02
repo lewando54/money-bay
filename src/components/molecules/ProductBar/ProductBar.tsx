@@ -33,9 +33,8 @@ export default function ProductBar({
     const ProductIcon = 
         product == 'card' ? 
             <MiniCreditCard cardIssuer={cardIssuer}/> :
-        product == 'account' ?
-            <Image source={require('./assets/check.png')} /> :
-            undefined
+        product == 'account' &&
+            <Image source={require('./assets/check.png')} />
 
     const ThreeDotsMenu = hasMenuButton ? <Entypo name="dots-three-vertical" size={16} color={BODY_TEXT_COLOR} testID='three-dots-button' style={{marginLeft: 'auto'}} onPress={onMenuClick}/> : undefined
 

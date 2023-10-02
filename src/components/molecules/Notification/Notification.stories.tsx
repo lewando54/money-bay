@@ -6,7 +6,10 @@ import Notification from './Notification'
 const meta = {
 	component: Notification,
 	argTypes: {
-        // To write
+		type: { control: 'select', options: ['error', 'warning', 'correct'] },
+		title: { control: 'text' },
+		body: { control: 'text' },
+		datetime: { control: 'date' }
 	}
 } satisfies Meta<typeof Notification>
 
@@ -15,6 +18,9 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
 	args: {
-        // To write
+		type: 'correct',
+		title: 'Your loan application has been approved!',
+		body: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+		datetime: new Date('2022-09-12T12:32:12')
 	}
 }

@@ -27,6 +27,7 @@ export default function OptionButton({
                 globalThemeStyle.default_Shadow,
                 isChosen && optionButtonStyle.chosenStyle
             ]}
+            testID={testID}
         >
             <Text
                 style={[

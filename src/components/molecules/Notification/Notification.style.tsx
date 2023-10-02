@@ -1,4 +1,15 @@
 ﻿import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
-    // To write
+    iconAndTitleWrapper: {
+        flexDirection: 'row', 
+        gap: 8, 
+        alignItems: 'flex-start'
+    },
+    titleWrapper: {
+        alignItems: 'flex-start',
+        flexWrap: 'wrap',
+        width: '100%',
+        flexShrink: 1,
+        marginTop: -3
+    }
 })

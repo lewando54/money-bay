@@ -13,6 +13,16 @@ describe('OptionButton', () => {
     expect(tree).toMatchSnapshot()
   })
 
+  it('should render normal variant', () => {
+    const tree = renderer.create(<OptionButton variant='normal' />)
+    expect(tree).toMatchSnapshot()
+  })
+
+  it('should render large variant', () => {
+    const tree = renderer.create(<OptionButton variant='large' />)
+    expect(tree).toMatchSnapshot()
+  })
+
   it('should call onClick when pressed', () => {
     const onClick = jest.fn()
     const { getByTestId } = render(<OptionButton isChosen={true} onClick={onClick} testID='test'/>)

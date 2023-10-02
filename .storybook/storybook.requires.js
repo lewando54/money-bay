@@ -48,10 +48,12 @@ try {
 const getStories = () => {
   return {
     "./src/components/atoms/Button/Button.stories.tsx": require("../src/components/atoms/Button/Button.stories.tsx"),
+    "./src/components/atoms/Checkbox/Checkbox.stories.tsx": require("../src/components/atoms/Checkbox/Checkbox.stories.tsx"),
     "./src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx": require("../src/components/atoms/CircleWithIcon/CircleWithIcon.stories.tsx"),
     "./src/components/atoms/CreditCard/CreditCard.stories.tsx": require("../src/components/atoms/CreditCard/CreditCard.stories.tsx"),
     "./src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx": require("../src/components/atoms/MiniCreditCard/MiniCreditCard.stories.tsx"),
     "./src/components/atoms/OptionButton/OptionButton.stories.tsx": require("../src/components/atoms/OptionButton/OptionButton.stories.tsx"),
+    "./src/components/atoms/Separator/Separator.stories.tsx": require("../src/components/atoms/Separator/Separator.stories.tsx"),
     "./src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx": require("../src/components/atoms/UniversalContainer/UniversalContainer.stories.tsx"),
     "./src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx": require("../src/components/molecules/ButtonCircleWithText/ButtonCircleWithText.stories.tsx"),
     "./src/components/molecules/DepositBox/DepositBox.stories.tsx": require("../src/components/molecules/DepositBox/DepositBox.stories.tsx"),
