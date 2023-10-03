@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render correctly 1`] = `
+<View
+  animatedStyle={
+    {
+      "value": {
+        "backgroundColor": "rgba(206, 214, 225, 1)",
+      },
+    }
+  }
+  collapsable={false}
+  style={
+    {
+      "backgroundColor": "rgba(206, 214, 225, 1)",
+      "borderRadius": 20,
+      "height": 24,
+      "justifyContent": "center",
+      "padding": 2,
+      "width": 39.48,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <View
+      animatedStyle={
+        {
+          "value": {
+            "transform": [
+              {
+                "translateX": 0,
+              },
+            ],
+          },
+        }
+      }
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "white",
+          "borderRadius": 20.9,
+          "elevation": 5,
+          "height": 20.9,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 8,
+          "transform": [
+            {
+              "translateX": 0,
+            },
+          ],
+          "width": 20.9,
+        }
+      }
+    />
+  </View>
+</View>
+`;

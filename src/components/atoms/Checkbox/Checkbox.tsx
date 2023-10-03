@@ -1,15 +1,15 @@
 ﻿import { Pressable, View } from 'react-native'
 import checkboxStyle from './Checkbox.style'
-import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
-import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withSpring, withTiming, Easing } from 'react-native-reanimated';
+import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
 
 interface ICheckboxProps {
-    checked?: boolean
+    checked: boolean
     checkedbackgroundColor?: string
     circleBackgroundColor?: string
     backgroundColor?: string
-    onPress?: (newValue: boolean) => void
-    testID: string
+    onPress: (newValue: boolean) => void
+    testID?: string
 }
 
 export default function Checkbox({
@@ -37,9 +37,7 @@ export default function Checkbox({
     }));
 
     const handleOnPress = () => {
-        if(onPress){
-            onPress(!checked)
-        }
+        onPress(!checked)
         
         if(!checked){
             translateX.value += 7
@@ -52,8 +50,8 @@ export default function Checkbox({
     }
 
     return (
-        <Animated.View style={[checkboxStyle.container, animatedBackgroundColorStyle]} testID={testID}>
-            <Pressable onPress={handleOnPress}>
+        <Animated.View style={[checkboxStyle.container, animatedBackgroundColorStyle]}>
+            <Pressable onPress={handleOnPress} testID={testID}>
                 <Animated.View style={[checkboxStyle.circle, {backgroundColor: circleBackgroundColor}, checkboxStyle.shadow, animatedCircleStyle]}></Animated.View>
             </Pressable>
         </Animated.View>
