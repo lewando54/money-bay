@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton should be chosen when passed true 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  hitSlop={
+    {
+      "bottom": 10,
+      "left": 10,
+      "right": 10,
+      "top": 10,
+    }
+  }
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "borderColor": "#CED6E1",
+      "borderRadius": 100,
+      "borderWidth": 2,
+      "height": 18,
+      "justifyContent": "center",
+      "width": 18,
+    }
+  }
+>
+  <View
+    animatedStyle={
+      {
+        "value": {
+          "height": 0,
+          "width": 0,
+        },
+      }
+    }
+    collapsable={false}
+    style={
+      {
+        "backgroundColor": "#3EB290",
+        "borderRadius": 100,
+        "height": 0,
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  hitSlop={
+    {
+      "bottom": 10,
+      "left": 10,
+      "right": 10,
+      "top": 10,
+    }
+  }
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "borderColor": "#CED6E1",
+      "borderRadius": 100,
+      "borderWidth": 2,
+      "height": 18,
+      "justifyContent": "center",
+      "width": 18,
+    }
+  }
+>
+  <View
+    animatedStyle={
+      {
+        "value": {
+          "height": 0,
+          "width": 0,
+        },
+      }
+    }
+    collapsable={false}
+    style={
+      {
+        "backgroundColor": "#3EB290",
+        "borderRadius": 100,
+        "height": 0,
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;

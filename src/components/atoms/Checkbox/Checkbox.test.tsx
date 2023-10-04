@@ -6,7 +6,7 @@ import Checkbox from './Checkbox'
 describe('Checkbox', () => {
   jest.useFakeTimers();
   it('should render correctly', () => {
-    const tree = renderer.create(<Checkbox />)
+    const tree = renderer.create(<Checkbox checked={false} onPress={jest.fn()}/>)
     expect(tree).toMatchSnapshot()
   })
 
