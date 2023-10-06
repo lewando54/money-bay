@@ -1,4 +1,5 @@
-﻿import { View, Image, Text } from 'react-native'
+﻿import React from 'react'
+import { View, Text } from 'react-native'
 import { TCurrency } from '../../../utils/currency'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import depositBoxStyle from './DepositBox.style'
@@ -7,6 +8,7 @@ import SafeDeposit from './assets/safe-deposit.svg'
 import Check from './assets/check.svg'
 import Button from '../../atoms/Button/Button'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
+import MoneyText from '../../atoms/MoneyText/MoneyText'
 
 interface IDepositBoxProps {
     currentAmount?: number
@@ -57,13 +59,7 @@ export default function DepositBox({
             <View style={depositBoxStyle.titleAndMoneyContainer}>
                 {icon}
                 <View style={depositBoxStyle.moneyAndDateContainer}>
-                    <View style={depositBoxStyle.moneyContainer}>
-                        <Text style={[globalThemeStyle.text_Regular, {fontSize: 20, color: MAIN_DARK}]}>{Math.floor(currentAmount)}.</Text>
-                        <View style={depositBoxStyle.floatCurrencyContainer}>
-                            <Text style={[globalThemeStyle.text_Regular, {fontSize: 14, color: MAIN_DARK}]}>{((currentAmount * 100) % 100).toLocaleString(undefined, {minimumIntegerDigits: 2})}</Text>
-                            <Text style={[globalThemeStyle.text_Bold, {fontSize: 14, color: MAIN_DARK, marginLeft: 4}]}>{currency.iso.toLocaleUpperCase()}</Text>
-                        </View>
-                    </View>
+                    <MoneyText amount={currentAmount} currency={currency}/>
                     <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR, fontSize: 12}]}>{dateFromString} - {dateToString}</Text>
                 </View>
                 <View style={depositBoxStyle.percentContainer}>

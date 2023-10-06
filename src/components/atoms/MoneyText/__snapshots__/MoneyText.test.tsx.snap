@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoneyText should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "flex-end",
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "MulishRegular",
+        },
+        {
+          "color": "#1B1D4D",
+          "fontSize": 20,
+        },
+      ]
+    }
+  >
+    10
+    .
+  </Text>
+  <View
+    style={
+      [
+        {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+        },
+        {
+          "paddingBottom": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishRegular",
+          },
+          {
+            "color": "#1B1D4D",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      00
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishBold",
+          },
+          {
+            "color": "#1B1D4D",
+            "fontSize": 14,
+            "marginLeft": 4,
+          },
+        ]
+      }
+    >
+      USD
+    </Text>
+  </View>
+</View>
+`;

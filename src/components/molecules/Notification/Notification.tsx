@@ -1,11 +1,12 @@
-﻿import { View, Text } from 'react-native'
+﻿import React from 'react'
+import { View, Text } from 'react-native'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import notificationStyle from './Notification.style'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
-import { MaterialIcons } from '@expo/vector-icons';
-import { AntDesign } from '@expo/vector-icons'; 
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, LINK_COLOR, MAIN_DARK, WARNING_YELLOW } from '../../../styling/GlobalTheme.style';
-import Separator from '../../atoms/Separator/Separator';
+import { MaterialIcons } from '@expo/vector-icons'
+import { AntDesign } from '@expo/vector-icons' 
+import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, LINK_COLOR, MAIN_DARK, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+import Separator from '../../atoms/Separator/Separator'
 
 type TNotificationType = 'warning' | 'error' | 'correct'
 
@@ -27,9 +28,9 @@ export default function Notification({
     const notificationTypeIcon = 
         type == 'correct' ? 
             <CircleWithIcon backgroundColor={GOOD_GREEN} size={18} icon={<MaterialIcons name="check" size={10} color="white" />}/> :
-        type == 'error' ?
-            <CircleWithIcon backgroundColor={LINK_COLOR} size={18} icon={<MaterialIcons name="close" size={10} color="white" />}/> :
-        type == 'warning' &&
+            type == 'error' ?
+                <CircleWithIcon backgroundColor={LINK_COLOR} size={18} icon={<MaterialIcons name="close" size={10} color="white" />}/> :
+                type == 'warning' &&
             <CircleWithIcon backgroundColor={WARNING_YELLOW} size={18} icon={<AntDesign name="warning" size={10} color="white" />}/>
 
     return (

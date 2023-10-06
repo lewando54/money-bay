@@ -1,8 +1,8 @@
 ﻿import { Pressable } from 'react-native'
 import radioButtonStyle from './RadioButton.style'
-import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style';
-import { useEffect } from 'react';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
+import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import { useEffect } from 'react'
 
 export interface IRadioButtonProps {
     id?: number

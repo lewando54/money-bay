@@ -67,10 +67,13 @@ exports[`DepositBox should render correctly 1`] = `
     >
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
         }
       >
         <Text
@@ -92,11 +95,15 @@ exports[`DepositBox should render correctly 1`] = `
         </Text>
         <View
           style={
-            {
-              "alignItems": "flex-end",
-              "flexDirection": "row",
-              "paddingBottom": 2,
-            }
+            [
+              {
+                "alignItems": "flex-end",
+                "flexDirection": "row",
+              },
+              {
+                "paddingBottom": 2,
+              },
+            ]
           }
         >
           <Text
@@ -267,6 +274,7 @@ exports[`DepositBox should render correctly 1`] = `
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -359,6 +367,7 @@ exports[`DepositBox should render correctly 1`] = `
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -446,10 +455,13 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
     >
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
         }
       >
         <Text
@@ -471,11 +483,15 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
         </Text>
         <View
           style={
-            {
-              "alignItems": "flex-end",
-              "flexDirection": "row",
-              "paddingBottom": 2,
-            }
+            [
+              {
+                "alignItems": "flex-end",
+                "flexDirection": "row",
+              },
+              {
+                "paddingBottom": 2,
+              },
+            ]
           }
         >
           <Text
@@ -646,6 +662,7 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -738,6 +755,7 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -841,10 +859,13 @@ exports[`DepositBox should render first date with year when the year is not the 
     >
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
         }
       >
         <Text
@@ -866,11 +887,15 @@ exports[`DepositBox should render first date with year when the year is not the 
         </Text>
         <View
           style={
-            {
-              "alignItems": "flex-end",
-              "flexDirection": "row",
-              "paddingBottom": 2,
-            }
+            [
+              {
+                "alignItems": "flex-end",
+                "flexDirection": "row",
+              },
+              {
+                "paddingBottom": 2,
+              },
+            ]
           }
         >
           <Text
@@ -1041,6 +1066,7 @@ exports[`DepositBox should render first date with year when the year is not the 
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -1133,6 +1159,7 @@ exports[`DepositBox should render first date with year when the year is not the 
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -1236,10 +1263,13 @@ exports[`DepositBox should render first date without year when the year is the s
     >
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
         }
       >
         <Text
@@ -1261,11 +1291,15 @@ exports[`DepositBox should render first date without year when the year is the s
         </Text>
         <View
           style={
-            {
-              "alignItems": "flex-end",
-              "flexDirection": "row",
-              "paddingBottom": 2,
-            }
+            [
+              {
+                "alignItems": "flex-end",
+                "flexDirection": "row",
+              },
+              {
+                "paddingBottom": 2,
+              },
+            ]
           }
         >
           <Text
@@ -1436,6 +1470,7 @@ exports[`DepositBox should render first date without year when the year is the s
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -1528,6 +1563,7 @@ exports[`DepositBox should render first date without year when the year is the s
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -1631,10 +1667,13 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
     >
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
         }
       >
         <Text
@@ -1656,11 +1695,15 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
         </Text>
         <View
           style={
-            {
-              "alignItems": "flex-end",
-              "flexDirection": "row",
-              "paddingBottom": 2,
-            }
+            [
+              {
+                "alignItems": "flex-end",
+                "flexDirection": "row",
+              },
+              {
+                "paddingBottom": 2,
+              },
+            ]
           }
         >
           <Text
@@ -1831,6 +1874,7 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -1923,6 +1967,7 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,

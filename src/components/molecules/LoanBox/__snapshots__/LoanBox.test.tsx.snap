@@ -1,0 +1,778 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoanBox should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 20,
+        "width": "100%",
+      },
+      {
+        "elevation": 20,
+        "shadowColor": "#161966",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
+      {
+        "gap": 20,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ]
+    }
+  >
+    <SvgMock />
+    <View
+      style={
+        [
+          {
+            "alignItems": "flex-end",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        - 
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        20 532
+        .
+      </Text>
+      <View
+        style={
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            {
+              "paddingBottom": 2,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          00
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 14,
+                "marginLeft": 4,
+              },
+            ]
+          }
+        >
+          USD
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "marginLeft": "auto",
+          "opacity": 1,
+          "width": "30%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4282299024,
+              4282299024,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            {
+              "borderRadius": 5,
+              "padding": 8,
+            },
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              false,
+              false,
+              [
+                {
+                  "fontSize": 12,
+                },
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+              ],
+            ]
+          }
+        >
+          Repay
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      {
+        "flexWrap": "wrap",
+        "gap": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Rate
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          13
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Period
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          24
+           month
+          s
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Monthly payment
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          1117 00 USD
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Total paid
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          4468 00 USD
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LoanBox should render one month correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 20,
+        "width": "100%",
+      },
+      {
+        "elevation": 20,
+        "shadowColor": "#161966",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
+      {
+        "gap": 20,
+      },
+    ]
+  }
+  testID="universal-container"
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 10,
+        },
+      ]
+    }
+  >
+    <SvgMock />
+    <View
+      style={
+        [
+          {
+            "alignItems": "flex-end",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        - 
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#1B1D4D",
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        20 532
+        .
+      </Text>
+      <View
+        style={
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            {
+              "paddingBottom": 2,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 14,
+              },
+            ]
+          }
+        >
+          00
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 14,
+                "marginLeft": 4,
+              },
+            ]
+          }
+        >
+          USD
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "marginLeft": "auto",
+          "opacity": 1,
+          "width": "30%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4282299024,
+              4282299024,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            {
+              "borderRadius": 5,
+              "padding": 8,
+            },
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              false,
+              false,
+              [
+                {
+                  "fontSize": 12,
+                },
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+              ],
+            ]
+          }
+        >
+          Repay
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#CED6E1",
+          "height": 1,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      {
+        "flexWrap": "wrap",
+        "gap": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Rate
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          13
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Period
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          1
+           month
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Monthly payment
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          1117 00 USD
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            }
+          }
+        >
+          Total paid
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            }
+          }
+        >
+          4468 00 USD
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

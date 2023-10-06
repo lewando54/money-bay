@@ -56,11 +56,15 @@ exports[`MoneyBox should render correctly 1`] = `
     </Text>
     <View
       style={
-        {
-          "alignItems": "flex-end",
-          "flexDirection": "row",
-          "marginLeft": "auto",
-        }
+        [
+          {
+            "alignItems": "flex-end",
+            "flexDirection": "row",
+          },
+          {
+            "marginLeft": "auto",
+          },
+        ]
       }
     >
       <Text
@@ -82,11 +86,15 @@ exports[`MoneyBox should render correctly 1`] = `
       </Text>
       <View
         style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-            "paddingBottom": 2,
-          }
+          [
+            {
+              "alignItems": "flex-end",
+              "flexDirection": "row",
+            },
+            {
+              "paddingBottom": 2,
+            },
+          ]
         }
       >
         <Text
@@ -167,65 +175,81 @@ exports[`MoneyBox should render correctly 1`] = `
         }
       }
     >
-      <Text
+      <View
         style={
           [
             {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
+              "alignItems": "flex-end",
+              "flexDirection": "row",
             },
-            {
-              "fontSize": 12,
-            },
+            undefined,
           ]
         }
       >
-        650
-        .
-      </Text>
-      <View
-        style={
-          {
-            "alignItems": "flex-end",
-            "flexDirection": "row",
-            "paddingBottom": 1,
-          }
-        }
-      >
         <Text
           style={
             [
               {
-                "color": "#4C4C60",
+                "color": "white",
                 "fontFamily": "MulishRegular",
-                "fontSize": 12,
               },
               {
-                "fontSize": 8,
+                "color": "#1B1D4D",
+                "fontSize": 12,
               },
             ]
           }
         >
-          27
+          650
+          .
         </Text>
-        <Text
+        <View
           style={
             [
               {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
+                "alignItems": "flex-end",
+                "flexDirection": "row",
               },
               {
-                "fontSize": 8,
-                "marginLeft": 3,
+                "paddingBottom": 1.2,
               },
             ]
           }
         >
-          USD
-        </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 8,
+                },
+              ]
+            }
+          >
+            27
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 8,
+                  "marginLeft": 3,
+                },
+              ]
+            }
+          >
+            USD
+          </Text>
+        </View>
       </View>
     </View>
   </View>
@@ -298,6 +322,7 @@ exports[`MoneyBox should render correctly 1`] = `
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
@@ -390,6 +415,7 @@ exports[`MoneyBox should render correctly 1`] = `
               "padding": 15,
             },
             {
+              "borderRadius": 5,
               "padding": 8,
             },
             false,
