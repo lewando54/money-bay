@@ -1,17 +1,20 @@
 ﻿import { StyleSheet } from 'react-native'
-import { BODY_TEXT_COLOR } from '../../../styling/GlobalTheme.style'
+import { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 export default StyleSheet.create({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         borderWidth: 1,
-        borderColor: 'white'
+        borderColor: 'white',
+        paddingHorizontal: 14
     },
     text: {
-        maxWidth: '93%'
+        width: '100%',
+        maxWidth: '93%',
+        color: MAIN_DARK
     },
     focused: {
-        borderColor: BODY_TEXT_COLOR,
+        borderColor: BODY_TEXT_COLOR
     }
 })

@@ -1,9 +1,9 @@
 ﻿import React, { useState } from 'react'
-import { StyleProp, TextInput, TextStyle, ViewStyle, View, Pressable } from 'react-native'
+import { StyleProp, TextInput, TextStyle, ViewStyle, Pressable } from 'react-native'
 import inputStyle from './Input.style'
 import UniversalContainer from '../UniversalContainer/UniversalContainer'
 import { Feather } from '@expo/vector-icons'
-import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 interface IInputProps {
     value?: string
@@ -13,6 +13,7 @@ interface IInputProps {
     isIconVisible?: boolean
     secureTextEntry?: boolean
     icon?: React.ReactNode
+    ref?: React.RefObject<TextInput>
     onChange?: (newValue: string) => void
     onIconPress?: () => void
     testID?: string
@@ -30,7 +31,7 @@ export default function Input({
     onIconPress,
     testID
 }: IInputProps){
-    const PressableIcon = isIconVisible && <Pressable onPress={onIconPress}>{icon}</Pressable>
+    const PressableIcon = isIconVisible && <Pressable testID='input-icon' onPress={onIconPress}>{icon}</Pressable>
     const [isFocused, setIsFocused] = useState(false)
 
     const onFocus = () => {
@@ -49,7 +50,6 @@ export default function Input({
 
     return (
         <UniversalContainer 
-            padding={14} 
             style={[
                 inputStyle.container, 
                 containerStyle,
@@ -64,7 +64,9 @@ export default function Input({
                 onBlur={onBlurred}
                 testID={testID}
                 secureTextEntry={secureTextEntry}
+                placeholderTextColor={'#868698'}
                 style={[
+                    globalThemeStyle.text_Regular,
                     inputStyle.text, 
                     textStyle, 
                     !isIconVisible && {maxWidth: '100%'}

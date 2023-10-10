@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should display icon when isIconVisible is true 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 14,
+        "width": "100%",
+      },
+      {
+        "elevation": 20,
+        "shadowColor": "#161966",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
+      [
+        {
+          "alignItems": "center",
+          "borderColor": "white",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+        false,
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <TextInput
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Type something"
+    secureTextEntry={false}
+    style={
+      [
+        {
+          "maxWidth": "93%",
+        },
+        undefined,
+        false,
+      ]
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="input-icon"
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`Input should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "height": "auto",
+        "padding": 14,
+        "width": "100%",
+      },
+      {
+        "elevation": 20,
+        "shadowColor": "#161966",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
+      [
+        {
+          "alignItems": "center",
+          "borderColor": "white",
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        undefined,
+        false,
+      ],
+    ]
+  }
+  testID="universal-container"
+>
+  <TextInput
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Type something"
+    secureTextEntry={false}
+    style={
+      [
+        {
+          "maxWidth": "93%",
+        },
+        undefined,
+        {
+          "maxWidth": "100%",
+        },
+      ]
+    }
+  />
+</View>
+`;
