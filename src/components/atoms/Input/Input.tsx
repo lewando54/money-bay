@@ -1,5 +1,5 @@
 ﻿import React, { useState } from 'react'
-import { StyleProp, TextInput, TextStyle, ViewStyle, Pressable } from 'react-native'
+import { StyleProp, TextInput, TextStyle, ViewStyle, Pressable, KeyboardTypeOptions } from 'react-native'
 import inputStyle from './Input.style'
 import UniversalContainer from '../UniversalContainer/UniversalContainer'
 import { Feather } from '@expo/vector-icons'
@@ -12,6 +12,7 @@ interface IInputProps {
     textStyle?: StyleProp<TextStyle>
     isIconVisible?: boolean
     secureTextEntry?: boolean
+    keyboardType?: KeyboardTypeOptions
     icon?: React.ReactNode
     ref?: React.RefObject<TextInput>
     onChange?: (newValue: string) => void
@@ -26,12 +27,12 @@ export default function Input({
     textStyle,
     isIconVisible=false,
     secureTextEntry=false,
-    icon=<Feather name="eye-off" size={16} color={MAIN_DARK} />,
+    keyboardType='default',
+    icon=<Feather name="eye-off" size={16} color={MAIN_DARK} testID='icon'/>,
     onChange,
     onIconPress,
     testID
 }: IInputProps){
-    const PressableIcon = isIconVisible && <Pressable testID='input-icon' onPress={onIconPress}>{icon}</Pressable>
     const [isFocused, setIsFocused] = useState(false)
 
     const onFocus = () => {
@@ -65,6 +66,7 @@ export default function Input({
                 testID={testID}
                 secureTextEntry={secureTextEntry}
                 placeholderTextColor={'#868698'}
+                keyboardType={keyboardType}
                 style={[
                     globalThemeStyle.text_Regular,
                     inputStyle.text, 
@@ -72,7 +74,7 @@ export default function Input({
                     !isIconVisible && {maxWidth: '100%'}
                 ]} 
             />
-            {PressableIcon}
+            <Pressable testID='input-icon' onPress={onIconPress} style={!isIconVisible && {display: 'none'}}>{icon}</Pressable>
         </UniversalContainer>
     )
 }

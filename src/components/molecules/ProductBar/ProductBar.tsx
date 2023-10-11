@@ -4,7 +4,7 @@ import MiniCreditCard from '../../atoms/MiniCreditCard/MiniCreditCard'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import productBarStyle from './ProductBar.style'
 import { TCardIssuer } from '../../../utils/cardIssuers'
-import { Entypo } from '@expo/vector-icons'; 
+import { Entypo } from '@expo/vector-icons' 
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 type TProduct = 'card' | 'account'
@@ -33,13 +33,13 @@ export default function ProductBar({
     const ProductIcon = 
         product == 'card' ? 
             <MiniCreditCard cardIssuer={cardIssuer}/> :
-        product == 'account' &&
+            product == 'account' &&
             <Image source={require('./assets/check.png')} />
 
     const ThreeDotsMenu = hasMenuButton ? <Entypo name="dots-three-vertical" size={16} color={BODY_TEXT_COLOR} testID='three-dots-button' style={{marginLeft: 'auto'}} onPress={onMenuClick}/> : undefined
 
     return (
-        <UniversalContainer style={[{flexDirection: 'row', alignItems: 'center', gap: 10}]}>
+        <UniversalContainer style={productBarStyle.container}>
             {ProductIcon}
             <View>
                 <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR}]}>

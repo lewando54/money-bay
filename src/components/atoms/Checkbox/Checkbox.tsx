@@ -1,7 +1,7 @@
 ﻿import { Pressable, View } from 'react-native'
 import checkboxStyle from './Checkbox.style'
 import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
-import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
+import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated'
 
 interface ICheckboxProps {
     checked: boolean
@@ -21,20 +21,20 @@ export default function Checkbox({
     testID
 }: ICheckboxProps){
 
-    const translateX = useSharedValue(0);
-    const backgroundColorProgress = useSharedValue(0);
+    const translateX = useSharedValue(0)
+    const backgroundColorProgress = useSharedValue(0)
 
     const animatedCircleStyle = useAnimatedStyle(() => ({
         transform: [{ translateX: withTiming(translateX.value * 2, {duration: 500, easing: Easing.inOut(Easing.exp)}) }],
-    }));
+    }))
 
     const animatedBackgroundColorStyle = useAnimatedStyle(() => ({
         backgroundColor: interpolateColor(
             backgroundColorProgress.value,
             [0, 1],
             [backgroundColor, checkedbackgroundColor]
-          )
-    }));
+        )
+    }))
 
     const handleOnPress = () => {
         onPress(!checked)

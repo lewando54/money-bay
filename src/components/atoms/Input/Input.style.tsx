@@ -12,6 +12,7 @@ export default StyleSheet.create({
     text: {
         width: '100%',
         maxWidth: '93%',
+        marginRight: 10,
         color: MAIN_DARK
     },
     focused: {

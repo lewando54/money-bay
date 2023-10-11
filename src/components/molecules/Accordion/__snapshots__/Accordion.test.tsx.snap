@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    animatedStyle={
+      {
+        "value": {},
+      }
+    }
+    collapsable={false}
+    style={
+      {
+        "backgroundColor": "white",
+        "borderRadius": 10,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 20,
+        }
+      }
+    >
+      <Text
+        animatedStyle={
+          {
+            "value": {
+              "color": "rgba(0, 0, 0, 1)",
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          {
+            "color": "rgba(0, 0, 0, 1)",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 14,
+          }
+        }
+      >
+        How does the identification code process work?
+      </Text>
+      <View
+        animatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "rotateZ": "0deg",
+                },
+              ],
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          {
+            "transform": [
+              {
+                "rotateZ": "0deg",
+              },
+            ],
+          }
+        }
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      animatedStyle={
+        {
+          "value": {
+            "borderTopWidth": 0,
+            "height": 0,
+          },
+        }
+      }
+      collapsable={false}
+      style={
+        {
+          "borderTopColor": "#CED6E1",
+          "borderTopWidth": 0,
+          "height": 0,
+        }
+      }
+    >
+      <View
+        animatedStyle={
+          {
+            "value": {},
+          }
+        }
+        collapsable={false}
+        forwardedRef={[Function]}
+        style={
+          {
+            "padding": 20,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+              },
+            ]
+          }
+        >
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu dolor in repreh enderitr lla cca ecat cupidatat non proiden paria.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

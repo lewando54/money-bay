@@ -12,13 +12,11 @@ exports[`ProductBar should render account icon when passed account product 1`] =
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
@@ -75,13 +73,11 @@ exports[`ProductBar should render correctly 1`] = `
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
@@ -176,13 +172,11 @@ exports[`ProductBar should render custom balanceTextColor 1`] = `
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
@@ -277,13 +271,11 @@ exports[`ProductBar should render minicreditcard when passed card product 1`] = 
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
@@ -378,13 +370,11 @@ exports[`ProductBar should render with menu button 1`] = `
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
@@ -480,13 +470,11 @@ exports[`ProductBar should render without menu button 1`] = `
         "width": "100%",
       },
       false,
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ],
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      },
     ]
   }
   testID="universal-container"
