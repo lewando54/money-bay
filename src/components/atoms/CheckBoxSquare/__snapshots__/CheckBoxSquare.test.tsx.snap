@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBoxSquare should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    animatedStyle={
+      {
+        "value": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgba(134, 134, 152, 1)",
+        },
+      }
+    }
+    collapsable={false}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(134, 134, 152, 1)",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "height": 22,
+        "justifyContent": "center",
+        "width": 22,
+      }
+    }
+  >
+    <View
+      animatedStyle={
+        {
+          "value": {
+            "opacity": 0,
+            "transform": [
+              {
+                "rotateZ": "180deg",
+              },
+            ],
+          },
+        }
+      }
+      collapsable={false}
+      style={
+        {
+          "opacity": 0,
+          "transform": [
+            {
+              "rotateZ": "180deg",
+            },
+          ],
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+</View>
+`;
