@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dot should render correctly 1`] = `
+<View
+  animatedStyle={
+    {
+      "value": {},
+    }
+  }
+  collapsable={false}
+  style={
+    {
+      "borderColor": "#1B1D4D",
+      "borderRadius": 100,
+      "borderWidth": 3,
+      "height": 8,
+      "width": 8,
+    }
+  }
+/>
+`;

@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingSlides should render correctly 1`] = `
+[
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "bottom": 0,
+        "gap": 45,
+        "height": 693.2856695999999,
+        "justifyContent": "flex-end",
+        "left": 0,
+        "marginHorizontal": 20,
+        "padding": 20,
+        "paddingBottom": 35.354281639999996,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "width": 96,
+        }
+      }
+    >
+      <View
+        animatedStyle={
+          {
+            "value": {
+              "opacity": 1,
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          {
+            "borderColor": "#1B1D4D",
+            "borderRadius": 100,
+            "borderWidth": 3,
+            "height": 8,
+            "opacity": 1,
+            "width": 8,
+          }
+        }
+      />
+      <View
+        animatedStyle={
+          {
+            "value": {
+              "opacity": 0.2,
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          {
+            "borderColor": "#1B1D4D",
+            "borderRadius": 100,
+            "borderWidth": 3,
+            "height": 8,
+            "opacity": 0.2,
+            "width": 8,
+          }
+        }
+      />
+      <View
+        animatedStyle={
+          {
+            "value": {
+              "opacity": 0.2,
+            },
+          }
+        }
+        collapsable={false}
+        style={
+          {
+            "borderColor": "#1B1D4D",
+            "borderRadius": 100,
+            "borderWidth": 3,
+            "height": 8,
+            "opacity": 0.2,
+            "width": 8,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4288142079,
+              4279654301,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          Get started
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>,
+  <View>
+    <RCTScrollView
+      CellRendererComponent={[Function]}
+      animatedStyle={
+        {
+          "value": {},
+        }
+      }
+      collapsable={false}
+      data={
+        [
+          {
+            "body": "Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.",
+            "heading": "Welcome to MoneyBay app!",
+            "id": 0,
+            "imageSource": 1,
+            "testID": "slide-0",
+          },
+          {
+            "body": "Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.",
+            "heading": "Get a new card in a few clicks!",
+            "id": 1,
+            "imageSource": 1,
+            "testID": "slide-0",
+          },
+          {
+            "body": "Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.",
+            "heading": "Easy payments all over the world!",
+            "id": 2,
+            "imageSource": 1,
+            "testID": "slide-0",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      overScrollMode="auto"
+      pagingEnabled={true}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      showsHorizontalScrollIndicator={false}
+      snapToAlignment="center"
+      stickyHeaderIndices={[]}
+      viewabilityConfig={
+        {
+          "viewAreaCoveragePercentThreshold": 10,
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          animatedStyle={
+            {
+              "value": {},
+            }
+          }
+          collapsable={false}
+          onLayout={[Function]}
+        >
+          <View
+            animatedStyle={
+              {
+                "value": {
+                  "opacity": 1,
+                },
+              }
+            }
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 1034.999908,
+                "justifyContent": "flex-start",
+                "opacity": 1,
+                "width": 750,
+              }
+            }
+            testID="slide-0"
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 524.0713714,
+                  "resizeMode": "contain",
+                  "width": 669.9999975000001,
+                }
+              }
+            />
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "gap": 20,
+                  "overflow": "hidden",
+                  "paddingHorizontal": 20,
+                  "paddingTop": 98.57142857142858,
+                  "width": 669.975,
+                }
+              }
+            >
+              <SvgMock />
+              <Text
+                style={
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishBold",
+                    "fontSize": 28,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Welcome to MoneyBay app!
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                    "paddingHorizontal": 6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          animatedStyle={
+            {
+              "value": {},
+            }
+          }
+          collapsable={false}
+          onLayout={[Function]}
+        >
+          <View
+            animatedStyle={
+              {
+                "value": {
+                  "opacity": 0,
+                },
+              }
+            }
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 1034.999908,
+                "justifyContent": "flex-start",
+                "opacity": 0,
+                "width": 750,
+              }
+            }
+            testID="slide-0"
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 524.0713714,
+                  "resizeMode": "contain",
+                  "width": 669.9999975000001,
+                }
+              }
+            />
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "gap": 20,
+                  "overflow": "hidden",
+                  "paddingHorizontal": 20,
+                  "paddingTop": 98.57142857142858,
+                  "width": 669.975,
+                }
+              }
+            >
+              <SvgMock />
+              <Text
+                style={
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishBold",
+                    "fontSize": 28,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Get a new card in a few clicks!
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                    "paddingHorizontal": 6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          animatedStyle={
+            {
+              "value": {},
+            }
+          }
+          collapsable={false}
+          onLayout={[Function]}
+        >
+          <View
+            animatedStyle={
+              {
+                "value": {
+                  "opacity": 0,
+                },
+              }
+            }
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 1034.999908,
+                "justifyContent": "flex-start",
+                "opacity": 0,
+                "width": 750,
+              }
+            }
+            testID="slide-0"
+          >
+            <Image
+              source={1}
+              style={
+                {
+                  "height": 524.0713714,
+                  "resizeMode": "contain",
+                  "width": 669.9999975000001,
+                }
+              }
+            />
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "gap": 20,
+                  "overflow": "hidden",
+                  "paddingHorizontal": 20,
+                  "paddingTop": 98.57142857142858,
+                  "width": 669.975,
+                }
+              }
+            >
+              <SvgMock />
+              <Text
+                style={
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishBold",
+                    "fontSize": 28,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Easy payments all over the world!
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                    "paddingHorizontal": 6,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>,
+]
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnboardingSlide should render correctly 1`] = `
+<View
+  animatedStyle={
+    {
+      "value": {},
+    }
+  }
+  collapsable={false}
+  style={
+    {
+      "alignItems": "center",
+      "height": 1034.999908,
+      "justifyContent": "flex-start",
+      "width": 750,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "height": 524.0713714,
+        "resizeMode": "contain",
+        "width": 669.9999975000001,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "gap": 20,
+        "overflow": "hidden",
+        "paddingHorizontal": 20,
+        "paddingTop": 98.57142857142858,
+        "width": 669.975,
+      }
+    }
+  >
+    <SvgMock />
+    <Text
+      style={
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishBold",
+          "fontSize": 28,
+          "textAlign": "center",
+        }
+      }
+    >
+      Welcome to MoneyBay app!
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+          "paddingHorizontal": 6,
+          "textAlign": "center",
+        }
+      }
+    >
+      Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
+    </Text>
+  </View>
+</View>
+`;
