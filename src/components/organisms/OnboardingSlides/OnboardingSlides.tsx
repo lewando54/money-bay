@@ -6,7 +6,7 @@ import Button from '../../atoms/Button/Button'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
 import Pagination from '../../atoms/Pagination/Pagination'
 
-export type TOnboardingSlide = Array<{ 
+export type TOnboardingSlides = Array<{ 
     id: number, 
     imageSource: ImageSourcePropType, 
     heading: string
@@ -15,7 +15,8 @@ export type TOnboardingSlide = Array<{
 }>
 
 interface IOnboardingSlidesProps {
-    data?: TOnboardingSlide
+    data?: TOnboardingSlides
+    onPress?: () => void
     testID?: string
 }
 
@@ -43,6 +44,7 @@ export default function OnboardingSlides({
             testID: 'slide-0'
         }
     ],
+    onPress,
     testID
 }: IOnboardingSlidesProps){
     const x = useSharedValue(0)
@@ -56,7 +58,7 @@ export default function OnboardingSlides({
         <>
             <View style={onboardingSlidesStyle.buttonContainer}>
                 <Pagination data={data} x={x} />
-                <Button>Get started</Button>
+                <Button onClick={onPress}>Get started</Button>
             </View>
             <View testID={testID}>
                 <Animated.FlatList

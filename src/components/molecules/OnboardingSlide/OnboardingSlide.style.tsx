@@ -1,18 +1,19 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
-const {width, height} = Dimensions.get('window')
+const {width, height} = Dimensions.get('screen')
 
 export default StyleSheet.create({
     mainContainer: {
         alignItems: 'center',
         justifyContent: 'flex-start',
         width,
-        height: height * 0.775862
+        height: height * 0.77,
+        marginTop: height * 0.08
     },
     image: {
-        width: width * 0.89333333,
-        height: height * 0.3928571,
+        width: width * 0.90,
+        height: height * 0.39,
         resizeMode: 'contain',
     },
     textContainer: {
@@ -20,7 +21,7 @@ export default StyleSheet.create({
         alignItems: 'center',
         gap: 20,
         paddingHorizontal: 20,
-        paddingTop: height * 0.07389162561576355,
+        paddingTop: height * 0.06,
         overflow: 'hidden'
     },
     heading: {

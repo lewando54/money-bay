@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-const {height} = Dimensions.get('window')
+const {height} = Dimensions.get('screen')
 
 export default StyleSheet.create({
     buttonContainer: {
@@ -9,7 +9,7 @@ export default StyleSheet.create({
         bottom: 0,
         right: 0,
         left: 0,
-        height: height * 0.5197044,
+        height: height * 0.5,
         justifyContent: 'flex-end',
         paddingBottom: height * 0.02650246,
         borderTopLeftRadius: 20,

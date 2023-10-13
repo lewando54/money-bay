@@ -1,7 +1,30 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Pressable, StyleSheet, Text, View } from 'react-native'
 import Constants from 'expo-constants'
 import { useFonts } from 'expo-font'
+
+import { NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import OnboardingSlides from './src/components/organisms/OnboardingSlides/OnboardingSlides'
+import OnboardingPage from './src/pages/OnboardingPage/OnboardingPage'
+import GlobalThemeStyle, { MAIN_DARK } from './src/styling/GlobalTheme.style'
+import { Entypo } from '@expo/vector-icons'
+
+const Stack = createNativeStackNavigator()
+
+function SignInMockup () {
+    return (
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FAFCFF'}}>
+            <Text>Test</Text>
+        </View>
+    )
+}
+
+function HeaderTitle (props) {
+    return (
+        <View><Text style={[GlobalThemeStyle.text_Medium, {color: MAIN_DARK, fontSize: 20}]}>{props.children}</Text></View>
+    )
+}
 
 function App() {
     const [loaded] = useFonts({
@@ -15,10 +38,48 @@ function App() {
         return null
     }
 
+    const config = {
+        animation: 'spring',
+        config: {
+            stiffness: 1000,
+            damping: 500,
+            mass: 3,
+            overshootClamping: true,
+            restDisplacementThreshold: 0.01,
+            restSpeedThreshold: 0.01,
+        },
+    }
+
     return (
-        <View style={styles.container}>
-            <Text>Open up App.tsx to start working on your app!</Text>
-        </View>
+        <NavigationContainer>
+            <Stack.Navigator
+                screenOptions={({ navigation, route }) => ({
+                    headerLeft: (props) => <Pressable hitSlop={20} onPress={() => navigation.goBack()}>
+                        <Entypo name="chevron-thin-left" size={20} color="black" />
+                    </Pressable>,
+                    headerShadowVisible: false,
+                    headerTransparent: true,
+                    headerBackVisible: false,
+                    animation: 'slide_from_right',
+                    headerStyle: {
+                        backgroundColor: 'transparent'
+                    },
+                    headerTintColor: MAIN_DARK,
+                    headerTitle: HeaderTitle,
+                    headerTitleAlign: 'center'
+                })}
+            >
+                <Stack.Screen 
+                    name="Onboarding"
+                    component={OnboardingPage}
+                    options={{headerShown: false}}
+                />
+                <Stack.Screen 
+                    name="Sign In"
+                    component={SignInMockup}
+                />
+            </Stack.Navigator>
+        </NavigationContainer>
     )
 }
 

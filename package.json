@@ -3,6 +3,7 @@
     "@expo/vector-icons": "^13.0.0",
     "@react-native-community/blur": "^4.3.2",
     "@react-native-masked-view/masked-view": "0.2.8",
+    "@react-navigation/native-stack": "^6.9.14",
     "@testing-library/react-native": "^12.3.0",
     "@types/react": "~18.0.27",
     "expo": "~48.0.18",
@@ -49,18 +50,18 @@
     "react-native-svg-transformer": "^1.1.0"
   },
   "scripts": {
-    "start": "expo start --dev-client",
+    "start": "expo start --tunnel",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web",
+    "web": "expo start --web --tunnel",
     "storybook-generate": "sb-rn-get-stories",
     "test-coverage": "jest --coverage",
     "lint": "eslint --fix --ext .js,.jsx .",
     "test": "jest",
     "storybook-watch": "sb-rn-watcher",
-    "storybook": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start",
-    "storybook:ios": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start --ios",
-    "storybook:android": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start --android"
+    "storybook": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start --tunnel",
+    "storybook:ios": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start --ios --tunnel",
+    "storybook:android": "sb-rn-get-stories && cross-env STORYBOOK_ENABLED='true' expo start --android --tunnel"
   },
   "jest": {
     "preset": "jest-expo",

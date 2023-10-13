@@ -1,13 +1,13 @@
 ﻿import React from 'react'
 import paginationStyle from './Pagination.style'
-import { TOnboardingSlide } from '../../organisms/OnboardingSlides/OnboardingSlides'
+import { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
 import { SharedValue } from 'react-native-reanimated'
 import { View } from 'react-native'
 import Dot from '../Dot/Dot'
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 interface IPaginationProps {
-    data?: TOnboardingSlide
+    data?: TOnboardingSlides
     x?: SharedValue<number>
     color?: string
     testID?: string
