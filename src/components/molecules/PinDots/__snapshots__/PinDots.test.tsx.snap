@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinDots should render correctly 1`] = `
+<View
+  animatedStyle={
+    {
+      "value": {},
+    }
+  }
+  collapsable={false}
+  style={
+    {
+      "flexDirection": "row",
+      "gap": 12,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#1B1D4D",
+          "borderRadius": 100,
+          "height": 8,
+          "width": 8,
+        },
+        {
+          "opacity": 0.2,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#1B1D4D",
+          "borderRadius": 100,
+          "height": 8,
+          "width": 8,
+        },
+        {
+          "opacity": 0.2,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#1B1D4D",
+          "borderRadius": 100,
+          "height": 8,
+          "width": 8,
+        },
+        {
+          "opacity": 0.2,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#1B1D4D",
+          "borderRadius": 100,
+          "height": 8,
+          "width": 8,
+        },
+        {
+          "opacity": 0.2,
+        },
+      ]
+    }
+  />
+</View>
+`;

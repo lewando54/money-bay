@@ -1,21 +1,22 @@
-﻿import React, { useState } from 'react'
+﻿import React from 'react'
 import signInWithCodeTemplateStyle from './SignInWithCodeTemplate.style'
-import { ImageBackground, View, Image, Text, ImageSourcePropType, Dimensions } from 'react-native'
+import { View, Image, Text, ImageSourcePropType } from 'react-native'
 
 import Close from './assets/ep_close.svg'
 import FaceID from './assets/faceid-line.svg'
 import Link from '../../atoms/Link/Link'
 import Images from 'assets/images'
-import SquareButtonWithIcon from '../../molecules/SquareButtonWithIcon/SquareButtonWithIcon'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import GlobalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import GlobalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import PinDots from '../../molecules/PinDots/PinDots'
+import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
 
 interface ISignInWithCodeTemplateProps {
     name?: string
     subname?: string
     profilePicture?: ImageSourcePropType
     pin?: string
-    onSubmit?: (pin: string) => void
+    onSubmit?: (pin: string) => boolean
     onChange?: (newValue: string) => void
     onFaceidPress?: () => void
     onClosePress?: () => void
@@ -37,17 +38,34 @@ export default function SignInWithCodeTemplate({
         1, 2, 3, 4, 5, 6, 7, 8, 9, 'faceid', 0, 'close'
     ]
 
-    const {width, height} = Dimensions.get('screen')
+    const x = useSharedValue(0)
+
+    const OFFSET = 10
+    const TIME = 100
 
     const onChangeHandle = (newValue: number) => {
         if(onChange){
             onChange(pin + newValue.toString())
         }
-        if(pin.length == 4){
-            if(onSubmit){
-                onSubmit(pin)
-            }
-            onChange('')
+        if(pin.length == 3){
+            setTimeout(() => {
+                let isCorrect = false
+                if(onSubmit){
+                    isCorrect = onSubmit(pin + newValue.toString())
+                }
+                if(isCorrect){
+                    console.log('correct')
+                }
+                else{
+                    x.value = withSequence(
+                        withTiming(-OFFSET, { duration: TIME / 2, easing: Easing.exp }),
+                        withRepeat(withTiming(OFFSET, { duration: TIME, easing: Easing.exp }), 2, true),
+                        withTiming(0, { duration: TIME / 2, easing: Easing.exp })
+                    )
+                    console.log('incorrect')
+                }
+                onChange('')
+            }, 500)
         }
     }
 
@@ -86,8 +104,11 @@ export default function SignInWithCodeTemplate({
             <Image source={Images.bgSignIn} style={signInWithCodeTemplateStyle.background} />
             <View style={signInWithCodeTemplateStyle.mainContainer}>
                 <Image source={profilePicture} style={signInWithCodeTemplateStyle.profilePicture}/>
-                <Text>{name}</Text>
-                <Text>{subname}</Text>
+                <View style={{alignItems: 'center', marginBottom: -10}}>
+                    <Text style={[GlobalThemeStyle.text_Medium, {fontSize: 20, color: MAIN_DARK}]}>{name}</Text>
+                    <Text style={[GlobalThemeStyle.text_Regular, {fontSize: 16, color: BODY_TEXT_COLOR}]}>{subname}</Text>
+                </View>
+                <PinDots currLength={pin.length} x={x}/>
                 <View style={signInWithCodeTemplateStyle.buttonContainer}>
                     {Keypad}
                 </View>

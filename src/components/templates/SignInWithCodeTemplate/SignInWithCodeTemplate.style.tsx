@@ -7,7 +7,7 @@ export default StyleSheet.create({
     background: {
         width: width,
         resizeMode: 'contain',
-        maxHeight: width - 25,
+        maxHeight: width - 27,
         position: 'absolute'
     },
     mainContainer: {
@@ -19,7 +19,7 @@ export default StyleSheet.create({
     profilePicture: {
         borderRadius: 100,
         width: width * 0.1866,
-        height: height * 0.0892
+        height: width * 0.1866
     },
     button: {
         width: 80,

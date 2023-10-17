@@ -12,6 +12,7 @@ import SignInPage from './src/pages/SignInPage/SignInPage'
 import GlobalThemeStyle, { MAIN_DARK } from './src/styling/GlobalTheme.style'
 import { Entypo } from '@expo/vector-icons'
 import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePage'
+import DashboardPage from './src/pages/DashboardPage/DashboardPage'
 
 const Stack = createNativeStackNavigator()
 
@@ -67,6 +68,11 @@ function App() {
                 <Stack.Screen
                     name="Sign In (with code)"
                     component={SignInWithCodePage}
+                    options={{headerShown: false}}
+                />
+                <Stack.Screen
+                    name="Dashboard"
+                    component={DashboardPage}
                     options={{headerShown: false}}
                 />
             </Stack.Navigator>
