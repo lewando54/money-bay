@@ -3,11 +3,14 @@
 exports[`Link should render correctly 1`] = `
 <Text
   style={
-    {
-      "color": "#FF5887",
-      "fontFamily": "MulishRegular",
-      "fontSize": 16,
-    }
+    [
+      {
+        "color": "#FF5887",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      },
+      undefined,
+    ]
   }
 />
 `;

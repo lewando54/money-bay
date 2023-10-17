@@ -6,7 +6,7 @@ import socialButtonListStyle from './SocialButtonList.style'
 export type TSocialsArray = Array<{ id: number, color: string, icon: TiconProp, href: URL['href'], testId?: string }>
 interface ISocialButtonList {
   socials: TSocialsArray
-  testId: string
+  testId?: string
 }
 
 function SocialButtonList ({ socials, testId }: ISocialButtonList): React.ReactElement {

@@ -16,7 +16,7 @@ interface IEmailInputProps{
 
 export default function EmailInput({
     value,
-    placeholder='Type something',
+    placeholder='Email',
     containerStyle,
     textStyle,
     onChange,

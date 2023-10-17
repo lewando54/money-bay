@@ -1,0 +1,43 @@
+﻿import { Dimensions, StyleSheet } from 'react-native'
+import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+
+const {width, height} = Dimensions.get('screen')
+
+export default StyleSheet.create({
+    background: {
+        width: width,
+        resizeMode: 'contain',
+        maxHeight: width - 25,
+        position: 'absolute'
+    },
+    mainContainer: {
+        flex: 1,
+        gap: 30,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    profilePicture: {
+        borderRadius: 100,
+        width: width * 0.1866,
+        height: height * 0.0892
+    },
+    button: {
+        width: 80,
+        height: 70,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    buttonText: {
+        ...globalThemeStyle.text_Regular,
+        fontSize: 24,
+        color: MAIN_DARK
+    },
+    buttonContainer: {
+        width: width * 0.6933,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 10
+    }
+})

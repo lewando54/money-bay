@@ -7,5 +7,8 @@ export default {
     bgCircles: require('./img/bg-circles.png'),
     bgSignIn: require('./img/bg-sign-in.png'),
     bgStory: require('./img/bg-story.png'),
-    miniLogo: require('./img/mini-logo.png')
+    miniLogo: require('./img/mini-logo.png'),
+    faceidLine: require('./img/faceid-line.svg'),
+    epClose: require('./img/ep_close.svg'),
+    profile: require('./img/profile.png')
 }

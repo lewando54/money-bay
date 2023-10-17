@@ -43,7 +43,7 @@ export default function CheckBoxSquare({
     }))
 
     const handleOnPress = () => {
-        onPress(!checked)
+        if(onPress) onPress(!checked)
 
         animationProgress.value = withTiming(1 - animationProgress.value, {duration: 500, easing: Easing.inOut(Easing.exp)})
     }

@@ -5,20 +5,15 @@ import { useFonts } from 'expo-font'
 
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import OnboardingSlides from './src/components/organisms/OnboardingSlides/OnboardingSlides'
+
 import OnboardingPage from './src/pages/OnboardingPage/OnboardingPage'
+import SignInPage from './src/pages/SignInPage/SignInPage'
+
 import GlobalThemeStyle, { MAIN_DARK } from './src/styling/GlobalTheme.style'
 import { Entypo } from '@expo/vector-icons'
+import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePage'
 
 const Stack = createNativeStackNavigator()
-
-function SignInMockup () {
-    return (
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FAFCFF'}}>
-            <Text>Test</Text>
-        </View>
-    )
-}
 
 function HeaderTitle (props) {
     return (
@@ -38,18 +33,6 @@ function App() {
         return null
     }
 
-    const config = {
-        animation: 'spring',
-        config: {
-            stiffness: 1000,
-            damping: 500,
-            mass: 3,
-            overshootClamping: true,
-            restDisplacementThreshold: 0.01,
-            restSpeedThreshold: 0.01,
-        },
-    }
-
     return (
         <NavigationContainer>
             <Stack.Navigator
@@ -58,12 +41,15 @@ function App() {
                         <Entypo name="chevron-thin-left" size={20} color="black" />
                     </Pressable>,
                     headerShadowVisible: false,
-                    headerTransparent: true,
-                    headerBackVisible: false,
-                    animation: 'slide_from_right',
+                    headerTransparent: false,
                     headerStyle: {
-                        backgroundColor: 'transparent'
+                        backgroundColor: '#FAFCFF'
                     },
+                    headerBackVisible: false,
+                    contentStyle: {
+                        backgroundColor: '#FAFCFF'
+                    },
+                    animation: 'slide_from_right',
                     headerTintColor: MAIN_DARK,
                     headerTitle: HeaderTitle,
                     headerTitleAlign: 'center'
@@ -76,7 +62,12 @@ function App() {
                 />
                 <Stack.Screen 
                     name="Sign In"
-                    component={SignInMockup}
+                    component={SignInPage}
+                />
+                <Stack.Screen
+                    name="Sign In (with code)"
+                    component={SignInWithCodePage}
+                    options={{headerShown: false}}
                 />
             </Stack.Navigator>
         </NavigationContainer>
@@ -93,7 +84,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         width: '100%',
-        backgroundColor: '#fff',
+        backgroundColor: '#FAFCFF',
         alignItems: 'center',
         justifyContent: 'center',
     },

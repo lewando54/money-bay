@@ -1,6 +1,6 @@
 import React from 'react'
 import OnboardingTemplate from '../../components/templates/OnboardingTemplate/OnboardingTemplate'
-import Images from '@assets/images'
+import Images from 'assets/images'
 
 const OnboardingPage = ({navigation}) => {
     const data = [

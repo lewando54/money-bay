@@ -1,4 +1,5 @@
-import { StyleProp, View, ViewStyle } from 'react-native'
+import React from 'react'
+import { StyleProp, TouchableOpacity, View, ViewStyle } from 'react-native'
 import universalContainerStyle from './UniversalContainer.style'
 import globalThemeStyle from '../../../styling/GlobalTheme.style'
 
@@ -10,6 +11,7 @@ interface IUniversalContainerProps {
     backgroundColor?: string
     castShadow?: boolean
     style?: StyleProp<ViewStyle>
+    onPress?: () => void
     testID?: string
 }
 
@@ -21,18 +23,38 @@ export default function UniversalContainer({
     backgroundColor='white',
     castShadow=false,
     style,
+    onPress,
     testID='universal-container'
 }: IUniversalContainerProps){
-    return (
-        <View
-            testID={testID} 
-            style={[
-                universalContainerStyle({width, height, padding, backgroundColor}).container,
-                castShadow && globalThemeStyle.default_Shadow,
-                style
-            ]}
-        >
-            {children}
-        </View>
-    )
+
+    if(onPress){
+        return (
+            <TouchableOpacity onPress={onPress}>
+                <View
+                    testID={testID} 
+                    style={[
+                        universalContainerStyle({width, height, padding, backgroundColor}).container,
+                        castShadow && globalThemeStyle.default_Shadow,
+                        style
+                    ]}
+                >
+                    {children}
+                </View>
+            </TouchableOpacity>
+        )
+    }
+    else{
+        return (
+            <View
+                testID={testID} 
+                style={[
+                    universalContainerStyle({width, height, padding, backgroundColor}).container,
+                    castShadow && globalThemeStyle.default_Shadow,
+                    style
+                ]}
+            >
+                {children}
+            </View>
+        )
+    }
 }

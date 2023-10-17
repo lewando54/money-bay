@@ -15,7 +15,7 @@ interface IPasswordInputProps {
 
 export default function PasswordInput({
     value='',
-    placeholder='Type something',
+    placeholder='Password',
     containerStyle,
     textStyle,
     onChange,

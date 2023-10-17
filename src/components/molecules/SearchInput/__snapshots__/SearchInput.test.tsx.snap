@@ -83,6 +83,7 @@ exports[`SearchInput should render correctly 1`] = `
     accessible={true}
     collapsable={false}
     focusable={true}
+    hitSlop={10}
     onBlur={[Function]}
     onClick={[Function]}
     onFocus={[Function]}

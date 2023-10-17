@@ -11,8 +11,9 @@ exports[`OnboardingSlide should render correctly 1`] = `
   style={
     {
       "alignItems": "center",
-      "height": 1034.999908,
+      "height": 1027.18,
       "justifyContent": "flex-start",
+      "marginTop": 106.72,
       "width": 750,
     }
   }
@@ -21,9 +22,9 @@ exports[`OnboardingSlide should render correctly 1`] = `
     source={1}
     style={
       {
-        "height": 524.0713714,
+        "height": 520.26,
         "resizeMode": "contain",
-        "width": 669.9999975000001,
+        "width": 675,
       }
     }
   />
@@ -34,7 +35,7 @@ exports[`OnboardingSlide should render correctly 1`] = `
         "gap": 20,
         "overflow": "hidden",
         "paddingHorizontal": 20,
-        "paddingTop": 98.57142857142858,
+        "paddingTop": 80.03999999999999,
         "width": 669.975,
       }
     }

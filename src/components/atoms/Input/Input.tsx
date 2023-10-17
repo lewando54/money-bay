@@ -74,7 +74,7 @@ export default function Input({
                     !isIconVisible && {maxWidth: '100%'}
                 ]} 
             />
-            <Pressable testID='input-icon' onPress={onIconPress} style={!isIconVisible && {display: 'none'}}>{icon}</Pressable>
+            <Pressable testID='input-icon' onPress={onIconPress} style={!isIconVisible && {display: 'none'}} hitSlop={10}>{icon}</Pressable>
         </UniversalContainer>
     )
 }
