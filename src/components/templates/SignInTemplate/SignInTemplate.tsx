@@ -38,20 +38,20 @@ export default function SignInTemplate({
     testID
 }: ISignInTemplateProps){
     return (
-        <View style={{flex: 1, justifyContent: 'center', paddingHorizontal: 20, gap: 25}} testID={testID}>
-            <Text style={{textAlign: 'center', fontFamily: 'MulishBold', fontSize: 44}}>Welcome to MoneyBay!</Text>
+        <View style={signInTemplateStyle.mainContainer} testID={testID}>
+            <Text style={signInTemplateStyle.heading}>Welcome to MoneyBay!</Text>
             <EmailInput value={emailValue} onChange={onEmailChange}/>
             <PasswordInput value={passwordValue} onChange={onPasswordChange}/>
-            <View style={{flexDirection: 'row'}}>
-                <View style={{flexDirection: 'row', gap: 14}}>
+            <View style={signInTemplateStyle.rememberAndPasswordContainer}>
+                <View style={signInTemplateStyle.rememberContainer}>
                     <CheckBoxSquare checked={rememberMeChecked} onPress={onRememberMeChange}/>
-                    <Text style={[GlobalThemeStyle.text_Regular, {color: MAIN_DARK, fontSize: 16}]}>Remember me</Text>
+                    <Text style={signInTemplateStyle.rememberText}>Remember me</Text>
                 </View>
                 <Link style={{marginLeft: 'auto'}} onPress={onLostYourPasswordPress}>Lost your password?</Link>
             </View>
             <Button onClick={onSubmit}>Sign in</Button>
-            <View style={{flexDirection: 'row', gap: 5}}>
-                <Text style={[GlobalThemeStyle.text_Regular, {color: MAIN_DARK, fontSize: 16}]}>No account?</Text>
+            <View style={signInTemplateStyle.registerTextContainer}>
+                <Text style={signInTemplateStyle.rememberText}>No account?</Text>
                 <Link onPress={onRegisterNowPress}>Register now</Link>
             </View>
             <SocialButtonList socials={socials}/>

@@ -8,6 +8,7 @@ interface IDotProps {
     index?: number
     x?: SharedValue<number>
     color?: string
+    itemLengthPercent?: number
     testID?: string
 }
 
@@ -15,6 +16,7 @@ export default function Dot({
     index,
     x,
     color=MAIN_DARK,
+    itemLengthPercent=1,
     testID
 }: IDotProps){
     const { width } = Dimensions.get('window')
@@ -23,9 +25,9 @@ export default function Dot({
         opacity: interpolate(
             x.value, 
             [
-                (index - 1) * width,
-                index * width,
-                (index + 1) * width
+                (index - 1) * width * itemLengthPercent,
+                index * width * itemLengthPercent,
+                (index + 1) * width * itemLengthPercent
             ], 
             [0.2, 1, 0.2],
             Extrapolate.CLAMP

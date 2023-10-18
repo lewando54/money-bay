@@ -38,8 +38,8 @@ export default function OnboardingTemplate({
     testID
 }: IOnboardingTemplateProps){
     return (
-        <View testID={testID} style={{flex: 1}}>
-            <ImageBackground style={{flex: 1}} resizeMode="cover" source={require('../../../../assets/img/bg-story.png')}>
+        <View testID={testID} style={onboardingTemplateStyle.container}>
+            <ImageBackground style={onboardingTemplateStyle.container} resizeMode="cover" source={require('../../../../assets/img/bg-story.png')}>
                 <OnboardingSlides data={data} testID={testID} onPress={onButtonPress}/>
             </ImageBackground>
         </View>

@@ -1,4 +1,5 @@
-﻿import { TouchableOpacity, Text } from 'react-native'
+﻿import React from 'react'
+import { TouchableOpacity, Text, Dimensions } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 import buttonCircleWithTextStyle from './ButtonCircleWithText.style'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
@@ -19,9 +20,11 @@ export default function ButtonCircleWithText({
     onClick,
     testID='square-button-with-icon'
 }: IButtonCircleWithTextProps){
+    const { width, height } = Dimensions.get('screen')
+
     return (
         <TouchableOpacity onPress={onClick} testID={testID} style={buttonCircleWithTextStyle.container}>
-            <CircleWithIcon icon={icon} backgroundColor={circleBackgroundColor} size={60}/>
+            <CircleWithIcon icon={icon} backgroundColor={circleBackgroundColor} size={width * 0.16} castShadow={true}/>
             <Text style={[GlobalThemeStyle.text_SemiBold, buttonCircleWithTextStyle.text]}>{text}</Text>
         </TouchableOpacity>
     )

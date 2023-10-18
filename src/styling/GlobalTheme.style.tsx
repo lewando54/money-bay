@@ -8,6 +8,7 @@ export const GOOD_GREEN = '#3EB290'
 export const PLAIN_BLUE = '#55ACEE'
 export const ORANGE = '#FF8A71'
 export const WARNING_YELLOW = '#EECC55'
+export const MAIN_BG = '#161966'
 export const LINK_COLOR = '#FF5887'
 export default StyleSheet.create({
     text_SemiBold: {
@@ -39,7 +40,7 @@ export default StyleSheet.create({
     default_Shadow: {
         shadowOffset: {width: 0, height: 6},
         shadowRadius: 16,
-        shadowColor: '#161966',
+        shadowColor: '#16196670',
         shadowOpacity: 0.08,
         elevation: 20,
     }

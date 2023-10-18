@@ -1,9 +1,12 @@
-import { StyleSheet } from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native'
+
+const {width, height} = Dimensions.get('screen')
+
 export default StyleSheet.create({
     cardView: {
         flexDirection: 'row', 
         aspectRatio: 16/9, 
-        width: '80%',
+        width: width * 0.7733,
         borderRadius: 10
     },
     blurView: {

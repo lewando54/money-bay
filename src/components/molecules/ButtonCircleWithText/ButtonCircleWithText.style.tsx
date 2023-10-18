@@ -1,10 +1,12 @@
-﻿import { StyleSheet } from 'react-native'
+﻿import { Dimensions, StyleSheet } from 'react-native'
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+
+const { width, height } = Dimensions.get('screen')
 
 export default StyleSheet.create({
     container: {
         justifyContent: 'center',
-        width: 60,
+        width: width * 0.16,
         height: 95,
         elevation: 20,
         shadowColor: MAIN_DARK,

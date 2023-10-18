@@ -13,7 +13,7 @@ exports[`DepositBox should render correctly 1`] = `
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,
@@ -417,7 +417,7 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,
@@ -805,7 +805,7 @@ exports[`DepositBox should render first date with year when the year is not the 
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,
@@ -1209,7 +1209,7 @@ exports[`DepositBox should render first date without year when the year is the s
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,
@@ -1613,7 +1613,7 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,

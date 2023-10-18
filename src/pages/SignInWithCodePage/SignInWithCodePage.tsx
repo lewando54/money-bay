@@ -11,7 +11,7 @@ export default function SignInWithCodePage({navigation}) {
     const onSubmitHandle = (pin: string) => {
         console.log(pin)
         if(pin == '1234'){
-            navigation.navigate('Dashboard')
+            navigation.navigate('Main')
             return true
         }
         return false

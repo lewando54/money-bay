@@ -7,7 +7,7 @@ exports[`CreditCard should render correctly 1`] = `
       "aspectRatio": 1.7777777777777777,
       "borderRadius": 10,
       "flexDirection": "row",
-      "width": "80%",
+      "width": 579.975,
     }
   }
 >
@@ -378,7 +378,7 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
       "aspectRatio": 1.7777777777777777,
       "borderRadius": 10,
       "flexDirection": "row",
-      "width": "80%",
+      "width": 579.975,
     }
   }
 >
@@ -749,7 +749,7 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
       "aspectRatio": 1.7777777777777777,
       "borderRadius": 10,
       "flexDirection": "row",
-      "width": "80%",
+      "width": 579.975,
     }
   }
 >

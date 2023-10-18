@@ -7,7 +7,6 @@ import FaceID from './assets/faceid-line.svg'
 import Link from '../../atoms/Link/Link'
 import Images from 'assets/images'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import GlobalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import PinDots from '../../molecules/PinDots/PinDots'
 import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
 
@@ -104,9 +103,9 @@ export default function SignInWithCodeTemplate({
             <Image source={Images.bgSignIn} style={signInWithCodeTemplateStyle.background} />
             <View style={signInWithCodeTemplateStyle.mainContainer}>
                 <Image source={profilePicture} style={signInWithCodeTemplateStyle.profilePicture}/>
-                <View style={{alignItems: 'center', marginBottom: -10}}>
-                    <Text style={[GlobalThemeStyle.text_Medium, {fontSize: 20, color: MAIN_DARK}]}>{name}</Text>
-                    <Text style={[GlobalThemeStyle.text_Regular, {fontSize: 16, color: BODY_TEXT_COLOR}]}>{subname}</Text>
+                <View style={signInWithCodeTemplateStyle.usernameContainer}>
+                    <Text style={signInWithCodeTemplateStyle.usernameText}>{name}</Text>
+                    <Text style={signInWithCodeTemplateStyle.usernameSubText}>{subname}</Text>
                 </View>
                 <PinDots currLength={pin.length} x={x}/>
                 <View style={signInWithCodeTemplateStyle.buttonContainer}>

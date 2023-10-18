@@ -43,7 +43,7 @@ exports[`ButtonCircleWithText should render correctly 1`] = `
       },
       "shadowOpacity": 0.08,
       "shadowRadius": 16,
-      "width": 60,
+      "width": 120,
     }
   }
   testID="square-button-with-icon"
@@ -54,12 +54,21 @@ exports[`ButtonCircleWithText should render correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#3EB290",
-          "borderRadius": 120,
-          "height": 60,
+          "borderRadius": 240,
+          "height": 120,
           "justifyContent": "center",
-          "width": 60,
+          "width": 120,
         },
-        false,
+        {
+          "elevation": 20,
+          "shadowColor": "#16196670",
+          "shadowOffset": {
+            "height": 6,
+            "width": 0,
+          },
+          "shadowOpacity": 0.08,
+          "shadowRadius": 16,
+        },
       ]
     }
   >

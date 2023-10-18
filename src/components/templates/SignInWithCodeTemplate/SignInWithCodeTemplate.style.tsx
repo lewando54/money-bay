@@ -1,5 +1,5 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
-import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 const {width, height} = Dimensions.get('screen')
 
@@ -39,5 +39,19 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         gap: 10
+    },
+    usernameContainer: {
+        alignItems: 'center',
+        marginBottom: -10
+    },
+    usernameText: {
+        ...globalThemeStyle.text_Medium,
+        fontSize: 20,
+        color: MAIN_DARK
+    },
+    usernameSubText: {
+        ...globalThemeStyle.text_Medium,
+        fontSize: 16,
+        color: BODY_TEXT_COLOR
     }
 })

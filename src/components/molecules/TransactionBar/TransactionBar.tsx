@@ -1,9 +1,21 @@
-﻿import { View, Text } from 'react-native'
+﻿import React from 'react'
+import { View, Text, Dimensions } from 'react-native'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import transactionBarStyle from './TransactionBar.style'
 import { MaterialIcons } from '@expo/vector-icons'
 import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK } from '../../../styling/GlobalTheme.style'
+
+export type TTransactionsArray = Array<{
+    icon: React.ReactNode,
+    title: string,
+    subTitle: string,
+    amount: number,
+    date: Date,
+    percent?: number,
+    isExpense?: boolean,
+    testID?: string
+}>
 
 interface ITransactionBarProps {
     icon?: React.ReactNode
@@ -24,9 +36,11 @@ export default function TransactionBar({
     isExpense=true,
     testID
 }: ITransactionBarProps){
+    const {width, height} = Dimensions.get('screen')
+
     return (
-        <UniversalContainer testID={testID} style={transactionBarStyle.container}>
-            <CircleWithIcon icon={icon} size={40}/>
+        <UniversalContainer padding={width * 0.0266} testID={testID} style={transactionBarStyle.container} castShadow={true}>
+            <CircleWithIcon icon={icon} size={width * 0.1066}/>
             <View>
                 <Text style={globalThemeStyle.text_Title}>{title}</Text>
                 <Text style={globalThemeStyle.text_SubTitle}>{subTitle}</Text>

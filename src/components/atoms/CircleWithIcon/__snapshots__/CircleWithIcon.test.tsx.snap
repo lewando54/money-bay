@@ -174,7 +174,7 @@ exports[`CircleWithIcon should render with shadow 1`] = `
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,
@@ -223,7 +223,7 @@ exports[`CircleWithIcon should render with shadow when gradient is applied 1`] =
       },
       {
         "elevation": 20,
-        "shadowColor": "#161966",
+        "shadowColor": "#16196670",
         "shadowOffset": {
           "height": 6,
           "width": 0,

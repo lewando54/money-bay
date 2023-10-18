@@ -38,7 +38,7 @@ exports[`OptionButton should render correctly 1`] = `
       "opacity": 1,
       "paddingHorizontal": 20,
       "paddingVertical": 8,
-      "shadowColor": "#161966",
+      "shadowColor": "#16196670",
       "shadowOffset": {
         "height": 6,
         "width": 0,
@@ -104,7 +104,7 @@ exports[`OptionButton should render correctly when chosen option is enabled 1`] 
       "opacity": 1,
       "paddingHorizontal": 20,
       "paddingVertical": 8,
-      "shadowColor": "#161966",
+      "shadowColor": "#16196670",
       "shadowOffset": {
         "height": 6,
         "width": 0,
@@ -172,7 +172,7 @@ exports[`OptionButton should render large variant 1`] = `
       "opacity": 1,
       "paddingHorizontal": 20,
       "paddingVertical": 8,
-      "shadowColor": "#161966",
+      "shadowColor": "#16196670",
       "shadowOffset": {
         "height": 6,
         "width": 0,
@@ -238,7 +238,7 @@ exports[`OptionButton should render normal variant 1`] = `
       "opacity": 1,
       "paddingHorizontal": 20,
       "paddingVertical": 8,
-      "shadowColor": "#161966",
+      "shadowColor": "#16196670",
       "shadowOffset": {
         "height": 6,
         "width": 0,
