@@ -49,32 +49,22 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishMedium",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 20,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishMedium",
+            "fontSize": 20,
+          }
         }
       >
         Cristina Wolf
       </Text>
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
-              "color": "#4C4C60",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishMedium",
+            "fontSize": 16,
+          }
         }
       >
         Labore sunt

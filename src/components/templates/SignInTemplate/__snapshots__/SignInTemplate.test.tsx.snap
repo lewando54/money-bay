@@ -332,16 +332,11 @@ exports[`SignInTemplate should render correctly 1`] = `
       </View>
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          }
         }
       >
         Remember me
@@ -458,16 +453,11 @@ exports[`SignInTemplate should render correctly 1`] = `
   >
     <Text
       style={
-        [
-          {
-            "color": "white",
-            "fontFamily": "MulishRegular",
-          },
-          {
-            "color": "#1B1D4D",
-            "fontSize": 16,
-          },
-        ]
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        }
       }
     >
       No account?

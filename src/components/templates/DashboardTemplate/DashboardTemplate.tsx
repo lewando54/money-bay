@@ -13,6 +13,7 @@ import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCir
 import Separator from '../../atoms/Separator/Separator'
 import Link from '../../atoms/Link/Link'
 import TransactionBar, { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
+import TransactionList from '../../organisms/TransactionList/TransactionList'
 
 const {width, height} = Dimensions.get('screen')
 
@@ -109,17 +110,6 @@ export default function DashboardTemplate({
         }
     })
 
-    const TransactionList = transactionsData.map((item, index) => 
-        <TransactionBar
-            key={index}
-            title={item.title}
-            subTitle={item.subTitle}
-            amount={item.amount}
-            isExpense={item.isExpense}
-            icon={item.icon}
-        />
-    )
-
     return (
         <View style={dashboardTemplateStyle.mainContainer}>
             <View>
@@ -164,7 +154,7 @@ export default function DashboardTemplate({
                     />
                     <ButtonCircleWithText 
                         circleBackgroundColor={ORANGE}
-                        icon={<Images.smartphoneSVG/>}
+                        icon={<Images.smartphoneSVG color={'white'}/>}
                         onClick={onMobilePaymentPress}
                         text='Mobile Payment'
                     />
@@ -187,7 +177,7 @@ export default function DashboardTemplate({
                         <Text style={dashboardTemplateStyle.latestTransactionHeading}>Latest transactions</Text>
                         <Link style={dashboardTemplateStyle.latestTransactionViewAllLink} onPress={onViewAllPress}>View all</Link>
                     </View>
-                    {TransactionList}
+                    <TransactionList transactionsData={transactionsData} />
                 </View>
             </View>
         </View>

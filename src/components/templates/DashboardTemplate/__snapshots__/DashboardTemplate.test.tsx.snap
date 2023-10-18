@@ -65,15 +65,11 @@ exports[`DashboardTemplate should render correctly 1`] = `
         />
         <Text
           style={
-            [
-              {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
-                "fontSize": 16,
-              },
-            ]
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
           }
         >
           € 1.08 / 1.12
@@ -1583,7 +1579,9 @@ exports[`DashboardTemplate should render correctly 1`] = `
             ]
           }
         >
-          <SvgMock />
+          <SvgMock
+            color="white"
+          />
         </View>
         <Text
           style={
@@ -1814,16 +1812,11 @@ exports[`DashboardTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            [
-              {
-                "color": "white",
-                "fontFamily": "MulishMedium",
-              },
-              {
-                "color": "#1B1D4D",
-                "fontSize": 20,
-              },
-            ]
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishMedium",
+              "fontSize": 20,
+            }
           }
         >
           Latest transactions
@@ -1847,98 +1840,90 @@ exports[`DashboardTemplate should render correctly 1`] = `
       </View>
       <View
         style={
-          [
-            {
-              "backgroundColor": "white",
-              "borderRadius": 10,
-              "height": "auto",
-              "padding": 19.95,
-              "width": "100%",
-            },
-            {
-              "elevation": 20,
-              "shadowColor": "#16196670",
-              "shadowOffset": {
-                "height": 6,
-                "width": 0,
-              },
-              "shadowOpacity": 0.08,
-              "shadowRadius": 16,
-            },
-            {
-              "alignItems": "center",
-              "flexDirection": "row",
-              "gap": 13,
-            },
-          ]
+          {
+            "gap": 10.725,
+          }
         }
-        testID="universal-container"
       >
         <View
           style={
             [
               {
-                "alignItems": "center",
-                "backgroundColor": "#F1F5FD",
-                "borderRadius": 159.9,
-                "height": 79.95,
-                "justifyContent": "center",
-                "width": 79.95,
+                "backgroundColor": "white",
+                "borderRadius": 10,
+                "height": "auto",
+                "padding": 19.95,
+                "width": "100%",
               },
-              false,
+              {
+                "elevation": 20,
+                "shadowColor": "#16196670",
+                "shadowOffset": {
+                  "height": 6,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.08,
+                "shadowRadius": 16,
+              },
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 13,
+              },
             ]
           }
+          testID="universal-container"
         >
-          <SvgMock />
-        </View>
-        <View>
-          <Text
-            style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
-              }
-            }
-          >
-            Adalyn Roth
-          </Text>
-          <Text
-            style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-              }
-            }
-          >
-            Money transfer
-          </Text>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "gap": 5,
-              "marginLeft": "auto",
-            }
-          }
-        >
-          <Text
+          <View
             style={
               [
                 {
-                  "color": "#1B1D4D",
-                  "fontFamily": "MulishSemiBold",
-                  "fontSize": 14,
+                  "alignItems": "center",
+                  "backgroundColor": "#F1F5FD",
+                  "borderRadius": 159.9,
+                  "height": 79.95,
+                  "justifyContent": "center",
+                  "width": 79.95,
                 },
                 false,
               ]
             }
           >
-            -
-          </Text>
+            <SvgMock />
+          </View>
           <View>
+            <Text
+              style={
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Adalyn Roth
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Money transfer
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "gap": 5,
+                "marginLeft": "auto",
+              }
+            }
+          >
             <Text
               style={
                 [
@@ -1951,124 +1936,124 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 ]
               }
             >
-              140.00
+              -
             </Text>
-            <Text
-              style={
-                [
-                  {
-                    "color": "#4C4C60",
-                    "fontFamily": "MulishRegular",
-                    "fontSize": 12,
-                  },
-                  {
-                    "marginLeft": "auto",
-                  },
-                  {
-                    "display": "none",
-                  },
-                ]
-              }
-            >
-              undefined%
-            </Text>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    false,
+                  ]
+                }
+              >
+                140.00
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#4C4C60",
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 12,
+                    },
+                    {
+                      "marginLeft": "auto",
+                    },
+                    {
+                      "display": "none",
+                    },
+                  ]
+                }
+              >
+                undefined%
+              </Text>
+            </View>
           </View>
         </View>
-      </View>
-      <View
-        style={
-          [
-            {
-              "backgroundColor": "white",
-              "borderRadius": 10,
-              "height": "auto",
-              "padding": 19.95,
-              "width": "100%",
-            },
-            {
-              "elevation": 20,
-              "shadowColor": "#16196670",
-              "shadowOffset": {
-                "height": 6,
-                "width": 0,
-              },
-              "shadowOpacity": 0.08,
-              "shadowRadius": 16,
-            },
-            {
-              "alignItems": "center",
-              "flexDirection": "row",
-              "gap": 13,
-            },
-          ]
-        }
-        testID="universal-container"
-      >
         <View
           style={
             [
               {
-                "alignItems": "center",
-                "backgroundColor": "#F1F5FD",
-                "borderRadius": 159.9,
-                "height": 79.95,
-                "justifyContent": "center",
-                "width": 79.95,
+                "backgroundColor": "white",
+                "borderRadius": 10,
+                "height": "auto",
+                "padding": 19.95,
+                "width": "100%",
               },
-              false,
+              {
+                "elevation": 20,
+                "shadowColor": "#16196670",
+                "shadowOffset": {
+                  "height": 6,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.08,
+                "shadowRadius": 16,
+              },
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 13,
+              },
             ]
           }
+          testID="universal-container"
         >
-          <SvgMock />
-        </View>
-        <View>
-          <Text
-            style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
-              }
-            }
-          >
-            Amazon
-          </Text>
-          <Text
-            style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-              }
-            }
-          >
-            Online payments
-          </Text>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "gap": 5,
-              "marginLeft": "auto",
-            }
-          }
-        >
-          <Text
+          <View
             style={
               [
                 {
-                  "color": "#1B1D4D",
-                  "fontFamily": "MulishSemiBold",
-                  "fontSize": 14,
+                  "alignItems": "center",
+                  "backgroundColor": "#F1F5FD",
+                  "borderRadius": 159.9,
+                  "height": 79.95,
+                  "justifyContent": "center",
+                  "width": 79.95,
                 },
                 false,
               ]
             }
           >
-            -
-          </Text>
+            <SvgMock />
+          </View>
           <View>
+            <Text
+              style={
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Amazon
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Online payments
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "gap": 5,
+                "marginLeft": "auto",
+              }
+            }
+          >
             <Text
               style={
                 [
@@ -2081,126 +2066,124 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 ]
               }
             >
-              239.57
+              -
             </Text>
-            <Text
-              style={
-                [
-                  {
-                    "color": "#4C4C60",
-                    "fontFamily": "MulishRegular",
-                    "fontSize": 12,
-                  },
-                  {
-                    "marginLeft": "auto",
-                  },
-                  {
-                    "display": "none",
-                  },
-                ]
-              }
-            >
-              undefined%
-            </Text>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    false,
+                  ]
+                }
+              >
+                239.57
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#4C4C60",
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 12,
+                    },
+                    {
+                      "marginLeft": "auto",
+                    },
+                    {
+                      "display": "none",
+                    },
+                  ]
+                }
+              >
+                undefined%
+              </Text>
+            </View>
           </View>
         </View>
-      </View>
-      <View
-        style={
-          [
-            {
-              "backgroundColor": "white",
-              "borderRadius": 10,
-              "height": "auto",
-              "padding": 19.95,
-              "width": "100%",
-            },
-            {
-              "elevation": 20,
-              "shadowColor": "#16196670",
-              "shadowOffset": {
-                "height": 6,
-                "width": 0,
-              },
-              "shadowOpacity": 0.08,
-              "shadowRadius": 16,
-            },
-            {
-              "alignItems": "center",
-              "flexDirection": "row",
-              "gap": 13,
-            },
-          ]
-        }
-        testID="universal-container"
-      >
         <View
           style={
             [
               {
-                "alignItems": "center",
-                "backgroundColor": "#F1F5FD",
-                "borderRadius": 159.9,
-                "height": 79.95,
-                "justifyContent": "center",
-                "width": 79.95,
+                "backgroundColor": "white",
+                "borderRadius": 10,
+                "height": "auto",
+                "padding": 19.95,
+                "width": "100%",
               },
-              false,
+              {
+                "elevation": 20,
+                "shadowColor": "#16196670",
+                "shadowOffset": {
+                  "height": 6,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.08,
+                "shadowRadius": 16,
+              },
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 13,
+              },
             ]
           }
+          testID="universal-container"
         >
-          <SvgMock />
-        </View>
-        <View>
-          <Text
-            style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
-              }
-            }
-          >
-            Paypal
-          </Text>
-          <Text
-            style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-              }
-            }
-          >
-            Deposits
-          </Text>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "gap": 5,
-              "marginLeft": "auto",
-            }
-          }
-        >
-          <Text
+          <View
             style={
               [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#F1F5FD",
+                  "borderRadius": 159.9,
+                  "height": 79.95,
+                  "justifyContent": "center",
+                  "width": 79.95,
+                },
+                false,
+              ]
+            }
+          >
+            <SvgMock />
+          </View>
+          <View>
+            <Text
+              style={
                 {
                   "color": "#1B1D4D",
                   "fontFamily": "MulishSemiBold",
                   "fontSize": 14,
-                },
+                }
+              }
+            >
+              Paypal
+            </Text>
+            <Text
+              style={
                 {
-                  "color": "#3EB290",
-                },
-              ]
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Deposits
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "gap": 5,
+                "marginLeft": "auto",
+              }
             }
           >
-            +
-          </Text>
-          <View>
             <Text
               style={
                 [
@@ -2215,27 +2198,45 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 ]
               }
             >
-              700.00
+              +
             </Text>
-            <Text
-              style={
-                [
-                  {
-                    "color": "#4C4C60",
-                    "fontFamily": "MulishRegular",
-                    "fontSize": 12,
-                  },
-                  {
-                    "marginLeft": "auto",
-                  },
-                  {
-                    "display": "none",
-                  },
-                ]
-              }
-            >
-              undefined%
-            </Text>
+            <View>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3EB290",
+                    },
+                  ]
+                }
+              >
+                700.00
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#4C4C60",
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 12,
+                    },
+                    {
+                      "marginLeft": "auto",
+                    },
+                    {
+                      "display": "none",
+                    },
+                  ]
+                }
+              >
+                undefined%
+              </Text>
+            </View>
           </View>
         </View>
       </View>

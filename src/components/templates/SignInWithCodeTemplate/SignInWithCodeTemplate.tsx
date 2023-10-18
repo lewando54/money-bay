@@ -19,6 +19,7 @@ interface ISignInWithCodeTemplateProps {
     onChange?: (newValue: string) => void
     onFaceidPress?: () => void
     onClosePress?: () => void
+    onLostPasswordPress?: () => void
     testID?: string
 }
 
@@ -31,6 +32,7 @@ export default function SignInWithCodeTemplate({
     onChange,
     onFaceidPress,
     onClosePress,
+    onLostPasswordPress,
     testID
 }: ISignInWithCodeTemplateProps){
     const keypadArray = [
@@ -111,7 +113,7 @@ export default function SignInWithCodeTemplate({
                 <View style={signInWithCodeTemplateStyle.buttonContainer}>
                     {Keypad}
                 </View>
-                <Link>Lost your password?</Link>
+                <Link onPress={onLostPasswordPress}>Lost your password?</Link>
                 <Link>Switch user</Link>
             </View>
         </View>
