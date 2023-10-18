@@ -16,6 +16,9 @@ import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePag
 import DashboardPage from './src/pages/DashboardPage/DashboardPage'
 
 import Images from 'assets/images'
+import TransactionHistoryPage from './src/pages/TransactionHistoryPage/TransactionHistoryPage'
+import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
+import SignUpPage from './src/pages/SignUpPage/SignUpPage'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -156,6 +159,18 @@ function App() {
                     name="Sign In"
                     component={SignInPage}
                 />
+                <Stack.Screen 
+                    name="New password"
+                    component={NewPasswordPage}
+                />
+                <Stack.Screen 
+                    name="Sign up"
+                    component={SignUpPage}
+                />
+                <Stack.Screen 
+                    name="Account created"
+                    component={PlaceholderPage}
+                />
                 <Stack.Screen
                     name="Sign In (with code)"
                     component={SignInWithCodePage}
@@ -168,7 +183,7 @@ function App() {
                 />
                 <Stack.Screen
                     name="Transaction history"
-                    component={PlaceholderPage}
+                    component={TransactionHistoryPage}
                     options={{
                         animation: 'fade_from_bottom'
                     }}

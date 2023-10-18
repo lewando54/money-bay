@@ -25,8 +25,12 @@ export default function SignInWithCodePage({navigation}) {
         console.log('faceid pressed')
     }
 
-    const onClosePress = () => {
+    const onClosePressHandle = () => {
         setPin(() => '')
+    }
+
+    const onLostPasswordPressHandle = () => {
+        navigation.navigate('New password')
     }
 
     return (
@@ -38,7 +42,8 @@ export default function SignInWithCodePage({navigation}) {
             onSubmit={(newValue) => onSubmitHandle(newValue)}
             onChange={(newValue) => onChangeHandle(newValue)}
             onFaceidPress={onFaceidPressHandle}
-            onClosePress={onClosePress}
+            onClosePress={onClosePressHandle}
+            onLostPasswordPress={onLostPasswordPressHandle}
         />
     )
 }

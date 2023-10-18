@@ -7,8 +7,6 @@ import Link from '../../atoms/Link/Link'
 import Button from '../../atoms/Button/Button'
 import { View, Text } from 'react-native'
 import SocialButtonList, { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
-import GlobalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
-import { color } from 'react-native-reanimated'
 
 interface ISignInTemplateProps {
     emailValue?: string

@@ -19,11 +19,11 @@ export default function SignInPage({navigation}) {
     }
 
     const onLostYourPasswordPressHandle = () => {
-        console.log('Redirect to Lost password')
+        navigation.navigate('New password')
     }
 
     const onRegisterNowPressHandle = () => {
-        console.log('Redirect to register')
+        navigation.navigate('Sign up')
     }
 
     return (
