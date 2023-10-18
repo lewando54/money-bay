@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionList should render correctly 1`] = `
+<View
+  style={
+    {
+      "gap": 10.725,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "height": "auto",
+          "padding": 19.95,
+          "width": "100%",
+        },
+        {
+          "elevation": 20,
+          "shadowColor": "#16196670",
+          "shadowOffset": {
+            "height": 6,
+            "width": 0,
+          },
+          "shadowOpacity": 0.08,
+          "shadowRadius": 16,
+        },
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        },
+      ]
+    }
+    testID="universal-container"
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#F1F5FD",
+            "borderRadius": 159.9,
+            "height": 79.95,
+            "justifyContent": "center",
+            "width": 79.95,
+          },
+          false,
+        ]
+      }
+    >
+      <SvgMock />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 14,
+          }
+        }
+      >
+        Adalyn Roth
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 12,
+          }
+        }
+      >
+        Money transfer
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 5,
+          "marginLeft": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+            false,
+          ]
+        }
+      >
+        -
+      </Text>
+      <View>
+        <Text
+          style={
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              false,
+            ]
+          }
+        >
+          140.00
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+              {
+                "marginLeft": "auto",
+              },
+              {
+                "display": "none",
+              },
+            ]
+          }
+        >
+          undefined%
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "height": "auto",
+          "padding": 19.95,
+          "width": "100%",
+        },
+        {
+          "elevation": 20,
+          "shadowColor": "#16196670",
+          "shadowOffset": {
+            "height": 6,
+            "width": 0,
+          },
+          "shadowOpacity": 0.08,
+          "shadowRadius": 16,
+        },
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        },
+      ]
+    }
+    testID="universal-container"
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#F1F5FD",
+            "borderRadius": 159.9,
+            "height": 79.95,
+            "justifyContent": "center",
+            "width": 79.95,
+          },
+          false,
+        ]
+      }
+    >
+      <SvgMock />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 14,
+          }
+        }
+      >
+        Amazon
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 12,
+          }
+        }
+      >
+        Online payments
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 5,
+          "marginLeft": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+            false,
+          ]
+        }
+      >
+        -
+      </Text>
+      <View>
+        <Text
+          style={
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              false,
+            ]
+          }
+        >
+          239.57
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+              {
+                "marginLeft": "auto",
+              },
+              {
+                "display": "none",
+              },
+            ]
+          }
+        >
+          undefined%
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "white",
+          "borderRadius": 10,
+          "height": "auto",
+          "padding": 19.95,
+          "width": "100%",
+        },
+        {
+          "elevation": 20,
+          "shadowColor": "#16196670",
+          "shadowOffset": {
+            "height": 6,
+            "width": 0,
+          },
+          "shadowOpacity": 0.08,
+          "shadowRadius": 16,
+        },
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 13,
+        },
+      ]
+    }
+    testID="universal-container"
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "#F1F5FD",
+            "borderRadius": 159.9,
+            "height": 79.95,
+            "justifyContent": "center",
+            "width": 79.95,
+          },
+          false,
+        ]
+      }
+    >
+      <SvgMock />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 14,
+          }
+        }
+      >
+        Paypal
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 12,
+          }
+        }
+      >
+        Deposits
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 5,
+          "marginLeft": "auto",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+            {
+              "color": "#3EB290",
+            },
+          ]
+        }
+      >
+        +
+      </Text>
+      <View>
+        <Text
+          style={
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              {
+                "color": "#3EB290",
+              },
+            ]
+          }
+        >
+          700.00
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+              {
+                "marginLeft": "auto",
+              },
+              {
+                "display": "none",
+              },
+            ]
+          }
+        >
+          undefined%
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
