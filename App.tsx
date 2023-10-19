@@ -20,6 +20,9 @@ import TransactionHistoryPage from './src/pages/TransactionHistoryPage/Transacti
 import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
 import SignUpPage from './src/pages/SignUpPage/SignUpPage'
 import InfoScreenPage from './src/pages/InfoScreenPage/InfoScreenPage'
+import AccountSuccessPage from './src/pages/AccountSuccessPage/AccountSuccessPage'
+import PaymentSuccessPage from './src/pages/PaymentSuccessPage/PaymentSuccessPage'
+import MobilePaymentPage from './src/pages/MobilePaymentPage/MobilePaymentPage'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -131,7 +134,7 @@ function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator
-                initialRouteName='Onboarding'
+                initialRouteName='Main'
                 screenOptions={({ navigation, route }) => ({
                     headerLeft: (props) => <Pressable hitSlop={20} onPress={() => navigation.goBack()}>
                         <Entypo name="chevron-thin-left" size={20} color="black" />
@@ -169,11 +172,22 @@ function App() {
                     component={SignUpPage}
                 />
                 <Stack.Screen 
-                    name="Info screen"
-                    component={InfoScreenPage}
+                    name="Account success"
+                    component={AccountSuccessPage}
                     options={{
                         headerShown: false
                     }}
+                />
+                <Stack.Screen 
+                    name="Payment success"
+                    component={PaymentSuccessPage}
+                    options={{
+                        headerShown: false
+                    }}
+                />
+                <Stack.Screen 
+                    name="Mobile payment"
+                    component={MobilePaymentPage}
                 />
                 <Stack.Screen
                     name="Sign In (with code)"

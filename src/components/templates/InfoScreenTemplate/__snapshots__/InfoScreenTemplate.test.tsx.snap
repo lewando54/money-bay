@@ -54,6 +54,7 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
   <View
     style={
       {
+        "gap": 22.9448,
         "marginTop": "auto",
         "padding": 39.975,
         "width": "100%",
@@ -210,6 +211,7 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
   <View
     style={
       {
+        "gap": 22.9448,
         "marginTop": "auto",
         "padding": 39.975,
         "width": "100%",
@@ -366,6 +368,7 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
   <View
     style={
       {
+        "gap": 22.9448,
         "marginTop": "auto",
         "padding": 39.975,
         "width": "100%",

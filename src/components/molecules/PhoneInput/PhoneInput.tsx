@@ -21,7 +21,7 @@ export default function PhoneInput({
     }
 
     return (
-        <UniversalContainer style={[phoneInputStyle.mainContainer, phoneInputStyle.containerOrientation]}>
+        <UniversalContainer style={[phoneInputStyle.mainContainer, phoneInputStyle.containerOrientation]} castShadow={true}>
             <View style={phoneInputStyle.containerOrientation}>
                 <Image style={phoneInputStyle.flag} source={require('./assets/flag.png')} />
                 <Text style={phoneInputStyle.text}>+17</Text>
@@ -32,7 +32,7 @@ export default function PhoneInput({
                 value={value} 
                 onChangeText={onChangeHandle} 
                 style={[phoneInputStyle.textField, phoneInputStyle.text]} 
-                placeholder='xxxxxxxxx' 
+                placeholder='xxxxxxxxx'
                 maxLength={9} 
                 keyboardType={Platform.select({android: 'numeric', ios: 'number-pad'})} 
             />

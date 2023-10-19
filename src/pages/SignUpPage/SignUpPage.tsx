@@ -19,9 +19,7 @@ export default function SignUpPage({navigation}) {
 
     const onSubmitHandle = () => {
         console.log(name, ' ; ', email, ' ; ', password, ' ; ', confirmPassword)
-        navigation.navigate('Info screen', {
-            type: 'accountSuccess'
-        })
+        navigation.navigate('Account success')
     }
 
     const onSignInHandle = () => {

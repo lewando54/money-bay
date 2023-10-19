@@ -11,11 +11,11 @@ export default function DashboardPage({navigation}) {
     }
 
     const onMobilePaymentPressHandle = () => {
-        console.log('Mobile Payment pressed')
+        navigation.navigate('Mobile payment')
     }
 
     const onMoneyTransferPressHandle = () => {
-        console.log('Money Transfer pressed')
+        console.log('Money transfer pressed')
     }
 
     const onTopUpPressHandle = () => {

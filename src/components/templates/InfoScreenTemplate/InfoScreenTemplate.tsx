@@ -44,7 +44,7 @@ export default function InfoScreenTemplate({
                 <Text style={{...globalThemeStyle.text_Bold, color: titleColor, fontSize: 36}}>{title}</Text>
                 {body}
             </View>
-            <View style={{marginTop: 'auto', width: '100%', padding: width * 0.0533}}>
+            <View style={{marginTop: 'auto', width: '100%', padding: width * 0.0533, gap: height * 0.0172}}>
                 {additionalButtons && additionalButtons.map((item, index) => 
                     <Button 
                         key={index}

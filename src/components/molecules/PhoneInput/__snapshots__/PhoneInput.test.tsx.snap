@@ -11,7 +11,16 @@ exports[`PhoneInput should render correctly 1`] = `
         "padding": 10,
         "width": "100%",
       },
-      false,
+      {
+        "elevation": 20,
+        "shadowColor": "#16196670",
+        "shadowOffset": {
+          "height": 6,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      },
       [
         {
           "paddingHorizontal": 20,
