@@ -16,6 +16,8 @@ import Ebay from './img/ebay.svg'
 import Home from './img/home.svg'
 import PayPal from './img/paypal.svg'
 import TransferLine from './img/transfer-line.svg'
+import AccountSuccess from './img/account_success.svg'
+import InfoSuccess from './img/info_success.svg'
 
 export default {
     onboarding2: require('./img/onboarding-2.png'),
@@ -47,5 +49,8 @@ export default {
     ebaySVG: Ebay,
     homeSVG: Home,
     payPalSVG: PayPal,
-    transferLineSVG: TransferLine
+    transferLineSVG: TransferLine,
+    accountSuccessSVG: AccountSuccess,
+    infoSuccessSVG: InfoSuccess,
+    bgInfoCard: require('./img/bg-info-card.png')
 }

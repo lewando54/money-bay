@@ -2,6 +2,8 @@ import { View, Text } from 'react-native'
 import React, { useState } from 'react'
 import SignUpTemplate from '../../components/templates/SignUpTemplate/SignUpTemplate'
 import { TSocialsArray } from '../../components/organisms/SocialButtonList/SocialButtonList'
+import Images from 'assets/images'
+import { MAIN_DARK } from '../../styling/GlobalTheme.style'
 
 export default function SignUpPage({navigation}) {
     const socials: TSocialsArray = [
@@ -17,7 +19,9 @@ export default function SignUpPage({navigation}) {
 
     const onSubmitHandle = () => {
         console.log(name, ' ; ', email, ' ; ', password, ' ; ', confirmPassword)
-        navigation.navigate('Account created')
+        navigation.navigate('Info screen', {
+            type: 'accountSuccess'
+        })
     }
 
     const onSignInHandle = () => {

@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoScreenTemplate should render correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "height": 1334,
+        "position": "absolute",
+        "resizeMode": "contain",
+        "top": -232.11599999999999,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": "auto",
+        "marginTop": 310.42179999999996,
+        "paddingHorizontal": 92.47500000000001,
+      }
+    }
+  >
+    <Text>
+      Icon
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishBold",
+          "fontSize": 36,
+        }
+      }
+    >
+      Account created!
+    </Text>
+    <Text>
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": "auto",
+        "padding": 39.975,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4288142079,
+              4279654301,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          Done
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`InfoScreenTemplate should render correctly 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "height": 1334,
+        "position": "absolute",
+        "resizeMode": "contain",
+        "top": -232.11599999999999,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": "auto",
+        "marginTop": 310.42179999999996,
+        "paddingHorizontal": 92.47500000000001,
+      }
+    }
+  >
+    <SvgMock />
+    <Text
+      style={
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishBold",
+          "fontSize": 36,
+        }
+      }
+    >
+      Account created!
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+          "marginTop": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Your account has been created successfully.
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": "auto",
+        "padding": 39.975,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4288142079,
+              4279654301,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          Done
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "height": 1334,
+        "position": "absolute",
+        "resizeMode": "contain",
+        "top": -232.11599999999999,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginBottom": "auto",
+        "marginTop": 310.42179999999996,
+        "paddingHorizontal": 92.47500000000001,
+      }
+    }
+  >
+    <SvgMock />
+    <Text
+      style={
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishBold",
+          "fontSize": 36,
+        }
+      }
+    >
+      Account created!
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+          "marginTop": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Your account has been created successfully.
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": "auto",
+        "padding": 39.975,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4288142079,
+              4279654301,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          Test
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoLinearGradient
+        proxiedProperties={
+          {
+            "colors": [
+              4288142079,
+              4279654301,
+            ],
+            "endPoint": [
+              1,
+              0.5,
+            ],
+            "locations": undefined,
+            "startPoint": [
+              0,
+              0.5,
+            ],
+          }
+        }
+        style={
+          [
+            {
+              "borderRadius": 10,
+              "padding": 15,
+            },
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          Done
+        </Text>
+      </ViewManagerAdapter_ExpoLinearGradient>
+    </View>
+  </View>
+</View>
+`;

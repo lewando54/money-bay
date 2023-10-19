@@ -1,11 +1,11 @@
 import React from 'react'
-import { Text, TouchableOpacity, GestureResponderEvent, ViewStyle, StyleProp } from 'react-native'
+import { Text, TouchableOpacity, ViewStyle, StyleProp } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import buttonStyle from './Button.style'
 import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '../../../styling/GlobalTheme.style'
 
-type colorProp = 'primary' | 'secondary' | string
-type sizeProp = 'normal' | 'small'
+export type colorProp = 'primary' | 'secondary' | string
+export type sizeProp = 'normal' | 'small'
 
 interface IButtonProps{
     children: React.ReactNode
@@ -13,7 +13,7 @@ interface IButtonProps{
     size?: sizeProp
     width?: string
     containerStyle?: StyleProp<ViewStyle>
-    onClick?: ((event: GestureResponderEvent) => void) | null | undefined
+    onClick?: (() => void) | null | undefined
     testID?: string
 }
 

@@ -19,6 +19,7 @@ import Images from 'assets/images'
 import TransactionHistoryPage from './src/pages/TransactionHistoryPage/TransactionHistoryPage'
 import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
 import SignUpPage from './src/pages/SignUpPage/SignUpPage'
+import InfoScreenPage from './src/pages/InfoScreenPage/InfoScreenPage'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -168,8 +169,11 @@ function App() {
                     component={SignUpPage}
                 />
                 <Stack.Screen 
-                    name="Account created"
-                    component={PlaceholderPage}
+                    name="Info screen"
+                    component={InfoScreenPage}
+                    options={{
+                        headerShown: false
+                    }}
                 />
                 <Stack.Screen
                     name="Sign In (with code)"
