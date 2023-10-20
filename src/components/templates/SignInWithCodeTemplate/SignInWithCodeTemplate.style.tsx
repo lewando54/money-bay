@@ -1,7 +1,7 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
-const {width, height} = Dimensions.get('screen')
+const { width } = Dimensions.get('screen')
 
 export default StyleSheet.create({
     background: {

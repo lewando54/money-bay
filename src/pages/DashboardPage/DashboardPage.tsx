@@ -1,7 +1,16 @@
 import React from 'react'
 import DashboardTemplate from '../../components/templates/DashboardTemplate/DashboardTemplate'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList, TabParamList } from '../../../App'
+import { CompositeScreenProps } from '@react-navigation/native'
+import { BottomTabScreenProps } from '@react-navigation/bottom-tabs'
 
-export default function DashboardPage({navigation}) {
+type Props = CompositeScreenProps<
+    BottomTabScreenProps<TabParamList, 'Dashboard'>,
+    NativeStackScreenProps<RootStackParamList>
+>
+
+export default function DashboardPage({navigation}: Props) {
     const onViewAllPressHandle = () => {
         navigation.navigate('Transaction history')
     }

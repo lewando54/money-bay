@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react'
 import renderer from 'react-test-renderer'
-import { fireEvent, render, screen } from '@testing-library/react-native'
+import { fireEvent, render } from '@testing-library/react-native'
 import EmailInput from './EmailInput'
 
 interface IInputMockupProps {
@@ -13,7 +13,6 @@ interface IInputMockupProps {
 function StatefulInput({
     value,
     placeholder='Type something',
-    onChange,
     testID
 }: IInputMockupProps){
     const [ textValue, setTextValue ] = useState(value)

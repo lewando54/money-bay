@@ -71,7 +71,7 @@ export default function MobilePaymentTemplate({
     }
 
     return (
-        <View style={mobilePaymentTemplateStyle.mainContainer}>
+        <View style={mobilePaymentTemplateStyle.mainContainer} testID={testID}>
             <PhoneInput
                 value={phoneValue}
                 onChange={onPhoneChange}
@@ -86,7 +86,7 @@ export default function MobilePaymentTemplate({
                         placeholder={'0'}
                         onChangeText={onAmountWholeChangeHandle}
                         style={[mobilePaymentTemplateStyle.bigMoneyText, {flexGrow: 0}]}
-                        inputMode={Platform.select({android: 'numeric', ios: 'number-pad'})}
+                        keyboardType={Platform.select({android: 'numeric', ios: 'number-pad'})}
                         testID='wholeNumber'
                     />
                     <Text style={mobilePaymentTemplateStyle.bigMoneyText}>.</Text>
@@ -97,7 +97,7 @@ export default function MobilePaymentTemplate({
                         onChangeText={onAmountDecimalChangeHandle}
                         ref={amountDecimalRef}
                         style={mobilePaymentTemplateStyle.smallMoneyText}
-                        inputMode={Platform.select({android: 'numeric', ios: 'number-pad'})}
+                        keyboardType={Platform.select({android: 'numeric', ios: 'number-pad'})}
                         testID='decimalNumber'
                     />
                 </UniversalContainer>

@@ -31,7 +31,7 @@ const meta = {
 } satisfies Meta<typeof StatefulInput>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof StatefulInput>
 
 export const Default: Story = {
     args: {

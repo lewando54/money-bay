@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import PhoneInput from './PhoneInput'
 
 const meta = {
-	component: PhoneInput,
-	argTypes: {
+    component: PhoneInput,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof PhoneInput>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof PhoneInput>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

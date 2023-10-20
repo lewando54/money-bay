@@ -1,4 +1,5 @@
-﻿import { StyleProp, View, ViewStyle } from 'react-native'
+﻿import React from 'react'
+import { StyleProp, View, ViewStyle } from 'react-native'
 import separatorStyle from './Separator.style'
 
 interface ISeparatorProps {

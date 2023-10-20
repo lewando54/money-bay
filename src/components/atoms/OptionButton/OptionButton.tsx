@@ -1,4 +1,5 @@
-﻿import { TouchableOpacity, Text } from 'react-native'
+﻿import React from 'react'
+import { TouchableOpacity, Text } from 'react-native'
 import optionButtonStyle from './OptionButton.style'
 import globalThemeStyle from '../../../styling/GlobalTheme.style'
 

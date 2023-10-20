@@ -1,6 +1,6 @@
-﻿import React, { useRef } from 'react'
+﻿import React from 'react'
 import onboardingSlidesStyle from './OnboardingSlides.style'
-import { Dimensions, ImageSourcePropType, View } from 'react-native'
+import { ImageSourcePropType, View } from 'react-native'
 import OnboardingSlide from '../../molecules/OnboardingSlide/OnboardingSlide'
 import Button from '../../atoms/Button/Button'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'

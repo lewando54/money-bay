@@ -1,6 +1,6 @@
-﻿import { Image, View } from 'react-native'
+﻿import React from 'react'
+import { Image, View } from 'react-native'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import cardIssuerRadioButtonStyle from './CardIssuerRadioButton.style'
 import RadioButton, { IRadioButtonProps } from '../../atoms/RadioButton/RadioButton'
 import { TCardIssuer, getIssuerLogo } from '../../../utils/cardIssuers'
 import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'

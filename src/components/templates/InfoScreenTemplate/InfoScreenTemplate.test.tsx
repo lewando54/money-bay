@@ -1,8 +1,7 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import { render, screen } from '@testing-library/react-native'
 import InfoScreenTemplate from './InfoScreenTemplate'
-import Images from 'assets/images'
+import Images from '@assets/images'
 import { Text } from 'react-native'
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 describe('InfoScreenTemplate', () => {

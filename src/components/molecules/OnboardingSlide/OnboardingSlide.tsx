@@ -25,7 +25,7 @@ export default function OnboardingSlide({
     body='Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.',
     testID
 }: IOnboardingSlideProps){
-    const {width, height} = Dimensions.get('window')
+    const {width} = Dimensions.get('window')
 
     const opacityAnimation = opacity && useAnimatedStyle(() => {
         const opacityV = interpolate(

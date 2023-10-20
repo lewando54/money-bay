@@ -2,8 +2,8 @@
 import dashboardTemplateStyle from './DashboardTemplate.style'
 import { Dimensions, ImageBackground, Image, View, Text } from 'react-native'
 
-import Images from 'assets/images'
-import GlobalThemeStyle, { GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+import Images from '@assets/images'
+import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
 import { TCurrency } from '../../../utils/currency'
 import { TCardIssuer } from '../../../utils/cardIssuers'
 import CreditCard from '../../atoms/CreditCard/CreditCard'
@@ -12,7 +12,7 @@ import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native
 import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCircleWithText'
 import Separator from '../../atoms/Separator/Separator'
 import Link from '../../atoms/Link/Link'
-import TransactionBar, { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
+import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
 import TransactionList from '../../organisms/TransactionList/TransactionList'
 
 const {width, height} = Dimensions.get('screen')
@@ -111,7 +111,7 @@ export default function DashboardTemplate({
     })
 
     return (
-        <View style={dashboardTemplateStyle.mainContainer}>
+        <View style={dashboardTemplateStyle.mainContainer} testID={testID}>
             <View>
                 <ImageBackground source={Images.bgDashboard} style={dashboardTemplateStyle.imageBackgroundContainer}>
                     <View style={dashboardTemplateStyle.headerContainer}>

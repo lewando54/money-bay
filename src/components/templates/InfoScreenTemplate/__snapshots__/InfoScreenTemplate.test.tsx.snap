@@ -38,11 +38,16 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
     </Text>
     <Text
       style={
-        {
-          "color": "#1B1D4D",
-          "fontFamily": "MulishBold",
-          "fontSize": 36,
-        }
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishBold",
+            "fontSize": 36,
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
       }
     >
       Account created!
@@ -185,11 +190,16 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
     <SvgMock />
     <Text
       style={
-        {
-          "color": "#1B1D4D",
-          "fontFamily": "MulishBold",
-          "fontSize": 36,
-        }
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishBold",
+            "fontSize": 36,
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
       }
     >
       Account created!
@@ -342,11 +352,16 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
     <SvgMock />
     <Text
       style={
-        {
-          "color": "#1B1D4D",
-          "fontFamily": "MulishBold",
-          "fontSize": 36,
-        }
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishBold",
+            "fontSize": 36,
+          },
+          {
+            "color": "#1B1D4D",
+          },
+        ]
       }
     >
       Account created!

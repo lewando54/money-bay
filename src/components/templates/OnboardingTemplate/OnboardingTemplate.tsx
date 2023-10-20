@@ -2,7 +2,7 @@
 import onboardingTemplateStyle from './OnboardingTemplate.style'
 import OnboardingSlides, { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
 import { ImageBackground, View } from 'react-native'
-import Images from 'assets/images'
+import Images from '@assets/images'
 
 interface IOnboardingTemplateProps {
     data: TOnboardingSlides
@@ -24,14 +24,14 @@ export default function OnboardingTemplate({
             imageSource: Images.onboarding3,
             heading: 'Get a new card in a few clicks!',
             body: 'Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.',
-            testID: 'slide-0'
+            testID: 'slide-1'
         },
         {
             id: 2,
             imageSource: Images.onboarding4,
             heading: 'Easy payments all over the world!',
             body: 'Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.',
-            testID: 'slide-0'
+            testID: 'slide-2'
         }
     ],
     onButtonPress,

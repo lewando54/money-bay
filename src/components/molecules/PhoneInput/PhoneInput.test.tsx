@@ -1,6 +1,6 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import { fireEvent, render, screen } from '@testing-library/react-native'
+import { fireEvent, render } from '@testing-library/react-native'
 import PhoneInput from './PhoneInput'
 describe('PhoneInput', () => {
     it('should render correctly', () => {

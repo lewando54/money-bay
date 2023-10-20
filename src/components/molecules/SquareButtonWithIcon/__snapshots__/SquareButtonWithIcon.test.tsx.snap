@@ -92,16 +92,11 @@ exports[`SquareButtonWithIcon should render correctly 1`] = `
       </View>
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Add new card

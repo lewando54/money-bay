@@ -7,6 +7,7 @@ export default ({ config }) => ({
         backgroundColor: '#1B1D4D'
     },
     extra: {
+        // eslint-disable-next-line no-undef
         storybookEnabled: process.env.STORYBOOK_ENABLED,
     },
     android: {

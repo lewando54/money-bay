@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import Pagination from './Pagination'
 
 const meta = {
-	component: Pagination,
-	argTypes: {
+    component: Pagination,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof Pagination>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof Pagination>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

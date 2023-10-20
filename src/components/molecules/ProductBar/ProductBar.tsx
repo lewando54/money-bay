@@ -1,4 +1,5 @@
-﻿import { View, Image, Text } from 'react-native'
+﻿import React from 'react'
+import { View, Image, Text } from 'react-native'
 import { TCurrency } from '../../../utils/currency'
 import MiniCreditCard from '../../atoms/MiniCreditCard/MiniCreditCard'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'

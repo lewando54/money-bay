@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react'
 import renderer from 'react-test-renderer'
-import { fireEvent, render, waitFor } from '@testing-library/react-native'
+import { fireEvent, render } from '@testing-library/react-native'
 import SignInWithCodeTemplate from './SignInWithCodeTemplate'
 
 interface IMockupProps {
@@ -39,5 +39,15 @@ describe('SignInWithCodeTemplate', () => {
         fireEvent.press(getByText('3'))
         fireEvent.press(getByText('4'))
         setTimeout(() => expect(onSubmit).toBeCalledWith('1234'), 1000)
+    })
+
+    it('should not call onSubmit when wrong pin has been entered', async () => {
+        const onSubmit = jest.fn()
+        const { getByText } = render(<Stateful onSubmit={onSubmit}/>)
+        fireEvent.press(getByText('1'))
+        fireEvent.press(getByText('2'))
+        fireEvent.press(getByText('3'))
+        fireEvent.press(getByText('3'))
+        setTimeout(() => expect(onSubmit).toBeCalledTimes(0), 1000)
     })
 })

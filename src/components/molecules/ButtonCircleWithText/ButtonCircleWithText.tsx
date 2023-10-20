@@ -20,7 +20,7 @@ export default function ButtonCircleWithText({
     onClick,
     testID='square-button-with-icon'
 }: IButtonCircleWithTextProps){
-    const { width, height } = Dimensions.get('screen')
+    const { width } = Dimensions.get('screen')
 
     return (
         <TouchableOpacity onPress={onClick} testID={testID} style={buttonCircleWithTextStyle.container}>

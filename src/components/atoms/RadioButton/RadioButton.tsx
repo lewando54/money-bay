@@ -1,6 +1,7 @@
-﻿import { Pressable } from 'react-native'
+﻿import React from 'react'
+import { Pressable } from 'react-native'
 import radioButtonStyle from './RadioButton.style'
-import Animated, { useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated'
 import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import { useEffect } from 'react'
 

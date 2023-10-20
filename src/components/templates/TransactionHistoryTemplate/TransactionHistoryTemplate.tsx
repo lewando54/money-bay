@@ -4,7 +4,7 @@ import SearchInput from '../../molecules/SearchInput/SearchInput'
 import { View, Text, FlatList } from 'react-native'
 import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
 import { ORANGE } from '../../../styling/GlobalTheme.style'
-import Images from 'assets/images'
+import Images from '@assets/images'
 import TransactionList from '../../organisms/TransactionList/TransactionList'
 
 interface ITransactionHistoryProps {
@@ -73,7 +73,7 @@ export default function TransactionHistory({
     let prevDate = date
 
     return (
-        <View style={transactionHistoryStyle.mainContainer}>
+        <View style={transactionHistoryStyle.mainContainer} testID={testID}>
             <View style={transactionHistoryStyle.searchContainer}>
                 <SearchInput/>
             </View>

@@ -1,19 +1,24 @@
 import React, { useState } from 'react'
 import MobilePaymentTemplate from '../../components/templates/MobilePaymentTemplate/MobilePaymentTemplate'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-export default function MobilePaymentPage({navigation}) {
-    //const [amount, setAmount] = useState(0)
+type Props = NativeStackScreenProps<RootStackParamList, 'Mobile payment'>
+
+export default function MobilePaymentPage({navigation}: Props) {
     const [phone, setPhone] = useState('')
     const [wholeAmount, setWholeAmount] = useState('0')
     const [decimalAmount, setDecimalAmount] = useState('00')
 
     const onSubmitHandle = () => {
-        //setAmount(() => parseInt(wholeAmount) + (parseInt(decimalAmount) / 100))
-        navigation.navigate('Payment success', {
-            wholeAmount: wholeAmount,
-            decimalAmount: decimalAmount,
-            phoneNumber: phone
-        })
+        if(phone != '' && wholeAmount != '0' && wholeAmount != '' && decimalAmount != ''){
+            console.log('Payment: ', wholeAmount+'.'+decimalAmount, phone)
+            navigation.navigate('Payment success', {
+                wholeAmount: wholeAmount,
+                decimalAmount: decimalAmount,
+                phoneNumber: phone
+            })
+        }
     }
 
     return (

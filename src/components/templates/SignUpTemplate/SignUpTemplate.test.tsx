@@ -1,6 +1,5 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import { render, screen } from '@testing-library/react-native'
 import SignUpTemplate from './SignUpTemplate'
 import { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
 describe('SignUpTemplate', () => {

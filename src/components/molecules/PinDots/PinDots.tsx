@@ -17,6 +17,8 @@ export default function PinDots({
     testID
 }: IPinDotsProps){
     const shakeAnimationStyle = x && useAnimatedStyle(() => ({
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         transform: [{translateX: x.value}]
     }))
 

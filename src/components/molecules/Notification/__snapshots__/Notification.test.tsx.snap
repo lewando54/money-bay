@@ -58,16 +58,11 @@ exports[`Notification should render correctly 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Your loan application has been approved!
@@ -76,16 +71,11 @@ exports[`Notification should render correctly 1`] = `
   </View>
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#1B1D4D",
-          "fontSize": 16,
-        },
-      ]
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      }
     }
   >
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -104,16 +94,11 @@ exports[`Notification should render correctly 1`] = `
   />
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#4C4C60",
-          "fontSize": 12,
-        },
-      ]
+      {
+        "color": "#4C4C60",
+        "fontFamily": "MulishRegular",
+        "fontSize": 12,
+      }
     }
   >
     12 wrz 2022
@@ -201,16 +186,11 @@ exports[`Notification should render green icon with checkmark 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Your loan application has been approved!
@@ -219,16 +199,11 @@ exports[`Notification should render green icon with checkmark 1`] = `
   </View>
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#1B1D4D",
-          "fontSize": 16,
-        },
-      ]
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      }
     }
   >
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -247,16 +222,11 @@ exports[`Notification should render green icon with checkmark 1`] = `
   />
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#4C4C60",
-          "fontSize": 12,
-        },
-      ]
+      {
+        "color": "#4C4C60",
+        "fontFamily": "MulishRegular",
+        "fontSize": 12,
+      }
     }
   >
     12 wrz 2022
@@ -344,16 +314,11 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Your loan application has been approved!
@@ -362,16 +327,11 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
   </View>
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#1B1D4D",
-          "fontSize": 16,
-        },
-      ]
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      }
     }
   >
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -390,16 +350,11 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
   />
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#4C4C60",
-          "fontSize": 12,
-        },
-      ]
+      {
+        "color": "#4C4C60",
+        "fontFamily": "MulishRegular",
+        "fontSize": 12,
+      }
     }
   >
     12 wrz 2022
@@ -487,16 +442,11 @@ exports[`Notification should render red icon with x 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Your loan application has been approved!
@@ -505,16 +455,11 @@ exports[`Notification should render red icon with x 1`] = `
   </View>
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#1B1D4D",
-          "fontSize": 16,
-        },
-      ]
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      }
     }
   >
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -533,16 +478,11 @@ exports[`Notification should render red icon with x 1`] = `
   />
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#4C4C60",
-          "fontSize": 12,
-        },
-      ]
+      {
+        "color": "#4C4C60",
+        "fontFamily": "MulishRegular",
+        "fontSize": 12,
+      }
     }
   >
     12 wrz 2022
@@ -610,16 +550,11 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
     >
       <Text
         style={
-          [
-            {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
-              "color": "#1B1D4D",
-              "fontSize": 16,
-            },
-          ]
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          }
         }
       >
         Your loan application has been approved!
@@ -628,16 +563,11 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
   </View>
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#1B1D4D",
-          "fontSize": 16,
-        },
-      ]
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      }
     }
   >
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -656,16 +586,11 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
   />
   <Text
     style={
-      [
-        {
-          "color": "white",
-          "fontFamily": "MulishRegular",
-        },
-        {
-          "color": "#4C4C60",
-          "fontSize": 12,
-        },
-      ]
+      {
+        "color": "#4C4C60",
+        "fontFamily": "MulishRegular",
+        "fontSize": 12,
+      }
     }
   >
     12 wrz 2022

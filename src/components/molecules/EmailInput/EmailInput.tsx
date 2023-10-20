@@ -1,7 +1,6 @@
 ﻿import React, { useState } from 'react'
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import Input from '../../atoms/Input/Input'
-import emailInputStyle from './EmailInput.style'
 import { Feather } from '@expo/vector-icons'
 import { StyleProp, ViewStyle, TextStyle } from 'react-native'
 

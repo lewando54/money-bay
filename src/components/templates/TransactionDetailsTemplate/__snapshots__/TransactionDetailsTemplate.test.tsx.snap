@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionDetailsTemplate should render correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      {
+        "maxHeight": 723,
+        "position": "absolute",
+        "resizeMode": "contain",
+        "width": 750,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "gap": 16.4082,
+        "marginTop": 137.9356,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "elevation": 20,
+          "gap": 10,
+          "height": 95,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#1B1D4D",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.08,
+          "shadowRadius": 16,
+          "width": 120,
+        }
+      }
+      testID="square-button-with-icon"
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FF8A71",
+              "borderRadius": 240,
+              "height": 120,
+              "justifyContent": "center",
+              "width": 120,
+            },
+            {
+              "elevation": 20,
+              "shadowColor": "#16196670",
+              "shadowOffset": {
+                "height": 6,
+                "width": 0,
+              },
+              "shadowOpacity": 0.08,
+              "shadowRadius": 16,
+            },
+          ]
+        }
+      >
+        <SvgMock
+          color="white"
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Mobile Payment
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 12,
+        }
+      }
+    >
+      10 wrz 2022
+       at 
+      11:34 AM
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishBold",
+            "fontSize": 28,
+          }
+        }
+      >
+        - 
+        $
+         
+        10
+        .
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishBold",
+            "fontSize": 16,
+            "marginBottom": 5.336,
+          }
+        }
+      >
+        0
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        }
+      }
+    >
+      Sent to 
+      Hillary Holmes
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 5,
+        }
+      }
+    >
+      <SvgMock />
+      <Text
+        style={
+          {
+            "color": "#3EB290",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 14,
+          }
+        }
+      >
+        Success
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#CED6E1",
+            "height": 1,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+          "marginBottom": 32.8164,
+          "paddingHorizontal": 39.975,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "borderBottomColor": "#CED6E1",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 32.8164,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
+          }
+        >
+          Sent to
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+            }
+          }
+        >
+          Hillary Holmes
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "borderBottomColor": "#CED6E1",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 32.8164,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
+          }
+        >
+          Card
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+            }
+          }
+        >
+          **** 4253
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "borderBottomColor": "#CED6E1",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 32.8164,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
+          }
+        >
+          Amount
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+            }
+          }
+        >
+          10.0
+           
+          USD
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "borderBottomColor": "#CED6E1",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 32.8164,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
+          }
+        >
+          Fee
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+            }
+          }
+        >
+          0
+           
+          USD
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "borderBottomColor": "#CED6E1",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingVertical": 32.8164,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            }
+          }
+        >
+          Residual balance
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+            }
+          }
+        >
+          4853.27
+           
+          USD
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "marginTop": "auto",
+            "opacity": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            {
+              "colors": [
+                4288142079,
+                4279654301,
+              ],
+              "endPoint": [
+                1,
+                0.5,
+              ],
+              "locations": undefined,
+              "startPoint": [
+                0,
+                0.5,
+              ],
+            }
+          }
+          style={
+            [
+              {
+                "borderRadius": 10,
+                "padding": 15,
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                },
+                {
+                  "color": "white",
+                },
+                false,
+                false,
+              ]
+            }
+          >
+            Download PDF
+          </Text>
+        </ViewManagerAdapter_ExpoLinearGradient>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -173,7 +173,7 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
         $
       </Text>
       <TextInput
-        inputMode="number-pad"
+        keyboardType="number-pad"
         onChangeText={[Function]}
         placeholder="0"
         style={
@@ -202,7 +202,7 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
         .
       </Text>
       <TextInput
-        inputMode="number-pad"
+        keyboardType="number-pad"
         maxLength={2}
         onChangeText={[Function]}
         placeholder="00"

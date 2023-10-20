@@ -1,8 +1,12 @@
 import React from 'react'
 import OnboardingTemplate from '../../components/templates/OnboardingTemplate/OnboardingTemplate'
-import Images from 'assets/images'
+import Images from '@assets/images'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-const OnboardingPage = ({navigation}) => {
+type Props = NativeStackScreenProps<RootStackParamList, 'Onboarding'>
+
+const OnboardingPage = ({navigation}: Props) => {
     const data = [
         {
             id: 0,

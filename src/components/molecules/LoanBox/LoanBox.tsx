@@ -2,7 +2,6 @@
 import { View, Text } from 'react-native'
 import Separator from '../../atoms/Separator/Separator'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import loanBoxStyle from './LoanBox.style'
 import Wallet from './assets/wallet.svg'
 import MoneyText from '../../atoms/MoneyText/MoneyText'
 import Button from '../../atoms/Button/Button'

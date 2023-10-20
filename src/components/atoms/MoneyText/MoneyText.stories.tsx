@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import MoneyText from './MoneyText'
 
 const meta = {
-	component: MoneyText,
-	argTypes: {
+    component: MoneyText,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof MoneyText>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof MoneyText>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

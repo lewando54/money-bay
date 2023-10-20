@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import EmailInput from './EmailInput'
 
 const meta = {
-	component: EmailInput,
-	argTypes: {
+    component: EmailInput,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof EmailInput>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof EmailInput>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

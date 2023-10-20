@@ -4,7 +4,7 @@ import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import transactionBarStyle from './TransactionBar.style'
 import { MaterialIcons } from '@expo/vector-icons'
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 
 export type TTransactionsArray = Array<{
     icon: React.ReactNode,
@@ -36,7 +36,7 @@ export default function TransactionBar({
     isExpense=true,
     testID
 }: ITransactionBarProps){
-    const {width, height} = Dimensions.get('screen')
+    const {width} = Dimensions.get('screen')
 
     return (
         <UniversalContainer padding={width * 0.0266} testID={testID} style={transactionBarStyle.container} castShadow={true}>

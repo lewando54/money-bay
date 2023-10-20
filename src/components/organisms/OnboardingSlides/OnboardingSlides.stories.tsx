@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import OnboardingSlides from './OnboardingSlides'
 
 const meta = {
-	component: OnboardingSlides,
-	argTypes: {
+    component: OnboardingSlides,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof OnboardingSlides>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof OnboardingSlides>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

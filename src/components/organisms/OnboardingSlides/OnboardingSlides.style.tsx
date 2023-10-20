@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-const {height} = Dimensions.get('screen')
+const {height} = Dimensions.get(process.env.STORYBOOK_ENABLED ? 'window' : 'screen')
 
 export default StyleSheet.create({
     buttonContainer: {

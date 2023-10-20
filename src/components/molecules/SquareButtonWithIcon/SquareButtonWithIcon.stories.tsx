@@ -4,30 +4,30 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import SquareButtonWithIcon from './SquareButtonWithIcon'
 
 const meta = {
-	component: SquareButtonWithIcon,
-	argTypes: {
+    component: SquareButtonWithIcon,
+    argTypes: {
         text: { control: 'text' },
-		onclick: { action: 'clicked' },
-		buttonBackgroundColor: { control: 'color' },
-		circleBackgroundColor: { control: 'object' },
-	}
+        onclick: { action: 'clicked' },
+        buttonBackgroundColor: { control: 'color' },
+        circleBackgroundColor: { control: 'object' },
+    }
 } satisfies Meta<typeof SquareButtonWithIcon>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof SquareButtonWithIcon>
 
 export const Default: Story = {
-	args: {
+    args: {
         text: 'Add new card',
-		buttonBackgroundColor: '#fff',
-		circleBackgroundColor: '#3EB290'
-	}
+        buttonBackgroundColor: '#fff',
+        circleBackgroundColor: '#3EB290'
+    }
 }
 
 export const Gradient: Story = {
-	args: {
+    args: {
         text: 'Add new card',
-		buttonBackgroundColor: '#fff',
-		circleBackgroundColor: ['#3EB290', '#ff0']
-	}
+        buttonBackgroundColor: '#fff',
+        circleBackgroundColor: ['#3EB290', '#ff0']
+    }
 }

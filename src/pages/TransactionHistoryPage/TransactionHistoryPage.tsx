@@ -1,7 +1,6 @@
-import { View, Text } from 'react-native'
 import React from 'react'
 import TransactionHistoryTemplate from '../../components/templates/TransactionHistoryTemplate/TransactionHistoryTemplate'
-import Images from 'assets/images'
+import Images from '@assets/images'
 import { ORANGE } from '../../styling/GlobalTheme.style'
 
 export default function TransactionHistoryPage() {

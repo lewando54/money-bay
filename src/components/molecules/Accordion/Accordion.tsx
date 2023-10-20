@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import accordionStyle from './Accordion.style'
 import { Pressable, Text, View } from 'react-native'
-import Animated, { Easing, concat, interpolate, interpolateColor, measure, runOnUI, useAnimatedRef, useAnimatedStyle, useDerivedValue, useSharedValue, withTiming } from 'react-native-reanimated'
+import Animated, { interpolate, interpolateColor, measure, runOnUI, useAnimatedRef, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import { Entypo } from '@expo/vector-icons'
 import globalThemeStyle, { BODY_TEXT_COLOR } from '../../../styling/GlobalTheme.style'
 
@@ -35,11 +35,14 @@ export default function Accordion({
     }))
 
     const rotationAnimationStyle = useAnimatedStyle(() => ({
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         transform: [{rotateZ: interpolate(rotationValue.value, [0, 1], [0, 180]) + 'deg'}]
     }))
 
     const onPressHandle = () => {
         if (!isExtended) {
+            // Problems with tests
             runOnUI(() => {
                 'worklet'
                 heightValue.value = withTiming(measure(textRef)!.height)
@@ -54,15 +57,15 @@ export default function Accordion({
 
     return (
         <Pressable onPress={onPressHandle}>
-            <Animated.View style={[{backgroundColor: 'white', borderRadius: 10, overflow: 'hidden'}]}>
-                <View style={{padding: 20, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+            <Animated.View style={accordionStyle.mainContainer}>
+                <View style={accordionStyle.headerContainer} testID='acc-header'>
                     <Animated.Text style={[globalThemeStyle.text_Title, textColorAnimationStyle]}>{headerText}</Animated.Text>
                     <Animated.View style={rotationAnimationStyle}>
                         <Entypo name="chevron-small-down" size={24}/>
                     </Animated.View>
                 </View>
-                <Animated.View style={[{borderTopColor: '#CED6E1'}, heightAnimationStyle, separatorAnimationStyle]}>
-                    <Animated.View ref={textRef} style={{position: 'absolute', width: '100%', top: 0, padding: 20}}>
+                <Animated.View testID='acc-body' style={[{borderTopColor: '#CED6E1'}, heightAnimationStyle, separatorAnimationStyle]}>
+                    <Animated.View ref={textRef} style={accordionStyle.bodyText}>
                         <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR}]}>{bodyText}</Text>
                     </Animated.View>
                 </Animated.View>

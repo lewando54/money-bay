@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import SignInWithCodeTemplate from '../../components/templates/SignInWithCodeTemplate/SignInWithCodeTemplate'
-import Images from 'assets/images'
+import Images from '@assets/images'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-export default function SignInWithCodePage({navigation}) {
+type Props = NativeStackScreenProps<RootStackParamList, 'Sign In (with code)'>
+
+export default function SignInWithCodePage({navigation}: Props) {
     const [pin, setPin] = useState('')
 
     const name = 'Cristina Wolf'

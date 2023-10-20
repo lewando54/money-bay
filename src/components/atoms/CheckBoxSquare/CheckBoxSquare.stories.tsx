@@ -45,7 +45,7 @@ const meta = {
 } satisfies Meta<typeof StatefulChceckbox>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof StatefulChceckbox>
 
 export const Default: Story = {
     args: {

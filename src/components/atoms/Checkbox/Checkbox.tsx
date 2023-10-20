@@ -1,4 +1,5 @@
-﻿import { Pressable, View } from 'react-native'
+﻿import React from 'react'
+import { Pressable } from 'react-native'
 import checkboxStyle from './Checkbox.style'
 import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming, Easing } from 'react-native-reanimated'
@@ -25,6 +26,8 @@ export default function Checkbox({
     const backgroundColorProgress = useSharedValue(0)
 
     const animatedCircleStyle = useAnimatedStyle(() => ({
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         transform: [{ translateX: withTiming(translateX.value * 2, {duration: 500, easing: Easing.inOut(Easing.exp)}) }],
     }))
 

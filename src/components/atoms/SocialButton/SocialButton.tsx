@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { FontAwesome5 } from '@expo/vector-icons'
 import socialButtonStyle from './SocialButton.style'
 export type TiconProp = 'facebook' | 'google' | 'linkedin' | 'twitter'
@@ -31,6 +31,8 @@ function SocialButton ({ color, href, icon, testId, size }: ISocialButtonProps):
     const animatedButtonScale = useSharedValue(0)
 
     const animatedButtonStyle = useAnimatedStyle(() => ({
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         transform: [{scale: interpolate(animatedButtonScale.value, [0, 1], [1, 1.25])}]
     }))
 

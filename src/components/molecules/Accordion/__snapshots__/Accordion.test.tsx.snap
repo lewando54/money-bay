@@ -56,6 +56,7 @@ exports[`Accordion should render correctly 1`] = `
           "padding": 20,
         }
       }
+      testID="acc-header"
     >
       <Text
         animatedStyle={
@@ -119,6 +120,7 @@ exports[`Accordion should render correctly 1`] = `
           "height": 0,
         }
       }
+      testID="acc-body"
     >
       <View
         animatedStyle={

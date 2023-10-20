@@ -27,8 +27,23 @@ export default function CreditCard({
     cardCurrency = {iso: 'usd', symbol: '$', left: true},
     testID = 'creditcard'
 }: ICreditCardProps){
+    // if MaskedView creates an error, go to node_modules/@react-native-masked-view/masked-view/types/index.d.ts
+    // And change:
+    /*
+        declare class MaskedViewComponent extends React.Component<MaskedViewProps> {}
+        declare const MaskedViewBase: ReactNative.Constructor<
+        ReactNative.NativeMethods
+        > &
+        typeof MaskedViewComponent;
+        export default class MaskedView extends MaskedViewBase {}
+    */
+    // to:
+    /*
+        declare class MaskedViewComponent extends React.Component<MaskedViewProps> {}
+        export default class MaskedView extends MaskedViewComponent {}
+    */
     return (
-        <View style={creditCardStyle.cardView}>
+        <View style={creditCardStyle.cardView} testID={testID}>
             <MaskedView
                 style={{width: '100%'}}
                 maskElement={

@@ -5,7 +5,7 @@ import notificationStyle from './Notification.style'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import { MaterialIcons } from '@expo/vector-icons'
 import { AntDesign } from '@expo/vector-icons' 
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, LINK_COLOR, MAIN_DARK, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
 import Separator from '../../atoms/Separator/Separator'
 
 type TNotificationType = 'warning' | 'error' | 'correct'
@@ -38,12 +38,12 @@ export default function Notification({
             <View style={notificationStyle.iconAndTitleWrapper}>
                 {notificationTypeIcon}
                 <View style={notificationStyle.titleWrapper}>
-                    <Text style={[globalThemeStyle.text_SemiBold, { fontSize: 16, color: MAIN_DARK }]}>{title}</Text>
+                    <Text style={notificationStyle.notificationTitleText}>{title}</Text>
                 </View>
             </View>
-            <Text style={[globalThemeStyle.text_Regular, { fontSize: 16, color: MAIN_DARK }]}>{body}</Text>
+            <Text style={notificationStyle.notificationBodyText}>{body}</Text>
             <Separator />
-            <Text style={[globalThemeStyle.text_Regular, { fontSize: 12, color: BODY_TEXT_COLOR }]}>{datetime.toLocaleDateString(undefined, {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString(undefined, {hour: 'numeric', minute: 'numeric'})}</Text>
+            <Text style={notificationStyle.notificationTimeText}>{datetime.toLocaleDateString(undefined, {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString(undefined, {hour: 'numeric', minute: 'numeric'})}</Text>
         </UniversalContainer>
     )
 }

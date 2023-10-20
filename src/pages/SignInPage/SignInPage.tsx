@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import SignInTemplate from '../../components/templates/SignInTemplate/SignInTemplate'
 import { TSocialsArray } from '../../components/organisms/SocialButtonList/SocialButtonList'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-export default function SignInPage({navigation}) {
+type Props = NativeStackScreenProps<RootStackParamList, 'Sign In'>
+
+export default function SignInPage({navigation}: Props) {
     const socials: TSocialsArray = [
         { id: 0, color: '#3B5999', icon: 'facebook', href: 'https://google.pl/' },
         { id: 1, color: '#55ACEE', icon: 'twitter', href: 'https://google.pl/' },

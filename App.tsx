@@ -1,9 +1,9 @@
 import React from 'react'
-import { Dimensions, Pressable, StyleSheet, Text, View } from 'react-native'
+import { Dimensions, Pressable, Text, View } from 'react-native'
 import Constants from 'expo-constants'
 import { useFonts } from 'expo-font'
 
-import { NavigationContainer } from '@react-navigation/native'
+import { NavigationContainer, NavigatorScreenParams } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
@@ -15,21 +15,47 @@ import { Entypo } from '@expo/vector-icons'
 import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePage'
 import DashboardPage from './src/pages/DashboardPage/DashboardPage'
 
-import Images from 'assets/images'
+import Images from '@assets/images'
 import TransactionHistoryPage from './src/pages/TransactionHistoryPage/TransactionHistoryPage'
 import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
 import SignUpPage from './src/pages/SignUpPage/SignUpPage'
-import InfoScreenPage from './src/pages/InfoScreenPage/InfoScreenPage'
 import AccountSuccessPage from './src/pages/AccountSuccessPage/AccountSuccessPage'
 import PaymentSuccessPage from './src/pages/PaymentSuccessPage/PaymentSuccessPage'
 import MobilePaymentPage from './src/pages/MobilePaymentPage/MobilePaymentPage'
+import TransactionDetailsPage from './src/pages/TransactionDetailsPage/TransactionDetailsPage'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
 
-const { width, height } = Dimensions.get('screen')
+const { height } = Dimensions.get('screen')
 
-function HeaderTitle (props) {
+export type TabParamList = {
+    'Dashboard': undefined
+    'Deposits': undefined
+    'Loans': undefined
+    'Notifications': undefined
+    'More': undefined
+}
+
+export type RootStackParamList = {
+    'Onboarding': undefined
+    'Sign In': undefined
+    'New password': undefined
+    'Sign up': undefined
+    'Account success': undefined
+    'Payment success': { wholeAmount: string, decimalAmount: string, phoneNumber: string }
+    'Transaction details': {wholeAmount: string, decimalAmount: string}
+    'Mobile payment': undefined
+    'Sign In (with code)': undefined
+    'Main': NavigatorScreenParams<TabParamList>
+    'Transaction history': undefined
+}
+
+interface IHeaderTitleProps {
+    children: React.ReactNode
+}
+
+function HeaderTitle (props: IHeaderTitleProps) {
     return (
         <View><Text style={[GlobalThemeStyle.text_Medium, {color: MAIN_DARK, fontSize: 20}]}>{props.children}</Text></View>
     )
@@ -42,13 +68,6 @@ function PlaceholderPage () {
         </View>
     )
 }
-
-/*
-    safeDepositSVG: SafeDeposit,
-    walletSVG: Wallet,
-    notificationBellSVG: NotificationBell,
-    categorySVG: Category
-*/
 
 function Main(){
     return (
@@ -78,28 +97,28 @@ function Main(){
                         fontFamily: 'MulishSemiBold',
                         fontSize: 10
                     },
-                    tabBarIcon: ({ focused, color, size }) => <Images.reportSVG color={color}/>
+                    tabBarIcon: ({ color }) => <Images.reportSVG color={color}/>
                 }}
             />
             <Tab.Screen
                 name="Deposits"
                 component={PlaceholderPage}
                 options={{
-                    tabBarIcon: ({ focused, color, size }) => <Images.safeDepositSVG color={color}/>
+                    tabBarIcon: ({ color }) => <Images.safeDepositSVG color={color}/>
                 }}
             />
             <Tab.Screen
                 name="Loans"
                 component={PlaceholderPage}
                 options={{
-                    tabBarIcon: ({ focused, color, size }) => <Images.walletSVG color={color}/>
+                    tabBarIcon: ({ color }) => <Images.walletSVG color={color}/>
                 }}
             />
             <Tab.Screen
                 name="Notifications"
                 component={PlaceholderPage}
                 options={{
-                    tabBarIcon: ({ focused, color, size }) => <Images.notificationBellSVG color={color}/>,
+                    tabBarIcon: ({ color }) => <Images.notificationBellSVG color={color}/>,
                     tabBarBadge: '',
                     tabBarBadgeStyle: {
                         maxHeight: 8,
@@ -112,7 +131,7 @@ function Main(){
                 name="More"
                 component={PlaceholderPage}
                 options={{
-                    tabBarIcon: ({ focused, color, size }) => <Images.categorySVG color={color}/>
+                    tabBarIcon: ({ color }) => <Images.categorySVG color={color}/>
                 }}
             />
         </Tab.Navigator>
@@ -134,9 +153,9 @@ function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator
-                initialRouteName='Main'
-                screenOptions={({ navigation, route }) => ({
-                    headerLeft: (props) => <Pressable hitSlop={20} onPress={() => navigation.goBack()}>
+                initialRouteName='Onboarding'
+                screenOptions={({ navigation }) => ({
+                    headerLeft: () => <Pressable hitSlop={20} onPress={() => navigation.goBack()}>
                         <Entypo name="chevron-thin-left" size={20} color="black" />
                     </Pressable>,
                     headerShadowVisible: false,
@@ -186,6 +205,17 @@ function App() {
                     }}
                 />
                 <Stack.Screen 
+                    name="Transaction details"
+                    component={TransactionDetailsPage}
+                    options={{
+                        headerTitle: '',
+                        headerTransparent: true,
+                        headerStyle: {
+                            backgroundColor: '#0000'
+                        },
+                    }}
+                />
+                <Stack.Screen 
                     name="Mobile payment"
                     component={MobilePaymentPage}
                 />
@@ -213,18 +243,9 @@ function App() {
 
 let AppEntryPoint = App
 
-if (Constants.expoConfig.extra.storybookEnabled === 'true') {
+if (Constants.expoConfig?.extra?.storybookEnabled === 'true') {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     AppEntryPoint = require('./.storybook').default
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        width: '100%',
-        backgroundColor: '#FAFCFF',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-})
 
 export default AppEntryPoint

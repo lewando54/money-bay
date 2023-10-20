@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import Separator from './Separator'
 
 const meta = {
-	component: Separator,
-	argTypes: {
+    component: Separator,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof Separator>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof Separator>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

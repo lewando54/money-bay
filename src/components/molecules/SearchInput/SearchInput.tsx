@@ -1,6 +1,5 @@
 ﻿import React from 'react'
 import Input from '../../atoms/Input/Input'
-import searchInputStyle from './SearchInput.style'
 import { StyleProp, ViewStyle, TextStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'

@@ -4,17 +4,17 @@ import { StoryObj, Meta } from '@storybook/react-native'
 import Accordion from './Accordion'
 
 const meta = {
-	component: Accordion,
-	argTypes: {
+    component: Accordion,
+    argTypes: {
         // To write
-	}
+    }
 } satisfies Meta<typeof Accordion>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof Accordion>
 
 export const Default: Story = {
-	args: {
+    args: {
         // To write
-	}
+    }
 }

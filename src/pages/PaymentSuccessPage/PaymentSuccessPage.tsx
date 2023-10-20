@@ -2,11 +2,16 @@ import { Text, View } from 'react-native'
 import React from 'react'
 import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
 import { GOOD_GREEN } from '../../styling/GlobalTheme.style'
-import Images from 'assets/images'
+import Images from '@assets/images'
+import paymentSuccessPageStyle from './PaymentSuccessPage.style'
 import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-export default function PaymentSuccessPage({route, navigation}) {
-    const { wholeAmount, decimalAmount, phoneNumber } = route.params
+type Props = NativeStackScreenProps<RootStackParamList, 'Payment success'>
+
+export default function PaymentSuccessPage({route, navigation}: Props) {
+    const { wholeAmount, decimalAmount } = route.params
 
     return (
         <InfoScreenTemplate
@@ -15,9 +20,9 @@ export default function PaymentSuccessPage({route, navigation}) {
             titleColor={GOOD_GREEN}
             body={
                 <View>
-                    <View>
-                        <Text>$ {wholeAmount}.</Text>
-                        <Text>{decimalAmount}</Text>
+                    <View style={paymentSuccessPageStyle.moneyTextContainer}>
+                        <Text style={paymentSuccessPageStyle.moneyBigText}>$ {wholeAmount}.</Text>
+                        <Text style={paymentSuccessPageStyle.moneySmallText}>{parseInt(decimalAmount).toLocaleString(undefined, {minimumIntegerDigits: 2})}</Text>
                     </View>
                     <Text style={InfoScreenPageStyle.bodyText}>
                         Your payment has been processed!
@@ -30,8 +35,7 @@ export default function PaymentSuccessPage({route, navigation}) {
                     color: 'secondary',
                     onClick: () => navigation.navigate('Transaction details', {
                         wholeAmount,
-                        decimalAmount,
-                        phoneNumber
+                        decimalAmount
                     })
                 }
             ]}

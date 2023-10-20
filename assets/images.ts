@@ -18,6 +18,7 @@ import PayPal from './img/paypal.svg'
 import TransferLine from './img/transfer-line.svg'
 import AccountSuccess from './img/account_success.svg'
 import InfoSuccess from './img/info_success.svg'
+import SuccessDetails from './img/success_details.svg'
 
 export default {
     onboarding2: require('./img/onboarding-2.png'),
@@ -31,7 +32,7 @@ export default {
     miniLogo: require('./img/mini-logo.png'),
     faceidLineSVG: FaceidLine,
     epCloseSVG: EpClose,
-    profile: require('./img/profile.png'),
+    profilePicture: require('./img/profile.png'),
     bgDashboard: require('./img/bg-dashboard.png'),
     profileIcon: require('./img/profile-icon.png'),
     creditCardSVG: CreditCard,
@@ -52,5 +53,6 @@ export default {
     transferLineSVG: TransferLine,
     accountSuccessSVG: AccountSuccess,
     infoSuccessSVG: InfoSuccess,
-    bgInfoCard: require('./img/bg-info-card.png')
+    bgInfoCard: require('./img/bg-info-card.png'),
+    successDetailsSVG: SuccessDetails
 }

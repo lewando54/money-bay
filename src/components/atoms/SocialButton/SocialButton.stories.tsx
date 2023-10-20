@@ -1,8 +1,7 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react'
+import { StoryObj, Meta } from '@storybook/react-native'
 
 import SocialButton from './SocialButton'
-import { create } from 'react-test-renderer'
 
 const meta = {
     component: SocialButton,
@@ -15,7 +14,7 @@ const meta = {
 } satisfies Meta<typeof SocialButton>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<typeof SocialButton>
 
 export const Default: Story = {
     args: {

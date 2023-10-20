@@ -1,11 +1,12 @@
-import { View, Text } from 'react-native'
 import React, { useState } from 'react'
 import SignUpTemplate from '../../components/templates/SignUpTemplate/SignUpTemplate'
 import { TSocialsArray } from '../../components/organisms/SocialButtonList/SocialButtonList'
-import Images from 'assets/images'
-import { MAIN_DARK } from '../../styling/GlobalTheme.style'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+import { RootStackParamList } from '../../../App'
 
-export default function SignUpPage({navigation}) {
+type Props = NativeStackScreenProps<RootStackParamList, 'Sign up'>
+
+export default function SignUpPage({navigation}: Props) {
     const socials: TSocialsArray = [
         { id: 0, color: '#3B5999', icon: 'facebook', href: 'https://google.pl/' },
         { id: 1, color: '#55ACEE', icon: 'twitter', href: 'https://google.pl/' },

@@ -1,4 +1,5 @@
-import { TouchableOpacity, Image, View } from 'react-native'
+import React from 'react'
+import { TouchableOpacity, View } from 'react-native'
 import circleWithIconStyle from './CircleWithIcon.style'
 import { AntDesign } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient'
@@ -52,7 +53,7 @@ export default function CircleWithIcon({
                 testID={testID}
                 onPress={onClick}
             >
-                    {icon}
+                {icon}
             </TouchableOpacity>
         )
     }

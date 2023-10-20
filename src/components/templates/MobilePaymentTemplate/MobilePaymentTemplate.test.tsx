@@ -1,21 +1,7 @@
-﻿import React, { useState } from 'react'
+﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import { fireEvent, render, screen } from '@testing-library/react-native'
+import { fireEvent, render } from '@testing-library/react-native'
 import MobilePaymentTemplate from './MobilePaymentTemplate'
-
-function Stateful(){
-    const [wholeAmount, setWholeAmount] = useState('')
-    const [decimalAmount, setDecimalAmount] = useState('')
-
-    return (
-        <MobilePaymentTemplate
-            decimalValue={decimalAmount}
-            onDecimalChange={(newValue) => setDecimalAmount(newValue)}
-            wholeValue={wholeAmount}
-            onWholeChange={(newValue) => setWholeAmount(newValue)}
-        />
-    )
-}
 
 describe('MobilePaymentTemplate', () => {
     it('should render correctly', () => {
