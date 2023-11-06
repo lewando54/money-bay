@@ -1,0 +1,16 @@
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint code
+        run: |
+          npm run lint
+
+      - name: Test code
+        run: |
+          npm run test-coverage
