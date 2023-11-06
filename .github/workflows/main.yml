@@ -10,9 +10,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Lint code
         run: |
-          npm ci
+          yarn install
           npm run lint
       - name: Test code
         run: |
-          npm ci
+          yarn install
           npm run test-coverage
