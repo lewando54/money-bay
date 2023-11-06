@@ -1,4 +1,5 @@
 ﻿import { StyleSheet } from 'react-native'
+
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 export default StyleSheet.create({
     iconAndTitleWrapper: {

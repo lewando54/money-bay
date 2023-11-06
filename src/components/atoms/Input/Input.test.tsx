@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
 import { fireEvent, render } from '@testing-library/react-native'
+
 import Input from './Input'
 import inputStyle from './Input.style'
 

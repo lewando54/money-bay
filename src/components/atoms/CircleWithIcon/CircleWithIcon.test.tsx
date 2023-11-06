@@ -1,6 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import { fireEvent, render } from '@testing-library/react-native'
+
 import CircleWithIcon from './CircleWithIcon'
 describe('CircleWithIcon', () => {
     it('should render correctly', () => {

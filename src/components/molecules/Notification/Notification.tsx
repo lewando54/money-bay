@@ -1,12 +1,14 @@
 ﻿import React from 'react'
-import { View, Text } from 'react-native'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import notificationStyle from './Notification.style'
-import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
+import { Text,View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 import { AntDesign } from '@expo/vector-icons' 
-import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+
+import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import Separator from '../../atoms/Separator/Separator'
+import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+
+import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+import notificationStyle from './Notification.style'
 
 type TNotificationType = 'warning' | 'error' | 'correct'
 

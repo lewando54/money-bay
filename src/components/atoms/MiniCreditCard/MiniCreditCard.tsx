@@ -1,8 +1,10 @@
 import React from 'react'
 import { Image } from 'react-native'
-import miniCreditCardStyle from './MiniCreditCard.style'
 import { LinearGradient } from 'expo-linear-gradient'
-import { TCardIssuer, getIssuerLogo } from '../../../utils/cardIssuers'
+
+import { getIssuerLogo,TCardIssuer } from '../../../utils/cardIssuers'
+
+import miniCreditCardStyle from './MiniCreditCard.style'
 
 type TGradientColors = Array<string>
 

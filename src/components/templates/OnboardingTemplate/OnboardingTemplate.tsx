@@ -1,8 +1,10 @@
 ﻿import React from 'react'
-import onboardingTemplateStyle from './OnboardingTemplate.style'
-import OnboardingSlides, { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
 import { ImageBackground, View } from 'react-native'
 import Images from '@assets/images'
+
+import OnboardingSlides, { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
+
+import onboardingTemplateStyle from './OnboardingTemplate.style'
 
 interface IOnboardingTemplateProps {
     data: TOnboardingSlides

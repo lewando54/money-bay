@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+
 import NewPasswordTemplate from '../../components/templates/NewPasswordTemplate/NewPasswordTemplate'
 
 export default function NewPasswordPage() {

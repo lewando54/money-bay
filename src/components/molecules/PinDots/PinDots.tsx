@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import pinDotsStyle from './PinDots.style'
 import { View } from 'react-native'
 import Animated, { SharedValue, useAnimatedStyle } from 'react-native-reanimated'
+
+import pinDotsStyle from './PinDots.style'
 
 interface IPinDotsProps {
     maxLength?: number,

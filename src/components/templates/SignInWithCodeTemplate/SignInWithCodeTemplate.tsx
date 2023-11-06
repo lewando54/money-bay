@@ -1,14 +1,15 @@
 ﻿import React from 'react'
-import signInWithCodeTemplateStyle from './SignInWithCodeTemplate.style'
-import { View, Image, Text, ImageSourcePropType } from 'react-native'
+import { Image, ImageSourcePropType,Text, View } from 'react-native'
+import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
+import Images from '@assets/images'
+
+import Link from '../../atoms/Link/Link'
+import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import PinDots from '../../molecules/PinDots/PinDots'
 
 import Close from './assets/ep_close.svg'
 import FaceID from './assets/faceid-line.svg'
-import Link from '../../atoms/Link/Link'
-import Images from '@assets/images'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import PinDots from '../../molecules/PinDots/PinDots'
-import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
+import signInWithCodeTemplateStyle from './SignInWithCodeTemplate.style'
 
 interface ISignInWithCodeTemplateProps {
     name?: string

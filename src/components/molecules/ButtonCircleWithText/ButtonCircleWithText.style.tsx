@@ -1,4 +1,5 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
+
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 const { width } = Dimensions.get('screen')

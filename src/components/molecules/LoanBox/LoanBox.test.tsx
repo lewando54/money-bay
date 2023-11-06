@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
+
 import LoanBox from './LoanBox'
 describe('LoanBox', () => {
     it('should render correctly', () => {

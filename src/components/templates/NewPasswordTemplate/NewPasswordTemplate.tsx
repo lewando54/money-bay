@@ -1,8 +1,10 @@
 ﻿import React from 'react'
-import newPasswordTemplateStyle from './NewPasswordTemplate.style'
-import { View, Text } from 'react-native'
-import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
+import { Text,View } from 'react-native'
+
 import Button from '../../atoms/Button/Button'
+import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
+
+import newPasswordTemplateStyle from './NewPasswordTemplate.style'
 
 interface INewPasswordTemplateProps {
     newPasswordValue?: string

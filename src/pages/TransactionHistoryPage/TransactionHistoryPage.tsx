@@ -1,6 +1,8 @@
 import React from 'react'
-import TransactionHistoryTemplate from '../../components/templates/TransactionHistoryTemplate/TransactionHistoryTemplate'
 import Images from '@assets/images'
+
+import TransactionHistoryTemplate from '../../components/templates/TransactionHistoryTemplate/TransactionHistoryTemplate'
+
 import { ORANGE } from '../../styling/GlobalTheme.style'
 
 export default function TransactionHistoryPage() {

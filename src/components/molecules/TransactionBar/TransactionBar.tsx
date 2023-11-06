@@ -1,10 +1,12 @@
 ﻿import React from 'react'
-import { View, Text, Dimensions } from 'react-native'
+import { Dimensions,Text, View } from 'react-native'
+import { MaterialIcons } from '@expo/vector-icons'
+
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import transactionBarStyle from './TransactionBar.style'
-import { MaterialIcons } from '@expo/vector-icons'
+
 import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import transactionBarStyle from './TransactionBar.style'
 
 export type TTransactionsArray = Array<{
     icon: React.ReactNode,

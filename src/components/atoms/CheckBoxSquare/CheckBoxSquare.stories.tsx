@@ -1,9 +1,9 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
-
-import CheckBoxSquare from './CheckBoxSquare'
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import React, { useState } from 'react'
+import { Meta,StoryObj } from '@storybook/react-native'
+
+import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import CheckBoxSquare from './CheckBoxSquare'
 
 interface ICheckBoxSquareMockupProps {
     checked?: boolean

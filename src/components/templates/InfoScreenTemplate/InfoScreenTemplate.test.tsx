@@ -1,9 +1,10 @@
 ﻿import React from 'react'
-import renderer from 'react-test-renderer'
-import InfoScreenTemplate from './InfoScreenTemplate'
-import Images from '@assets/images'
 import { Text } from 'react-native'
+import renderer from 'react-test-renderer'
+import Images from '@assets/images'
+
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import InfoScreenTemplate from './InfoScreenTemplate'
 describe('InfoScreenTemplate', () => {
     it('should render correctly', () => {
         const tree = renderer.create(<InfoScreenTemplate />)

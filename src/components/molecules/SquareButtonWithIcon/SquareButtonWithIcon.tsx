@@ -1,9 +1,11 @@
 ﻿import React from 'react'
-import { TouchableOpacity, Text, View } from 'react-native'
+import { Text, TouchableOpacity, View } from 'react-native'
+import { AntDesign } from '@expo/vector-icons'
+
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+
 import squareButtonWithIconStyle from './SquareButtonWithIcon.style'
-import { AntDesign } from '@expo/vector-icons'
 
 interface ISquareButtonWithIconProps {
     buttonBackgroundColor?: string

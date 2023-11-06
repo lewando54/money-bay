@@ -1,12 +1,14 @@
 ﻿import React from 'react'
-import signInTemplateStyle from './SignInTemplate.style'
-import EmailInput from '../../molecules/EmailInput/EmailInput'
-import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
+import { Text,View } from 'react-native'
+
+import Button from '../../atoms/Button/Button'
 import CheckBoxSquare from '../../atoms/CheckBoxSquare/CheckBoxSquare'
 import Link from '../../atoms/Link/Link'
-import Button from '../../atoms/Button/Button'
-import { View, Text } from 'react-native'
+import EmailInput from '../../molecules/EmailInput/EmailInput'
+import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
 import SocialButtonList, { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
+
+import signInTemplateStyle from './SignInTemplate.style'
 
 interface ISignInTemplateProps {
     emailValue?: string

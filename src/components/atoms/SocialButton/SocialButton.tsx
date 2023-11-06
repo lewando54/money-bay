@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesome5 } from '@expo/vector-icons'
+
 import socialButtonStyle from './SocialButton.style'
 export type TiconProp = 'facebook' | 'google' | 'linkedin' | 'twitter'
 import { Linking, Pressable } from 'react-native'

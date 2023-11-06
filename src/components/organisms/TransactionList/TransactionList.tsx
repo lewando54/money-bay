@@ -1,8 +1,10 @@
 ﻿import React from 'react'
-import TransactionBar, { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
-import transactionListStyle from './TransactionList.style'
-import Images from '@assets/images'
 import { View } from 'react-native'
+import Images from '@assets/images'
+
+import TransactionBar, { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
+
+import transactionListStyle from './TransactionList.style'
 
 interface ITransactionListProps {
     transactionsData?: TTransactionsArray

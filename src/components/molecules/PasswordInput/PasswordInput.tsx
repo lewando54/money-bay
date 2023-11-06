@@ -1,7 +1,9 @@
 ﻿import React, { useState } from 'react'
-import Input from '../../atoms/Input/Input'
+import { StyleProp, TextStyle,ViewStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
-import { StyleProp, ViewStyle, TextStyle } from 'react-native'
+
+import Input from '../../atoms/Input/Input'
+
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 
 interface IPasswordInputProps {

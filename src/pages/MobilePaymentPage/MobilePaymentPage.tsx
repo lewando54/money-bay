@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import MobilePaymentTemplate from '../../components/templates/MobilePaymentTemplate/MobilePaymentTemplate'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
 import { RootStackParamList } from '../../../App'
+import MobilePaymentTemplate from '../../components/templates/MobilePaymentTemplate/MobilePaymentTemplate'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Mobile payment'>
 

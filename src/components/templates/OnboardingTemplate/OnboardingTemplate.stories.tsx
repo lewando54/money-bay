@@ -1,6 +1,7 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import Images from '@assets/images'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import OnboardingTemplate from './OnboardingTemplate'
 
 const meta = {

@@ -1,7 +1,8 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
-import UniversalContainer from './UniversalContainer'
 import { Text } from 'react-native'
+import renderer from 'react-test-renderer'
+
+import UniversalContainer from './UniversalContainer'
 
 describe('UniversalContainer', () => {
     it('should render correctly', () => {

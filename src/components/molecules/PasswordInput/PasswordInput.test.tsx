@@ -1,6 +1,7 @@
 ﻿import React, { useState } from 'react'
 import renderer from 'react-test-renderer'
 import { fireEvent, render, waitFor } from '@testing-library/react-native'
+
 import PasswordInput from './PasswordInput'
 
 interface IInputMockupProps {

@@ -1,6 +1,7 @@
 ﻿import React, { useState } from 'react'
 import renderer from 'react-test-renderer'
 import { fireEvent, render } from '@testing-library/react-native'
+
 import EmailInput from './EmailInput'
 
 interface IInputMockupProps {

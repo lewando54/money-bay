@@ -1,12 +1,14 @@
-import { Text, View } from 'react-native'
 import React from 'react'
-import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
-import { GOOD_GREEN } from '../../styling/GlobalTheme.style'
+import { Text, View } from 'react-native'
 import Images from '@assets/images'
-import paymentSuccessPageStyle from './PaymentSuccessPage.style'
-import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
 import { RootStackParamList } from '../../../App'
+import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
+
+import { GOOD_GREEN } from '../../styling/GlobalTheme.style'
+import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
+import paymentSuccessPageStyle from './PaymentSuccessPage.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Payment success'>
 

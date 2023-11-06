@@ -1,8 +1,8 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
+import React, { useState } from 'react'
+import { Meta,StoryObj } from '@storybook/react-native'
 
 import NewPasswordTemplate from './NewPasswordTemplate'
-import React, { useState } from 'react'
 
 interface IStatefulPasswordMockupProps {
     onSubmit: () => void

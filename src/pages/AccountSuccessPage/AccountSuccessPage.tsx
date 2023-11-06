@@ -1,11 +1,13 @@
-import { Text } from 'react-native'
 import React from 'react'
-import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
-import { MAIN_DARK } from '../../styling/GlobalTheme.style'
+import { Text } from 'react-native'
 import Images from '@assets/images'
-import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
 import { RootStackParamList } from '../../../App'
+import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
+
+import { MAIN_DARK } from '../../styling/GlobalTheme.style'
+import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Account success'>
 

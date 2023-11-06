@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
+
 import Notification from './Notification'
 describe('Notification', () => {
     it('should render correctly', () => {

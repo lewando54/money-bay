@@ -1,10 +1,11 @@
 ﻿import React from 'react'
 import { useState } from 'react'
-import accordionStyle from './Accordion.style'
 import { Pressable, Text, View } from 'react-native'
 import Animated, { interpolate, interpolateColor, measure, runOnUI, useAnimatedRef, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import { Entypo } from '@expo/vector-icons'
+
 import globalThemeStyle, { BODY_TEXT_COLOR } from '../../../styling/GlobalTheme.style'
+import accordionStyle from './Accordion.style'
 
 interface IAccordionProps {
     extended?: boolean

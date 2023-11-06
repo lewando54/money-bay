@@ -1,7 +1,8 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
 import React from 'react'
-import { StoryObj, Meta } from '@storybook/react-native'
 import Images from '@assets/images'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import DashboardTemplate from './DashboardTemplate'
 
 const meta = {

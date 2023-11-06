@@ -1,7 +1,8 @@
 import React from 'react'
 import { StyleProp, TouchableOpacity, View, ViewStyle } from 'react-native'
-import universalContainerStyle from './UniversalContainer.style'
+
 import globalThemeStyle from '../../../styling/GlobalTheme.style'
+import universalContainerStyle from './UniversalContainer.style'
 
 interface IUniversalContainerProps {
     children?: React.ReactNode

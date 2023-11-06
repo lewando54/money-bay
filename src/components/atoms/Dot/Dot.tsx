@@ -1,8 +1,9 @@
 ﻿import React from 'react'
-import dotStyle from './Dot.style'
-import Animated, { Extrapolate, SharedValue, interpolate, useAnimatedStyle } from 'react-native-reanimated'
 import { Dimensions } from 'react-native'
+import Animated, { Extrapolate, interpolate, SharedValue, useAnimatedStyle } from 'react-native-reanimated'
+
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import dotStyle from './Dot.style'
 
 interface IDotProps {
     index?: number

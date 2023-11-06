@@ -1,11 +1,13 @@
 ﻿import React from 'react'
-import paginationStyle from './Pagination.style'
-import { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
-import { SharedValue } from 'react-native-reanimated'
 import { View } from 'react-native'
-import Dot from '../Dot/Dot'
-import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import { SharedValue } from 'react-native-reanimated'
+
+import { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
 import { TCardsArray } from '../../templates/DashboardTemplate/DashboardTemplate'
+import Dot from '../Dot/Dot'
+
+import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import paginationStyle from './Pagination.style'
 
 interface IPaginationProps {
     data?: TOnboardingSlides | TCardsArray

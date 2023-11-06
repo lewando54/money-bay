@@ -1,8 +1,9 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { render, fireEvent, screen } from '@testing-library/react-native'
-import Button from './Button'
+import { fireEvent, render, screen } from '@testing-library/react-native'
+
 import { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '../../../styling/GlobalTheme.style'
+import Button from './Button'
 
 describe('Button', () => {
     it('should render correctly', () => {

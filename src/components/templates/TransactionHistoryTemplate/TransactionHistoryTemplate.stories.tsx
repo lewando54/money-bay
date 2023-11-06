@@ -1,9 +1,10 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
 import Images from '@assets/images'
-import TransactionHistory from './TransactionHistoryTemplate'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import { ORANGE } from '../../../styling/GlobalTheme.style'
+import TransactionHistory from './TransactionHistoryTemplate'
 
 const meta = {
     component: TransactionHistory,

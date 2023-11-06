@@ -1,11 +1,13 @@
 ﻿import React from 'react'
-import transactionHistoryStyle from './TransactionHistoryTemplate.style'
-import SearchInput from '../../molecules/SearchInput/SearchInput'
-import { View, Text, FlatList } from 'react-native'
-import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
-import { ORANGE } from '../../../styling/GlobalTheme.style'
+import { FlatList,Text, View } from 'react-native'
 import Images from '@assets/images'
+
+import SearchInput from '../../molecules/SearchInput/SearchInput'
+import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
 import TransactionList from '../../organisms/TransactionList/TransactionList'
+
+import { ORANGE } from '../../../styling/GlobalTheme.style'
+import transactionHistoryStyle from './TransactionHistoryTemplate.style'
 
 interface ITransactionHistoryProps {
     transactionsData?: TTransactionsArray

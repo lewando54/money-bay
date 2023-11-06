@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import linkStyle from './Link.style'
 import { StyleProp, Text, TextStyle } from 'react-native'
+
+import linkStyle from './Link.style'
 
 interface ILinkProps {
     onPress?: () => void

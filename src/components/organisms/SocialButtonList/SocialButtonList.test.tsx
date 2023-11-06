@@ -1,6 +1,7 @@
 import React from 'react'
-import { render } from '@testing-library/react-native'
 import * as renderer from 'react-test-renderer'
+import { render } from '@testing-library/react-native'
+
 import SocialButtonList, { TSocialsArray } from './SocialButtonList'
 
 describe('SocialButtonList', () => {

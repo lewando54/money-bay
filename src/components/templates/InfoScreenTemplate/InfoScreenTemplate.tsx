@@ -1,7 +1,9 @@
 ﻿import React from 'react'
-import Button, { colorProp, sizeProp } from '../../atoms/Button/Button'
-import { StyleProp, ViewStyle, Text, Image, View } from 'react-native'
+import { Image, StyleProp, Text, View,ViewStyle } from 'react-native'
 import Images from '@assets/images'
+
+import Button, { colorProp, sizeProp } from '../../atoms/Button/Button'
+
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import InfoScreenTemplateStyle from './InfoScreenTemplate.style'
 

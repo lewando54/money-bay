@@ -1,9 +1,11 @@
 ﻿import React, { useState } from 'react'
-import { StyleProp, TextInput, TextStyle, ViewStyle, Pressable, KeyboardTypeOptions } from 'react-native'
-import inputStyle from './Input.style'
-import UniversalContainer from '../UniversalContainer/UniversalContainer'
+import { KeyboardTypeOptions,Pressable, StyleProp, TextInput, TextStyle, ViewStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
+
+import UniversalContainer from '../UniversalContainer/UniversalContainer'
+
 import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import inputStyle from './Input.style'
 
 interface IInputProps {
     value?: string

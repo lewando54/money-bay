@@ -1,8 +1,9 @@
 import React from 'react'
-import { render, screen, fireEvent } from '@testing-library/react-native'
-import SocialButton from './SocialButton'
 import { Linking } from 'react-native'
 import { FontAwesome5 } from '@expo/vector-icons'
+import { fireEvent,render, screen } from '@testing-library/react-native'
+
+import SocialButton from './SocialButton'
 
 describe('Social Button', () => {
     jest.useFakeTimers()

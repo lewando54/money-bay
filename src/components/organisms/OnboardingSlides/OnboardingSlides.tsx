@@ -1,10 +1,12 @@
 ﻿import React from 'react'
-import onboardingSlidesStyle from './OnboardingSlides.style'
 import { ImageSourcePropType, View } from 'react-native'
-import OnboardingSlide from '../../molecules/OnboardingSlide/OnboardingSlide'
-import Button from '../../atoms/Button/Button'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
+
+import Button from '../../atoms/Button/Button'
 import Pagination from '../../atoms/Pagination/Pagination'
+import OnboardingSlide from '../../molecules/OnboardingSlide/OnboardingSlide'
+
+import onboardingSlidesStyle from './OnboardingSlides.style'
 
 export type TOnboardingSlides = Array<{ 
     id: number, 

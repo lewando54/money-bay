@@ -1,6 +1,7 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React, { useState } from 'react'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import Input from './Input'
 
 interface IInputMockupProps {

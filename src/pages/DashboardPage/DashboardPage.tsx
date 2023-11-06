@@ -1,9 +1,10 @@
 import React from 'react'
-import DashboardTemplate from '../../components/templates/DashboardTemplate/DashboardTemplate'
-import { NativeStackScreenProps } from '@react-navigation/native-stack'
-import { RootStackParamList, TabParamList } from '../../../App'
-import { CompositeScreenProps } from '@react-navigation/native'
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs'
+import { CompositeScreenProps } from '@react-navigation/native'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
+import { RootStackParamList, TabParamList } from '../../../App'
+import DashboardTemplate from '../../components/templates/DashboardTemplate/DashboardTemplate'
 
 type Props = CompositeScreenProps<
     BottomTabScreenProps<TabParamList, 'Dashboard'>,

@@ -1,19 +1,20 @@
 ﻿import React from 'react'
-import dashboardTemplateStyle from './DashboardTemplate.style'
-import { Dimensions, ImageBackground, Image, View, Text } from 'react-native'
-
-import Images from '@assets/images'
-import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
-import { TCurrency } from '../../../utils/currency'
-import { TCardIssuer } from '../../../utils/cardIssuers'
-import CreditCard from '../../atoms/CreditCard/CreditCard'
-import Pagination from '../../atoms/Pagination/Pagination'
+import { Dimensions, Image, ImageBackground, Text,View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
-import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCircleWithText'
-import Separator from '../../atoms/Separator/Separator'
+import Images from '@assets/images'
+
+import { TCardIssuer } from '../../../utils/cardIssuers'
+import { TCurrency } from '../../../utils/currency'
+import CreditCard from '../../atoms/CreditCard/CreditCard'
 import Link from '../../atoms/Link/Link'
+import Pagination from '../../atoms/Pagination/Pagination'
+import Separator from '../../atoms/Separator/Separator'
+import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCircleWithText'
 import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
 import TransactionList from '../../organisms/TransactionList/TransactionList'
+
+import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
+import dashboardTemplateStyle from './DashboardTemplate.style'
 
 const {width, height} = Dimensions.get('screen')
 

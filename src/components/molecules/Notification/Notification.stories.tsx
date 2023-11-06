@@ -1,5 +1,5 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
+import { Meta,StoryObj } from '@storybook/react-native'
 
 import Notification from './Notification'
 

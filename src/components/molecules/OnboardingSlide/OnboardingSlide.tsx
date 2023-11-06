@@ -1,8 +1,9 @@
 ﻿import React from 'react'
-import onboardingSlideStyle from './OnboardingSlide.style'
 import { Dimensions, Image, ImageSourcePropType, StyleProp, Text, View, ViewStyle } from 'react-native'
+import Animated, { Extrapolate, interpolate, SharedValue, useAnimatedStyle } from 'react-native-reanimated'
+
 import Logo from './assets/Logo.svg'
-import Animated, { Extrapolate, SharedValue, interpolate, useAnimatedStyle } from 'react-native-reanimated'
+import onboardingSlideStyle from './OnboardingSlide.style'
 
 interface IOnboardingSlideProps {
     id?: number

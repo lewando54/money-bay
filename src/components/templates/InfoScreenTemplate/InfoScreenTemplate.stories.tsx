@@ -1,9 +1,10 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
 import { Text } from 'react-native'
-import InfoScreenTemplate from './InfoScreenTemplate'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import InfoScreenTemplate from './InfoScreenTemplate'
 
 const meta = {
     component: InfoScreenTemplate,

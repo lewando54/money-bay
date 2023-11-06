@@ -1,12 +1,14 @@
 ﻿import React from 'react'
-import { View, Text } from 'react-native'
+import { Text,View } from 'react-native'
+
+import { TCurrency } from '../../../utils/currency'
+import Button from '../../atoms/Button/Button'
+import MoneyText from '../../atoms/MoneyText/MoneyText'
 import Separator from '../../atoms/Separator/Separator'
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+
 import Wallet from './assets/wallet.svg'
-import MoneyText from '../../atoms/MoneyText/MoneyText'
-import Button from '../../atoms/Button/Button'
 import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
-import { TCurrency } from '../../../utils/currency'
 
 interface ILoanBoxProps {
     amount?: number

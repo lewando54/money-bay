@@ -1,5 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
+
 import MiniCreditCard from './MiniCreditCard'
 describe('MiniCreditCard', () => {
     it('should render correctly', () => {

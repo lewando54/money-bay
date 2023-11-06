@@ -1,6 +1,8 @@
 ﻿import React from 'react'
-import { TextInput, Image, View, Text, Platform } from 'react-native'
+import { Image, Platform,Text, TextInput, View } from 'react-native'
+
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+
 import phoneInputStyle from './PhoneInput.style'
 
 interface IPhoneInputProps {

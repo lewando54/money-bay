@@ -1,9 +1,10 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
-import SignUpTemplate from './SignUpTemplate'
-import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 import { useState } from 'react'
+import { Meta,StoryObj } from '@storybook/react-native'
+import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
+
+import SignUpTemplate from './SignUpTemplate'
 
 interface IStatefulSignUpMockupProps {
     emailValue?: string

@@ -1,10 +1,12 @@
 import React from 'react'
-import TransactionDetailsTemplate from '../../components/templates/TransactionDetailsTemplate/TransactionDetailsTemplate'
-import { View, Text } from 'react-native'
+import { Text,View } from 'react-native'
 import Images from '@assets/images'
-import globalThemeStyle, { GOOD_GREEN } from '../../styling/GlobalTheme.style'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
 import { RootStackParamList } from '../../../App'
+import TransactionDetailsTemplate from '../../components/templates/TransactionDetailsTemplate/TransactionDetailsTemplate'
+
+import globalThemeStyle, { GOOD_GREEN } from '../../styling/GlobalTheme.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Transaction details'>
 

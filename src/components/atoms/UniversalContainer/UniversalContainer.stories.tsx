@@ -1,9 +1,10 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
-import CircleWithIcon from '../CircleWithIcon/CircleWithIcon'
 import { Text, View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
+import { Meta,StoryObj } from '@storybook/react-native'
+
+import CircleWithIcon from '../CircleWithIcon/CircleWithIcon'
 
 function ExampleChildren(){
     return (

@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
 import { fireEvent, render } from '@testing-library/react-native'
+
 import RadioButton from './RadioButton'
 describe('RadioButton', () => {
     jest.useFakeTimers()

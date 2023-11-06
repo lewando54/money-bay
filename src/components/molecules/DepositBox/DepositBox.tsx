@@ -1,14 +1,16 @@
 ﻿import React from 'react'
-import { View, Text } from 'react-native'
+import { Text,View } from 'react-native'
+
 import { TCurrency } from '../../../utils/currency'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import depositBoxStyle from './DepositBox.style'
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE } from '../../../styling/GlobalTheme.style'
-import SafeDeposit from './assets/safe-deposit.svg'
-import Check from './assets/check.svg'
 import Button from '../../atoms/Button/Button'
 import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
 import MoneyText from '../../atoms/MoneyText/MoneyText'
+import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+
+import Check from './assets/check.svg'
+import SafeDeposit from './assets/safe-deposit.svg'
+import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE } from '../../../styling/GlobalTheme.style'
+import depositBoxStyle from './DepositBox.style'
 
 interface IDepositBoxProps {
     currentAmount?: number

@@ -1,7 +1,8 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
-import PasswordInput from './PasswordInput'
 import React, { useState } from 'react'
+import { Meta,StoryObj } from '@storybook/react-native'
+
+import PasswordInput from './PasswordInput'
 
 interface IInputMockupProps {
     value?: string

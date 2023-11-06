@@ -1,13 +1,15 @@
 ﻿import React from 'react'
-import transactionDetailsTemplateStyle from './TransactionDetailsTemplate.style'
-import { View, Image, Text } from 'react-native'
+import { Image, Text,View } from 'react-native'
 import Images from '@assets/images'
-import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
-import { ORANGE } from '../../../styling/GlobalTheme.style'
-import Separator from '../../atoms/Separator/Separator'
+
 import { TCurrency } from '../../../utils/currency'
 import Button from '../../atoms/Button/Button'
+import Separator from '../../atoms/Separator/Separator'
 import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCircleWithText'
+
+import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import { ORANGE } from '../../../styling/GlobalTheme.style'
+import transactionDetailsTemplateStyle from './TransactionDetailsTemplate.style'
 
 interface ITransactionDetailsTemplateProps {
     wholeAmount?: string

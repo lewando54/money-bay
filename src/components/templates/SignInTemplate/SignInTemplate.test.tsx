@@ -1,7 +1,9 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import SignInTemplate from './SignInTemplate'
+
 import { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
+
+import SignInTemplate from './SignInTemplate'
 describe('SignInTemplate', () => {
     const socials: TSocialsArray = [
         { id: 0, color: '#3B5999', icon: 'facebook', href: 'https://google.pl/' },

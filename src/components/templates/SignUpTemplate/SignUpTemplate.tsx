@@ -1,12 +1,14 @@
 ﻿import React from 'react'
-import signUpTemplateStyle from './SignUpTemplate.style'
-import { View, Text } from 'react-native'
+import { Text,View } from 'react-native'
+
+import Button from '../../atoms/Button/Button'
+import Input from '../../atoms/Input/Input'
+import Link from '../../atoms/Link/Link'
 import EmailInput from '../../molecules/EmailInput/EmailInput'
 import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
-import Input from '../../atoms/Input/Input'
-import Button from '../../atoms/Button/Button'
-import Link from '../../atoms/Link/Link'
 import SocialButtonList, { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
+
+import signUpTemplateStyle from './SignUpTemplate.style'
 
 interface ISignUpTemplateProps {
     emailValue?: string

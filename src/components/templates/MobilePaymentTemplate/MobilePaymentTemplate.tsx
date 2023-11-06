@@ -1,10 +1,12 @@
 ﻿import React, { useRef } from 'react'
-import mobilePaymentTemplateStyle from './MobilePaymentTemplate.style'
-import { View, Text, TextInput, Platform } from 'react-native'
-import PhoneInput from '../../molecules/PhoneInput/PhoneInput'
+import { Platform,Text, TextInput, View } from 'react-native'
+
 import { TCurrency } from '../../../utils/currency'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 import Button from '../../atoms/Button/Button'
+import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import PhoneInput from '../../molecules/PhoneInput/PhoneInput'
+
+import mobilePaymentTemplateStyle from './MobilePaymentTemplate.style'
 
 interface IMobilePaymentTemplateProps {
     balance?: number

@@ -1,28 +1,25 @@
 import React from 'react'
 import { Dimensions, Pressable, Text, View } from 'react-native'
+import Images from '@assets/images'
+import { Entypo } from '@expo/vector-icons'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { NavigationContainer, NavigatorScreenParams } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Constants from 'expo-constants'
 import { useFonts } from 'expo-font'
 
-import { NavigationContainer, NavigatorScreenParams } from '@react-navigation/native'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-
-import OnboardingPage from './src/pages/OnboardingPage/OnboardingPage'
-import SignInPage from './src/pages/SignInPage/SignInPage'
-
-import GlobalThemeStyle, { LINK_COLOR, MAIN_DARK } from './src/styling/GlobalTheme.style'
-import { Entypo } from '@expo/vector-icons'
-import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePage'
-import DashboardPage from './src/pages/DashboardPage/DashboardPage'
-
-import Images from '@assets/images'
-import TransactionHistoryPage from './src/pages/TransactionHistoryPage/TransactionHistoryPage'
-import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
-import SignUpPage from './src/pages/SignUpPage/SignUpPage'
 import AccountSuccessPage from './src/pages/AccountSuccessPage/AccountSuccessPage'
-import PaymentSuccessPage from './src/pages/PaymentSuccessPage/PaymentSuccessPage'
+import DashboardPage from './src/pages/DashboardPage/DashboardPage'
 import MobilePaymentPage from './src/pages/MobilePaymentPage/MobilePaymentPage'
+import NewPasswordPage from './src/pages/NewPasswordPage/NewPasswordPage'
+import OnboardingPage from './src/pages/OnboardingPage/OnboardingPage'
+import PaymentSuccessPage from './src/pages/PaymentSuccessPage/PaymentSuccessPage'
+import SignInPage from './src/pages/SignInPage/SignInPage'
+import SignInWithCodePage from './src/pages/SignInWithCodePage/SignInWithCodePage'
+import SignUpPage from './src/pages/SignUpPage/SignUpPage'
 import TransactionDetailsPage from './src/pages/TransactionDetailsPage/TransactionDetailsPage'
+import TransactionHistoryPage from './src/pages/TransactionHistoryPage/TransactionHistoryPage'
+import GlobalThemeStyle, { LINK_COLOR, MAIN_DARK } from './src/styling/GlobalTheme.style'
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()

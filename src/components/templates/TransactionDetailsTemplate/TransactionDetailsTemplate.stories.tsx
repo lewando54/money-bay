@@ -1,11 +1,12 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
+import { Text,View } from 'react-native'
 import Images from '@assets/images'
-import TransactionDetailsTemplate from './TransactionDetailsTemplate'
-import { View, Text } from 'react-native'
-import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import { Meta,StoryObj } from '@storybook/react-native'
 import { TCurrency } from 'src/utils/currency'
+
+import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import TransactionDetailsTemplate from './TransactionDetailsTemplate'
 
 interface IVisibleMockupProps {
     wholeAmount?: string

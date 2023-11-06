@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
-import { render, fireEvent } from '@testing-library/react-native'
+import { fireEvent,render } from '@testing-library/react-native'
+
 import ButtonCircleWithText from './ButtonCircleWithText'
 describe('ButtonCircleWithText', () => {
     it('should render correctly', () => {

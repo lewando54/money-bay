@@ -1,7 +1,8 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { StoryObj, Meta } from '@storybook/react-native'
 import React from 'react'
 import Images from '@assets/images'
+import { Meta,StoryObj } from '@storybook/react-native'
+
 import TransactionList from './TransactionList'
 
 const meta = {

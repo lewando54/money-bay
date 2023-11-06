@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import renderer from 'react-test-renderer'
 import Images from '@assets/images'
+
 import OnboardingTemplate from './OnboardingTemplate'
 describe('OnboardingTemplate', () => {
     const data=[
