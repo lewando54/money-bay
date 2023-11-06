@@ -42,7 +42,8 @@
     },
     "plugins": [
         "@typescript-eslint",
-        "react"
+        "react",
+        "simple-import-sort"
     ],
     "rules": {
         "indent": [
