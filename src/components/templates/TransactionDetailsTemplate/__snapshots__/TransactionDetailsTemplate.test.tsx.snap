@@ -167,7 +167,7 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
           }
         }
       >
-        0
+        00
       </Text>
     </View>
     <Text

@@ -190,6 +190,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                     "width": 579.975,
                   }
                 }
+                testID="creditcard"
               >
                 <RNCMaskedView
                   style={
@@ -577,6 +578,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                     "width": 579.975,
                   }
                 }
+                testID="creditcard"
               >
                 <RNCMaskedView
                   style={
@@ -964,6 +966,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                     "width": 579.975,
                   }
                 }
+                testID="creditcard"
               >
                 <RNCMaskedView
                   style={
