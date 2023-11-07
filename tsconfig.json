@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@assets/*": ["assets/*"],
+      "@react-native-masked-view/masked-view": ["src/modules/@react-native-masked-view/masked-view"],
     }
   },
   "extends": "expo/tsconfig.base",

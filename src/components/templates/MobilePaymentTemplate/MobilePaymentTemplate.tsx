@@ -39,7 +39,6 @@ export default function MobilePaymentTemplate({
 
     const onAmountWholeChangeHandle = (newValue: string) => {
         if(newValue.includes(',') || newValue.includes('.')){
-            console.log(', || . entered')
             newValue = newValue.replace(',', '')
             newValue = newValue.replace('.', '')
             amountWholeRef.current.setNativeProps({
