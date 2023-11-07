@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-nocheck
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -8,12 +10,15 @@
  * @format
  */
 
-import * as React from 'react';
-import { View, StyleSheet, requireNativeComponent } from 'react-native';
+/* eslint-disable */
 
-const RNCMaskedView = requireNativeComponent<any>('RNCMaskedView');
 
-import type { MaskedViewProps } from './MaskedViewTypes';
+import * as React from 'react'
+import { requireNativeComponent,StyleSheet, View } from 'react-native'
+
+const RNCMaskedView = requireNativeComponent<any>('RNCMaskedView')
+
+import type { MaskedViewProps } from './MaskedViewTypes'
 
 /**
  * Renders the child view with a mask specified in the `maskElement` prop.
@@ -53,29 +58,27 @@ import type { MaskedViewProps } from './MaskedViewTypes';
  *
  */
 export default class MaskedView extends React.Component<MaskedViewProps> {
-  _hasWarnedInvalidRenderMask = false;
+    _hasWarnedInvalidRenderMask = false
+    render(): React.Node {
+        const { maskElement, children, ...otherViewProps } = this.props
 
-  render(): React.Node {
-    const { maskElement, children, ...otherViewProps } = this.props;
-
-    if (!React.isValidElement(maskElement)) {
-      if (!this._hasWarnedInvalidRenderMask) {
-        console.warn(
-          'MaskedView: Invalid `maskElement` prop was passed to MaskedView. ' +
+        if (!React.isValidElement(maskElement)) {
+            if (!this._hasWarnedInvalidRenderMask) {
+                console.warn(
+                    'MaskedView: Invalid `maskElement` prop was passed to MaskedView. ' +
             'Expected a React Element. No mask will render.',
-        );
-        this._hasWarnedInvalidRenderMask = true;
-      }
-      return <View {...otherViewProps}>{children}</View>;
+                )
+                this._hasWarnedInvalidRenderMask = true
+            }
+            return <View {...otherViewProps}>{children}</View>
+        }
+        return (
+            <RNCMaskedView {...otherViewProps}>
+                <View pointerEvents="none" style={StyleSheet.absoluteFill}>
+                    {maskElement}
+                </View>
+                {children}
+            </RNCMaskedView>
+        )
     }
-
-    return (
-      <RNCMaskedView {...otherViewProps}>
-        <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-          {maskElement}
-        </View>
-        {children}
-      </RNCMaskedView>
-    );
-  }
 }
