@@ -51,11 +51,11 @@ export default function LoanBox({
                 <View style={{flexDirection: 'row'}}>
                     <View style={{width: '50%'}}>
                         <Text style={globalThemeStyle.text_SubTitle}>Monthly payment</Text>
-                        <Text style={globalThemeStyle.text_Title}>{monthlyPayment.toLocaleString(undefined, {minimumFractionDigits: 2, minimumIntegerDigits: 2}).replace(',', ' ')+' '+currency.iso.toLocaleUpperCase()}</Text>
+                        <Text style={globalThemeStyle.text_Title}>{monthlyPayment.toLocaleString('en-US', {minimumFractionDigits: 2, minimumIntegerDigits: 2}).replace(',', ' ')+' '+currency.iso.toLocaleUpperCase()}</Text>
                     </View>
                     <View style={{width: '50%'}}>
                         <Text style={globalThemeStyle.text_SubTitle}>Total paid</Text>
-                        <Text style={globalThemeStyle.text_Title}>{totalPaid.toLocaleString(undefined, {minimumFractionDigits: 2, minimumIntegerDigits: 2}).replace(',', ' ')+' '+currency.iso.toLocaleUpperCase()}</Text>
+                        <Text style={globalThemeStyle.text_Title}>{totalPaid.toLocaleString('en-US', {minimumFractionDigits: 2, minimumIntegerDigits: 2}).replace(',', ' ')+' '+currency.iso.toLocaleUpperCase()}</Text>
                     </View>
                 </View>
             </View>

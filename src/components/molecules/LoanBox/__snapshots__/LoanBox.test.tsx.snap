@@ -351,7 +351,7 @@ exports[`LoanBox should render correctly 1`] = `
             }
           }
         >
-          1117 00 USD
+          1 117.00 USD
         </Text>
       </View>
       <View
@@ -381,7 +381,7 @@ exports[`LoanBox should render correctly 1`] = `
             }
           }
         >
-          4468 00 USD
+          4 468.00 USD
         </Text>
       </View>
     </View>
@@ -739,7 +739,7 @@ exports[`LoanBox should render one month correctly 1`] = `
             }
           }
         >
-          1117 00 USD
+          1 117.00 USD
         </Text>
       </View>
       <View
@@ -769,7 +769,7 @@ exports[`LoanBox should render one month correctly 1`] = `
             }
           }
         >
-          4468 00 USD
+          4 468.00 USD
         </Text>
       </View>
     </View>

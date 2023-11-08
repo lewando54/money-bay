@@ -526,7 +526,7 @@ exports[`TransactionHistory should render correctly 1`] = `
               }
             }
           >
-            10 wrz
+            Sep 10
           </Text>
           <View
             style={
@@ -965,7 +965,7 @@ exports[`TransactionHistory should render correctly 1`] = `
               }
             }
           >
-            5 wrz
+            Sep 5
           </Text>
           <View
             style={

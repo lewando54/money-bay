@@ -130,7 +130,7 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
         }
       }
     >
-      10 wrz 2022
+      Sep 10, 2022
        at 
       11:34 AM
     </Text>

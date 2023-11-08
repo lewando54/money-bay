@@ -24,7 +24,7 @@ export default function PaymentSuccessPage({route, navigation}: Props) {
                 <View>
                     <View style={paymentSuccessPageStyle.moneyTextContainer}>
                         <Text style={paymentSuccessPageStyle.moneyBigText}>$ {wholeAmount}.</Text>
-                        <Text style={paymentSuccessPageStyle.moneySmallText}>{parseInt(decimalAmount).toLocaleString(undefined, {minimumIntegerDigits: 2})}</Text>
+                        <Text style={paymentSuccessPageStyle.moneySmallText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
                     </View>
                     <Text style={InfoScreenPageStyle.bodyText}>
                         Your payment has been processed!

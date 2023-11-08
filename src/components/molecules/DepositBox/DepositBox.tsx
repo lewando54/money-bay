@@ -40,11 +40,11 @@ export default function DepositBox({
     onExtendClick
 }: IDepositBoxProps){
     const sameYear = dateFrom.getFullYear() == dateTo.getFullYear()
-    const dateFromString = dateFrom.toLocaleDateString(undefined, 
+    const dateFromString = dateFrom.toLocaleDateString('en-US', 
         sameYear ? { month: 'short', day: 'numeric' } :
             { year: 'numeric', month: 'short', day: 'numeric' }
     )
-    const dateToString = dateTo.toLocaleDateString(undefined, {
+    const dateToString = dateTo.toLocaleDateString('en-US', {
         year: 'numeric', month: 'short', day: 'numeric'
     })
     const VarButton = 
@@ -66,7 +66,7 @@ export default function DepositBox({
                 </View>
                 <View style={depositBoxStyle.percentContainer}>
                     <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 16, color: MAIN_DARK}]}>{percent}%</Text>
-                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: GOOD_GREEN}]}>+ {interest.toLocaleString(undefined, {minimumIntegerDigits: 2})}</Text>
+                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: GOOD_GREEN}]}>+ {interest.toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
                 </View>
             </View>
             <View style={depositBoxStyle.buttonsContainer}>

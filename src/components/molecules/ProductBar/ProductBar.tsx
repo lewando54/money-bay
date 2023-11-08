@@ -49,7 +49,7 @@ export default function ProductBar({
                     {name}
                 </Text>
                 <Text style={[globalThemeStyle.text_SemiBold, {color: balanceTextColor ? balanceTextColor : MAIN_DARK}]}>
-                    {balance.toLocaleString(undefined, {minimumIntegerDigits: 2, minimumFractionDigits: 2}).replace(',', ' ')} {currency.iso.toLocaleUpperCase()}
+                    {balance.toLocaleString('en-US', {minimumIntegerDigits: 2, minimumFractionDigits: 2}).replace(',', ' ')} {currency.iso.toLocaleUpperCase()}
                 </Text>
             </View>
             {ThreeDotsMenu}

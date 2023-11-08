@@ -95,7 +95,7 @@ export default function TransactionHistory({
                     }
                     if(prevDate.toISOString() != actDate.toISOString()){
                         const sameYear = date.getFullYear() == item.date.getFullYear()
-                        const dateFromString = item.date.toLocaleDateString(undefined, 
+                        const dateFromString = item.date.toLocaleDateString('en-US', 
                             sameYear ? { month: 'short', day: 'numeric' } :
                                 { year: 'numeric', month: 'short', day: 'numeric' }
                         )

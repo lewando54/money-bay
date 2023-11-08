@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-nocheck
 // @flow
 import { type Node, type Element } from 'react';
 import { type ViewProps } from 'react-native/Libraries/Components/View/ViewPropTypes';

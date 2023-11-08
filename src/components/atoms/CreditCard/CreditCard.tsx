@@ -88,10 +88,10 @@ export default function CreditCard({
                             </Text>
                             <View style={creditCardStyle.balanceBox}>
                                 <Text style={[globalThemeStyle.text_Bold, {marginBottom: 0}, creditCardStyle.balanceInt]}>
-                                    {Math.floor(cardBalance).toLocaleString(undefined, {minimumIntegerDigits: 2}).replace(',', ' ')}.
+                                    {Math.floor(cardBalance).toLocaleString('en-US', {minimumIntegerDigits: 2}).replace(',', ' ')}.
                                 </Text>
                                 <Text style={[globalThemeStyle.text_Bold, {height: '100%', paddingTop: 11}]}>
-                                    {((cardBalance * 100) % 100).toLocaleString(undefined, {minimumIntegerDigits: 2})}
+                                    {((cardBalance * 100) % 100).toLocaleString('en-US', {minimumIntegerDigits: 2})}
                                 </Text>
                                 <Text style={[globalThemeStyle.text_Bold, {fontSize: 12, marginLeft: 7, paddingTop: 12.7}, cardCurrency.left && {display: 'none'}]}>
                                     {cardCurrency.symbol}

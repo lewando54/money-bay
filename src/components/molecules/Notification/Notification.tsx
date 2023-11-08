@@ -45,7 +45,7 @@ export default function Notification({
             </View>
             <Text style={notificationStyle.notificationBodyText}>{body}</Text>
             <Separator />
-            <Text style={notificationStyle.notificationTimeText}>{datetime.toLocaleDateString(undefined, {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString(undefined, {hour: 'numeric', minute: 'numeric'})}</Text>
+            <Text style={notificationStyle.notificationTimeText}>{datetime.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString('en-US', {hour: 'numeric', minute: 'numeric'})}</Text>
         </UniversalContainer>
     )
 }

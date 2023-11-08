@@ -445,7 +445,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                               ]
                             }
                           >
-                            4863
+                            4 863
                             .
                           </Text>
                           <Text
@@ -833,7 +833,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                               ]
                             }
                           >
-                            4999
+                            4 999
                             .
                           </Text>
                           <Text
@@ -1221,7 +1221,7 @@ exports[`DashboardTemplate should render correctly 1`] = `
                               ]
                             }
                           >
-                            20 123
+                            20 123
                             .
                           </Text>
                           <Text

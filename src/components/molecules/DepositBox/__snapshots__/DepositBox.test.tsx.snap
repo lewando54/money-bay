@@ -155,9 +155,9 @@ exports[`DepositBox should render correctly 1`] = `
           ]
         }
       >
-        1 wrz
+        Sep 1
          - 
-        1 paź 2022
+        Oct 1, 2022
       </Text>
     </View>
     <View
@@ -201,7 +201,7 @@ exports[`DepositBox should render correctly 1`] = `
         }
       >
         + 
-        60,57
+        60.57
       </Text>
     </View>
   </View>
@@ -543,9 +543,9 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
           ]
         }
       >
-        1 wrz
+        Sep 1
          - 
-        1 paź 2022
+        Oct 1, 2022
       </Text>
     </View>
     <View
@@ -589,7 +589,7 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
         }
       >
         + 
-        60,57
+        60.57
       </Text>
     </View>
   </View>
@@ -947,9 +947,9 @@ exports[`DepositBox should render first date with year when the year is not the 
           ]
         }
       >
-        1 wrz 2022
+        Sep 1, 2022
          - 
-        1 paź 2023
+        Oct 1, 2023
       </Text>
     </View>
     <View
@@ -993,7 +993,7 @@ exports[`DepositBox should render first date with year when the year is not the 
         }
       >
         + 
-        60,57
+        60.57
       </Text>
     </View>
   </View>
@@ -1351,9 +1351,9 @@ exports[`DepositBox should render first date without year when the year is the s
           ]
         }
       >
-        1 wrz
+        Sep 1
          - 
-        1 paź 2022
+        Oct 1, 2022
       </Text>
     </View>
     <View
@@ -1397,7 +1397,7 @@ exports[`DepositBox should render first date without year when the year is the s
         }
       >
         + 
-        60,57
+        60.57
       </Text>
     </View>
   </View>
@@ -1755,9 +1755,9 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
           ]
         }
       >
-        1 wrz
+        Sep 1
          - 
-        1 paź 2022
+        Oct 1, 2022
       </Text>
     </View>
     <View
@@ -1801,7 +1801,7 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
         }
       >
         + 
-        60,57
+        60.57
       </Text>
     </View>
   </View>

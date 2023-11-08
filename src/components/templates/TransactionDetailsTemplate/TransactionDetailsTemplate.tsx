@@ -46,10 +46,10 @@ export default function TransactionDetailsTemplate({
             <Image source={Images.bgSignIn} style={transactionDetailsTemplateStyle.background} />
             <View style={transactionDetailsTemplateStyle.mainContentContainer}>
                 <ButtonCircleWithText circleBackgroundColor={ORANGE} text={name} icon={<Images.smartphoneSVG color={'white'}/>}/>
-                <Text style={transactionDetailsTemplateStyle.dateText}>{date.toLocaleDateString(undefined, {year: 'numeric', month: 'short', day: 'numeric'})} at {date.toLocaleTimeString(undefined, {hourCycle: 'h12', hour: 'numeric', minute: 'numeric'})}</Text>
+                <Text style={transactionDetailsTemplateStyle.dateText}>{date.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {date.toLocaleTimeString('en-US', {hourCycle: 'h12', hour: 'numeric', minute: 'numeric'})}</Text>
                 <View style={transactionDetailsTemplateStyle.moneyContainer}>
                     <Text style={transactionDetailsTemplateStyle.bigMoneyText}>- {currency.symbol} {wholeAmount}.</Text>
-                    <Text style={transactionDetailsTemplateStyle.smallMoneyText}>{parseInt(decimalAmount).toLocaleString(undefined, {minimumIntegerDigits: 2})}</Text>
+                    <Text style={transactionDetailsTemplateStyle.smallMoneyText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
                 </View>
                 <Text style={transactionDetailsTemplateStyle.cellHeader}>Sent to {recipientName}</Text>
                 {statusElement}

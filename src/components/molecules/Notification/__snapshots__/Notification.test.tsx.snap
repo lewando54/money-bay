@@ -101,9 +101,9 @@ exports[`Notification should render correctly 1`] = `
       }
     }
   >
-    12 wrz 2022
+    Sep 12, 2022
      at 
-    12:32
+    12:32 PM
   </Text>
 </View>
 `;
@@ -229,9 +229,9 @@ exports[`Notification should render green icon with checkmark 1`] = `
       }
     }
   >
-    12 wrz 2022
+    Sep 12, 2022
      at 
-    12:32
+    12:32 PM
   </Text>
 </View>
 `;
@@ -357,9 +357,9 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
       }
     }
   >
-    12 wrz 2022
+    Sep 12, 2022
      at 
-    12:32
+    12:32 PM
   </Text>
 </View>
 `;
@@ -485,9 +485,9 @@ exports[`Notification should render red icon with x 1`] = `
       }
     }
   >
-    12 wrz 2022
+    Sep 12, 2022
      at 
-    12:32
+    12:32 PM
   </Text>
 </View>
 `;
@@ -593,9 +593,9 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
       }
     }
   >
-    12 wrz 2022
+    Sep 12, 2022
      at 
-    12:32
+    12:32 PM
   </Text>
 </View>
 `;
