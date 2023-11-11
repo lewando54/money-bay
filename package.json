@@ -74,6 +74,12 @@
     "moduleNameMapper": {
       "\\.svg": "<rootDir>/__mocks__/svgMock.js"
     },
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/styling/",
+      "<rootDir>/src/utils/",
+      "<rootDir>/assets/",
+      ".style.tsx"
+    ],
     "fakeTimers": {
       "enableGlobally": true
     },
