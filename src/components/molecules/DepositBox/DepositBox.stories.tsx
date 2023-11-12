@@ -24,8 +24,6 @@ type Story = StoryObj<typeof DepositBox>
 
 export const Default: Story = {
     args: {
-        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-        // @ts-ignore
         currentAmount: 3000,
         currency: {iso: 'usd', symbol: '$', left: true},
         dateFrom: new Date('2022-09-01'),
