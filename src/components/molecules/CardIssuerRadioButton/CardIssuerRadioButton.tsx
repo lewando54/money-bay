@@ -6,6 +6,7 @@ import RadioButton, { IRadioButtonProps } from '../../atoms/RadioButton/RadioBut
 import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
 
 import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
+import CardIssuerRadioButtonStyle from './CardIssuerRadioButton.style'
 
 interface ICardIssuerRadioButtonProps extends IRadioButtonProps {
     cardIssuer?: TCardIssuer
@@ -21,10 +22,10 @@ export default function CardIssuerRadioButton({
     testID
 }: ICardIssuerRadioButtonProps){
     return (
-        <View style={{flexShrink: 1, flexGrow: 0, alignItems: 'flex-start'}}>
-            <UniversalContainer testID={testID} style={{flexDirection: 'row', backgroundColor: 'white', flexShrink: 1, flexGrow: 0, justifyContent: 'flex-start', alignItems: 'center', gap: 10, width: 'auto', paddingHorizontal: 20}}>
+        <View style={CardIssuerRadioButtonStyle.mainContainer}>
+            <UniversalContainer testID={testID} style={CardIssuerRadioButtonStyle.univContainer}>
                 <RadioButton chosen={chosen} id={id} group={group} onPress={onPress} color={color}/>
-                <Image style={{resizeMode: 'contain', width: 40, maxHeight: 16}} source={getIssuerLogo(cardIssuer)}/>
+                <Image style={CardIssuerRadioButtonStyle.image} source={getIssuerLogo(cardIssuer)}/>
             </UniversalContainer>
         </View>
     )
