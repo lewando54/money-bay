@@ -6,7 +6,12 @@ import MoneyText from './MoneyText'
 const meta = {
     component: MoneyText,
     argTypes: {
-        // To write
+        amount: {control: 'number'},
+        currency: {control: 'object'},
+        hasNumberFormatting: {control: 'boolean'},
+        isCurrencyBold: {control: 'boolean'},
+        fontSize: {control: 'number'},
+        containerStyle: {control: 'object'}
     }
 } satisfies Meta<typeof MoneyText>
 
@@ -15,6 +20,21 @@ type Story = StoryObj<typeof MoneyText>
 
 export const Default: Story = {
     args: {
-        // To write
+        amount: 1234.12,
+        currency: {iso: 'usd', symbol: '$', left: true},
+        hasNumberFormatting: true,
+        isCurrencyBold: false,
+        fontSize: 16
+    }
+}
+
+export const DifferentContainerStyle: Story = {
+    args: {
+        amount: 1234.12,
+        currency: {iso: 'usd', symbol: '$', left: true},
+        hasNumberFormatting: true,
+        isCurrencyBold: false,
+        fontSize: 16,
+        containerStyle: {backgroundColor: 'red', padding: 10}
     }
 }
