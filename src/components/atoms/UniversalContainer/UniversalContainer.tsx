@@ -44,18 +44,16 @@ export default function UniversalContainer({
             </TouchableOpacity>
         )
     }
-    else{
-        return (
-            <View
-                testID={testID} 
-                style={[
-                    universalContainerStyle({width, height, padding, backgroundColor}).container,
-                    castShadow && globalThemeStyle.default_Shadow,
-                    style
-                ]}
-            >
-                {children}
-            </View>
-        )
-    }
+    return (
+        <View
+            testID={testID} 
+            style={[
+                universalContainerStyle({width, height, padding, backgroundColor}).container,
+                castShadow && globalThemeStyle.default_Shadow,
+                style
+            ]}
+        >
+            {children}
+        </View>
+    )
 }
