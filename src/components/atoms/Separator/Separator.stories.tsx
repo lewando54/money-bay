@@ -6,15 +6,19 @@ import Separator from './Separator'
 const meta = {
     component: Separator,
     argTypes: {
-        // To write
+        style: {control: 'object'}
     }
 } satisfies Meta<typeof Separator>
 
 export default meta
 type Story = StoryObj<typeof Separator>
 
-export const Default: Story = {
+export const Default: Story = {}
+
+export const DifferentStyling: Story = {
     args: {
-        // To write
+        style: {
+            backgroundColor: 'red'
+        }
     }
 }
