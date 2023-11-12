@@ -6,7 +6,9 @@ import Link from './Link'
 const meta = {
     component: Link,
     argTypes: {
-        // To write
+        onPress: {action: 'pressed'},
+        children: {control: 'text'},
+        style: {control: 'object'}
     }
 } satisfies Meta<typeof Link>
 
@@ -15,6 +17,6 @@ type Story = StoryObj<typeof Link>
 
 export const Default: Story = {
     args: {
-        // To write
+        children: 'Test'
     }
 }
