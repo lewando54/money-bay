@@ -7,7 +7,7 @@ import dotStyle from './Dot.style'
 
 interface IDotProps {
     index?: number
-    x?: SharedValue<number>
+    listOffsetX?: SharedValue<number>
     color?: string
     itemLengthPercent?: number
     testID?: string
@@ -15,16 +15,16 @@ interface IDotProps {
 
 export default function Dot({
     index,
-    x,
+    listOffsetX,
     color=MAIN_DARK,
     itemLengthPercent=1,
     testID
 }: IDotProps){
     const { width } = Dimensions.get('window')
 
-    const animatedDotStyle = x && useAnimatedStyle(() => ({
+    const animatedDotStyle = listOffsetX && useAnimatedStyle(() => ({
         opacity: interpolate(
-            x.value, 
+            listOffsetX.value, 
             [
                 (index - 1) * width * itemLengthPercent,
                 index * width * itemLengthPercent,

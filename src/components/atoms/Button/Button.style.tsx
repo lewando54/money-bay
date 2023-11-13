@@ -1,5 +1,6 @@
-import { BUTTON_BORDER_COLOR, SHADOW_COLOR } from '@styling/GlobalTheme.style'
 import { StyleSheet } from 'react-native'
+
+import { BUTTON_BORDER_COLOR, SHADOW_COLOR } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     button: {
         borderRadius: 10,
