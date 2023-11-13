@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import { Image, ImageSourcePropType,Text, View } from 'react-native'
 import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
+
 import Images from '@assets/images'
 
 import Link from '../../atoms/Link/Link'

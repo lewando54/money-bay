@@ -1,9 +1,10 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
 import React from 'react'
 import { Text,View } from 'react-native'
-import Images from '@assets/images'
 import { Meta,StoryObj } from '@storybook/react-native'
 import { TCurrency } from 'src/utils/currency'
+
+import Images from '@assets/images'
 
 import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import TransactionDetailsTemplate from './TransactionDetailsTemplate'

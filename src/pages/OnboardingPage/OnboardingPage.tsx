@@ -1,6 +1,7 @@
 import React from 'react'
-import Images from '@assets/images'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
+import Images from '@assets/images'
 
 import { RootStackParamList } from '../../../App'
 import OnboardingTemplate from '../../components/templates/OnboardingTemplate/OnboardingTemplate'

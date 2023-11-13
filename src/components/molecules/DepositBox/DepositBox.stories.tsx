@@ -1,5 +1,4 @@
-﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
-import { Meta,StoryObj } from '@storybook/react-native'
+﻿import { Meta,StoryObj } from '@storybook/react-native'
 
 import DepositBox from './DepositBox'
 

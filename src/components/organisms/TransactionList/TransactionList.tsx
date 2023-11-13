@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { View } from 'react-native'
+
 import Images from '@assets/images'
 
 import TransactionBar, { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'

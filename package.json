@@ -55,7 +55,8 @@
     "react-native-svg-transformer": "^1.1.0"
   },
   "scripts": {
-    "start": "expo start --tunnel",
+    "gen-exports": "node generate-index-files.js",
+    "start": "npm run gen-exports && expo start --tunnel",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web --tunnel",

@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { FlatList,Text, View } from 'react-native'
+
 import Images from '@assets/images'
 
 import SearchInput from '../../molecules/SearchInput/SearchInput'

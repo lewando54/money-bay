@@ -8,7 +8,7 @@ import buttonStyle from './Button.style'
 export type colorProp = 'primary' | 'secondary' | string
 export type sizeProp = 'normal' | 'small'
 
-interface IButtonProps{
+export interface IButtonProps{
     children: React.ReactNode
     color?: colorProp
     size?: sizeProp

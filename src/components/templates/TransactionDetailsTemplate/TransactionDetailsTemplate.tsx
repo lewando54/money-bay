@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { Image, Text,View } from 'react-native'
+
 import Images from '@assets/images'
 
 import { TCurrency } from '../../../utils/currency'

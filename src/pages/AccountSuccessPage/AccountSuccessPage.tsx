@@ -1,7 +1,8 @@
 import React from 'react'
 import { Text } from 'react-native'
-import Images from '@assets/images'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
+import Images from '@assets/images'
 
 import { RootStackParamList } from '../../../App'
 import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'

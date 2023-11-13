@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import { Dimensions, Image, ImageBackground, Text,View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
+
 import Images from '@assets/images'
 
 import { TCardIssuer } from '../../../utils/cardIssuers'

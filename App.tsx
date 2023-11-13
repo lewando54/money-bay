@@ -1,12 +1,13 @@
 import React from 'react'
 import { Dimensions, Pressable, Text, View } from 'react-native'
-import Images from '@assets/images'
 import { Entypo } from '@expo/vector-icons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { NavigationContainer, NavigatorScreenParams } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Constants from 'expo-constants'
 import { useFonts } from 'expo-font'
+
+import Images from '@assets/images'
 
 import AccountSuccessPage from './src/pages/AccountSuccessPage/AccountSuccessPage'
 import DashboardPage from './src/pages/DashboardPage/DashboardPage'

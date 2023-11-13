@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import { Image, StyleProp, Text, View,ViewStyle } from 'react-native'
+
 import Images from '@assets/images'
 
 import Button, { colorProp, sizeProp } from '../../atoms/Button/Button'

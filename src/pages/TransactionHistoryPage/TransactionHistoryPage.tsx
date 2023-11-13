@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Images from '@assets/images'
 
 import TransactionHistoryTemplate from '../../components/templates/TransactionHistoryTemplate/TransactionHistoryTemplate'

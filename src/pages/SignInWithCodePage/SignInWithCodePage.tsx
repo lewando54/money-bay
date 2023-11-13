@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import Images from '@assets/images'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
+
+import Images from '@assets/images'
 
 import { RootStackParamList } from '../../../App'
 import SignInWithCodeTemplate from '../../components/templates/SignInWithCodeTemplate/SignInWithCodeTemplate'

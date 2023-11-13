@@ -21,7 +21,7 @@
                   // Packages `react` related packages come first.
                   ["^react", "^@?\\w"],
                   // Internal packages.
-                  ["^(@|components)(/.*|$)"],
+                  ["^(@|components|@atoms|@molecules|@templates|@organisms|@utils|@assets|@styling)(/.*|$)"],
                   // Side effect imports.
                   ["^\\u0000"],
                   // Parent imports. Put `..` last.
@@ -46,9 +46,6 @@
         "react",
         "simple-import-sort"
     ],
-    "no-restricted-imports": ["error", {
-      "patterns": [".*"]
-    }],
     "rules": {
         "indent": [
             "error",

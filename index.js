@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
+require('child_process').fork('generate-index-files.js')
+
 import { registerRootComponent } from 'expo'
 
 import App from './App'

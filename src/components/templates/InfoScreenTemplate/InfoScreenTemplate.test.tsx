@@ -1,6 +1,7 @@
 ﻿import React from 'react'
 import { Text } from 'react-native'
 import renderer from 'react-test-renderer'
+
 import Images from '@assets/images'
 
 import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
