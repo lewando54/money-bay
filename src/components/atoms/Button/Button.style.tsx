@@ -1,3 +1,4 @@
+import { BUTTON_BORDER_COLOR, SHADOW_COLOR } from '@styling/GlobalTheme.style'
 import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
     button: {
@@ -8,7 +9,7 @@ export default StyleSheet.create({
 
     },
     secondaryButton: {
-        borderColor: '#CED6E1', 
+        borderColor: BUTTON_BORDER_COLOR, 
         borderWidth: 1
     },
     text: {
@@ -19,8 +20,7 @@ export default StyleSheet.create({
     shadow: {
         shadowOffset: {width: 0, height: 6},
         shadowRadius: 16,
-        shadowColor: '#161966',
-        shadowOpacity: 0.08,
+        shadowColor: SHADOW_COLOR,
         elevation: 20,
     },
     primaryText: {

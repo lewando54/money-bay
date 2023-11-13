@@ -10,6 +10,8 @@ export const ORANGE = '#FF8A71'
 export const WARNING_YELLOW = '#EECC55'
 export const MAIN_BG = '#161966'
 export const LINK_COLOR = '#FF5887'
+export const BUTTON_BORDER_COLOR = '#CED6E1'
+export const SHADOW_COLOR = '#16196670'
 export default StyleSheet.create({
     text_SemiBold: {
         fontFamily: 'MulishSemiBold',
