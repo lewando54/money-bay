@@ -27,10 +27,12 @@ export default function Button({
     onClick,
     testID
 }: IButtonProps){
-    const gradientColor = 
-        color === 'primary' ? [PRIMARY_GRADIENT_START_COLOR, PRIMARY_GRADIENT_END_COLOR]
-            : color === 'secondary' ? [SECONDARY_GRADIENT_FULL_COLOR, SECONDARY_GRADIENT_FULL_COLOR]
-                : [color, color]
+    const gradientColors = {
+        primary: [PRIMARY_GRADIENT_START_COLOR, PRIMARY_GRADIENT_END_COLOR],
+        secondary: [SECONDARY_GRADIENT_FULL_COLOR, SECONDARY_GRADIENT_FULL_COLOR]
+    }
+
+    const gradientColor = gradientColors[color] == undefined ? [color, color] : gradientColors[color]
 
     return (
         <TouchableOpacity style={[{width: width}, containerStyle]} onPress={onClick} testID={testID}>
