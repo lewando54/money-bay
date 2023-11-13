@@ -44,7 +44,8 @@ export default function CircleWithIcon({
             </TouchableOpacity>
         )
     }
-    else if(onClick && !(backgroundColor instanceof Array)){
+    
+    if(onClick && !(backgroundColor instanceof Array)){
         return (
             <TouchableOpacity 
                 style={[
@@ -58,7 +59,8 @@ export default function CircleWithIcon({
             </TouchableOpacity>
         )
     }
-    else if(backgroundColor instanceof Array){
+    
+    if(backgroundColor instanceof Array){
         return (
             <View 
                 style={[
@@ -73,17 +75,16 @@ export default function CircleWithIcon({
             </View>
         )
     }
-    else{
-        return (
-            <View 
-                style={[
-                    circleWithIconStyle({size, backgroundColor}).circle,
-                    castShadow && globalThemeStyle.default_Shadow
-                ]}
-                testID={testID}
-            >
-                {icon}
-            </View>
-        )
-    }
+
+    return (
+        <View 
+            style={[
+                circleWithIconStyle({size, backgroundColor}).circle,
+                castShadow && globalThemeStyle.default_Shadow
+            ]}
+            testID={testID}
+        >
+            {icon}
+        </View>
+    )
 }
