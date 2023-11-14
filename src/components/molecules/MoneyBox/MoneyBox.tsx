@@ -2,14 +2,13 @@
 import { Text,View } from 'react-native'
 import { ProgressBar } from 'react-native-paper'
 
-import { TCurrency } from '../../../utils/currency'
-import Button from '../../atoms/Button/Button'
-import MoneyText from '../../atoms/MoneyText/MoneyText'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import { Button, MoneyText, UniversalContainer } from '@atoms'
+import { TCurrency } from '@utils/currency'
 
 import PiggyBank from './assets/piggy-bank.svg'
-import globalThemeStyle, { GOOD_GREEN, MAIN_DARK, PLAIN_BLUE } from '../../../styling/GlobalTheme.style'
 import moneyBoxStyle from './MoneyBox.style'
+
+import globalThemeStyle, { GOOD_GREEN, MAIN_DARK, PLAIN_BLUE } from '@styling/GlobalTheme.style'
 
 interface IMoneyBoxProps {
     goalAmount?: number

@@ -6,8 +6,9 @@ import { TCurrency } from 'src/utils/currency'
 
 import Images from '@assets/images'
 
-import globalThemeStyle, { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import TransactionDetailsTemplate from './TransactionDetailsTemplate'
+
+import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface IVisibleMockupProps {
     wholeAmount?: string

@@ -8,7 +8,8 @@ let modulesPaths = [
     './src/components/atoms',
     './src/components/molecules',
     './src/components/organisms',
-    './src/components/templates'
+    './src/components/templates',
+    './src/pages'
 ]
 
 let indexExportContent = 'export {\n'

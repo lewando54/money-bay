@@ -1,14 +1,14 @@
 ﻿import React from 'react'
-import { Image, Text,View } from 'react-native'
+import { Image, Text, View } from 'react-native'
 import { Entypo } from '@expo/vector-icons' 
 
-import { TCardIssuer } from '../../../utils/cardIssuers'
-import { TCurrency } from '../../../utils/currency'
-import MiniCreditCard from '../../atoms/MiniCreditCard/MiniCreditCard'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import { MiniCreditCard, UniversalContainer } from '@atoms'
+import { TCardIssuer } from '@utils/cardIssuers'
+import { TCurrency } from '@utils/currency'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import productBarStyle from './ProductBar.style'
+
+import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '@styling/GlobalTheme.style'
 
 type TProduct = 'card' | 'account'
 

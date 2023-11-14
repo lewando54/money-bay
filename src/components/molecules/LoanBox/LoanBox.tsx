@@ -2,11 +2,12 @@
 import { Text,View } from 'react-native'
 
 import { Button, MoneyText, Separator, UniversalContainer } from '@atoms'
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
 import { TCurrency } from '@utils/currency'
 
 import Wallet from './assets/wallet.svg'
 import LoanBoxStyle from './LoanBox.style'
+
+import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface ILoanBoxProps {
     amount?: number

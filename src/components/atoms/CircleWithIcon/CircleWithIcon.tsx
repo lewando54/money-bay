@@ -3,8 +3,9 @@ import { TouchableOpacity, View } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import globalThemeStyle from '../../../styling/GlobalTheme.style'
 import circleWithIconStyle from './CircleWithIcon.style'
+
+import globalThemeStyle from '@styling/GlobalTheme.style'
 
 interface ICircleWithIconProps {
     size?: number,

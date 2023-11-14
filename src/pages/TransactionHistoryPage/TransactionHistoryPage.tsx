@@ -1,10 +1,9 @@
 import React from 'react'
 
 import Images from '@assets/images'
+import { TransactionHistoryTemplate } from '@templates'
 
-import TransactionHistoryTemplate from '../../components/templates/TransactionHistoryTemplate/TransactionHistoryTemplate'
-
-import { ORANGE } from '../../styling/GlobalTheme.style'
+import { ORANGE } from '@styling/GlobalTheme.style'
 
 export default function TransactionHistoryPage() {
     const transactionsData = [

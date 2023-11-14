@@ -2,8 +2,7 @@
 import { ImageBackground, View } from 'react-native'
 
 import Images from '@assets/images'
-
-import OnboardingSlides, { TOnboardingSlides } from '../../organisms/OnboardingSlides/OnboardingSlides'
+import { OnboardingSlides, TOnboardingSlides } from '@organisms'
 
 import onboardingTemplateStyle from './OnboardingTemplate.style'
 

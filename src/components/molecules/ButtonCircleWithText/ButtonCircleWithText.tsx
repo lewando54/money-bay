@@ -2,10 +2,11 @@
 import { Dimensions,Text, TouchableOpacity } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 
-import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
+import { CircleWithIcon } from '@atoms'
 
-import GlobalThemeStyle from '../../../styling/GlobalTheme.style'
 import buttonCircleWithTextStyle from './ButtonCircleWithText.style'
+
+import GlobalThemeStyle from '@styling/GlobalTheme.style'
 
 interface IButtonCircleWithTextProps {
     circleBackgroundColor?: string

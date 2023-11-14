@@ -3,8 +3,9 @@ import React from 'react'
 import { Text } from 'react-native'
 import { Meta,StoryObj } from '@storybook/react-native'
 
-import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import InfoScreenTemplate from './InfoScreenTemplate'
+
+import { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: InfoScreenTemplate,

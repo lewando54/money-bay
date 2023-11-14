@@ -2,8 +2,7 @@
 import { Text, TouchableOpacity, View } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 
-import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import { CircleWithIcon, UniversalContainer } from '@atoms'
 
 import squareButtonWithIconStyle from './SquareButtonWithIcon.style'
 

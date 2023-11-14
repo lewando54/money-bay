@@ -3,8 +3,9 @@ import { useState } from 'react'
 import React from 'react'
 import { Meta,StoryObj } from '@storybook/react-native'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import Checkbox from './Checkbox'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface IMockupCheckboxProps {
 	checked?: boolean

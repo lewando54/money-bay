@@ -2,10 +2,11 @@
 import { useState } from 'react'
 import { Meta,StoryObj } from '@storybook/react-native'
 
-import { TCardIssuer } from '../../../utils/cardIssuers'
+import { TCardIssuer } from '@utils/cardIssuers'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import CardIssuerRadioButton from './CardIssuerRadioButton'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface ICardIssuerRadioButtonMockupProps {
 	cardIssuer: TCardIssuer

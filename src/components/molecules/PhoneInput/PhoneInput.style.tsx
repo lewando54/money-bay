@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { BODY_TEXT_COLOR } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     mainContainer: {
         paddingHorizontal: 20

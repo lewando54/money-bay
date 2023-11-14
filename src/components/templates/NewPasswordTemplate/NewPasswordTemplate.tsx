@@ -1,8 +1,8 @@
 ﻿import React from 'react'
 import { Text,View } from 'react-native'
 
-import Button from '../../atoms/Button/Button'
-import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
+import { Button } from '@atoms'
+import { PasswordInput } from '@molecules'
 
 import newPasswordTemplateStyle from './NewPasswordTemplate.style'
 

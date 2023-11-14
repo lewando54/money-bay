@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     outerContainer: {
         width: 150,

@@ -3,12 +3,11 @@ import { Text,View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 import { AntDesign } from '@expo/vector-icons' 
 
-import CircleWithIcon from '../../atoms/CircleWithIcon/CircleWithIcon'
-import Separator from '../../atoms/Separator/Separator'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import { CircleWithIcon, Separator, UniversalContainer } from '@atoms'
 
-import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
 import notificationStyle from './Notification.style'
+
+import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '@styling/GlobalTheme.style'
 
 type TNotificationType = 'warning' | 'error' | 'correct'
 

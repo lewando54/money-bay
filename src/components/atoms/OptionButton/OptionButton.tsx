@@ -1,8 +1,9 @@
 ﻿import React from 'react'
 import { Text,TouchableOpacity } from 'react-native'
 
-import globalThemeStyle from '../../../styling/GlobalTheme.style'
 import optionButtonStyle from './OptionButton.style'
+
+import globalThemeStyle from '@styling/GlobalTheme.style'
 
 type TOptionButtonVariant = 'large' | 'normal'
 

@@ -4,11 +4,12 @@ import MaskedView from '@react-native-masked-view/masked-view'
 import { BlurView } from 'expo-blur'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import { getIssuerLogo,TCardIssuer } from '../../../utils/cardIssuers'
-import { TCurrency as TCurrency } from '../../../utils/currency'
+import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
+import { TCurrency as TCurrency } from '@utils/currency'
 
-import globalThemeStyle from '../../../styling/GlobalTheme.style'
 import creditCardStyle from './CreditCard.style'
+
+import globalThemeStyle from '@styling/GlobalTheme.style'
 
 interface ICreditCardProps {
     cardIssuer?: TCardIssuer

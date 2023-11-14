@@ -2,12 +2,13 @@
 import { Text,View } from 'react-native'
 
 import { Button, CircleWithIcon, MoneyText, UniversalContainer } from '@atoms'
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE } from '@styling/GlobalTheme.style'
 import { TCurrency } from '@utils/currency'
 
 import Check from './assets/check.svg'
 import SafeDeposit from './assets/safe-deposit.svg'
 import depositBoxStyle from './DepositBox.style'
+
+import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE } from '@styling/GlobalTheme.style'
 
 interface IDepositBoxProps {
     currentAmount?: number

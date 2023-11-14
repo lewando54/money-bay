@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR } from '../../../styling/GlobalTheme.style'
+import globalThemeStyle, { BODY_TEXT_COLOR } from '@styling/GlobalTheme.style'
 const { width, height } = Dimensions.get('screen')
 
 export default StyleSheet.create({

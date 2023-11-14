@@ -2,9 +2,8 @@
 import { ImageSourcePropType, View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
 
-import Button from '../../atoms/Button/Button'
-import Pagination from '../../atoms/Pagination/Pagination'
-import OnboardingSlide from '../../molecules/OnboardingSlide/OnboardingSlide'
+import { Button, Pagination } from '@atoms'
+import { OnboardingSlide } from '@molecules'
 
 import onboardingSlidesStyle from './OnboardingSlides.style'
 

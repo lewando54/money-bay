@@ -3,12 +3,12 @@ import { Text } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
+import { InfoScreenPageStyle } from '@pages'
+import { InfoScreenTemplate } from '@templates'
+import { RootStackParamList } from 'App'
 
-import { RootStackParamList } from '../../../App'
-import InfoScreenTemplate from '../../components/templates/InfoScreenTemplate/InfoScreenTemplate'
+import { MAIN_DARK } from '@styling/GlobalTheme.style'
 
-import { MAIN_DARK } from '../../styling/GlobalTheme.style'
-import InfoScreenPageStyle from '../InfoScreenPage/InfoScreenPage.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Account success'>
 

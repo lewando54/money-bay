@@ -2,7 +2,7 @@ import React from 'react'
 import { Image } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import { getIssuerLogo,TCardIssuer } from '../../../utils/cardIssuers'
+import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
 
 import miniCreditCardStyle from './MiniCreditCard.style'
 

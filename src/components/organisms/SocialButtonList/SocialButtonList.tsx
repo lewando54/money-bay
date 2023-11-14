@@ -1,7 +1,8 @@
 import React from 'react'
 import { View } from 'react-native'
+import { TiconProp } from 'src/components/atoms/SocialButton/SocialButton'
 
-import SocialButton, { TiconProp } from '../../atoms/SocialButton/SocialButton'
+import { SocialButton } from '@atoms'
 
 import socialButtonListStyle from './SocialButtonList.style'
 

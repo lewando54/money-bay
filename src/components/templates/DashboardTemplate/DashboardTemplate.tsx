@@ -1,21 +1,18 @@
 ﻿import React from 'react'
 import { Dimensions, Image, ImageBackground, Text,View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
+import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import Images from '@assets/images'
+import { CreditCard, Link, Pagination, Separator } from '@atoms'
+import { ButtonCircleWithText } from '@molecules'
+import { TransactionList } from '@organisms'
+import { TCardIssuer } from '@utils/cardIssuers'
+import { TCurrency } from '@utils/currency'
 
-import { TCardIssuer } from '../../../utils/cardIssuers'
-import { TCurrency } from '../../../utils/currency'
-import CreditCard from '../../atoms/CreditCard/CreditCard'
-import Link from '../../atoms/Link/Link'
-import Pagination from '../../atoms/Pagination/Pagination'
-import Separator from '../../atoms/Separator/Separator'
-import ButtonCircleWithText from '../../molecules/ButtonCircleWithText/ButtonCircleWithText'
-import { TTransactionsArray } from '../../molecules/TransactionBar/TransactionBar'
-import TransactionList from '../../organisms/TransactionList/TransactionList'
-
-import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '../../../styling/GlobalTheme.style'
 import dashboardTemplateStyle from './DashboardTemplate.style'
+
+import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '@styling/GlobalTheme.style'
 
 const {width, height} = Dimensions.get('screen')
 

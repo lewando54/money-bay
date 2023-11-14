@@ -4,8 +4,9 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import Images from '@assets/images'
 
-import { ORANGE } from '../../../styling/GlobalTheme.style'
 import TransactionHistory from './TransactionHistoryTemplate'
+
+import { ORANGE } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: TransactionHistory,

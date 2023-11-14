@@ -20,8 +20,8 @@
                 "groups": [
                   // Packages `react` related packages come first.
                   ["^react", "^@?\\w"],
-                  // Internal packages.
-                  ["^(@|components|@atoms|@molecules|@templates|@organisms|@utils|@assets|@styling)(/.*|$)"],
+                  // Internal packages and types/interfaces.
+                  ["^(App|@|@atoms|@molecules|@templates|@organisms|@utils|@assets|@pages)(/.*|$)", "^(src/components/)(/.*|$)"],
                   // Side effect imports.
                   ["^\\u0000"],
                   // Parent imports. Put `..` last.
@@ -29,7 +29,7 @@
                   // Other relative imports. Put same-folder imports and `.` last.
                   ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
                   // Style imports.
-                  ["^.+\\.?(style)?.?(css)$"]
+                  ["^(@styling)(/.*|$)", "^.+\\.?(style)?.?(css)$"]
                 ]
               }
             ]

@@ -3,8 +3,9 @@ import { Pressable } from 'react-native'
 import Animated, { Easing, interpolate, interpolateColor, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import { Feather } from '@expo/vector-icons'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import checkBoxSquareStyle from './CheckBoxSquare.style'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface ICheckBoxSquareProps {
     checked?: boolean

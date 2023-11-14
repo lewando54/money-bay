@@ -3,10 +3,8 @@ import { Image, ImageSourcePropType,Text, View } from 'react-native'
 import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
 
 import Images from '@assets/images'
-
-import Link from '../../atoms/Link/Link'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import PinDots from '../../molecules/PinDots/PinDots'
+import { Link, UniversalContainer } from '@atoms'
+import { PinDots } from '@molecules'
 
 import Close from './assets/ep_close.svg'
 import FaceID from './assets/faceid-line.svg'

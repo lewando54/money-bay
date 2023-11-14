@@ -1,12 +1,12 @@
 ﻿import React from 'react'
 import { Image, View } from 'react-native'
 
-import { getIssuerLogo,TCardIssuer } from '../../../utils/cardIssuers'
-import RadioButton, { IRadioButtonProps } from '../../atoms/RadioButton/RadioButton'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
+import { IRadioButtonProps,RadioButton, UniversalContainer } from '@atoms'
+import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import CardIssuerRadioButtonStyle from './CardIssuerRadioButton.style'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface ICardIssuerRadioButtonProps extends IRadioButtonProps {
     cardIssuer?: TCardIssuer

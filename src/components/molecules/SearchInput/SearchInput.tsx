@@ -2,9 +2,9 @@
 import { StyleProp, TextStyle,ViewStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 
-import Input from '../../atoms/Input/Input'
+import { Input } from '@atoms'
 
-import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
+import { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 interface ISearchInputProps {
     value?: string

@@ -3,11 +3,10 @@ import { Text,View } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
+import { TransactionDetailsTemplate } from '@templates'
+import { RootStackParamList } from 'App'
 
-import { RootStackParamList } from '../../../App'
-import TransactionDetailsTemplate from '../../components/templates/TransactionDetailsTemplate/TransactionDetailsTemplate'
-
-import globalThemeStyle, { GOOD_GREEN } from '../../styling/GlobalTheme.style'
+import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Transaction details'>
 

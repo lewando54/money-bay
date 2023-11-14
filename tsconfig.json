@@ -9,6 +9,7 @@
       "@molecules": ["./src/components/molecules/index"],
       "@organisms": ["./src/components/organisms/index"],
       "@templates": ["./src/components/templates/index"],
+      "@pages": ["./src/pages/index"],
       "@react-native-masked-view/masked-view": ["src/modules/@react-native-masked-view/masked-view"],
     }
   },

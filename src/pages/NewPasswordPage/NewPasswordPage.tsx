@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import NewPasswordTemplate from '../../components/templates/NewPasswordTemplate/NewPasswordTemplate'
+import { NewPasswordTemplate } from '@templates'
 
 export default function NewPasswordPage() {
     const [newPasswordValue, setNewPasswordValue] = useState('')

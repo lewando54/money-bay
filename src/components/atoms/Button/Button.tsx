@@ -2,8 +2,9 @@ import React from 'react'
 import { StyleProp,Text, TouchableOpacity, ViewStyle } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '../../../styling/GlobalTheme.style'
 import buttonStyle from './Button.style'
+
+import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '@styling/GlobalTheme.style'
 
 export type colorProp = 'primary' | 'secondary' | string
 export type sizeProp = 'normal' | 'small'

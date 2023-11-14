@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 const { width, height } = Dimensions.get('screen')
-import globalThemeStyle from '../../../styling/GlobalTheme.style'
+import globalThemeStyle from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     mainContainer: {
         flex: 1,

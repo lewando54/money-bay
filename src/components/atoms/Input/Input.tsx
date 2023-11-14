@@ -2,10 +2,11 @@
 import { KeyboardTypeOptions,Pressable, StyleProp, TextInput, TextStyle, ViewStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 
-import UniversalContainer from '../UniversalContainer/UniversalContainer'
+import { UniversalContainer } from '@atoms'
 
-import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import inputStyle from './Input.style'
+
+import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 interface IInputProps {
     value?: string

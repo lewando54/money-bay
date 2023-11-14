@@ -4,10 +4,11 @@ import { SharedValue } from 'react-native-reanimated'
 
 import { Dot } from '@atoms'
 import { TOnboardingSlides } from '@organisms'
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
 import { TCardsArray } from '@templates'
 
 import paginationStyle from './Pagination.style'
+
+import { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 interface IPaginationProps {
     data?: TOnboardingSlides | TCardsArray

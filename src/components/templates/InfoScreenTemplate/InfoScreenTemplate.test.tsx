@@ -4,8 +4,9 @@ import renderer from 'react-test-renderer'
 
 import Images from '@assets/images'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import InfoScreenTemplate from './InfoScreenTemplate'
+
+import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '@styling/GlobalTheme.style'
 describe('InfoScreenTemplate', () => {
     it('should render correctly', () => {
         const tree = renderer.create(<InfoScreenTemplate />)

@@ -2,9 +2,8 @@ import React, { useState } from 'react'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
-
-import { RootStackParamList } from '../../../App'
-import SignInWithCodeTemplate from '../../components/templates/SignInWithCodeTemplate/SignInWithCodeTemplate'
+import { SignInWithCodeTemplate } from '@templates'
+import { RootStackParamList } from 'App'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Sign In (with code)'>
 

@@ -2,8 +2,9 @@
 import { Pressable } from 'react-native'
 import Animated, { Easing,interpolateColor, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import checkboxStyle from './Checkbox.style'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 interface ICheckboxProps {
     checked: boolean

@@ -1,10 +1,9 @@
 ﻿import React, { useRef } from 'react'
 import { Platform,Text, TextInput, View } from 'react-native'
 
-import { TCurrency } from '../../../utils/currency'
-import Button from '../../atoms/Button/Button'
-import UniversalContainer from '../../atoms/UniversalContainer/UniversalContainer'
-import PhoneInput from '../../molecules/PhoneInput/PhoneInput'
+import { Button, UniversalContainer } from '@atoms'
+import { PhoneInput } from '@molecules'
+import { TCurrency } from '@utils/currency'
 
 import mobilePaymentTemplateStyle from './MobilePaymentTemplate.style'
 

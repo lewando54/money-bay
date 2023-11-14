@@ -1,10 +1,11 @@
 ﻿import React from 'react'
 import { StyleProp,Text, View, ViewStyle } from 'react-native'
 
-import { TCurrency } from '../../../utils/currency'
+import { TCurrency } from '@utils/currency'
 
-import globalThemeStyle, { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import moneyTextStyle from './MoneyText.style'
+
+import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 interface IMoneyTextProps {
     amount?: number

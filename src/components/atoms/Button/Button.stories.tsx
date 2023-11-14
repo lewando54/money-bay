@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
 import { Meta,StoryObj } from '@storybook/react-native'
 
-import { GOOD_GREEN } from '../../../styling/GlobalTheme.style'
 import Button from './Button'
+
+import { GOOD_GREEN } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: Button,

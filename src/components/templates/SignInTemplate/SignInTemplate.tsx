@@ -1,12 +1,10 @@
 ﻿import React from 'react'
 import { Text,View } from 'react-native'
+import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
-import Button from '../../atoms/Button/Button'
-import CheckBoxSquare from '../../atoms/CheckBoxSquare/CheckBoxSquare'
-import Link from '../../atoms/Link/Link'
-import EmailInput from '../../molecules/EmailInput/EmailInput'
-import PasswordInput from '../../molecules/PasswordInput/PasswordInput'
-import SocialButtonList, { TSocialsArray } from '../../organisms/SocialButtonList/SocialButtonList'
+import { Button, CheckBoxSquare, Link } from '@atoms'
+import { EmailInput, PasswordInput } from '@molecules'
+import { SocialButtonList } from '@organisms'
 
 import signInTemplateStyle from './SignInTemplate.style'
 

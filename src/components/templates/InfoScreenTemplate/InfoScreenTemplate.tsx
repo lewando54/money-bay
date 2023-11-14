@@ -1,12 +1,13 @@
 ﻿import React from 'react'
 import { Image, StyleProp, Text, View,ViewStyle } from 'react-native'
+import { colorProp, sizeProp } from 'src/components/atoms/Button/Button'
 
 import Images from '@assets/images'
+import { Button } from '@atoms'
 
-import Button, { colorProp, sizeProp } from '../../atoms/Button/Button'
-
-import { MAIN_DARK } from '../../../styling/GlobalTheme.style'
 import InfoScreenTemplateStyle from './InfoScreenTemplate.style'
+
+import { MAIN_DARK } from '@styling/GlobalTheme.style'
 
 interface IInfoScreenTemplateProps {
     icon?: React.ReactNode
