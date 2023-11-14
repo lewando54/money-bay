@@ -1,10 +1,10 @@
 ﻿import React from 'react'
 import { Text,View } from 'react-native'
-import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 import { Button, Input, Link } from '@atoms'
 import { EmailInput, PasswordInput } from '@molecules'
 import { SocialButtonList } from '@organisms'
+import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 import signUpTemplateStyle from './SignUpTemplate.style'
 

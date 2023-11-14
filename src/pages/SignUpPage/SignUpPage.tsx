@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
-import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 import { SignUpTemplate } from '@templates'
 import { RootStackParamList } from 'App'
+import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Sign up'>
 

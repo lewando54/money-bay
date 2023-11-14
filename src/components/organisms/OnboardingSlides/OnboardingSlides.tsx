@@ -58,7 +58,7 @@ export default function OnboardingSlides({
     return (
         <>
             <View style={onboardingSlidesStyle.buttonContainer}>
-                <Pagination data={data} x={x} />
+                <Pagination data={data} listOffsetX={x} />
                 <Button onClick={onPress}>Get started</Button>
             </View>
             <View testID={testID}>

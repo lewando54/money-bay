@@ -1,9 +1,9 @@
 ﻿import React from 'react'
 import { View } from 'react-native'
-import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import Images from '@assets/images'
 import { TransactionBar } from '@molecules'
+import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import transactionListStyle from './TransactionList.style'
 

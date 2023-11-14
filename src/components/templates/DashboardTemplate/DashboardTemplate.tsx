@@ -1,7 +1,6 @@
 ﻿import React from 'react'
 import { Dimensions, Image, ImageBackground, Text,View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
-import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import Images from '@assets/images'
 import { CreditCard, Link, Pagination, Separator } from '@atoms'
@@ -9,6 +8,7 @@ import { ButtonCircleWithText } from '@molecules'
 import { TransactionList } from '@organisms'
 import { TCardIssuer } from '@utils/cardIssuers'
 import { TCurrency } from '@utils/currency'
+import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import dashboardTemplateStyle from './DashboardTemplate.style'
 

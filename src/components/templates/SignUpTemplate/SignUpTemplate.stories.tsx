@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Meta,StoryObj } from '@storybook/react-native'
+
 import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 import SignUpTemplate from './SignUpTemplate'

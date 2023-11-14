@@ -5,7 +5,7 @@ import { ProgressBar } from 'react-native-paper'
 import { Button, MoneyText, UniversalContainer } from '@atoms'
 import { TCurrency } from '@utils/currency'
 
-import PiggyBank from './assets/piggy-bank.svg'
+import PiggyBank from './images/piggy-bank.svg'
 import moneyBoxStyle from './MoneyBox.style'
 
 import globalThemeStyle, { GOOD_GREEN, MAIN_DARK, PLAIN_BLUE } from '@styling/GlobalTheme.style'

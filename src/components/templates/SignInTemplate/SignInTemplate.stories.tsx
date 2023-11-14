@@ -1,6 +1,7 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
 import React, { useState } from 'react'
 import { Meta,StoryObj } from '@storybook/react-native'
+
 import { TSocialsArray } from 'src/components/organisms/SocialButtonList/SocialButtonList'
 
 import SignInTemplate from './SignInTemplate'
