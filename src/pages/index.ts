@@ -1,27 +1,12 @@
-import AccountSuccessPage from './AccountSuccessPage/AccountSuccessPage'
-import DashboardPage from './DashboardPage/DashboardPage'
-import InfoScreenPageStyle from './InfoScreenPage/InfoScreenPage.style'
-import MobilePaymentPage from './MobilePaymentPage/MobilePaymentPage'
-import NewPasswordPage from './NewPasswordPage/NewPasswordPage'
-import OnboardingPage from './OnboardingPage/OnboardingPage'
-import PaymentSuccessPage from './PaymentSuccessPage/PaymentSuccessPage'
-import SignInPage from './SignInPage/SignInPage'
-import SignInWithCodePage from './SignInWithCodePage/SignInWithCodePage'
-import SignUpPage from './SignUpPage/SignUpPage'
-import TransactionDetailsPage from './TransactionDetailsPage/TransactionDetailsPage'
-import TransactionHistoryPage from './TransactionHistoryPage/TransactionHistoryPage'
-
-export {
-    AccountSuccessPage,
-    DashboardPage,
-    MobilePaymentPage,
-    NewPasswordPage,
-    OnboardingPage,
-    PaymentSuccessPage,
-    SignInPage,
-    SignInWithCodePage,
-    SignUpPage,
-    TransactionDetailsPage,
-    TransactionHistoryPage,
-    InfoScreenPageStyle
-}
+export { default as AccountSuccessPage } from './AccountSuccessPage/AccountSuccessPage'
+export { default as DashboardPage } from './DashboardPage/DashboardPage'
+export { default as MobilePaymentPage } from './MobilePaymentPage/MobilePaymentPage'
+export { default as NewPasswordPage } from './NewPasswordPage/NewPasswordPage'
+export { default as OnboardingPage } from './OnboardingPage/OnboardingPage'
+export { default as PaymentSuccessPage } from './PaymentSuccessPage/PaymentSuccessPage'
+export { default as SignInPage } from './SignInPage/SignInPage'
+export { default as SignInWithCodePage } from './SignInWithCodePage/SignInWithCodePage'
+export { default as SignUpPage } from './SignUpPage/SignUpPage'
+export { default as TransactionDetailsPage } from './TransactionDetailsPage/TransactionDetailsPage'
+export { default as TransactionHistoryPage } from './TransactionHistoryPage/TransactionHistoryPage'
+export { default as InfoScreenPageStyle } from './InfoScreenPage/InfoScreenPage.style'

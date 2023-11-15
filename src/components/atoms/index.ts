@@ -1,35 +1,16 @@
-import Button from './Button/Button'
-import Checkbox from './Checkbox/Checkbox'
-import CheckBoxSquare from './CheckBoxSquare/CheckBoxSquare'
-import CircleWithIcon from './CircleWithIcon/CircleWithIcon'
-import CreditCard from './CreditCard/CreditCard'
-import Dot from './Dot/Dot'
-import Input from './Input/Input'
-import Link from './Link/Link'
-import MiniCreditCard from './MiniCreditCard/MiniCreditCard'
-import MoneyText from './MoneyText/MoneyText'
-import OptionButton from './OptionButton/OptionButton'
-import Pagination from './Pagination/Pagination'
-import RadioButton from './RadioButton/RadioButton'
-import Separator from './Separator/Separator'
-import SocialButton from './SocialButton/SocialButton'
-import UniversalContainer from './UniversalContainer/UniversalContainer'
-
-export {
-    Button,
-    Checkbox,
-    CheckBoxSquare,
-    CircleWithIcon,
-    CreditCard,
-    Dot,
-    Input,
-    Link,
-    MiniCreditCard,
-    MoneyText,
-    OptionButton,
-    Pagination,
-    RadioButton,
-    Separator,
-    SocialButton,
-    UniversalContainer,
-}
+export { default as Button } from './Button/Button'
+export { default as Checkbox } from './Checkbox/Checkbox'
+export { default as CheckBoxSquare } from './CheckBoxSquare/CheckBoxSquare'
+export { default as CircleWithIcon } from './CircleWithIcon/CircleWithIcon'
+export { default as CreditCard } from './CreditCard/CreditCard'
+export { default as Dot } from './Dot/Dot'
+export { default as Input } from './Input/Input'
+export { default as Link } from './Link/Link'
+export { default as MiniCreditCard } from './MiniCreditCard/MiniCreditCard'
+export { default as MoneyText } from './MoneyText/MoneyText'
+export { default as OptionButton } from './OptionButton/OptionButton'
+export { default as Pagination } from './Pagination/Pagination'
+export { default as RadioButton } from './RadioButton/RadioButton'
+export { default as Separator } from './Separator/Separator'
+export { default as SocialButton } from './SocialButton/SocialButton'
+export { default as UniversalContainer } from './UniversalContainer/UniversalContainer'

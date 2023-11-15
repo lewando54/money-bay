@@ -10,6 +10,9 @@ export default ({ config }) => ({
         // eslint-disable-next-line no-undef
         storybookEnabled: process.env.STORYBOOK_ENABLED,
     },
+    experiments: {
+        tsconfigPaths: true
+    },
     android: {
         package: 'com.anonymous.storybooktutorialtemplate'
     }

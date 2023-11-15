@@ -37,6 +37,6 @@ export default function Dot({
     }))
 
     return (
-        <Animated.View style={[dotStyle.dot, {borderColor: color}, x && animatedDotStyle]} testID={testID}/>
+        <Animated.View style={[dotStyle.dot, {borderColor: color}, listOffsetX && animatedDotStyle]} testID={testID}/>
     )
 }

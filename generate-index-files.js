@@ -12,8 +12,7 @@ let modulesPaths = [
     './src/pages'
 ]
 
-let indexExportContent = 'export {\n'
-let indexImportContent = ''
+let indexExportContent = ''
 
 function generateIndexFiles(dir) {
     const files = fs.readdirSync(dir)
@@ -27,17 +26,14 @@ function generateIndexFiles(dir) {
             generateIndexFiles(fullPath)
         } else if (file.endsWith('.tsx') && !file.endsWith('.style.tsx') && !file.endsWith('.test.tsx') && !file.endsWith('.stories.tsx')) {
             const baseName = path.basename(file, '.tsx')
-            indexImportContent += `import ${baseName} from './${baseName}/${baseName}';\n`
-            indexExportContent += `\t${baseName},\n`
+            indexExportContent += `export { default as ${baseName} } from './${baseName}/${baseName}'\n`
         }
     })
 
     if (modulesPaths.includes(dir)) {
-        indexExportContent += '}'
-        fs.writeFileSync(path.join(dir, 'index.ts'), indexImportContent+'\n'+indexExportContent)
-        fs.writeFileSync(path.join(dir, 'index.d.ts'), `declare module "@${path.basename(dir)}"`)
-        indexExportContent = 'export {\n'
-        indexImportContent = ''
+        fs.writeFileSync(path.join(dir, 'index.ts'), indexExportContent)
+        fs.writeFileSync(path.join(dir, 'index.d.ts'), `declare module '@${path.basename(dir)}'`)
+        indexExportContent = ''
     }
 }
 

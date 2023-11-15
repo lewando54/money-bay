@@ -3,7 +3,7 @@ import { Text } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
-import { InfoScreenPageStyle } from '@pages'
+import InfoScreenPageStyle from '@pages/InfoScreenPage/InfoScreenPage.style'
 import { InfoScreenTemplate } from '@templates'
 import { RootStackParamList } from 'App'
 

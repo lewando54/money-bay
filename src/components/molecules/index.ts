@@ -1,35 +1,16 @@
-import Accordion from './Accordion/Accordion'
-import ButtonCircleWithText from './ButtonCircleWithText/ButtonCircleWithText'
-import CardIssuerRadioButton from './CardIssuerRadioButton/CardIssuerRadioButton'
-import DepositBox from './DepositBox/DepositBox'
-import EmailInput from './EmailInput/EmailInput'
-import LoanBox from './LoanBox/LoanBox'
-import MoneyBox from './MoneyBox/MoneyBox'
-import Notification from './Notification/Notification'
-import OnboardingSlide from './OnboardingSlide/OnboardingSlide'
-import PasswordInput from './PasswordInput/PasswordInput'
-import PhoneInput from './PhoneInput/PhoneInput'
-import PinDots from './PinDots/PinDots'
-import ProductBar from './ProductBar/ProductBar'
-import SearchInput from './SearchInput/SearchInput'
-import SquareButtonWithIcon from './SquareButtonWithIcon/SquareButtonWithIcon'
-import TransactionBar from './TransactionBar/TransactionBar'
-
-export {
-    Accordion,
-    ButtonCircleWithText,
-    CardIssuerRadioButton,
-    DepositBox,
-    EmailInput,
-    LoanBox,
-    MoneyBox,
-    Notification,
-    OnboardingSlide,
-    PasswordInput,
-    PhoneInput,
-    PinDots,
-    ProductBar,
-    SearchInput,
-    SquareButtonWithIcon,
-    TransactionBar,
-}
+export { default as Accordion } from './Accordion/Accordion'
+export { default as ButtonCircleWithText } from './ButtonCircleWithText/ButtonCircleWithText'
+export { default as CardIssuerRadioButton } from './CardIssuerRadioButton/CardIssuerRadioButton'
+export { default as DepositBox } from './DepositBox/DepositBox'
+export { default as EmailInput } from './EmailInput/EmailInput'
+export { default as LoanBox } from './LoanBox/LoanBox'
+export { default as MoneyBox } from './MoneyBox/MoneyBox'
+export { default as Notification } from './Notification/Notification'
+export { default as OnboardingSlide } from './OnboardingSlide/OnboardingSlide'
+export { default as PasswordInput } from './PasswordInput/PasswordInput'
+export { default as PhoneInput } from './PhoneInput/PhoneInput'
+export { default as PinDots } from './PinDots/PinDots'
+export { default as ProductBar } from './ProductBar/ProductBar'
+export { default as SearchInput } from './SearchInput/SearchInput'
+export { default as SquareButtonWithIcon } from './SquareButtonWithIcon/SquareButtonWithIcon'
+export { default as TransactionBar } from './TransactionBar/TransactionBar'
