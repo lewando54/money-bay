@@ -3,8 +3,8 @@
     "@expo/vector-icons": "^13.0.0",
     "@react-native-community/blur": "^4.3.2",
     "@react-native-masked-view/masked-view": "file:./src/modules/@react-native-masked-view/masked-view",
-    "@react-navigation/bottom-tabs": "^6.5.9",
-    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.14",
     "@testing-library/react-native": "^12.3.0",
     "@types/react": "~18.0.27",
@@ -79,7 +79,9 @@
       "<rootDir>/src/styling/",
       "<rootDir>/src/utils/",
       "<rootDir>/assets/",
-      ".style.tsx"
+      ".style.tsx",
+      "<rootDir>/src/modules/",
+      "index.ts"
     ],
     "fakeTimers": {
       "enableGlobally": true
@@ -88,7 +90,7 @@
       "<rootDir>/jest.setup.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-router-native|react-native-svg)"
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
     ]
   },
   "version": "1.0.0",

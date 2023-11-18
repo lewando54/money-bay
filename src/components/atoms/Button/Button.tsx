@@ -6,13 +6,13 @@ import buttonStyle from './Button.style'
 
 import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '@styling/GlobalTheme.style'
 
-export type colorProp = 'primary' | 'secondary' | string
-export type sizeProp = 'normal' | 'small'
+export type TColorProp = 'primary' | 'secondary' | string
+export type TSizeProp = 'normal' | 'small'
 
 export interface IButtonProps{
     children: React.ReactNode
-    color?: colorProp
-    size?: sizeProp
+    color?: TColorProp
+    size?: TSizeProp
     width?: string
     containerStyle?: StyleProp<ViewStyle>
     onClick?: (() => void) | null | undefined

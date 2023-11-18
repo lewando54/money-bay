@@ -1,12 +1,11 @@
 import React from 'react'
 import { View } from 'react-native'
 
-import { SocialButton } from '@atoms'
-import { TiconProp } from 'src/components/atoms/SocialButton/SocialButton'
+import { SocialButton, TIconProp } from '@atoms'
 
 import socialButtonListStyle from './SocialButtonList.style'
 
-export type TSocialsArray = Array<{ id: number, color: string, icon: TiconProp, href: URL['href'], testId?: string }>
+export type TSocialsArray = Array<{ id: number, color: string, icon: TIconProp, href: URL['href'], testId?: string }>
 interface ISocialButtonList {
   socials: TSocialsArray
   testId?: string

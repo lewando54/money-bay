@@ -2,14 +2,14 @@ import React from 'react'
 import { FontAwesome5 } from '@expo/vector-icons'
 
 import socialButtonStyle from './SocialButton.style'
-export type TiconProp = 'facebook' | 'google' | 'linkedin' | 'twitter'
+export type TIconProp = 'facebook' | 'google' | 'linkedin' | 'twitter'
 import { Linking, Pressable } from 'react-native'
 import Animated, { Easing, interpolate, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 
 export interface ISocialButtonProps {
     color: string
     href: string
-    icon: TiconProp
+    icon: TIconProp
     testId: string
     size: number
 }
@@ -18,7 +18,7 @@ function SocialButton ({ color, href, icon, testId, size }: ISocialButtonProps):
     const iconSize = size * 0.75
     const circleSize = size * 1.75
 
-    const icons: { [key in TiconProp]: React.ReactNode } = {
+    const icons: { [key in TIconProp]: React.ReactNode } = {
         facebook: <FontAwesome5 name='facebook-f' color='white' size={iconSize}/>,
         google: <FontAwesome5 name='google-plus-g' color='white' size={iconSize}/>,
         linkedin: <FontAwesome5 name='linkedin-in' color='white' size={iconSize}/>,

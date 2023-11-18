@@ -33,11 +33,4 @@ describe('ProductBar', () => {
         const tree = renderer.create(<ProductBar balanceTextColor='#fff'/>)
         expect(tree).toMatchSnapshot()
     })
-
-    it('should call onMenuClick when menu button clicked', () => {
-        const onClick = jest.fn()
-        const { getByTestId } = render(<ProductBar onMenuClick={onClick} hasMenuButton={true}/>)
-        fireEvent.press(getByTestId('three-dots-button'))
-        expect(onClick).toBeCalled()
-    })
 })

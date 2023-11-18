@@ -1,4 +1,5 @@
 export { default as DashboardTemplate } from './DashboardTemplate/DashboardTemplate'
+export { TCardsArray } from './DashboardTemplate/DashboardTemplate'
 export { default as InfoScreenTemplate } from './InfoScreenTemplate/InfoScreenTemplate'
 export { default as MobilePaymentTemplate } from './MobilePaymentTemplate/MobilePaymentTemplate'
 export { default as NewPasswordTemplate } from './NewPasswordTemplate/NewPasswordTemplate'

@@ -151,27 +151,7 @@ exports[`Notification should render green icon with checkmark 1`] = `
         ]
       }
     >
-      <Text
-        allowFontScaling={false}
-        selectable={false}
-        style={
-          [
-            {
-              "color": "white",
-              "fontSize": 10,
-            },
-            undefined,
-            {
-              "fontFamily": "material",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            {},
-          ]
-        }
-      >
-        
-      </Text>
+      <Text />
     </View>
     <View
       style={
@@ -279,27 +259,7 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
         ]
       }
     >
-      <Text
-        allowFontScaling={false}
-        selectable={false}
-        style={
-          [
-            {
-              "color": "white",
-              "fontSize": 10,
-            },
-            undefined,
-            {
-              "fontFamily": "material",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            {},
-          ]
-        }
-      >
-        
-      </Text>
+      <Text />
     </View>
     <View
       style={
@@ -407,27 +367,7 @@ exports[`Notification should render red icon with x 1`] = `
         ]
       }
     >
-      <Text
-        allowFontScaling={false}
-        selectable={false}
-        style={
-          [
-            {
-              "color": "white",
-              "fontSize": 10,
-            },
-            undefined,
-            {
-              "fontFamily": "material",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            {},
-          ]
-        }
-      >
-        
-      </Text>
+      <Text />
     </View>
     <View
       style={

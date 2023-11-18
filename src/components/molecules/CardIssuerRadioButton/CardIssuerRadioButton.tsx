@@ -1,9 +1,8 @@
 ﻿import React from 'react'
 import { Image, View } from 'react-native'
 
-import { RadioButton, UniversalContainer } from '@atoms'
+import { IRadioButtonProps, RadioButton, UniversalContainer } from '@atoms'
 import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
-import { IRadioButtonProps } from 'src/components/atoms/RadioButton/RadioButton'
 
 import CardIssuerRadioButtonStyle from './CardIssuerRadioButton.style'
 

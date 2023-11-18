@@ -2,8 +2,7 @@
 import { Image, StyleProp, Text, View,ViewStyle } from 'react-native'
 
 import Images from '@assets/images'
-import { Button } from '@atoms'
-import { colorProp, sizeProp } from 'src/components/atoms/Button/Button'
+import { Button, TColorProp, TSizeProp } from '@atoms'
 
 import InfoScreenTemplateStyle from './InfoScreenTemplate.style'
 
@@ -16,8 +15,8 @@ interface IInfoScreenTemplateProps {
     body?: React.ReactNode
     additionalButtons?: Array<{
         children: React.ReactNode,
-        color?: colorProp,
-        size?: sizeProp,
+        color?: TColorProp,
+        size?: TSizeProp,
         width?: string,
         containerStyle?: StyleProp<ViewStyle>,
         onClick?: (() => void) | null | undefined,

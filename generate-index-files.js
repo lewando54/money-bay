@@ -24,10 +24,22 @@ function generateIndexFiles(dir) {
 
         if (stat.isDirectory()) {
             generateIndexFiles(fullPath)
-        } else if (file.endsWith('.tsx') && !file.endsWith('.style.tsx') && !file.endsWith('.test.tsx') && !file.endsWith('.stories.tsx')) {
+        } 
+        else if (file.endsWith('.tsx') && (!file.endsWith('.style.tsx') && !file.endsWith('.test.tsx') && !file.endsWith('.stories.tsx'))) {
             const baseName = path.basename(file, '.tsx')
             indexExportContent += `export { default as ${baseName} } from './${baseName}/${baseName}'\n`
+            try{
+                const data = fs.readFileSync(fullPath, 'utf-8')
+                const regex = /export (type|interface) ([A-z]*)/gsm
+                while ((match = regex.exec(data)) !== null) {
+                    indexExportContent += `export { ${match[2]} } from './${baseName}/${baseName}'\n`
+                }
+            }
+            catch(err){
+                console.log(err)
+            }
         }
+        else
     })
 
     if (modulesPaths.includes(dir)) {

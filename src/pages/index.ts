@@ -1,5 +1,6 @@
 export { default as AccountSuccessPage } from './AccountSuccessPage/AccountSuccessPage'
 export { default as DashboardPage } from './DashboardPage/DashboardPage'
+export { default as InfoScreenPageStyle } from './InfoScreenPage/InfoScreenPage.style'
 export { default as MobilePaymentPage } from './MobilePaymentPage/MobilePaymentPage'
 export { default as NewPasswordPage } from './NewPasswordPage/NewPasswordPage'
 export { default as OnboardingPage } from './OnboardingPage/OnboardingPage'
@@ -9,4 +10,3 @@ export { default as SignInWithCodePage } from './SignInWithCodePage/SignInWithCo
 export { default as SignUpPage } from './SignUpPage/SignUpPage'
 export { default as TransactionDetailsPage } from './TransactionDetailsPage/TransactionDetailsPage'
 export { default as TransactionHistoryPage } from './TransactionHistoryPage/TransactionHistoryPage'
-export { default as InfoScreenPageStyle } from './InfoScreenPage/InfoScreenPage.style'

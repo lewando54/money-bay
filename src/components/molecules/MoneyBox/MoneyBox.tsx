@@ -5,7 +5,7 @@ import { ProgressBar } from 'react-native-paper'
 import { Button, MoneyText, UniversalContainer } from '@atoms'
 import { TCurrency } from '@utils/currency'
 
-import PiggyBank from './images/piggy-bank.svg'
+import PiggyBank from './assets/piggy-bank.svg'
 import moneyBoxStyle from './MoneyBox.style'
 
 import globalThemeStyle, { GOOD_GREEN, MAIN_DARK, PLAIN_BLUE } from '@styling/GlobalTheme.style'
@@ -45,10 +45,10 @@ export default function MoneyBox({
             <View style={moneyBoxStyle.titleAndGoalContainer}>
                 <PiggyBank />
                 <Text style={[globalThemeStyle.text_Regular, {color: MAIN_DARK}]}>{name}</Text>
-                <MoneyText amount={verifiedGoalAmount} currency={currency} containerStyle={{marginLeft: 'auto'}}/>
+                <MoneyText amount={verifiedGoalAmount} currency={currency} containerStyle={moneyBoxStyle.moneyText}/>
             </View>
             <View>
-                <ProgressBar progress={(verifiedCurrentAmount/verifiedGoalAmount)} style={{borderRadius: 10, height: 5}} color={GOOD_GREEN}/>
+                <ProgressBar progress={(verifiedCurrentAmount/verifiedGoalAmount)} style={moneyBoxStyle.progressBar} color={GOOD_GREEN}/>
                 
                 <View style={moneyBoxStyle.currentMoneyContainer}>
                     <MoneyText amount={verifiedCurrentAmount} currency={currency} fontSize={12} isCurrencyBold={false}/>

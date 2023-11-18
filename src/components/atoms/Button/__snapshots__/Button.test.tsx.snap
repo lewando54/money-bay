@@ -35,7 +35,7 @@ exports[`Button should render correctly 1`] = `
       "width": "100%",
     }
   }
-  testID="testxd"
+  testID="test"
 >
   <ViewManagerAdapter_ExpoLinearGradient
     proxiedProperties={
@@ -123,7 +123,7 @@ exports[`Button should render normal variant 1`] = `
       "width": "100%",
     }
   }
-  testID="testxd"
+  testID="test"
 >
   <ViewManagerAdapter_ExpoLinearGradient
     proxiedProperties={
@@ -211,7 +211,7 @@ exports[`Button should render small variant 1`] = `
       "width": "100%",
     }
   }
-  testID="testxd"
+  testID="test"
 >
   <ViewManagerAdapter_ExpoLinearGradient
     proxiedProperties={
@@ -310,7 +310,7 @@ exports[`Button should render with primary color by default 1`] = `
       "width": "100%",
     }
   }
-  testID="testxd"
+  testID="test"
 >
   <ViewManagerAdapter_ExpoLinearGradient
     proxiedProperties={

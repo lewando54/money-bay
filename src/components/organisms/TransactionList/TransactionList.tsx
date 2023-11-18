@@ -2,8 +2,7 @@
 import { View } from 'react-native'
 
 import Images from '@assets/images'
-import { TransactionBar } from '@molecules'
-import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
+import { TransactionBar, TTransactionsArray } from '@molecules'
 
 import transactionListStyle from './TransactionList.style'
 

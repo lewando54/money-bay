@@ -45,27 +45,7 @@ exports[`TransactionBar should be expense by default 1`] = `
       ]
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "black",
-            "fontSize": 24,
-          },
-          undefined,
-          {
-            "fontFamily": "material",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </View>
   <View>
     <Text
@@ -198,27 +178,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
       ]
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "black",
-            "fontSize": 24,
-          },
-          undefined,
-          {
-            "fontFamily": "material",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </View>
   <View>
     <Text
@@ -355,27 +315,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
       ]
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "black",
-            "fontSize": 24,
-          },
-          undefined,
-          {
-            "fontFamily": "material",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </View>
   <View>
     <Text
@@ -508,27 +448,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
       ]
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "black",
-            "fontSize": 24,
-          },
-          undefined,
-          {
-            "fontFamily": "material",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </View>
   <View>
     <Text
@@ -794,27 +714,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
       ]
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "black",
-            "fontSize": 24,
-          },
-          undefined,
-          {
-            "fontFamily": "material",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </View>
   <View>
     <Text

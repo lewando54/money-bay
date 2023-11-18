@@ -30,13 +30,11 @@ exports[`LoanBox should render correctly 1`] = `
 >
   <View
     style={
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ]
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
     }
   >
     <SvgMock />
@@ -419,13 +417,11 @@ exports[`LoanBox should render one month correctly 1`] = `
 >
   <View
     style={
-      [
-        {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "gap": 10,
-        },
-      ]
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 10,
+      }
     }
   >
     <SvgMock />

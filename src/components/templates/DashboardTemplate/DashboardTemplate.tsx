@@ -4,11 +4,10 @@ import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native
 
 import Images from '@assets/images'
 import { CreditCard, Link, Pagination, Separator } from '@atoms'
-import { ButtonCircleWithText } from '@molecules'
+import { ButtonCircleWithText, TTransactionsArray } from '@molecules'
 import { TransactionList } from '@organisms'
 import { TCardIssuer } from '@utils/cardIssuers'
 import { TCurrency } from '@utils/currency'
-import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
 
 import dashboardTemplateStyle from './DashboardTemplate.style'
 
@@ -140,7 +139,7 @@ export default function DashboardTemplate({
                             viewAreaCoveragePercentThreshold: 20
                         }}
                     />
-                    <Pagination data={cardsData} color='white' x={x} itemLengthPercent={0.7733}/>
+                    <Pagination data={cardsData} color='white' listOffsetX={x} itemLengthPercent={0.7733}/>
                 </ImageBackground>
             </View>
             <View style={dashboardTemplateStyle.buttonsAndPaymentsContainer}>

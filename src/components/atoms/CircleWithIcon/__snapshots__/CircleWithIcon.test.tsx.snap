@@ -45,27 +45,7 @@ exports[`CircleWithIcon should be gradient when passed array of colors 1`] = `
       }
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "#55ACEE",
-            "fontSize": 40,
-          },
-          undefined,
-          {
-            "fontFamily": "anticon",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </ViewManagerAdapter_ExpoLinearGradient>
 </View>
 `;
@@ -115,27 +95,7 @@ exports[`CircleWithIcon should be gradient when passed array of colors and posit
       }
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "#55ACEE",
-            "fontSize": 40,
-          },
-          undefined,
-          {
-            "fontFamily": "anticon",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </ViewManagerAdapter_ExpoLinearGradient>
 </View>
 `;
@@ -185,27 +145,7 @@ exports[`CircleWithIcon should render with shadow 1`] = `
     ]
   }
 >
-  <Text
-    allowFontScaling={false}
-    selectable={false}
-    style={
-      [
-        {
-          "color": "#55ACEE",
-          "fontSize": 40,
-        },
-        undefined,
-        {
-          "fontFamily": "anticon",
-          "fontStyle": "normal",
-          "fontWeight": "normal",
-        },
-        {},
-      ]
-    }
-  >
-    
-  </Text>
+  <Text />
 </View>
 `;
 
@@ -263,27 +203,7 @@ exports[`CircleWithIcon should render with shadow when gradient is applied 1`] =
       }
     }
   >
-    <Text
-      allowFontScaling={false}
-      selectable={false}
-      style={
-        [
-          {
-            "color": "#55ACEE",
-            "fontSize": 40,
-          },
-          undefined,
-          {
-            "fontFamily": "anticon",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          {},
-        ]
-      }
-    >
-      
-    </Text>
+    <Text />
   </ViewManagerAdapter_ExpoLinearGradient>
 </View>
 `;

@@ -34,5 +34,12 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         gap: 8
+    },
+    progressBar: {
+        borderRadius: 10,
+        height: 5
+    },
+    moneyText: {
+        marginLeft: 'auto'
     }
 })
