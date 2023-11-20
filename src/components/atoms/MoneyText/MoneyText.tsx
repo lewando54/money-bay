@@ -25,7 +25,7 @@ export default function MoneyText({
     containerStyle
 }: IMoneyTextProps){
     const minusSign = amount < 0 && <Text style={[globalThemeStyle.text_Regular, moneyTextStyle.minusSign]}>- </Text> 
-    const amountIntFinal = hasNumberFormatting ? Math.abs(Math.floor(amount)).toLocaleString().replace(',', ' ') : Math.abs(Math.floor(amount))
+    const amountIntFinal = hasNumberFormatting ? Math.abs(Math.floor(amount)).toLocaleString('en-US').replace(',', ' ') : Math.abs(Math.floor(amount))
     const amountDecFinal = Math.abs(((amount * 100) % 100)).toLocaleString('en-US', {minimumIntegerDigits: 2})
 
     return (

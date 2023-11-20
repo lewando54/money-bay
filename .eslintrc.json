@@ -8,7 +8,7 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended"
     ],
-    "ignorePatterns": ["MaskedView.js", "MaskedViewTypes.js", "jest.setup.js"],
+    "ignorePatterns": ["MaskedView.js", "MaskedViewTypes.js", "jest.setup.js", "generate-index-files.js"],
     "overrides": [
         // override "simple-import-sort" config
         {

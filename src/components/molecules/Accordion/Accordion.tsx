@@ -44,10 +44,15 @@ export default function Accordion({
 
     const onPressHandle = () => {
         if (!isExtended) {
-            // Problems with tests
+            // Problems with tests because of worklet and measure
             runOnUI(() => {
                 'worklet'
-                heightValue.value = withTiming(measure(textRef)!.height)
+                if(measure(textRef)){
+                    heightValue.value = withTiming(measure(textRef)!.height)
+                } 
+                else {
+                    heightValue.value = withTiming(100)
+                }
             })()
             rotationValue.value = withTiming(1)
         } else {

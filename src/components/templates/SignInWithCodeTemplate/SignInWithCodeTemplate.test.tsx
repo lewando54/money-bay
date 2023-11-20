@@ -51,4 +51,15 @@ describe('SignInWithCodeTemplate', () => {
         fireEvent.press(getByText('3'))
         setTimeout(() => expect(onSubmit).toBeCalledTimes(0), 1000)
     })
+
+    it('should call onSubmit when pin length is 4', () => {
+        jest.useFakeTimers()
+        const onSubmitMock = jest.fn()
+        const onChangeMock = jest.fn()
+        const { getByText } = render(<SignInWithCodeTemplate pin='123' onSubmit={onSubmitMock} onChange={onChangeMock}/>)
+
+        fireEvent.press(getByText('1'))
+        jest.runAllTimers()
+        expect(onSubmitMock).toHaveBeenCalledWith('1231')
+    })
 })

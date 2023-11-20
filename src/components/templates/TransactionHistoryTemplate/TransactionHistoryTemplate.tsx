@@ -23,21 +23,21 @@ export default function TransactionHistory({
             title: 'Adalyn Roth',
             subTitle: 'Money transfer',
             amount: 140,
-            date: new Date('2023-12-02')
+            date: new Date('2023-12-02T00:00:00.000Z')
         },
         {
             icon: <Images.amazonSVG />,
             title: 'Amazon',
             subTitle: 'Online payments',
             amount: 239.57,
-            date: new Date('2023-12-02')
+            date: new Date('2023-12-02T00:00:00.000Z')
         },
         {
             icon: <Images.payPalSVG />,
             title: 'Paypal',
             subTitle: 'Deposits',
             amount: 700,
-            date: new Date('2022-9-10'),
+            date: new Date('2022-09-10T00:00:00.000Z'),
             isExpense: false
         },
         {
@@ -45,31 +45,31 @@ export default function TransactionHistory({
             title: 'ATM',
             subTitle: 'Cash withdrawal',
             amount: 1200,
-            date: new Date('2022-9-10'),
+            date: new Date('2022-09-10T00:00:00.000Z'),
         },
         {
             icon: <Images.ebaySVG />,
             title: 'eBay',
             subTitle: 'Online payments',
             amount: 287.84,
-            date: new Date('2022-9-10'),
+            date: new Date('2022-09-10T00:00:00.000Z'),
         },
         {
             icon: <Images.smartphoneSVG color={ORANGE}/>,
             title: '+17869871235',
             subTitle: 'Mobile payments',
             amount: 10,
-            date: new Date('2022-9-5'),
+            date: new Date('2022-09-05T00:00:00.000Z'),
         },
         {
             icon: <Images.atmSVG />,
             title: '+17869871235',
             subTitle: 'Mobile payments',
             amount: 10,
-            date: new Date('2022-9-5'),
+            date: new Date('2022-09-05T00:00:00.000Z'),
         },
     ],
-    date=new Date('2022-12-02'),
+    date=new Date('2023-12-02T00:00:00.000Z'),
     testID
 }: ITransactionHistoryProps){
     let actDate = date

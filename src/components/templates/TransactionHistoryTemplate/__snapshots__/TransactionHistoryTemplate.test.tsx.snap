@@ -148,7 +148,7 @@ exports[`TransactionHistory should render correctly 1`] = `
         },
         {
           "amount": 700,
-          "date": 2022-09-09T22:00:00.000Z,
+          "date": 2022-09-10T00:00:00.000Z,
           "icon": <SvgMock />,
           "isExpense": false,
           "subTitle": "Deposits",
@@ -156,21 +156,21 @@ exports[`TransactionHistory should render correctly 1`] = `
         },
         {
           "amount": 1200,
-          "date": 2022-09-09T22:00:00.000Z,
+          "date": 2022-09-10T00:00:00.000Z,
           "icon": <SvgMock />,
           "subTitle": "Cash withdrawal",
           "title": "ATM",
         },
         {
           "amount": 287.84,
-          "date": 2022-09-09T22:00:00.000Z,
+          "date": 2022-09-10T00:00:00.000Z,
           "icon": <SvgMock />,
           "subTitle": "Online payments",
           "title": "eBay",
         },
         {
           "amount": 10,
-          "date": 2022-09-04T22:00:00.000Z,
+          "date": 2022-09-05T00:00:00.000Z,
           "icon": <SvgMock
             color="#FF8A71"
           />,
@@ -179,7 +179,7 @@ exports[`TransactionHistory should render correctly 1`] = `
         },
         {
           "amount": 10,
-          "date": 2022-09-04T22:00:00.000Z,
+          "date": 2022-09-05T00:00:00.000Z,
           "icon": <SvgMock />,
           "subTitle": "Mobile payments",
           "title": "+17869871235",
@@ -526,7 +526,7 @@ exports[`TransactionHistory should render correctly 1`] = `
               }
             }
           >
-            Sep 10
+            Sep 10, 2022
           </Text>
           <View
             style={
@@ -965,7 +965,7 @@ exports[`TransactionHistory should render correctly 1`] = `
               }
             }
           >
-            Sep 5
+            Sep 5, 2022
           </Text>
           <View
             style={
