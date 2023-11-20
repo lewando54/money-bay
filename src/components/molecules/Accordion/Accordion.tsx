@@ -44,7 +44,6 @@ export default function Accordion({
 
     const onPressHandle = () => {
         if (!isExtended) {
-            // Problems with tests because of worklet and measure
             runOnUI(() => {
                 'worklet'
                 if(measure(textRef)){

@@ -45,7 +45,7 @@ export default function DepositBox({
     const dateToString = dateTo.toLocaleDateString('en-US', {
         year: 'numeric', month: 'short', day: 'numeric'
     })
-    const VarButton = 
+    const ExtendOrTopUpButton = 
         isFinished ? 
             <Button width='50%' color={ORANGE} size='small' onClick={onExtendClick}>Extend</Button> : 
             <Button width='50%' color={PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
@@ -68,7 +68,7 @@ export default function DepositBox({
                 </View>
             </View>
             <View style={depositBoxStyle.buttonsContainer}>
-                {VarButton}
+                {ExtendOrTopUpButton}
                 <Button width='50%' color={GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
             </View>
         </UniversalContainer>
