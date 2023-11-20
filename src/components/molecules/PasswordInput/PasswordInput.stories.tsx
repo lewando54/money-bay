@@ -27,7 +27,8 @@ function StatefulInput({
 const meta = {
     component: StatefulInput,
     argTypes: {
-        // To write
+        value: {control: 'text'},
+        placeholder: {control: 'text'}
     }
 } satisfies Meta<typeof StatefulInput>
 
@@ -36,6 +37,6 @@ type Story = StoryObj<typeof StatefulInput>
 
 export const Default: Story = {
     args: {
-        // To write
+        placeholder: 'Type something'
     }
 }

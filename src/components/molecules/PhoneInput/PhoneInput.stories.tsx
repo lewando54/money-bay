@@ -1,20 +1,32 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
+import React, { useState } from 'react'
 import { Meta,StoryObj } from '@storybook/react-native'
 
 import PhoneInput from './PhoneInput'
 
+interface IPhoneInputMockupProps {
+    value?: string
+}
+
+function StatefulPhoneInput({value}: IPhoneInputMockupProps){
+    const [mockupValue, setMockupValue] = useState(value)
+    return (
+        <PhoneInput value={mockupValue} onChange={(newValue) => setMockupValue(() => newValue)}/>
+    )
+}
+
 const meta = {
-    component: PhoneInput,
+    component: StatefulPhoneInput,
     argTypes: {
-        // To write
+        value: {control: 'text'}
     }
-} satisfies Meta<typeof PhoneInput>
+} satisfies Meta<typeof StatefulPhoneInput>
 
 export default meta
-type Story = StoryObj<typeof PhoneInput>
+type Story = StoryObj<typeof StatefulPhoneInput>
 
 export const Default: Story = {
     args: {
-        // To write
+        value: '123456789'
     }
 }
