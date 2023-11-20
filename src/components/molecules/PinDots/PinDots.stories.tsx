@@ -6,7 +6,8 @@ import PinDots from './PinDots'
 const meta = {
     component: PinDots,
     argTypes: {
-        // To write
+        maxLength: {control: 'number'},
+        currLength: {control: 'number'},
     }
 } satisfies Meta<typeof PinDots>
 
@@ -15,6 +16,7 @@ type Story = StoryObj<typeof PinDots>
 
 export const Default: Story = {
     args: {
-        // To write
+        maxLength: 4,
+        currLength: 0,
     }
 }

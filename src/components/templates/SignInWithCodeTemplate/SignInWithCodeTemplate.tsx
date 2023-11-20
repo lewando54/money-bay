@@ -39,7 +39,7 @@ export default function SignInWithCodeTemplate({
         1, 2, 3, 4, 5, 6, 7, 8, 9, 'faceid', 0, 'close'
     ]
 
-    const x = useSharedValue(0)
+    const xTransform = useSharedValue(0)
 
     const OFFSET = 10
     const TIME = 100
@@ -58,7 +58,7 @@ export default function SignInWithCodeTemplate({
                     console.log('correct')
                 }
                 else{
-                    x.value = withSequence(
+                    xTransform.value = withSequence(
                         withTiming(-OFFSET, { duration: TIME / 2, easing: Easing.exp }),
                         withRepeat(withTiming(OFFSET, { duration: TIME, easing: Easing.exp }), 2, true),
                         withTiming(0, { duration: TIME / 2, easing: Easing.exp })
@@ -109,7 +109,7 @@ export default function SignInWithCodeTemplate({
                     <Text style={signInWithCodeTemplateStyle.usernameText}>{name}</Text>
                     <Text style={signInWithCodeTemplateStyle.usernameSubText}>{subname}</Text>
                 </View>
-                <PinDots currLength={pin.length} x={x}/>
+                <PinDots currLength={pin.length} xTransform={xTransform}/>
                 <View style={signInWithCodeTemplateStyle.buttonContainer}>
                     {Keypad}
                 </View>

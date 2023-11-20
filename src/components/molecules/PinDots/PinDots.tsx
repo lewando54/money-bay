@@ -7,20 +7,20 @@ import pinDotsStyle from './PinDots.style'
 interface IPinDotsProps {
     maxLength?: number,
     currLength?: number,
-    x?: SharedValue<number>
+    xTransform?: SharedValue<number>
     testID?: string
 }
 
 export default function PinDots({
     maxLength=4,
     currLength=0,
-    x,
+    xTransform,
     testID
 }: IPinDotsProps){
-    const shakeAnimationStyle = x && useAnimatedStyle(() => ({
+    const shakeAnimationStyle = xTransform && useAnimatedStyle(() => ({
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        transform: [{translateX: x.value}]
+        transform: [{translateX: xTransform.value}]
     }))
 
     const Dots = Array(maxLength).fill(0).map((val, index) => {
