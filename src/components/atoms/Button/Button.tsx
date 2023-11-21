@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleProp,Text, TouchableOpacity, ViewStyle } from 'react-native'
+import { StyleProp, Text, TouchableOpacity, ViewStyle } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 
 import buttonStyle from './Button.style'
