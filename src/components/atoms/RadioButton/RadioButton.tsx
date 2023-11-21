@@ -5,7 +5,7 @@ import Animated, { Easing,useAnimatedStyle, useSharedValue, withTiming } from 'r
 
 import radioButtonStyle from './RadioButton.style'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 export interface IRadioButtonProps {
     id?: number
@@ -20,7 +20,7 @@ export default function RadioButton({
     id=0,
     group='default',
     chosen=false,
-    color=GOOD_GREEN,
+    color=globalColors.GOOD_GREEN,
     onPress,
     testID
 }: IRadioButtonProps){

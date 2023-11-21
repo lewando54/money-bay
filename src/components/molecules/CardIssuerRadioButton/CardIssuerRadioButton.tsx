@@ -6,7 +6,7 @@ import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
 
 import CardIssuerRadioButtonStyle from './CardIssuerRadioButton.style'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ICardIssuerRadioButtonProps extends IRadioButtonProps {
     cardIssuer?: TCardIssuer
@@ -15,7 +15,7 @@ interface ICardIssuerRadioButtonProps extends IRadioButtonProps {
 export default function CardIssuerRadioButton({
     cardIssuer='visa-color',
     chosen=false,
-    color=GOOD_GREEN,
+    color=globalColors.GOOD_GREEN,
     id=0,
     group='default',
     onPress,

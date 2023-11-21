@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     baseStyle: {
         backgroundColor: 'white',
@@ -10,10 +10,10 @@ export default StyleSheet.create({
         borderRadius: 10
     },
     chosenStyle: {
-        backgroundColor: MAIN_DARK
+        backgroundColor: globalColors.MAIN_DARK
     },
     baseText: {
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontFamily: 'MulishSemiBold',
         fontSize: 16
     },

@@ -1,13 +1,13 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     container: {
         flexDirection: 'row',
         gap: 12
     },
     base: {
-        backgroundColor: MAIN_DARK,
+        backgroundColor: globalColors.MAIN_DARK,
         width: 8,
         height: 8,
         borderRadius: 100

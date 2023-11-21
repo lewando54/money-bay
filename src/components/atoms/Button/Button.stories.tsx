@@ -3,7 +3,7 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import Button from './Button'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: Button,
@@ -34,7 +34,7 @@ export const Secondary: Story = {
 
 export const Small: Story = {
     args: {
-        color: GOOD_GREEN,
+        color: globalColors.GOOD_GREEN,
         size: 'small',
         children: 'Button'
     }

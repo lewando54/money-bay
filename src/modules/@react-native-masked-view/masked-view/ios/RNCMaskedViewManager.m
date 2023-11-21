@@ -11,7 +11,7 @@
 
 @implementation RNCMaskedViewManager
 
-RCT_EXPORT_MODULE()
+globalColors.RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {

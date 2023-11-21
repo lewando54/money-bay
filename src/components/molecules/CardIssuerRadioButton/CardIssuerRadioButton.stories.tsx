@@ -6,7 +6,7 @@ import { TCardIssuer } from '@utils/cardIssuers'
 
 import CardIssuerRadioButton from './CardIssuerRadioButton'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ICardIssuerRadioButtonMockupProps {
 	cardIssuer: TCardIssuer
@@ -18,7 +18,7 @@ interface ICardIssuerRadioButtonMockupProps {
 function StatefulCardIssuerRadioButton({
     cardIssuer='visa-color',
     chosen=false,
-    color=GOOD_GREEN,
+    color=globalColors.GOOD_GREEN,
     onPress
 }: ICardIssuerRadioButtonMockupProps){
     const [isChosen, setIsChosen] = useState(chosen)
@@ -45,7 +45,7 @@ export const Default: Story = {
     args: {
         cardIssuer: 'visa-color',
         chosen: false,
-        color: GOOD_GREEN
+        color: globalColors.GOOD_GREEN
     }
 }
 
@@ -53,7 +53,7 @@ export const Mastercard: Story = {
     args: {
         cardIssuer: 'mastercard',
         chosen: false,
-        color: GOOD_GREEN
+        color: globalColors.GOOD_GREEN
     }
 }
 
@@ -61,7 +61,7 @@ export const Chosen: Story = {
     args: {
         cardIssuer: 'visa-color',
         chosen: true,
-        color: GOOD_GREEN
+        color: globalColors.GOOD_GREEN
     }
 }
 

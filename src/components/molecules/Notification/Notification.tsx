@@ -7,7 +7,7 @@ import { CircleWithIcon, Separator, UniversalContainer } from '@atoms'
 
 import notificationStyle from './Notification.style'
 
-import { GOOD_GREEN, LINK_COLOR, WARNING_YELLOW } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 type TNotificationType = 'warning' | 'error' | 'correct'
 
@@ -28,11 +28,11 @@ export default function Notification({
 }: INotificationProps){
     const notificationTypeIcon = 
         type == 'correct' ? 
-            <CircleWithIcon backgroundColor={GOOD_GREEN} size={18} icon={<MaterialIcons name="check" size={10} color="white" />}/> :
+            <CircleWithIcon backgroundColor={globalColors.GOOD_GREEN} size={18} icon={<MaterialIcons name="check" size={10} color="white" />}/> :
             type == 'error' ?
-                <CircleWithIcon backgroundColor={LINK_COLOR} size={18} icon={<MaterialIcons name="close" size={10} color="white" />}/> :
+                <CircleWithIcon backgroundColor={globalColors.LINK_COLOR} size={18} icon={<MaterialIcons name="close" size={10} color="white" />}/> :
                 type == 'warning' &&
-            <CircleWithIcon backgroundColor={WARNING_YELLOW} size={18} icon={<AntDesign name="warning" size={10} color="white" />}/>
+            <CircleWithIcon backgroundColor={globalColors.WARNING_YELLOW} size={18} icon={<AntDesign name="warning" size={10} color="white" />}/>
 
     return (
         <UniversalContainer padding={22} style={{gap: 12}} testID={testID}>

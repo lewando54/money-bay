@@ -8,7 +8,7 @@ import { TCurrency } from '@utils/currency'
 import PiggyBank from './assets/piggy-bank.svg'
 import moneyBoxStyle from './MoneyBox.style'
 
-import globalThemeStyle, { GOOD_GREEN, MAIN_DARK, PLAIN_BLUE } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IMoneyBoxProps {
     goalAmount?: number
@@ -44,19 +44,19 @@ export default function MoneyBox({
         <UniversalContainer testID={testID} style={moneyBoxStyle.container} castShadow={true}>
             <View style={moneyBoxStyle.titleAndGoalContainer}>
                 <PiggyBank />
-                <Text style={[globalThemeStyle.text_Regular, {color: MAIN_DARK}]}>{name}</Text>
+                <Text style={[globalThemeStyle.text_Regular, {color: globalColors.MAIN_DARK}]}>{name}</Text>
                 <MoneyText amount={verifiedGoalAmount} currency={currency} containerStyle={moneyBoxStyle.moneyText}/>
             </View>
             <View>
-                <ProgressBar progress={(verifiedCurrentAmount/verifiedGoalAmount)} style={moneyBoxStyle.progressBar} color={GOOD_GREEN}/>
+                <ProgressBar progress={(verifiedCurrentAmount/verifiedGoalAmount)} style={moneyBoxStyle.progressBar} color={globalColors.GOOD_GREEN}/>
                 
                 <View style={moneyBoxStyle.currentMoneyContainer}>
                     <MoneyText amount={verifiedCurrentAmount} currency={currency} fontSize={12} isCurrencyBold={false}/>
                 </View>
             </View>
             <View style={moneyBoxStyle.buttonsContainer}>
-                <Button width='50%' color={PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
-                <Button width='50%' color={GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
+                <Button width='50%' color={globalColors.PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
+                <Button width='50%' color={globalColors.GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
             </View>
         </UniversalContainer>
     )

@@ -4,7 +4,7 @@ import Animated, { Easing,interpolateColor, useAnimatedStyle, useSharedValue, wi
 
 import checkboxStyle from './Checkbox.style'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ICheckboxProps {
     checked: boolean
@@ -17,7 +17,7 @@ interface ICheckboxProps {
 
 export default function Checkbox({
     checked=false,
-    checkedbackgroundColor=GOOD_GREEN,
+    checkedbackgroundColor=globalColors.GOOD_GREEN,
     circleBackgroundColor='white',
     backgroundColor='#CED6E1',
     onPress,

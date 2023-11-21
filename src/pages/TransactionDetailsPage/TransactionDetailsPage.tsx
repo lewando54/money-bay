@@ -6,7 +6,7 @@ import Images from '@assets/images'
 import { TransactionDetailsTemplate } from '@templates'
 import { RootStackParamList } from 'App'
 
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Transaction details'>
 
@@ -23,7 +23,7 @@ export default function TransactionDetailsPage({route, navigation}: Props) {
             onDownloadPDFPress={onDownloadPDFPressHandle}
             wholeAmount={wholeAmount}
             decimalAmount={decimalAmount}
-            statusElement={<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: GOOD_GREEN, fontSize: 14}}>Success</Text></View>}
+            statusElement={<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</Text></View>}
         />
     )
 }

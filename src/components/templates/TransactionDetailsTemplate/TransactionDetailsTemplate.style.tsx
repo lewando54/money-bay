@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK }  from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors.BODY_TEXT_COLOR, globalColors.MAIN_DARK }  from '@styling/GlobalTheme.style'
 
 const {width, height} = Dimensions.get('screen')
 
@@ -20,7 +20,7 @@ export default StyleSheet.create({
     dateText: {
         ...globalThemeStyle.text_Regular,
         fontSize: 12,
-        color: BODY_TEXT_COLOR
+        color: globalColors.BODY_TEXT_COLOR
     },
     moneyContainer: {
         flexDirection: 'row',
@@ -28,12 +28,12 @@ export default StyleSheet.create({
     },
     bigMoneyText: {
         ...globalThemeStyle.text_Bold,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontSize: 28
     },
     smallMoneyText: {
         ...globalThemeStyle.text_Bold,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontSize: 16,
         marginBottom: height * 0.004
     },
@@ -54,12 +54,12 @@ export default StyleSheet.create({
     cellHeader: {
         ...globalThemeStyle.text_Regular,
         fontSize: 16,
-        color: BODY_TEXT_COLOR
+        color: globalColors.BODY_TEXT_COLOR
     },
     cellData: {
         ...globalThemeStyle.text_SemiBold,
         fontSize: 16,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     downloadButton: {
         marginTop: 'auto',

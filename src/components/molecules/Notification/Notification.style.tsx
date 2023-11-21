@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     iconAndTitleWrapper: {
         flexDirection: 'row', 
@@ -17,16 +17,16 @@ export default StyleSheet.create({
     notificationTitleText: {
         ...globalThemeStyle.text_SemiBold,
         fontSize: 16,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     notificationBodyText: {
         ...globalThemeStyle.text_Regular, 
         fontSize: 16,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     notificationTimeText: {
         ...globalThemeStyle.text_Regular,
         fontSize: 12,
-        color: BODY_TEXT_COLOR
+        color: globalColors.BODY_TEXT_COLOR
     }
 })

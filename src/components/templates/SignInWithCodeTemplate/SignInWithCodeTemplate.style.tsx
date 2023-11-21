@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 const { width } = Dimensions.get('screen')
 
@@ -31,7 +31,7 @@ export default StyleSheet.create({
     buttonText: {
         ...globalThemeStyle.text_Regular,
         fontSize: 24,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     buttonContainer: {
         width: width * 0.6933,
@@ -48,11 +48,11 @@ export default StyleSheet.create({
     usernameText: {
         ...globalThemeStyle.text_Medium,
         fontSize: 20,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     usernameSubText: {
         ...globalThemeStyle.text_Medium,
         fontSize: 16,
-        color: BODY_TEXT_COLOR
+        color: globalColors.BODY_TEXT_COLOR
     }
 })

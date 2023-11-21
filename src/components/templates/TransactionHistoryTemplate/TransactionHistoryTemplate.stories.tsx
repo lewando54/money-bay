@@ -6,7 +6,7 @@ import Images from '@assets/images'
 
 import TransactionHistory from './TransactionHistoryTemplate'
 
-import { ORANGE } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: TransactionHistory,
@@ -59,7 +59,7 @@ export const Default: Story = {
                 date: new Date('2022-9-10'),
             },
             {
-                icon: <Images.smartphoneSVG color={ORANGE}/>,
+                icon: <Images.smartphoneSVG color={globalColors.ORANGE}/>,
                 title: '+17869871235',
                 subTitle: 'Mobile payments',
                 amount: 10,

@@ -8,7 +8,7 @@ import { TCardsArray } from '@templates'
 
 import paginationStyle from './Pagination.style'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IPaginationProps {
     data?: TOnboardingSlides | TCardsArray
@@ -21,7 +21,7 @@ interface IPaginationProps {
 export default function Pagination({
     data=[{id: 0, imageSource: require('../../../../assets/cardIssuers/mastercard.png'), heading: 'test', body: 'test', testID: 'testid'}],
     listOffsetX,
-    color=MAIN_DARK,
+    color=globalColors.MAIN_DARK,
     itemLengthPercent=1,
     testID
 }: IPaginationProps){

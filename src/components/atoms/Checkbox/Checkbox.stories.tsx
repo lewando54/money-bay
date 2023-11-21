@@ -5,7 +5,7 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import Checkbox from './Checkbox'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IMockupCheckboxProps {
 	checked?: boolean
@@ -53,7 +53,7 @@ type Story = StoryObj<typeof StatefulCheckbox>
 export const Default: Story = {
     args: {
         checked: false,
-        checkedbackgroundColor: GOOD_GREEN,
+        checkedbackgroundColor: globalColors.GOOD_GREEN,
         circleBackgroundColor: 'white',
         backgroundColor: '#CED6E1',
     }

@@ -5,7 +5,7 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import InfoScreenTemplate from './InfoScreenTemplate'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 const meta = {
     component: InfoScreenTemplate,
@@ -26,7 +26,7 @@ export const Default: Story = {
     args: {
         icon: <Text>Icon</Text>,
         title: 'Account created!',
-        titleColor: MAIN_DARK,
+        titleColor: globalColors.MAIN_DARK,
         body: <Text>Test</Text>,
     }
 }
@@ -35,7 +35,7 @@ export const AdditionalButtons: Story = {
     args: {
         icon: <Text>Icon</Text>,
         title: 'Account created!',
-        titleColor: MAIN_DARK,
+        titleColor: globalColors.MAIN_DARK,
         body: <Text>Test</Text>,
         additionalButtons: [
             {

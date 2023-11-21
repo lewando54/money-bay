@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 const { width, height } = Dimensions.get('screen')
 
 export default StyleSheet.create({
@@ -13,7 +13,7 @@ export default StyleSheet.create({
     },
     text: {
         ...globalThemeStyle.text_Regular,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontSize: 16
     },
 })

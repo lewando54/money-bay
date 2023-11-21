@@ -6,7 +6,7 @@ import { Button, TColorProp, TSizeProp } from '@atoms'
 
 import InfoScreenTemplateStyle from './InfoScreenTemplate.style'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IInfoScreenTemplateProps {
     icon?: React.ReactNode
@@ -31,7 +31,7 @@ interface IInfoScreenTemplateProps {
 export default function InfoScreenTemplate({
     icon=<Text>Icon</Text>,
     title='Account created!',
-    titleColor=MAIN_DARK,
+    titleColor=globalColors.MAIN_DARK,
     body=<Text>Test</Text>,
     additionalButtons,
     onSubmit,

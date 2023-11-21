@@ -8,7 +8,7 @@ import { TCurrency } from '@utils/currency'
 
 import productBarStyle from './ProductBar.style'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 type TProduct = 'card' | 'account'
 
@@ -39,16 +39,16 @@ export default function ProductBar({
             product == 'account' &&
             <Image source={require('./assets/check.png')} />
 
-    const ThreeDotsMenu = hasMenuButton ? <Entypo name="dots-three-vertical" size={16} color={BODY_TEXT_COLOR} testID='three-dots-button' style={{marginLeft: 'auto'}} onPress={onMenuClick}/> : undefined
+    const ThreeDotsMenu = hasMenuButton ? <Entypo name="dots-three-vertical" size={16} color={globalColors.BODY_TEXT_COLOR} testID='three-dots-button' style={{marginLeft: 'auto'}} onPress={onMenuClick}/> : undefined
 
     return (
         <UniversalContainer style={productBarStyle.container}>
             {ProductIcon}
             <View>
-                <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR}]}>
+                <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>
                     {name}
                 </Text>
-                <Text style={[globalThemeStyle.text_SemiBold, {color: balanceTextColor ? balanceTextColor : MAIN_DARK}]}>
+                <Text style={[globalThemeStyle.text_SemiBold, {color: balanceTextColor ? balanceTextColor : globalColors.MAIN_DARK}]}>
                     {balance.toLocaleString('en-US', {minimumIntegerDigits: 2, minimumFractionDigits: 2}).replace(',', ' ')} {currency.iso.toLocaleUpperCase()}
                 </Text>
             </View>

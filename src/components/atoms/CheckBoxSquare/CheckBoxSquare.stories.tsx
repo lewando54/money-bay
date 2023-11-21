@@ -4,7 +4,7 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import CheckBoxSquare from './CheckBoxSquare'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ICheckBoxSquareMockupProps {
     checked?: boolean
@@ -17,7 +17,7 @@ interface ICheckBoxSquareMockupProps {
 function StatefulChceckbox({
     checked=false,
     borderColor='#868698',
-    checkedColor=GOOD_GREEN,
+    checkedColor=globalColors.GOOD_GREEN,
     checkmarkColor='white',
     onPress,
 }: ICheckBoxSquareMockupProps){
@@ -52,7 +52,7 @@ export const Default: Story = {
     args: {
         checked: false,
         borderColor: '#868698',
-        checkedColor: GOOD_GREEN,
+        checkedColor: globalColors.GOOD_GREEN,
         checkmarkColor: 'white',
     }
 }

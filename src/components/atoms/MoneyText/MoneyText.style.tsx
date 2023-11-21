@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     moneyContainer: {
         flexDirection: 'row',
@@ -12,6 +12,6 @@ export default StyleSheet.create({
     },
     minusSign: {
         fontSize: 20,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     }
 })

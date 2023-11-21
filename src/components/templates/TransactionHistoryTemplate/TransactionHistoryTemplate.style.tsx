@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 const { width, height } = Dimensions.get('screen')
 
 export default StyleSheet.create({
@@ -10,7 +10,7 @@ export default StyleSheet.create({
     },
     dateText: {
         ...globalThemeStyle.text_Regular,
-        color: BODY_TEXT_COLOR,
+        color: globalColors.BODY_TEXT_COLOR,
         fontSize: 12,
         marginBottom: height * 0.0107
     },

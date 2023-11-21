@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 const { width } = Dimensions.get('screen')
 
@@ -10,14 +10,14 @@ export default StyleSheet.create({
         width: width * 0.16,
         height: 95,
         elevation: 20,
-        shadowColor: MAIN_DARK,
+        shadowColor: globalColors.MAIN_DARK,
         shadowOffset: {width: 0, height: 4},
         shadowRadius: 16,
         shadowOpacity: 0.08,
         gap: 10
     },
     text: {
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         textAlign: 'center'
     }
 })

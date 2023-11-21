@@ -8,7 +8,7 @@ import Check from './assets/check.svg'
 import SafeDeposit from './assets/safe-deposit.svg'
 import depositBoxStyle from './DepositBox.style'
 
-import globalThemeStyle, { BODY_TEXT_COLOR, GOOD_GREEN, MAIN_DARK, ORANGE, PLAIN_BLUE } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IDepositBoxProps {
     currentAmount?: number
@@ -47,11 +47,11 @@ export default function DepositBox({
     })
     const ExtendOrTopUpButton = 
         isFinished ? 
-            <Button width='50%' color={ORANGE} size='small' onClick={onExtendClick}>Extend</Button> : 
-            <Button width='50%' color={PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
+            <Button width='50%' color={globalColors.ORANGE} size='small' onClick={onExtendClick}>Extend</Button> : 
+            <Button width='50%' color={globalColors.PLAIN_BLUE} size='small' onClick={onTopUpClick}>Top - Up</Button>
     const icon = 
         isFinished ?
-            <CircleWithIcon size={22} backgroundColor={GOOD_GREEN} icon={<Check />}/> :
+            <CircleWithIcon size={22} backgroundColor={globalColors.GOOD_GREEN} icon={<Check />}/> :
             <SafeDeposit />
 
     return (
@@ -60,16 +60,16 @@ export default function DepositBox({
                 {icon}
                 <View style={depositBoxStyle.moneyAndDateContainer}>
                     <MoneyText amount={currentAmount} currency={currency}/>
-                    <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR, fontSize: 12}]}>{dateFromString} - {dateToString}</Text>
+                    <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR, fontSize: 12}]}>{dateFromString} - {dateToString}</Text>
                 </View>
                 <View style={depositBoxStyle.percentContainer}>
-                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 16, color: MAIN_DARK}]}>{percent}%</Text>
-                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: GOOD_GREEN}]}>+ {interest.toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
+                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 16, color: globalColors.MAIN_DARK}]}>{percent}%</Text>
+                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: globalColors.GOOD_GREEN}]}>+ {interest.toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
                 </View>
             </View>
             <View style={depositBoxStyle.buttonsContainer}>
                 {ExtendOrTopUpButton}
-                <Button width='50%' color={GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
+                <Button width='50%' color={globalColors.GOOD_GREEN} size='small' onClick={onWithdrawalClick}>Withdrawal</Button>
             </View>
         </UniversalContainer>
     )

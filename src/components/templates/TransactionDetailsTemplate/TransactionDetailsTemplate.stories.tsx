@@ -8,7 +8,7 @@ import Images from '@assets/images'
 
 import TransactionDetailsTemplate from './TransactionDetailsTemplate'
 
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IVisibleMockupProps {
     wholeAmount?: string
@@ -87,7 +87,7 @@ export const Default: Story = {
         name: 'Mobile Payment',
         date: new Date('2022-09-10T11:34:13'),
         recipientName: 'Hillary Holmes',
-        statusElement: <View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: GOOD_GREEN, fontSize: 14}}>Success</Text></View>,
+        statusElement: <View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</Text></View>,
         cardNumber: '**** 4253',
         fee: 0,
         residualBalance: 4853.27,

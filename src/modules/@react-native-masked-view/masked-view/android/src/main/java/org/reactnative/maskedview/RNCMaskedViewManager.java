@@ -17,11 +17,11 @@ import java.util.List;
 import java.util.Map;
 
 public class RNCMaskedViewManager extends ViewGroupManager<RNCMaskedView> {
-  private static final String REACT_CLASS = "RNCMaskedView";
+  private static final String globalColors.REACT_CLASS = "RNCMaskedView";
 
   @Override
   public String getName() {
-    return REACT_CLASS;
+    return globalColors.REACT_CLASS;
   }
 
   @Override

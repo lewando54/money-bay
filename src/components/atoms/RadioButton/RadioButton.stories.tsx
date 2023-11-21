@@ -5,7 +5,7 @@ import { Meta,StoryObj } from '@storybook/react-native'
 
 import RadioButton from './RadioButton'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 
 interface IRadioButtonMockupProps {
@@ -16,7 +16,7 @@ interface IRadioButtonMockupProps {
 
 function StatefulRadioButton({
     chosen=false,
-    color=GOOD_GREEN,
+    color=globalColors.GOOD_GREEN,
     onPress
 }: IRadioButtonMockupProps){
     const [isChosen, setIsChosen] = useState(chosen)
@@ -41,14 +41,14 @@ type Story = StoryObj<typeof StatefulRadioButton>
 export const Default: Story = {
     args: {
         chosen: false,
-        color: GOOD_GREEN
+        color: globalColors.GOOD_GREEN
     }
 }
 
 export const Chosen: Story = {
     args: {
         chosen: true,
-        color: GOOD_GREEN
+        color: globalColors.GOOD_GREEN
     }
 }
 

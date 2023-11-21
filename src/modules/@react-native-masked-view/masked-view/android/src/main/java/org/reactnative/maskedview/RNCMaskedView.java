@@ -24,8 +24,8 @@ public class RNCMaskedView extends ReactViewGroup {
     // Default to hardware rendering, androidRenderingMode prop will override
     setRenderingMode("hardware");
 
-    mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-    mPorterDuffXferMode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
+    mPaint = new Paint(Paint.globalColors.ANTI_ALIAS_FLAG);
+    mPorterDuffXferMode = new PorterDuffXfermode(PorterDuff.Mode.globalColors.DST_IN);
   }
 
   @Override
@@ -107,9 +107,9 @@ public class RNCMaskedView extends ReactViewGroup {
 
   public void setRenderingMode(String renderingMode) {
     if (renderingMode.equals("software")) {
-      setLayerType(LAYER_TYPE_SOFTWARE, null);
+      setLayerType(globalColors.LAYER_TYPE_SOFTWARE, null);
     } else {
-      setLayerType(LAYER_TYPE_HARDWARE, null);
+      setLayerType(globalColors.LAYER_TYPE_HARDWARE, null);
     }
   }
 }

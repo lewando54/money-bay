@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     mainContainer: {
         flex: 1,
@@ -22,7 +22,7 @@ export default StyleSheet.create({
     },
     rememberText: {
         ...globalThemeStyle.text_Regular,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontSize: 16
     },
     registerTextContainer: {

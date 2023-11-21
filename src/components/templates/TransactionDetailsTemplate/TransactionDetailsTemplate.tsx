@@ -8,8 +8,8 @@ import { TCurrency } from '@utils/currency'
 
 import transactionDetailsTemplateStyle from './TransactionDetailsTemplate.style'
 
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
-import { ORANGE } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ITransactionDetailsTemplateProps {
     wholeAmount?: string
@@ -33,7 +33,7 @@ export default function TransactionDetailsTemplate({
     name='Mobile Payment',
     date=new Date('2022-09-10T11:34:13'),
     recipientName='Hillary Holmes',
-    statusElement=<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: GOOD_GREEN, fontSize: 14}}>Success</Text></View>,
+    statusElement=<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</Text></View>,
     cardNumber='**** 4253',
     fee=0,
     residualBalance=4853.27,
@@ -45,7 +45,7 @@ export default function TransactionDetailsTemplate({
         <View testID={testID} style={{flex: 1}}>
             <Image source={Images.bgSignIn} style={transactionDetailsTemplateStyle.background} />
             <View style={transactionDetailsTemplateStyle.mainContentContainer}>
-                <ButtonCircleWithText circleBackgroundColor={ORANGE} text={name} icon={<Images.smartphoneSVG color={'white'}/>}/>
+                <ButtonCircleWithText circleBackgroundColor={globalColors.ORANGE} text={name} icon={<Images.smartphoneSVG color={'white'}/>}/>
                 <Text style={transactionDetailsTemplateStyle.dateText}>{date.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {date.toLocaleTimeString('en-US', {hourCycle: 'h12', hour: 'numeric', minute: 'numeric'})}</Text>
                 <View style={transactionDetailsTemplateStyle.moneyContainer}>
                     <Text style={transactionDetailsTemplateStyle.bigMoneyText}>- {currency.symbol} {wholeAmount}.</Text>

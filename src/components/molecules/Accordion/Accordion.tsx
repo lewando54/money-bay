@@ -6,7 +6,7 @@ import { Entypo } from '@expo/vector-icons'
 
 import accordionStyle from './Accordion.style'
 
-import globalThemeStyle, { BODY_TEXT_COLOR } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IAccordionProps {
     extended?: boolean
@@ -72,7 +72,7 @@ export default function Accordion({
                 </View>
                 <Animated.View testID='acc-body' style={[{borderTopColor: '#CED6E1'}, heightAnimationStyle, separatorAnimationStyle]}>
                     <Animated.View ref={textRef} style={accordionStyle.bodyText}>
-                        <Text style={[globalThemeStyle.text_Regular, {color: BODY_TEXT_COLOR}]}>{bodyText}</Text>
+                        <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>{bodyText}</Text>
                     </Animated.View>
                 </Animated.View>
             </Animated.View>

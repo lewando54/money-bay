@@ -4,7 +4,7 @@ import { LinearGradient } from 'expo-linear-gradient'
 
 import buttonStyle from './Button.style'
 
-import GlobalThemeStyle, { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '@styling/GlobalTheme.style'
+import GlobalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 export type TColorProp = 'primary' | 'secondary' | string
 export type TSizeProp = 'normal' | 'small'
@@ -29,8 +29,8 @@ export default function Button({
     testID
 }: IButtonProps){
     const gradientColors = {
-        primary: [PRIMARY_GRADIENT_START_COLOR, PRIMARY_GRADIENT_END_COLOR],
-        secondary: [SECONDARY_GRADIENT_FULL_COLOR, SECONDARY_GRADIENT_FULL_COLOR]
+        primary: [globalColors.PRIMARY_GRADIENT_START_COLOR, globalColors.PRIMARY_GRADIENT_END_COLOR],
+        secondary: [globalColors.SECONDARY_GRADIENT_FULL_COLOR, globalColors.SECONDARY_GRADIENT_FULL_COLOR]
     }
 
     const gradientColor = gradientColors[color] == undefined ? [color, color] : gradientColors[color]

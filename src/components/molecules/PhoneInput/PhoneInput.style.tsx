@@ -1,6 +1,6 @@
 ﻿import { StyleSheet } from 'react-native'
 
-import globalThemeStyle, { BODY_TEXT_COLOR } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 export default StyleSheet.create({
     mainContainer: {
         paddingHorizontal: 20
@@ -17,7 +17,7 @@ export default StyleSheet.create({
     text: {
         ...globalThemeStyle.text_Regular,
         fontSize: 14, 
-        color: BODY_TEXT_COLOR
+        color: globalColors.BODY_TEXT_COLOR
     },
     textField: {
         width: 100

@@ -9,7 +9,7 @@ import { RootStackParamList } from 'App'
 
 import paymentSuccessPageStyle from './PaymentSuccessPage.style'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Payment success'>
 
@@ -20,7 +20,7 @@ export default function PaymentSuccessPage({route, navigation}: Props) {
         <InfoScreenTemplate
             icon={<Images.infoSuccessSVG/>}
             title={'Success!'}
-            titleColor={GOOD_GREEN}
+            titleColor={globalColors.GOOD_GREEN}
             body={
                 <View>
                     <View style={paymentSuccessPageStyle.moneyTextContainer}>

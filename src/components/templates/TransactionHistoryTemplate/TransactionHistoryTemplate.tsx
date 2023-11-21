@@ -8,7 +8,7 @@ import { TTransactionsArray } from 'src/components/molecules/TransactionBar/Tran
 
 import transactionHistoryStyle from './TransactionHistoryTemplate.style'
 
-import { ORANGE } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ITransactionHistoryProps {
     transactionsData?: TTransactionsArray
@@ -55,7 +55,7 @@ export default function TransactionHistory({
             date: new Date('2022-09-10T00:00:00.000Z'),
         },
         {
-            icon: <Images.smartphoneSVG color={ORANGE}/>,
+            icon: <Images.smartphoneSVG color={globalColors.ORANGE}/>,
             title: '+17869871235',
             subTitle: 'Mobile payments',
             amount: 10,

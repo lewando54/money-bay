@@ -4,7 +4,7 @@ import { fireEvent, render, screen } from '@testing-library/react-native'
 
 import Button from './Button'
 
-import { PRIMARY_GRADIENT_END_COLOR, PRIMARY_GRADIENT_START_COLOR, SECONDARY_GRADIENT_FULL_COLOR } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 describe('Button', () => {
     it('should render correctly', () => {
@@ -24,14 +24,14 @@ describe('Button', () => {
 
     it('should render with primary gradient colors', () => {
         const { getByTestId } = render(<Button testID='button' color={'primary'}>Click me</Button>)
-        expect( getByTestId('button').props.children[0].props.colors[0]).toEqual(PRIMARY_GRADIENT_START_COLOR)
-        expect( getByTestId('button').props.children[0].props.colors[1]).toEqual(PRIMARY_GRADIENT_END_COLOR)
+        expect( getByTestId('button').props.children[0].props.colors[0]).toEqual(globalColors.PRIMARY_GRADIENT_START_COLOR)
+        expect( getByTestId('button').props.children[0].props.colors[1]).toEqual(globalColors.PRIMARY_GRADIENT_END_COLOR)
     })
 
     it('should render with secondary color', () => {
         const { getByTestId } = render(<Button testID='button' color={'secondary'}>Click me</Button>)
-        expect( getByTestId('button').props.children[0].props.colors[0]).toEqual(SECONDARY_GRADIENT_FULL_COLOR)
-        expect( getByTestId('button').props.children[0].props.colors[1]).toEqual(SECONDARY_GRADIENT_FULL_COLOR)
+        expect( getByTestId('button').props.children[0].props.colors[0]).toEqual(globalColors.SECONDARY_GRADIENT_FULL_COLOR)
+        expect( getByTestId('button').props.children[0].props.colors[1]).toEqual(globalColors.SECONDARY_GRADIENT_FULL_COLOR)
     })
 
     it('should render with custom color', () => {

@@ -11,7 +11,7 @@ import { TCurrency } from '@utils/currency'
 
 import dashboardTemplateStyle from './DashboardTemplate.style'
 
-import { GOOD_GREEN, ORANGE, PLAIN_BLUE, WARNING_YELLOW } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 const {width, height} = Dimensions.get('screen')
 
@@ -145,25 +145,25 @@ export default function DashboardTemplate({
             <View style={dashboardTemplateStyle.buttonsAndPaymentsContainer}>
                 <View style={dashboardTemplateStyle.buttonsContainer}>
                     <ButtonCircleWithText 
-                        circleBackgroundColor={GOOD_GREEN}
+                        circleBackgroundColor={globalColors.GOOD_GREEN}
                         icon={<Images.topUpSVG/>}
                         onClick={onTopUpPress}
                         text='Top-Up Payment'
                     />
                     <ButtonCircleWithText 
-                        circleBackgroundColor={ORANGE}
+                        circleBackgroundColor={globalColors.ORANGE}
                         icon={<Images.smartphoneSVG color={'white'}/>}
                         onClick={onMobilePaymentPress}
                         text='Mobile Payment'
                     />
                     <ButtonCircleWithText 
-                        circleBackgroundColor={PLAIN_BLUE}
+                        circleBackgroundColor={globalColors.PLAIN_BLUE}
                         icon={<Images.repeatSVG/>}
                         onClick={onMoneyTransferPress}
                         text='Money Transfer'
                     />
                     <ButtonCircleWithText 
-                        circleBackgroundColor={WARNING_YELLOW}
+                        circleBackgroundColor={globalColors.WARNING_YELLOW}
                         icon={<Images.dollarSignSVG/>}
                         onClick={onMakeAPaymentPress}
                         text='Make a Payment'

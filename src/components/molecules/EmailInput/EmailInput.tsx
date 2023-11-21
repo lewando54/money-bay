@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons'
 
 import { Input } from '@atoms'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IEmailInputProps{
     value?: string
@@ -47,7 +47,7 @@ export default function EmailInput({
             containerStyle={containerStyle}
             testID={testID}
             onChange={handleOnChange} 
-            icon={<Feather name="check" size={14} color={MAIN_DARK} />} 
+            icon={<Feather name="check" size={14} color={globalColors.MAIN_DARK} />} 
             isIconVisible={isValid}
         />
     )

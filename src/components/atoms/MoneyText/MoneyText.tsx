@@ -5,7 +5,7 @@ import { TCurrency } from '@utils/currency'
 
 import moneyTextStyle from './MoneyText.style'
 
-import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IMoneyTextProps {
     amount?: number
@@ -31,10 +31,10 @@ export default function MoneyText({
     return (
         <View style={[moneyTextStyle.moneyContainer, containerStyle]}>
             {minusSign}
-            <Text style={[globalThemeStyle.text_Regular, {fontSize: fontSize, color: MAIN_DARK}]}>{amountIntFinal}.</Text>
+            <Text style={[globalThemeStyle.text_Regular, {fontSize: fontSize, color: globalColors.MAIN_DARK}]}>{amountIntFinal}.</Text>
             <View style={[moneyTextStyle.floatCurrencyContainer, {paddingBottom: fontSize / 10}]}>
-                <Text style={[globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: MAIN_DARK}]}>{amountDecFinal}</Text>
-                <Text style={[isCurrencyBold ? globalThemeStyle.text_Bold : globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: MAIN_DARK, marginLeft: Math.ceil(fontSize / 5)}]}>{currency.iso.toLocaleUpperCase()}</Text>
+                <Text style={[globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK}]}>{amountDecFinal}</Text>
+                <Text style={[isCurrencyBold ? globalThemeStyle.text_Bold : globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK, marginLeft: Math.ceil(fontSize / 5)}]}>{currency.iso.toLocaleUpperCase()}</Text>
             </View>
         </View>
     )

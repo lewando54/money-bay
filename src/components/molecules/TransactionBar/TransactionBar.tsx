@@ -6,7 +6,7 @@ import { CircleWithIcon,UniversalContainer } from '@atoms'
 
 import transactionBarStyle from './TransactionBar.style'
 
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 export type TTransactionsArray = Array<{
     icon: React.ReactNode,
@@ -48,9 +48,9 @@ export default function TransactionBar({
                 <Text style={globalThemeStyle.text_SubTitle}>{subTitle}</Text>
             </View>
             <View style={transactionBarStyle.balanceContainer}>
-                <Text style={[globalThemeStyle.text_Title, !isExpense && {color: GOOD_GREEN}]}>{isExpense ? '-' : '+'}</Text>
+                <Text style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{isExpense ? '-' : '+'}</Text>
                 <View>
-                    <Text style={[globalThemeStyle.text_Title, !isExpense && {color: GOOD_GREEN}]}>{amount.toFixed(2)}</Text>
+                    <Text style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{amount.toFixed(2)}</Text>
                     <Text style={[globalThemeStyle.text_SubTitle, {marginLeft: 'auto'}, !percent && {display: 'none'}]}>{percent+'%'}</Text>
                 </View>
             </View>

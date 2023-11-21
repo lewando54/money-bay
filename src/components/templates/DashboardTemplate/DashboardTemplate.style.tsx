@@ -1,6 +1,6 @@
 ﻿import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { MAIN_BG, MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 const {width, height} = Dimensions.get('screen')
 
@@ -11,7 +11,7 @@ export default StyleSheet.create({
     },
     imageBackgroundContainer: {
         height: height * 0.442118,
-        backgroundColor: MAIN_BG,
+        backgroundColor: globalColors.MAIN_BG,
         borderBottomRightRadius: 20,
         borderBottomLeftRadius: 20,
         marginBottom: height * -0.0307
@@ -58,7 +58,7 @@ export default StyleSheet.create({
     },
     latestTransactionHeading: {
         ...globalThemeStyle.text_Medium,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         fontSize: 20
     },
     latestTransactionViewAllLink: {

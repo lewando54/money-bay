@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons'
 
 import { Input } from '@atoms'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IPasswordInputProps {
     value?: string
@@ -26,8 +26,8 @@ export default function PasswordInput({
     const [ isPasswordVisible, setIsPasswordVisible ] = useState(false)
     const EyeIcon = 
     isPasswordVisible ? 
-        <Feather name="eye" size={16} color={MAIN_DARK} testID='eye'/> 
-        : <Feather name="eye-off" size={16} color={MAIN_DARK} testID='eye-off'/>
+        <Feather name="eye" size={16} color={globalColors.MAIN_DARK} testID='eye'/> 
+        : <Feather name="eye-off" size={16} color={globalColors.MAIN_DARK} testID='eye-off'/>
 
     const iconPressHandle = () => {
         setIsPasswordVisible((prev) => !prev)

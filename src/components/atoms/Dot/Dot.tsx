@@ -4,7 +4,7 @@ import Animated, { Extrapolate, interpolate, SharedValue, useAnimatedStyle } fro
 
 import dotStyle from './Dot.style'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface IDotProps {
     index?: number
@@ -17,7 +17,7 @@ interface IDotProps {
 export default function Dot({
     index,
     listOffsetX,
-    color=MAIN_DARK,
+    color=globalColors.MAIN_DARK,
     itemLengthPercent=1,
     testID
 }: IDotProps){

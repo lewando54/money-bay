@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native'
 
-import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 const { width, height } = Dimensions.get('screen')
 export default StyleSheet.create({
     moneyTextContainer: {
@@ -12,12 +12,12 @@ export default StyleSheet.create({
     moneyBigText: {
         ...globalThemeStyle.text_Bold,
         fontSize: 28,
-        color: MAIN_DARK
+        color: globalColors.MAIN_DARK
     },
     moneySmallText: {
         ...globalThemeStyle.text_Bold,
         fontSize: 16,
-        color: MAIN_DARK,
+        color: globalColors.MAIN_DARK,
         marginBottom: height * 0.005
     }
 })

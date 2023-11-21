@@ -5,7 +5,7 @@ import { Feather } from '@expo/vector-icons'
 
 import checkBoxSquareStyle from './CheckBoxSquare.style'
 
-import { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ICheckBoxSquareProps {
     checked?: boolean
@@ -19,7 +19,7 @@ interface ICheckBoxSquareProps {
 export default function CheckBoxSquare({
     checked=false,
     borderColor='#868698',
-    checkedColor=GOOD_GREEN,
+    checkedColor=globalColors.GOOD_GREEN,
     checkmarkColor='white',
     onPress,
     testID
@@ -27,6 +27,8 @@ export default function CheckBoxSquare({
     const animationProgress = useSharedValue(0)
 
     const checkmarkAnimationStyle = useAnimatedStyle(() => ({
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-ignore
         transform: [{ rotateZ: interpolate(animationProgress.value, [0, 1], [180, 0]) + 'deg' }],
         opacity: animationProgress.value
     }))

@@ -7,7 +7,7 @@ import { TCurrency } from '@utils/currency'
 import Wallet from './assets/wallet.svg'
 import LoanBoxStyle from './LoanBox.style'
 
-import globalThemeStyle, { GOOD_GREEN } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface ILoanBoxProps {
     amount?: number
@@ -33,7 +33,7 @@ export default function LoanBox({
             <View style={LoanBoxStyle.header}>
                 <Wallet />
                 <MoneyText amount={amount} hasNumberFormatting={true}/>
-                <Button size='small' width={'30%'} color={GOOD_GREEN} containerStyle={LoanBoxStyle.repayBtn} onClick={onPress}>Repay</Button>
+                <Button size='small' width={'30%'} color={globalColors.GOOD_GREEN} containerStyle={LoanBoxStyle.repayBtn} onClick={onPress}>Repay</Button>
             </View>
             <Separator />
             <View style={LoanBoxStyle.innerContainer}>

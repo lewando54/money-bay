@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons'
 
 import { Input } from '@atoms'
 
-import { MAIN_DARK } from '@styling/GlobalTheme.style'
+import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ISearchInputProps {
     value?: string
@@ -31,7 +31,7 @@ export default function SearchInput({
             placeholder={placeholder}
             containerStyle={containerStyle}
             textStyle={textStyle}
-            icon={<Feather name="search" size={16} color={MAIN_DARK} />}
+            icon={<Feather name="search" size={16} color={globalColors.MAIN_DARK} />}
             isIconVisible={true}
             onChange={onChange}
             onIconPress={onIconPress}

@@ -6,7 +6,7 @@ import { UniversalContainer } from '@atoms'
 
 import inputStyle from './Input.style'
 
-import globalThemeStyle, { MAIN_DARK } from '@styling/GlobalTheme.style'
+import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
 
 interface IInputProps {
     value?: string
@@ -31,7 +31,7 @@ export default function Input({
     isIconVisible=false,
     secureTextEntry=false,
     keyboardType='default',
-    icon=<Feather name="eye-off" size={16} color={MAIN_DARK} testID='icon'/>,
+    icon=<Feather name="eye-off" size={16} color={globalColors.MAIN_DARK} testID='icon'/>,
     onChange,
     onIconPress,
     testID
