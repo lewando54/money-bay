@@ -9,7 +9,6 @@ import { TCurrency } from '@utils/currency'
 import transactionDetailsTemplateStyle from './TransactionDetailsTemplate.style'
 
 import globalThemeStyle, { globalColors } from '@styling/GlobalTheme.style'
-import { globalColors } from '@styling/GlobalTheme.style'
 
 interface ITransactionDetailsTemplateProps {
     wholeAmount?: string
