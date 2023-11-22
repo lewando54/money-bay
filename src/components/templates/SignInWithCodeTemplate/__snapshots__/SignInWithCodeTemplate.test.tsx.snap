@@ -49,22 +49,36 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishMedium",
-            "fontSize": 20,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishMedium",
+              "fontSize": 20,
+            },
+          ]
         }
       >
         Cristina Wolf
       </Text>
       <Text
         style={
-          {
-            "color": "#4C4C60",
-            "fontFamily": "MulishMedium",
-            "fontSize": 16,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishMedium",
+              "fontSize": 16,
+            },
+          ]
         }
       >
         Labore sunt
@@ -234,11 +248,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             1
@@ -311,11 +332,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             2
@@ -388,11 +416,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             3
@@ -465,11 +500,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             4
@@ -542,11 +584,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             5
@@ -619,11 +668,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             6
@@ -696,11 +752,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             7
@@ -773,11 +836,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             8
@@ -850,11 +920,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             9
@@ -959,11 +1036,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#1B1D4D",
-                "fontFamily": "MulishRegular",
-                "fontSize": 24,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 24,
+                },
+              ]
             }
           >
             0
@@ -1007,11 +1091,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
       style={
         [
           {
-            "color": "#FF5887",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
             "fontSize": 16,
           },
-          undefined,
+          [
+            {
+              "color": "#FF5887",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1021,11 +1112,18 @@ exports[`SignInWithCodeTemplate should render correctly 1`] = `
       style={
         [
           {
-            "color": "#FF5887",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
             "fontSize": 16,
           },
-          undefined,
+          [
+            {
+              "color": "#FF5887",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >

@@ -53,13 +53,20 @@ exports[`LoanBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
               "color": "#1B1D4D",
-              "fontSize": 20,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 20,
+              },
+            ],
           ]
         }
       >
@@ -69,13 +76,20 @@ exports[`LoanBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
               "color": "#1B1D4D",
-              "fontSize": 20,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 20,
+              },
+            ],
           ]
         }
       >
@@ -99,13 +113,20 @@ exports[`LoanBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                },
+              ],
             ]
           }
         >
@@ -115,14 +136,21 @@ exports[`LoanBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
-                "marginLeft": 4,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                  "marginLeft": 4,
+                },
+              ],
             ]
           }
         >
@@ -202,20 +230,27 @@ exports[`LoanBox should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -261,22 +296,36 @@ exports[`LoanBox should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Rate
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           13
@@ -291,22 +340,36 @@ exports[`LoanBox should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Period
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           24
@@ -331,22 +394,36 @@ exports[`LoanBox should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Monthly payment
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           1 117.00 USD
@@ -361,22 +438,36 @@ exports[`LoanBox should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Total paid
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           4 468.00 USD
@@ -440,13 +531,20 @@ exports[`LoanBox should render one month correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
               "color": "#1B1D4D",
-              "fontSize": 20,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 20,
+              },
+            ],
           ]
         }
       >
@@ -456,13 +554,20 @@ exports[`LoanBox should render one month correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
               "color": "#1B1D4D",
-              "fontSize": 20,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 20,
+              },
+            ],
           ]
         }
       >
@@ -486,13 +591,20 @@ exports[`LoanBox should render one month correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                },
+              ],
             ]
           }
         >
@@ -502,14 +614,21 @@ exports[`LoanBox should render one month correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
-                "marginLeft": 4,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                  "marginLeft": 4,
+                },
+              ],
             ]
           }
         >
@@ -589,20 +708,27 @@ exports[`LoanBox should render one month correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -648,22 +774,36 @@ exports[`LoanBox should render one month correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Rate
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           13
@@ -678,22 +818,36 @@ exports[`LoanBox should render one month correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Period
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           1
@@ -717,22 +871,36 @@ exports[`LoanBox should render one month correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Monthly payment
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           1 117.00 USD
@@ -747,22 +915,36 @@ exports[`LoanBox should render one month correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 12,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 12,
+              },
+            ]
           }
         >
           Total paid
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+            ]
           }
         >
           4 468.00 USD

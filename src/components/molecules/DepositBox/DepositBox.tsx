@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { Button, CircleWithIcon, MoneyText, UniversalContainer } from '@atoms'
 import { TCurrency } from '@utils/currency'
 
@@ -60,11 +61,11 @@ export default function DepositBox({
                 {icon}
                 <View style={depositBoxStyle.moneyAndDateContainer}>
                     <MoneyText amount={currentAmount} currency={currency}/>
-                    <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR, fontSize: 12}]}>{dateFromString} - {dateToString}</Text>
+                    <CustomText style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR, fontSize: 12}]}>{dateFromString} - {dateToString}</CustomText>
                 </View>
                 <View style={depositBoxStyle.percentContainer}>
-                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 16, color: globalColors.MAIN_DARK}]}>{percent}%</Text>
-                    <Text style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: globalColors.GOOD_GREEN}]}>+ {interest.toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
+                    <CustomText style={[globalThemeStyle.text_SemiBold, {fontSize: 16, color: globalColors.MAIN_DARK}]}>{percent}%</CustomText>
+                    <CustomText style={[globalThemeStyle.text_SemiBold, {fontSize: 12, color: globalColors.GOOD_GREEN}]}>+ {interest.toLocaleString('en-US', {minimumIntegerDigits: 2})}</CustomText>
                 </View>
             </View>
             <View style={depositBoxStyle.buttonsContainer}>

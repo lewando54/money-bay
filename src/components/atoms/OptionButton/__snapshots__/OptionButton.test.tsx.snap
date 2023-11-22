@@ -53,11 +53,18 @@ exports[`OptionButton should render correctly 1`] = `
       [
         {
           "color": "#1B1D4D",
-          "fontFamily": "MulishSemiBold",
+          "fontFamily": "MulishRegular",
           "fontSize": 16,
         },
-        false,
-        false,
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          },
+          false,
+          false,
+        ],
       ]
     }
   >
@@ -119,13 +126,20 @@ exports[`OptionButton should render correctly when chosen option is enabled 1`] 
       [
         {
           "color": "#1B1D4D",
-          "fontFamily": "MulishSemiBold",
+          "fontFamily": "MulishRegular",
           "fontSize": 16,
         },
-        false,
-        {
-          "color": "white",
-        },
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          },
+          false,
+          {
+            "color": "white",
+          },
+        ],
       ]
     }
   >
@@ -187,11 +201,18 @@ exports[`OptionButton should render large variant 1`] = `
       [
         {
           "color": "#1B1D4D",
-          "fontFamily": "MulishSemiBold",
+          "fontFamily": "MulishRegular",
           "fontSize": 16,
         },
-        false,
-        false,
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          },
+          false,
+          false,
+        ],
       ]
     }
   >
@@ -253,13 +274,20 @@ exports[`OptionButton should render normal variant 1`] = `
       [
         {
           "color": "#1B1D4D",
-          "fontFamily": "MulishSemiBold",
+          "fontFamily": "MulishRegular",
           "fontSize": 16,
         },
-        {
-          "fontFamily": "MulishRegular",
-        },
-        false,
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishSemiBold",
+            "fontSize": 16,
+          },
+          {
+            "fontFamily": "MulishRegular",
+          },
+          false,
+        ],
       ]
     }
   >

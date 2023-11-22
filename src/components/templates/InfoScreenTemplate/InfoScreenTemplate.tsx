@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Image, StyleProp, Text, View,ViewStyle } from 'react-native'
+import { Image, StyleProp,  View,ViewStyle } from 'react-native'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { Button, TColorProp, TSizeProp } from '@atoms'
 
 import InfoScreenTemplateStyle from './InfoScreenTemplate.style'
@@ -29,10 +30,10 @@ interface IInfoScreenTemplateProps {
 // 
 
 export default function InfoScreenTemplate({
-    icon=<Text>Icon</Text>,
+    icon=<CustomText>Icon</CustomText>,
     title='Account created!',
     titleColor=globalColors.MAIN_DARK,
-    body=<Text>Test</Text>,
+    body=<CustomText>Test</CustomText>,
     additionalButtons,
     onSubmit,
     testID
@@ -42,7 +43,7 @@ export default function InfoScreenTemplate({
             <Image source={Images.bgInfoCard} style={InfoScreenTemplateStyle.bgImage}/>
             <View style={InfoScreenTemplateStyle.iconTitleContainer}>
                 {icon}
-                <Text style={[InfoScreenTemplateStyle.titleText, {color: titleColor}]}>{title}</Text>
+                <CustomText style={[InfoScreenTemplateStyle.titleText, {color: titleColor}]}>{title}</CustomText>
                 {body}
             </View>
             <View style={InfoScreenTemplateStyle.buttonsContainer}>

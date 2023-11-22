@@ -80,13 +80,20 @@ exports[`DepositBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 20,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 20,
+                },
+              ],
             ]
           }
         >
@@ -110,13 +117,20 @@ exports[`DepositBox should render correctly 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                  },
+                ],
               ]
             }
           >
@@ -126,14 +140,21 @@ exports[`DepositBox should render correctly 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
-                  "marginLeft": 4,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                    "marginLeft": 4,
+                  },
+                ],
               ]
             }
           >
@@ -145,13 +166,20 @@ exports[`DepositBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#4C4C60",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -173,13 +201,20 @@ exports[`DepositBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 16,
+              },
+            ],
           ]
         }
       >
@@ -190,13 +225,20 @@ exports[`DepositBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#3EB290",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -285,20 +327,27 @@ exports[`DepositBox should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -378,20 +427,27 @@ exports[`DepositBox should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -468,13 +524,20 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 20,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 20,
+                },
+              ],
             ]
           }
         >
@@ -498,13 +561,20 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                  },
+                ],
               ]
             }
           >
@@ -514,14 +584,21 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
-                  "marginLeft": 4,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                    "marginLeft": 4,
+                  },
+                ],
               ]
             }
           >
@@ -533,13 +610,20 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#4C4C60",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -561,13 +645,20 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 16,
+              },
+            ],
           ]
         }
       >
@@ -578,13 +669,20 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#3EB290",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -673,20 +771,27 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -766,20 +871,27 @@ exports[`DepositBox should render deposit icon and top-up button when not finish
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -872,13 +984,20 @@ exports[`DepositBox should render first date with year when the year is not the 
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 20,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 20,
+                },
+              ],
             ]
           }
         >
@@ -902,13 +1021,20 @@ exports[`DepositBox should render first date with year when the year is not the 
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                  },
+                ],
               ]
             }
           >
@@ -918,14 +1044,21 @@ exports[`DepositBox should render first date with year when the year is not the 
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
-                  "marginLeft": 4,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                    "marginLeft": 4,
+                  },
+                ],
               ]
             }
           >
@@ -937,13 +1070,20 @@ exports[`DepositBox should render first date with year when the year is not the 
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#4C4C60",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -965,13 +1105,20 @@ exports[`DepositBox should render first date with year when the year is not the 
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 16,
+              },
+            ],
           ]
         }
       >
@@ -982,13 +1129,20 @@ exports[`DepositBox should render first date with year when the year is not the 
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#3EB290",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -1077,20 +1231,27 @@ exports[`DepositBox should render first date with year when the year is not the 
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -1170,20 +1331,27 @@ exports[`DepositBox should render first date with year when the year is not the 
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -1276,13 +1444,20 @@ exports[`DepositBox should render first date without year when the year is the s
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 20,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 20,
+                },
+              ],
             ]
           }
         >
@@ -1306,13 +1481,20 @@ exports[`DepositBox should render first date without year when the year is the s
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                  },
+                ],
               ]
             }
           >
@@ -1322,14 +1504,21 @@ exports[`DepositBox should render first date without year when the year is the s
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
-                  "marginLeft": 4,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                    "marginLeft": 4,
+                  },
+                ],
               ]
             }
           >
@@ -1341,13 +1530,20 @@ exports[`DepositBox should render first date without year when the year is the s
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#4C4C60",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -1369,13 +1565,20 @@ exports[`DepositBox should render first date without year when the year is the s
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 16,
+              },
+            ],
           ]
         }
       >
@@ -1386,13 +1589,20 @@ exports[`DepositBox should render first date without year when the year is the s
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#3EB290",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -1481,20 +1691,27 @@ exports[`DepositBox should render first date without year when the year is the s
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -1574,20 +1791,27 @@ exports[`DepositBox should render first date without year when the year is the s
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -1680,13 +1904,20 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 20,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 20,
+                },
+              ],
             ]
           }
         >
@@ -1710,13 +1941,20 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                  },
+                ],
               ]
             }
           >
@@ -1726,14 +1964,21 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 14,
-                  "marginLeft": 4,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 14,
+                    "marginLeft": 4,
+                  },
+                ],
               ]
             }
           >
@@ -1745,13 +1990,20 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#4C4C60",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#4C4C60",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -1773,13 +2025,20 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 16,
+              },
+            ],
           ]
         }
       >
@@ -1790,13 +2049,20 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#3EB290",
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -1885,20 +2151,27 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -1978,20 +2251,27 @@ exports[`DepositBox should render green checkmark icon and orange button when fi
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }

@@ -5,11 +5,18 @@ exports[`Link should render correctly 1`] = `
   style={
     [
       {
-        "color": "#FF5887",
+        "color": "#1B1D4D",
         "fontFamily": "MulishRegular",
         "fontSize": 16,
       },
-      undefined,
+      [
+        {
+          "color": "#FF5887",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        },
+        undefined,
+      ],
     ]
   }
 />

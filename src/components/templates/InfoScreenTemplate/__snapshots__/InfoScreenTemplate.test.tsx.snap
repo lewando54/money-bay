@@ -33,26 +33,55 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
       }
     }
   >
-    <Text>
+    <Text
+      style={
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          undefined,
+        ]
+      }
+    >
       Icon
     </Text>
     <Text
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishBold",
-            "fontSize": 36,
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishBold",
+              "fontSize": 36,
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
       Account created!
     </Text>
-    <Text>
+    <Text
+      style={
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          undefined,
+        ]
+      }
+    >
       Test
     </Text>
   </View>
@@ -134,15 +163,22 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              {
-                "color": "white",
-              },
-              false,
-              false,
+              [
+                {
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                },
+                {
+                  "color": "white",
+                },
+                false,
+                false,
+              ],
             ]
           }
         >
@@ -192,13 +228,20 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishBold",
-            "fontSize": 36,
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishBold",
+              "fontSize": 36,
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -206,13 +249,20 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
     </Text>
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 16,
-          "marginTop": 20,
-          "textAlign": "center",
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+            "marginTop": 20,
+            "textAlign": "center",
+          },
+        ]
       }
     >
       Your account has been created successfully.
@@ -296,15 +346,22 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              {
-                "color": "white",
-              },
-              false,
-              false,
+              [
+                {
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                },
+                {
+                  "color": "white",
+                },
+                false,
+                false,
+              ],
             ]
           }
         >
@@ -354,13 +411,20 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishBold",
-            "fontSize": 36,
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishBold",
+              "fontSize": 36,
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -368,13 +432,20 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
     </Text>
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 16,
-          "marginTop": 20,
-          "textAlign": "center",
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+            "marginTop": 20,
+            "textAlign": "center",
+          },
+        ]
       }
     >
       Your account has been created successfully.
@@ -458,15 +529,22 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              {
-                "color": "white",
-              },
-              false,
-              false,
+              [
+                {
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                },
+                {
+                  "color": "white",
+                },
+                false,
+                false,
+              ],
             ]
           }
         >
@@ -542,15 +620,22 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              {
-                "color": "white",
-              },
-              false,
-              false,
+              [
+                {
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
+                },
+                {
+                  "color": "white",
+                },
+                false,
+                false,
+              ],
             ]
           }
         >

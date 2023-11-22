@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { Button } from '@atoms'
 import { PasswordInput } from '@molecules'
 
@@ -25,7 +26,7 @@ export default function NewPasswordTemplate({
 }: INewPasswordTemplateProps){
     return (
         <View testID={testID} style={newPasswordTemplateStyle.mainContainer}>
-            <Text style={newPasswordTemplateStyle.text}>Enter new password and confirm.</Text>
+            <CustomText style={newPasswordTemplateStyle.text}>Enter new password and confirm.</CustomText>
             <View style={newPasswordTemplateStyle.inputContainer}>
                 <PasswordInput value={newPasswordValue} onChange={onNewPasswordChange} placeholder='Enter new password'/>
                 <PasswordInput value={confirmPasswordValue} onChange={onConfirmPasswordChange} placeholder='Confirm your password'/>

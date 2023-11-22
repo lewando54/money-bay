@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomText should render correctly 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "#1B1D4D",
+        "fontFamily": "MulishRegular",
+        "fontSize": 16,
+      },
+      {
+        "color": "#4C4C60",
+      },
+    ]
+  }
+>
+  Testing
+</Text>
+`;

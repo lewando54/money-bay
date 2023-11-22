@@ -1,5 +1,7 @@
 ﻿import React from 'react'
-import { StyleProp, Text, TextStyle } from 'react-native'
+import { StyleProp,  TextStyle } from 'react-native'
+
+import { CustomText } from '@atoms'
 
 import linkStyle from './Link.style'
 
@@ -17,6 +19,6 @@ export default function Link({
     testID
 }: ILinkProps){
     return (
-        <Text onPress={onPress} testID={testID} style={[linkStyle.text, style]}>{children}</Text>
+        <CustomText onPress={onPress} testID={testID} style={[linkStyle.text, style]}>{children}</CustomText>
     )
 }

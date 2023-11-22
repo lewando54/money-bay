@@ -78,13 +78,20 @@ exports[`ButtonCircleWithText should render correctly 1`] = `
     style={
       [
         {
-          "color": "white",
-          "fontFamily": "MulishSemiBold",
-        },
-        {
           "color": "#1B1D4D",
-          "textAlign": "center",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
         },
+        [
+          {
+            "color": "white",
+            "fontFamily": "MulishSemiBold",
+          },
+          {
+            "color": "#1B1D4D",
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >

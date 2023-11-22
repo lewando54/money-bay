@@ -1,7 +1,8 @@
 ﻿/* eslint-disable @typescript-eslint/consistent-type-assertions */
 import React from 'react'
-import { Text } from 'react-native'
 import { Meta,StoryObj } from '@storybook/react-native'
+
+import { CustomText } from '@atoms'
 
 import InfoScreenTemplate from './InfoScreenTemplate'
 
@@ -24,19 +25,19 @@ type Story = StoryObj<typeof InfoScreenTemplate>
 
 export const Default: Story = {
     args: {
-        icon: <Text>Icon</Text>,
+        icon: <CustomText>Icon</CustomText>,
         title: 'Account created!',
         titleColor: globalColors.MAIN_DARK,
-        body: <Text>Test</Text>,
+        body: <CustomText>Test</CustomText>,
     }
 }
 
 export const AdditionalButtons: Story = {
     args: {
-        icon: <Text>Icon</Text>,
+        icon: <CustomText>Icon</CustomText>,
         title: 'Account created!',
         titleColor: globalColors.MAIN_DARK,
-        body: <Text>Test</Text>,
+        body: <CustomText>Test</CustomText>,
         additionalButtons: [
             {
                 children: 'Send Receipt',

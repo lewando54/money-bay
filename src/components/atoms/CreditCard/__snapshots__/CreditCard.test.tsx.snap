@@ -153,14 +153,21 @@ exports[`CreditCard should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "white",
-              "fontSize": 14,
-              "letterSpacing": 3,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "white",
+                "fontSize": 14,
+                "letterSpacing": 3,
+              },
+            ],
           ]
         }
       >
@@ -172,12 +179,19 @@ exports[`CreditCard should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -204,14 +218,21 @@ exports[`CreditCard should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -230,13 +251,20 @@ exports[`CreditCard should render correctly 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
-                {
-                  "fontSize": 23,
-                },
-                false,
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 23,
+                  },
+                  false,
+                ],
               ]
             }
           >
@@ -253,15 +281,22 @@ exports[`CreditCard should render correctly 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "marginBottom": 0,
-                  },
-                  {
-                    "fontSize": 24,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "marginBottom": 0,
+                    },
+                    {
+                      "fontSize": 24,
+                    },
+                  ],
                 ]
               }
             >
@@ -272,13 +307,20 @@ exports[`CreditCard should render correctly 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "height": "100%",
-                    "paddingTop": 11,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "height": "100%",
+                      "paddingTop": 11,
+                    },
+                  ],
                 ]
               }
             >
@@ -288,17 +330,24 @@ exports[`CreditCard should render correctly 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "fontSize": 12,
-                    "marginLeft": 7,
-                    "paddingTop": 12.7,
-                  },
-                  {
-                    "display": "none",
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "fontSize": 12,
+                      "marginLeft": 7,
+                      "paddingTop": 12.7,
+                    },
+                    {
+                      "display": "none",
+                    },
+                  ],
                 ]
               }
             >
@@ -318,14 +367,21 @@ exports[`CreditCard should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -351,12 +407,19 @@ exports[`CreditCard should render correctly 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishMedium",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "opacity": 0.8,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishMedium",
+                    },
+                    {
+                      "opacity": 0.8,
+                    },
+                  ],
                 ]
               }
             >
@@ -525,14 +588,21 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "white",
-              "fontSize": 14,
-              "letterSpacing": 3,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "white",
+                "fontSize": 14,
+                "letterSpacing": 3,
+              },
+            ],
           ]
         }
       >
@@ -544,12 +614,19 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -576,14 +653,21 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -602,15 +686,22 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
-                {
-                  "fontSize": 23,
-                },
-                {
-                  "display": "none",
-                },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 23,
+                  },
+                  {
+                    "display": "none",
+                  },
+                ],
               ]
             }
           >
@@ -627,15 +718,22 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "marginBottom": 0,
-                  },
-                  {
-                    "fontSize": 24,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "marginBottom": 0,
+                    },
+                    {
+                      "fontSize": 24,
+                    },
+                  ],
                 ]
               }
             >
@@ -646,13 +744,20 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "height": "100%",
-                    "paddingTop": 11,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "height": "100%",
+                      "paddingTop": 11,
+                    },
+                  ],
                 ]
               }
             >
@@ -662,15 +767,22 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "fontSize": 12,
-                    "marginLeft": 7,
-                    "paddingTop": 12.7,
-                  },
-                  false,
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "fontSize": 12,
+                      "marginLeft": 7,
+                      "paddingTop": 12.7,
+                    },
+                    false,
+                  ],
                 ]
               }
             >
@@ -690,14 +802,21 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -723,12 +842,19 @@ exports[`CreditCard should render currency symbol on the right when chosen 1`] =
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishMedium",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "opacity": 0.8,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishMedium",
+                    },
+                    {
+                      "opacity": 0.8,
+                    },
+                  ],
                 ]
               }
             >
@@ -897,14 +1023,21 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "white",
-              "fontSize": 14,
-              "letterSpacing": 3,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "white",
+                "fontSize": 14,
+                "letterSpacing": 3,
+              },
+            ],
           ]
         }
       >
@@ -916,12 +1049,19 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
         style={
           [
             {
-              "color": "white",
+              "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "fontSize": 12,
-            },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "fontSize": 12,
+              },
+            ],
           ]
         }
       >
@@ -948,14 +1088,21 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -974,13 +1121,20 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishBold",
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
-                {
-                  "fontSize": 23,
-                },
-                false,
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishBold",
+                  },
+                  {
+                    "fontSize": 23,
+                  },
+                  false,
+                ],
               ]
             }
           >
@@ -997,15 +1151,22 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "marginBottom": 0,
-                  },
-                  {
-                    "fontSize": 24,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "marginBottom": 0,
+                    },
+                    {
+                      "fontSize": 24,
+                    },
+                  ],
                 ]
               }
             >
@@ -1016,13 +1177,20 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "height": "100%",
-                    "paddingTop": 11,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "height": "100%",
+                      "paddingTop": 11,
+                    },
+                  ],
                 ]
               }
             >
@@ -1032,17 +1200,24 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishBold",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "fontSize": 12,
-                    "marginLeft": 7,
-                    "paddingTop": 12.7,
-                  },
-                  {
-                    "display": "none",
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishBold",
+                    },
+                    {
+                      "fontSize": 12,
+                      "marginLeft": 7,
+                      "paddingTop": 12.7,
+                    },
+                    {
+                      "display": "none",
+                    },
+                  ],
                 ]
               }
             >
@@ -1062,14 +1237,21 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "fontSize": 8,
-                "opacity": 0.5,
-                "textTransform": "uppercase",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "fontSize": 8,
+                  "opacity": 0.5,
+                  "textTransform": "uppercase",
+                },
+              ],
             ]
           }
         >
@@ -1095,12 +1277,19 @@ exports[`CreditCard should render mastercard logo when chosen 1`] = `
               style={
                 [
                   {
-                    "color": "white",
-                    "fontFamily": "MulishMedium",
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "opacity": 0.8,
-                  },
+                  [
+                    {
+                      "color": "white",
+                      "fontFamily": "MulishMedium",
+                    },
+                    {
+                      "opacity": 0.8,
+                    },
+                  ],
                 ]
               }
             >

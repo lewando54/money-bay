@@ -1,8 +1,9 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import {  View } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import InfoScreenPageStyle from '@pages/InfoScreenPage/InfoScreenPage.style'
 import { InfoScreenTemplate } from '@templates'
 import { RootStackParamList } from 'App'
@@ -24,12 +25,12 @@ export default function PaymentSuccessPage({route, navigation}: Props) {
             body={
                 <View>
                     <View style={paymentSuccessPageStyle.moneyTextContainer}>
-                        <Text style={paymentSuccessPageStyle.moneyBigText}>$ {wholeAmount}.</Text>
-                        <Text style={paymentSuccessPageStyle.moneySmallText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
+                        <CustomText style={paymentSuccessPageStyle.moneyBigText}>$ {wholeAmount}.</CustomText>
+                        <CustomText style={paymentSuccessPageStyle.moneySmallText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</CustomText>
                     </View>
-                    <Text style={InfoScreenPageStyle.bodyText}>
+                    <CustomText style={InfoScreenPageStyle.bodyText}>
                         Your payment has been processed!
-                    </Text>
+                    </CustomText>
                 </View>
             }
             additionalButtons={[

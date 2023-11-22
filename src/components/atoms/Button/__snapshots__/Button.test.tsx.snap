@@ -70,15 +70,22 @@ exports[`Button should render correctly 1`] = `
       style={
         [
           {
-            "fontFamily": "MulishSemiBold",
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
             "fontSize": 16,
-            "textAlign": "center",
           },
-          {
-            "color": "white",
-          },
-          false,
-          false,
+          [
+            {
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+              "textAlign": "center",
+            },
+            {
+              "color": "white",
+            },
+            false,
+            false,
+          ],
         ]
       }
     >
@@ -158,15 +165,22 @@ exports[`Button should render normal variant 1`] = `
       style={
         [
           {
-            "fontFamily": "MulishSemiBold",
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
             "fontSize": 16,
-            "textAlign": "center",
           },
-          {
-            "color": "white",
-          },
-          false,
-          false,
+          [
+            {
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+              "textAlign": "center",
+            },
+            {
+              "color": "white",
+            },
+            false,
+            false,
+          ],
         ]
       }
     >
@@ -249,22 +263,29 @@ exports[`Button should render small variant 1`] = `
       style={
         [
           {
-            "fontFamily": "MulishSemiBold",
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
             "fontSize": 16,
-            "textAlign": "center",
           },
-          {
-            "color": "white",
-          },
-          false,
           [
             {
-              "fontSize": 12,
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+              "textAlign": "center",
             },
             {
               "color": "white",
-              "fontFamily": "MulishSemiBold",
             },
+            false,
+            [
+              {
+                "fontSize": 12,
+              },
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+            ],
           ],
         ]
       }
@@ -345,15 +366,22 @@ exports[`Button should render with primary color by default 1`] = `
       style={
         [
           {
-            "fontFamily": "MulishSemiBold",
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
             "fontSize": 16,
-            "textAlign": "center",
           },
-          {
-            "color": "white",
-          },
-          false,
-          false,
+          [
+            {
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 16,
+              "textAlign": "center",
+            },
+            {
+              "color": "white",
+            },
+            false,
+            false,
+          ],
         ]
       }
     >

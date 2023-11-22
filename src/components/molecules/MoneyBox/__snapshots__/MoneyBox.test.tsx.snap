@@ -43,12 +43,19 @@ exports[`MoneyBox should render correctly 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishRegular",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -71,13 +78,20 @@ exports[`MoneyBox should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-            },
-            {
               "color": "#1B1D4D",
-              "fontSize": 20,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+              },
+              {
+                "color": "#1B1D4D",
+                "fontSize": 20,
+              },
+            ],
           ]
         }
       >
@@ -101,13 +115,20 @@ exports[`MoneyBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                },
+              ],
             ]
           }
         >
@@ -117,14 +138,21 @@ exports[`MoneyBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 14,
-                "marginLeft": 4,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 14,
+                  "marginLeft": 4,
+                },
+              ],
             ]
           }
         >
@@ -190,13 +218,20 @@ exports[`MoneyBox should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishRegular",
-              },
-              {
                 "color": "#1B1D4D",
-                "fontSize": 12,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "fontSize": 12,
+                },
+              ],
             ]
           }
         >
@@ -220,13 +255,20 @@ exports[`MoneyBox should render correctly 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 8,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 8,
+                  },
+                ],
               ]
             }
           >
@@ -236,14 +278,21 @@ exports[`MoneyBox should render correctly 1`] = `
             style={
               [
                 {
-                  "color": "white",
-                  "fontFamily": "MulishRegular",
-                },
-                {
                   "color": "#1B1D4D",
-                  "fontSize": 8,
-                  "marginLeft": 3,
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
                 },
+                [
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishRegular",
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontSize": 8,
+                    "marginLeft": 3,
+                  },
+                ],
               ]
             }
           >
@@ -333,20 +382,27 @@ exports[`MoneyBox should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }
@@ -426,20 +482,27 @@ exports[`MoneyBox should render correctly 1`] = `
           style={
             [
               {
-                "fontFamily": "MulishSemiBold",
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
                 "fontSize": 16,
-                "textAlign": "center",
               },
-              false,
-              false,
               [
                 {
-                  "fontSize": 12,
-                },
-                {
-                  "color": "white",
                   "fontFamily": "MulishSemiBold",
+                  "fontSize": 16,
+                  "textAlign": "center",
                 },
+                false,
+                false,
+                [
+                  {
+                    "fontSize": 12,
+                  },
+                  {
+                    "color": "white",
+                    "fontFamily": "MulishSemiBold",
+                  },
+                ],
               ],
             ]
           }

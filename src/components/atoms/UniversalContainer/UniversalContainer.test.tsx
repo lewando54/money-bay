@@ -1,6 +1,7 @@
 import React from 'react'
-import { Text } from 'react-native'
 import renderer from 'react-test-renderer'
+
+import { CustomText } from '@atoms'
 
 import UniversalContainer from './UniversalContainer'
 
@@ -11,7 +12,7 @@ describe('UniversalContainer', () => {
     })
 
     it('should render children', () => {
-        const tree = renderer.create(<UniversalContainer><Text>Test</Text></UniversalContainer>)
+        const tree = renderer.create(<UniversalContainer><CustomText>Test</CustomText></UniversalContainer>)
         expect(tree).toMatchSnapshot()
     })
 

@@ -46,7 +46,8 @@ Import the `MaskedView` component from `@react-native-masked-view/masked-view` a
 
 ```jsx
 import React from 'react';
-import { Text, View } from 'react-native';
+import {  View }
+import { CustomText } from '@atoms';
 import MaskedView from '@react-native-masked-view/masked-view';
 
 export default class App extends React.Component {

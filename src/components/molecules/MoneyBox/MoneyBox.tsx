@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 import { ProgressBar } from 'react-native-paper'
 
+import { CustomText } from '@atoms'
 import { Button, MoneyText, UniversalContainer } from '@atoms'
 import { TCurrency } from '@utils/currency'
 
@@ -44,7 +45,7 @@ export default function MoneyBox({
         <UniversalContainer testID={testID} style={moneyBoxStyle.container} castShadow={true}>
             <View style={moneyBoxStyle.titleAndGoalContainer}>
                 <PiggyBank />
-                <Text style={[globalThemeStyle.text_Regular, {color: globalColors.MAIN_DARK}]}>{name}</Text>
+                <CustomText style={[globalThemeStyle.text_Regular, {color: globalColors.MAIN_DARK}]}>{name}</CustomText>
                 <MoneyText amount={verifiedGoalAmount} currency={currency} containerStyle={moneyBoxStyle.moneyText}/>
             </View>
             <View>

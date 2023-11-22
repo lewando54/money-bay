@@ -1,8 +1,9 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 import { AntDesign } from '@expo/vector-icons' 
 
+import { CustomText } from '@atoms'
 import { CircleWithIcon, Separator, UniversalContainer } from '@atoms'
 
 import notificationStyle from './Notification.style'
@@ -39,12 +40,12 @@ export default function Notification({
             <View style={notificationStyle.iconAndTitleWrapper}>
                 {notificationTypeIcon}
                 <View style={notificationStyle.titleWrapper}>
-                    <Text style={notificationStyle.notificationTitleText}>{title}</Text>
+                    <CustomText style={notificationStyle.notificationTitleText}>{title}</CustomText>
                 </View>
             </View>
-            <Text style={notificationStyle.notificationBodyText}>{body}</Text>
+            <CustomText style={notificationStyle.notificationBodyText}>{body}</CustomText>
             <Separator />
-            <Text style={notificationStyle.notificationTimeText}>{datetime.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString('en-US', {hour: 'numeric', minute: 'numeric'})}</Text>
+            <CustomText style={notificationStyle.notificationTimeText}>{datetime.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {datetime.toLocaleTimeString('en-US', {hour: 'numeric', minute: 'numeric'})}</CustomText>
         </UniversalContainer>
     )
 }

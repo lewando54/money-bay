@@ -57,22 +57,36 @@ exports[`TransactionList should render correctly 1`] = `
     <View>
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishSemiBold",
-            "fontSize": 14,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+          ]
         }
       >
         Adalyn Roth
       </Text>
       <Text
         style={
-          {
-            "color": "#4C4C60",
-            "fontFamily": "MulishRegular",
-            "fontSize": 12,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            },
+          ]
         }
       >
         Money transfer
@@ -92,10 +106,17 @@ exports[`TransactionList should render correctly 1`] = `
           [
             {
               "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            false,
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -107,10 +128,17 @@ exports[`TransactionList should render correctly 1`] = `
             [
               {
                 "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              false,
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 14,
+                },
+                false,
+              ],
             ]
           }
         >
@@ -120,16 +148,23 @@ exports[`TransactionList should render correctly 1`] = `
           style={
             [
               {
-                "color": "#4C4C60",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 12,
+                "fontSize": 16,
               },
-              {
-                "marginLeft": "auto",
-              },
-              {
-                "display": "none",
-              },
+              [
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                },
+                {
+                  "marginLeft": "auto",
+                },
+                {
+                  "display": "none",
+                },
+              ],
             ]
           }
         >
@@ -187,22 +222,36 @@ exports[`TransactionList should render correctly 1`] = `
     <View>
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishSemiBold",
-            "fontSize": 14,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+          ]
         }
       >
         Amazon
       </Text>
       <Text
         style={
-          {
-            "color": "#4C4C60",
-            "fontFamily": "MulishRegular",
-            "fontSize": 12,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            },
+          ]
         }
       >
         Online payments
@@ -222,10 +271,17 @@ exports[`TransactionList should render correctly 1`] = `
           [
             {
               "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            false,
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -237,10 +293,17 @@ exports[`TransactionList should render correctly 1`] = `
             [
               {
                 "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              false,
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 14,
+                },
+                false,
+              ],
             ]
           }
         >
@@ -250,16 +313,23 @@ exports[`TransactionList should render correctly 1`] = `
           style={
             [
               {
-                "color": "#4C4C60",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 12,
+                "fontSize": 16,
               },
-              {
-                "marginLeft": "auto",
-              },
-              {
-                "display": "none",
-              },
+              [
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                },
+                {
+                  "marginLeft": "auto",
+                },
+                {
+                  "display": "none",
+                },
+              ],
             ]
           }
         >
@@ -317,22 +387,36 @@ exports[`TransactionList should render correctly 1`] = `
     <View>
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishSemiBold",
-            "fontSize": 14,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+          ]
         }
       >
         Paypal
       </Text>
       <Text
         style={
-          {
-            "color": "#4C4C60",
-            "fontFamily": "MulishRegular",
-            "fontSize": 12,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 12,
+            },
+          ]
         }
       >
         Deposits
@@ -352,12 +436,19 @@ exports[`TransactionList should render correctly 1`] = `
           [
             {
               "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 14,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "color": "#3EB290",
-            },
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 14,
+              },
+              {
+                "color": "#3EB290",
+              },
+            ],
           ]
         }
       >
@@ -369,12 +460,19 @@ exports[`TransactionList should render correctly 1`] = `
             [
               {
                 "color": "#1B1D4D",
-                "fontFamily": "MulishSemiBold",
-                "fontSize": 14,
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "color": "#3EB290",
-              },
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishSemiBold",
+                  "fontSize": 14,
+                },
+                {
+                  "color": "#3EB290",
+                },
+              ],
             ]
           }
         >
@@ -384,16 +482,23 @@ exports[`TransactionList should render correctly 1`] = `
           style={
             [
               {
-                "color": "#4C4C60",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 12,
+                "fontSize": 16,
               },
-              {
-                "marginLeft": "auto",
-              },
-              {
-                "display": "none",
-              },
+              [
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                },
+                {
+                  "marginLeft": "auto",
+                },
+                {
+                  "display": "none",
+                },
+              ],
             ]
           }
         >

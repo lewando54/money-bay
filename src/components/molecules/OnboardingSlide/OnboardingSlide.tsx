@@ -1,6 +1,8 @@
 ﻿import React from 'react'
-import { Dimensions, Image, ImageSourcePropType, StyleProp, Text, View, ViewStyle } from 'react-native'
+import { Dimensions, Image, ImageSourcePropType, StyleProp,  View, ViewStyle } from 'react-native'
 import Animated, { Extrapolate, interpolate, SharedValue, useAnimatedStyle } from 'react-native-reanimated'
+
+import { CustomText } from '@atoms'
 
 import Logo from './assets/Logo.svg'
 import onboardingSlideStyle from './OnboardingSlide.style'
@@ -50,8 +52,8 @@ export default function OnboardingSlide({
             <Image source={imageSource} style={onboardingSlideStyle.image}/>
             <View style={onboardingSlideStyle.textContainer}>
                 <Logo />
-                <Text style={onboardingSlideStyle.heading}>{heading}</Text>
-                <Text style={onboardingSlideStyle.body}>{body}</Text>
+                <CustomText style={onboardingSlideStyle.heading}>{heading}</CustomText>
+                <CustomText style={onboardingSlideStyle.body}>{body}</CustomText>
             </View>
         </Animated.View>
     )

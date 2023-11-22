@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { Image, Platform,Text, TextInput, View } from 'react-native'
+import { Image, Platform, TextInput, View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { UniversalContainer } from '@atoms'
 
 import phoneInputStyle from './PhoneInput.style'
@@ -26,9 +27,9 @@ export default function PhoneInput({
         <UniversalContainer style={[phoneInputStyle.mainContainer, phoneInputStyle.containerOrientation]} castShadow={true}>
             <View style={phoneInputStyle.containerOrientation}>
                 <Image style={phoneInputStyle.flag} source={require('./assets/flag.png')} />
-                <Text style={phoneInputStyle.text}>+17</Text>
+                <CustomText style={phoneInputStyle.text}>+17</CustomText>
             </View>
-            <Text style={phoneInputStyle.text}>|</Text>
+            <CustomText style={phoneInputStyle.text}>|</CustomText>
             <TextInput 
                 testID={testID}
                 value={value} 

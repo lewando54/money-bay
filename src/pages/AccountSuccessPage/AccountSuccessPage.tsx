@@ -1,8 +1,8 @@
 import React from 'react'
-import { Text } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { InfoScreenPageStyle } from '@pages'
 import { InfoScreenTemplate } from '@templates'
 import { RootStackParamList } from 'App'
@@ -18,7 +18,7 @@ export default function AccountSuccessPage({navigation}: Props) {
             icon={<Images.accountSuccessSVG/>}
             title='Account created!'
             titleColor={globalColors.MAIN_DARK}
-            body={<Text style={InfoScreenPageStyle.bodyText}>Your account has been created successfully.</Text>}
+            body={<CustomText style={InfoScreenPageStyle.bodyText}>Your account has been created successfully.</CustomText>}
             onSubmit={() => navigation.navigate('Sign In')}
         />
     )

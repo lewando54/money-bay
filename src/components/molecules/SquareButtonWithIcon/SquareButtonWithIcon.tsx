@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
+import {  TouchableOpacity, View } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 
+import { CustomText } from '@atoms'
 import { CircleWithIcon, UniversalContainer } from '@atoms'
 
 import squareButtonWithIconStyle from './SquareButtonWithIcon.style'
@@ -28,7 +29,7 @@ export default function SquareButtonWithIcon({
             <UniversalContainer padding={20} height={'100%'} castShadow={true} backgroundColor={buttonBackgroundColor}>
                 <View style={squareButtonWithIconStyle.innerContainer}>
                     <CircleWithIcon icon={icon} backgroundColor={circleBackgroundColor} size={50} />
-                    <Text style={squareButtonWithIconStyle.text}>{text}</Text>
+                    <CustomText style={squareButtonWithIconStyle.text}>{text}</CustomText>
                 </View>
             </UniversalContainer>
         </TouchableOpacity>

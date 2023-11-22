@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image,  View } from 'react-native'
 import { Entypo } from '@expo/vector-icons' 
 
+import { CustomText } from '@atoms'
 import { MiniCreditCard, UniversalContainer } from '@atoms'
 import { TCardIssuer } from '@utils/cardIssuers'
 import { TCurrency } from '@utils/currency'
@@ -45,12 +46,12 @@ export default function ProductBar({
         <UniversalContainer style={productBarStyle.container}>
             {ProductIcon}
             <View>
-                <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>
+                <CustomText style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>
                     {name}
-                </Text>
-                <Text style={[globalThemeStyle.text_SemiBold, {color: balanceTextColor ? balanceTextColor : globalColors.MAIN_DARK}]}>
+                </CustomText>
+                <CustomText style={[globalThemeStyle.text_SemiBold, {color: balanceTextColor ? balanceTextColor : globalColors.MAIN_DARK}]}>
                     {balance.toLocaleString('en-US', {minimumIntegerDigits: 2, minimumFractionDigits: 2}).replace(',', ' ')} {currency.iso.toLocaleUpperCase()}
-                </Text>
+                </CustomText>
             </View>
             {ThreeDotsMenu}
         </UniversalContainer>

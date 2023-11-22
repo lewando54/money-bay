@@ -1,9 +1,10 @@
 import React from 'react'
-import { Image,Text, View } from 'react-native'
+import { Image, View } from 'react-native'
 import MaskedView from '@react-native-masked-view/masked-view'
 import { BlurView } from 'expo-blur'
 import { LinearGradient } from 'expo-linear-gradient'
 
+import { CustomText } from '@atoms'
 import { getIssuerLogo,TCardIssuer } from '@utils/cardIssuers'
 import { TCurrency as TCurrency } from '@utils/currency'
 
@@ -71,44 +72,44 @@ export default function CreditCard({
                         source={getIssuerLogo(cardIssuer)}>
                     </Image>
                     <View style={creditCardStyle.separator}></View>
-                    <Text style={[globalThemeStyle.text_Regular, creditCardStyle.cardName]}>{cardName}</Text>
+                    <CustomText style={[globalThemeStyle.text_Regular, creditCardStyle.cardName]}>{cardName}</CustomText>
                 </View>
                 <View>
-                    <Text style={[globalThemeStyle.text_Regular, creditCardStyle.cardNumber]}>
+                    <CustomText style={[globalThemeStyle.text_Regular, creditCardStyle.cardNumber]}>
                         {cardNumber}
-                    </Text>
+                    </CustomText>
                 </View>
                 <View style={creditCardStyle.infoBoxesWrapper}>
                     <View style={creditCardStyle.infoBox}>
-                        <Text style={[globalThemeStyle.text_Regular, creditCardStyle.secondaryText]}>
+                        <CustomText style={[globalThemeStyle.text_Regular, creditCardStyle.secondaryText]}>
                             Balance
-                        </Text>
+                        </CustomText>
                         <View style={creditCardStyle.infoBoxData}>
-                            <Text style={[globalThemeStyle.text_Bold, {fontSize: 23}, !cardCurrency.left && {display: 'none'}]}>
+                            <CustomText style={[globalThemeStyle.text_Bold, {fontSize: 23}, !cardCurrency.left && {display: 'none'}]}>
                                 {cardCurrency.symbol}
-                            </Text>
+                            </CustomText>
                             <View style={creditCardStyle.balanceBox}>
-                                <Text style={[globalThemeStyle.text_Bold, {marginBottom: 0}, creditCardStyle.balanceInt]}>
+                                <CustomText style={[globalThemeStyle.text_Bold, {marginBottom: 0}, creditCardStyle.balanceInt]}>
                                     {Math.floor(cardBalance).toLocaleString('en-US', {minimumIntegerDigits: 2}).replace(',', ' ')}.
-                                </Text>
-                                <Text style={[globalThemeStyle.text_Bold, {height: '100%', paddingTop: 11}]}>
+                                </CustomText>
+                                <CustomText style={[globalThemeStyle.text_Bold, {height: '100%', paddingTop: 11}]}>
                                     {((cardBalance * 100) % 100).toLocaleString('en-US', {minimumIntegerDigits: 2})}
-                                </Text>
-                                <Text style={[globalThemeStyle.text_Bold, {fontSize: 12, marginLeft: 7, paddingTop: 12.7}, cardCurrency.left && {display: 'none'}]}>
+                                </CustomText>
+                                <CustomText style={[globalThemeStyle.text_Bold, {fontSize: 12, marginLeft: 7, paddingTop: 12.7}, cardCurrency.left && {display: 'none'}]}>
                                     {cardCurrency.symbol}
-                                </Text>
+                                </CustomText>
                             </View>
                         </View>
                     </View>
                     <View style={creditCardStyle.infoBox}>
-                        <Text style={[globalThemeStyle.text_Regular, creditCardStyle.secondaryText]}>
+                        <CustomText style={[globalThemeStyle.text_Regular, creditCardStyle.secondaryText]}>
                             Expire
-                        </Text>
+                        </CustomText>
                         <View style={creditCardStyle.infoBoxData}>
                             <View style={creditCardStyle.balanceBox}>
-                                <Text style={[globalThemeStyle.text_Medium, creditCardStyle.cardExpiry]}>
+                                <CustomText style={[globalThemeStyle.text_Medium, creditCardStyle.cardExpiry]}>
                                     {cardExpiryDate.getMonth() + 1}/{('' + cardExpiryDate.getFullYear()).substring(2)}
-                                </Text>
+                                </CustomText>
                             </View>
                         </View>
                     </View>

@@ -1,5 +1,7 @@
 ﻿import React from 'react'
-import { Text,TouchableOpacity } from 'react-native'
+import { TouchableOpacity } from 'react-native'
+
+import { CustomText } from '@atoms'
 
 import optionButtonStyle from './OptionButton.style'
 
@@ -32,7 +34,7 @@ export default function OptionButton({
             ]}
             testID={testID}
         >
-            <Text
+            <CustomText
                 style={[
                     optionButtonStyle.baseText,
                     variant == 'normal' && { fontFamily: 'MulishRegular' },
@@ -40,7 +42,7 @@ export default function OptionButton({
                 ]}
             >
                 {text}
-            </Text>
+            </CustomText>
         </TouchableOpacity>
     )
 }

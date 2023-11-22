@@ -63,11 +63,18 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
       />
       <Text
         style={
-          {
-            "color": "#4C4C60",
-            "fontFamily": "MulishRegular",
-            "fontSize": 14,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#4C4C60",
+              "fontFamily": "MulishRegular",
+              "fontSize": 14,
+            },
+          ]
         }
       >
         +17
@@ -75,11 +82,18 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
     </View>
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 14,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       |
@@ -105,11 +119,18 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
   </View>
   <Text
     style={
-      {
-        "color": "#1B1D4D",
-        "fontFamily": "MulishRegular",
-        "fontSize": 12,
-      }
+      [
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        },
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishRegular",
+          "fontSize": 12,
+        },
+      ]
     }
   >
     Your balance: 
@@ -161,12 +182,19 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
           [
             {
               "color": "#1B1D4D",
-              "fontFamily": "MulishMedium",
-              "fontSize": 28,
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
-            {
-              "marginRight": 5,
-            },
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishMedium",
+                "fontSize": 28,
+              },
+              {
+                "marginRight": 5,
+              },
+            ],
           ]
         }
       >
@@ -192,11 +220,18 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
       />
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishMedium",
-            "fontSize": 28,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishMedium",
+              "fontSize": 28,
+            },
+          ]
         }
       >
         .
@@ -218,11 +253,18 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
     </View>
     <Text
       style={
-        {
-          "color": "#1B1D4D",
-          "fontFamily": "MulishRegular",
-          "fontSize": 12,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 12,
+          },
+        ]
       }
     >
       No fees
@@ -296,15 +338,22 @@ exports[`MobilePaymentTemplate should render correctly 1`] = `
         style={
           [
             {
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
-              "textAlign": "center",
             },
-            {
-              "color": "white",
-            },
-            false,
-            false,
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ],
           ]
         }
       >

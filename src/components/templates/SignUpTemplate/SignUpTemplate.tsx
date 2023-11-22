@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { Button, Input, Link } from '@atoms'
 import { EmailInput, PasswordInput } from '@molecules'
 import { SocialButtonList } from '@organisms'
@@ -39,14 +40,14 @@ export default function SignUpTemplate({
 }: ISignUpTemplateProps){
     return (
         <View style={signUpTemplateStyle.mainContainer} testID={testID}>
-            <Text style={signUpTemplateStyle.heading}>Sign up!</Text>
+            <CustomText style={signUpTemplateStyle.heading}>Sign up!</CustomText>
             <Input value={nameValue} onChange={onNameChange} placeholder='Enter your name'/>
             <EmailInput value={emailValue} onChange={onEmailChange} placeholder='Enter your email'/>
             <PasswordInput value={passwordValue} onChange={onPasswordChange} placeholder='Enter your password'/>
             <PasswordInput value={passwordConfirmValue} onChange={onPasswordConfirmChange} placeholder='Confirm your password'/>
             <Button onClick={onSubmit}>Sign up</Button>
             <View style={signUpTemplateStyle.registerTextContainer}>
-                <Text style={signUpTemplateStyle.rememberText}>Already have an account?</Text>
+                <CustomText style={signUpTemplateStyle.rememberText}>Already have an account?</CustomText>
                 <Link onPress={onSignInPress}>Sign in.</Link>
             </View>
             <SocialButtonList socials={socials}/>

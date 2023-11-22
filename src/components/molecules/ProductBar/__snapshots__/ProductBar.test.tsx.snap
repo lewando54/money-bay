@@ -29,12 +29,19 @@ exports[`ProductBar should render account icon when passed account product 1`] =
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -44,12 +51,19 @@ exports[`ProductBar should render account icon when passed account product 1`] =
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -128,12 +142,19 @@ exports[`ProductBar should render correctly 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -143,12 +164,19 @@ exports[`ProductBar should render correctly 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -227,12 +255,19 @@ exports[`ProductBar should render custom balanceTextColor 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -242,12 +277,19 @@ exports[`ProductBar should render custom balanceTextColor 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#fff",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#fff",
+            },
+          ],
         ]
       }
     >
@@ -326,12 +368,19 @@ exports[`ProductBar should render minicreditcard when passed card product 1`] = 
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -341,12 +390,19 @@ exports[`ProductBar should render minicreditcard when passed card product 1`] = 
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -425,12 +481,19 @@ exports[`ProductBar should render with menu button 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -440,12 +503,19 @@ exports[`ProductBar should render with menu button 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >
@@ -525,12 +595,19 @@ exports[`ProductBar should render without menu button 1`] = `
       style={
         [
           {
-            "color": "white",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
-          {
-            "color": "#4C4C60",
-          },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishRegular",
+            },
+            {
+              "color": "#4C4C60",
+            },
+          ],
         ]
       }
     >
@@ -540,12 +617,19 @@ exports[`ProductBar should render without menu button 1`] = `
       style={
         [
           {
-            "color": "white",
-            "fontFamily": "MulishSemiBold",
-          },
-          {
             "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
           },
+          [
+            {
+              "color": "white",
+              "fontFamily": "MulishSemiBold",
+            },
+            {
+              "color": "#1B1D4D",
+            },
+          ],
         ]
       }
     >

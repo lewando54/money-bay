@@ -108,13 +108,20 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
         style={
           [
             {
-              "color": "white",
-              "fontFamily": "MulishSemiBold",
-            },
-            {
               "color": "#1B1D4D",
-              "textAlign": "center",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
             },
+            [
+              {
+                "color": "white",
+                "fontFamily": "MulishSemiBold",
+              },
+              {
+                "color": "#1B1D4D",
+                "textAlign": "center",
+              },
+            ],
           ]
         }
       >
@@ -123,11 +130,18 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
     </View>
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 12,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 12,
+          },
+        ]
       }
     >
       Sep 10, 2022
@@ -144,11 +158,18 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
     >
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishBold",
-            "fontSize": 28,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishBold",
+              "fontSize": 28,
+            },
+          ]
         }
       >
         - 
@@ -159,12 +180,19 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       </Text>
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishBold",
-            "fontSize": 16,
-            "marginBottom": 5.336,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishBold",
+              "fontSize": 16,
+              "marginBottom": 5.336,
+            },
+          ]
         }
       >
         00
@@ -172,11 +200,18 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
     </View>
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 16,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+        ]
       }
     >
       Sent to 
@@ -194,11 +229,18 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       <SvgMock />
       <Text
         style={
-          {
-            "color": "#3EB290",
-            "fontFamily": "MulishSemiBold",
-            "fontSize": 14,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#3EB290",
+              "fontFamily": "MulishSemiBold",
+              "fontSize": 14,
+            },
+          ]
         }
       >
         Success
@@ -240,22 +282,36 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Sent to
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Hillary Holmes
@@ -275,22 +331,36 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Card
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           **** 4253
@@ -310,22 +380,36 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Amount
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           10.0
@@ -347,22 +431,36 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Fee
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           0
@@ -384,22 +482,36 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#4C4C60",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#4C4C60",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           Residual balance
         </Text>
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishSemiBold",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           4853.27
@@ -476,15 +588,22 @@ exports[`TransactionDetailsTemplate should render correctly 1`] = `
             style={
               [
                 {
-                  "fontFamily": "MulishSemiBold",
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
                   "fontSize": 16,
-                  "textAlign": "center",
                 },
-                {
-                  "color": "white",
-                },
-                false,
-                false,
+                [
+                  {
+                    "fontFamily": "MulishSemiBold",
+                    "fontSize": 16,
+                    "textAlign": "center",
+                  },
+                  {
+                    "color": "white",
+                  },
+                  false,
+                  false,
+                ],
               ]
             }
           >

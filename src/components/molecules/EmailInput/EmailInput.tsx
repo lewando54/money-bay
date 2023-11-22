@@ -1,5 +1,5 @@
 ﻿import React, { useState } from 'react'
-import { StyleProp, TextStyle,ViewStyle } from 'react-native'
+import { StyleProp, TextStyle, ViewStyle } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 import { z } from 'zod'
 

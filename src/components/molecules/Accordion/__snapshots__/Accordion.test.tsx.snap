@@ -143,12 +143,19 @@ exports[`Accordion should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
-              {
-                "color": "#4C4C60",
-              },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishRegular",
+                },
+                {
+                  "color": "#4C4C60",
+                },
+              ],
             ]
           }
         >

@@ -13,11 +13,18 @@ exports[`SignInTemplate should render correctly 1`] = `
 >
   <Text
     style={
-      {
-        "fontFamily": "MulishBold",
-        "fontSize": 44,
-        "textAlign": "center",
-      }
+      [
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        },
+        {
+          "fontFamily": "MulishBold",
+          "fontSize": 44,
+          "textAlign": "center",
+        },
+      ]
     }
   >
     Welcome to MoneyBay!
@@ -332,11 +339,18 @@ exports[`SignInTemplate should render correctly 1`] = `
       </View>
       <Text
         style={
-          {
-            "color": "#1B1D4D",
-            "fontFamily": "MulishRegular",
-            "fontSize": 16,
-          }
+          [
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+          ]
         }
       >
         Remember me
@@ -346,13 +360,20 @@ exports[`SignInTemplate should render correctly 1`] = `
       style={
         [
           {
-            "color": "#FF5887",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
             "fontSize": 16,
           },
-          {
-            "marginLeft": "auto",
-          },
+          [
+            {
+              "color": "#FF5887",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            {
+              "marginLeft": "auto",
+            },
+          ],
         ]
       }
     >
@@ -427,15 +448,22 @@ exports[`SignInTemplate should render correctly 1`] = `
         style={
           [
             {
-              "fontFamily": "MulishSemiBold",
+              "color": "#1B1D4D",
+              "fontFamily": "MulishRegular",
               "fontSize": 16,
-              "textAlign": "center",
             },
-            {
-              "color": "white",
-            },
-            false,
-            false,
+            [
+              {
+                "fontFamily": "MulishSemiBold",
+                "fontSize": 16,
+                "textAlign": "center",
+              },
+              {
+                "color": "white",
+              },
+              false,
+              false,
+            ],
           ]
         }
       >
@@ -453,11 +481,18 @@ exports[`SignInTemplate should render correctly 1`] = `
   >
     <Text
       style={
-        {
-          "color": "#1B1D4D",
-          "fontFamily": "MulishRegular",
-          "fontSize": 16,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+        ]
       }
     >
       No account?
@@ -466,11 +501,18 @@ exports[`SignInTemplate should render correctly 1`] = `
       style={
         [
           {
-            "color": "#FF5887",
+            "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
             "fontSize": 16,
           },
-          undefined,
+          [
+            {
+              "color": "#FF5887",
+              "fontFamily": "MulishRegular",
+              "fontSize": 16,
+            },
+            undefined,
+          ],
         ]
       }
     >

@@ -1,8 +1,9 @@
 import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { TransactionDetailsTemplate } from '@templates'
 import { RootStackParamList } from 'App'
 
@@ -23,7 +24,7 @@ export default function TransactionDetailsPage({route, navigation}: Props) {
             onDownloadPDFPress={onDownloadPDFPressHandle}
             wholeAmount={wholeAmount}
             decimalAmount={decimalAmount}
-            statusElement={<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</Text></View>}
+            statusElement={<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><CustomText style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</CustomText></View>}
         />
     )
 }

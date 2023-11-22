@@ -65,11 +65,18 @@ exports[`DashboardTemplate should render correctly 1`] = `
         />
         <Text
           style={
-            {
-              "color": "white",
-              "fontFamily": "MulishRegular",
-              "fontSize": 16,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "white",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+            ]
           }
         >
           € 1.08 / 1.12
@@ -333,14 +340,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "color": "white",
-                            "fontSize": 14,
-                            "letterSpacing": 3,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "color": "white",
+                              "fontSize": 14,
+                              "letterSpacing": 3,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -352,12 +366,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "fontSize": 12,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "fontSize": 12,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -384,14 +405,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -410,13 +438,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                           style={
                             [
                               {
-                                "color": "white",
-                                "fontFamily": "MulishBold",
+                                "color": "#1B1D4D",
+                                "fontFamily": "MulishRegular",
+                                "fontSize": 16,
                               },
-                              {
-                                "fontSize": 23,
-                              },
-                              false,
+                              [
+                                {
+                                  "color": "white",
+                                  "fontFamily": "MulishBold",
+                                },
+                                {
+                                  "fontSize": 23,
+                                },
+                                false,
+                              ],
                             ]
                           }
                         >
@@ -433,15 +468,22 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "marginBottom": 0,
-                                },
-                                {
-                                  "fontSize": 24,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "marginBottom": 0,
+                                  },
+                                  {
+                                    "fontSize": 24,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -452,13 +494,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "height": "100%",
-                                  "paddingTop": 11,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "height": "100%",
+                                    "paddingTop": 11,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -468,17 +517,24 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "fontSize": 12,
-                                  "marginLeft": 7,
-                                  "paddingTop": 12.7,
-                                },
-                                {
-                                  "display": "none",
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "fontSize": 12,
+                                    "marginLeft": 7,
+                                    "paddingTop": 12.7,
+                                  },
+                                  {
+                                    "display": "none",
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -498,14 +554,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -531,12 +594,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishMedium",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "opacity": 0.8,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishMedium",
+                                  },
+                                  {
+                                    "opacity": 0.8,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -721,14 +791,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "color": "white",
-                            "fontSize": 14,
-                            "letterSpacing": 3,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "color": "white",
+                              "fontSize": 14,
+                              "letterSpacing": 3,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -740,12 +817,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "fontSize": 12,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "fontSize": 12,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -772,14 +856,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -798,13 +889,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                           style={
                             [
                               {
-                                "color": "white",
-                                "fontFamily": "MulishBold",
+                                "color": "#1B1D4D",
+                                "fontFamily": "MulishRegular",
+                                "fontSize": 16,
                               },
-                              {
-                                "fontSize": 23,
-                              },
-                              false,
+                              [
+                                {
+                                  "color": "white",
+                                  "fontFamily": "MulishBold",
+                                },
+                                {
+                                  "fontSize": 23,
+                                },
+                                false,
+                              ],
                             ]
                           }
                         >
@@ -821,15 +919,22 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "marginBottom": 0,
-                                },
-                                {
-                                  "fontSize": 24,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "marginBottom": 0,
+                                  },
+                                  {
+                                    "fontSize": 24,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -840,13 +945,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "height": "100%",
-                                  "paddingTop": 11,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "height": "100%",
+                                    "paddingTop": 11,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -856,17 +968,24 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "fontSize": 12,
-                                  "marginLeft": 7,
-                                  "paddingTop": 12.7,
-                                },
-                                {
-                                  "display": "none",
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "fontSize": 12,
+                                    "marginLeft": 7,
+                                    "paddingTop": 12.7,
+                                  },
+                                  {
+                                    "display": "none",
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -886,14 +1005,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -919,12 +1045,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishMedium",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "opacity": 0.8,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishMedium",
+                                  },
+                                  {
+                                    "opacity": 0.8,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -1109,14 +1242,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "color": "white",
-                            "fontSize": 14,
-                            "letterSpacing": 3,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "color": "white",
+                              "fontSize": 14,
+                              "letterSpacing": 3,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -1128,12 +1268,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                       style={
                         [
                           {
-                            "color": "white",
+                            "color": "#1B1D4D",
                             "fontFamily": "MulishRegular",
+                            "fontSize": 16,
                           },
-                          {
-                            "fontSize": 12,
-                          },
+                          [
+                            {
+                              "color": "white",
+                              "fontFamily": "MulishRegular",
+                            },
+                            {
+                              "fontSize": 12,
+                            },
+                          ],
                         ]
                       }
                     >
@@ -1160,14 +1307,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -1186,13 +1340,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                           style={
                             [
                               {
-                                "color": "white",
-                                "fontFamily": "MulishBold",
+                                "color": "#1B1D4D",
+                                "fontFamily": "MulishRegular",
+                                "fontSize": 16,
                               },
-                              {
-                                "fontSize": 23,
-                              },
-                              false,
+                              [
+                                {
+                                  "color": "white",
+                                  "fontFamily": "MulishBold",
+                                },
+                                {
+                                  "fontSize": 23,
+                                },
+                                false,
+                              ],
                             ]
                           }
                         >
@@ -1209,15 +1370,22 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "marginBottom": 0,
-                                },
-                                {
-                                  "fontSize": 24,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "marginBottom": 0,
+                                  },
+                                  {
+                                    "fontSize": 24,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -1228,13 +1396,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "height": "100%",
-                                  "paddingTop": 11,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "height": "100%",
+                                    "paddingTop": 11,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -1244,17 +1419,24 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishBold",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "fontSize": 12,
-                                  "marginLeft": 7,
-                                  "paddingTop": 12.7,
-                                },
-                                {
-                                  "display": "none",
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishBold",
+                                  },
+                                  {
+                                    "fontSize": 12,
+                                    "marginLeft": 7,
+                                    "paddingTop": 12.7,
+                                  },
+                                  {
+                                    "display": "none",
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -1274,14 +1456,21 @@ exports[`DashboardTemplate should render correctly 1`] = `
                         style={
                           [
                             {
-                              "color": "white",
+                              "color": "#1B1D4D",
                               "fontFamily": "MulishRegular",
+                              "fontSize": 16,
                             },
-                            {
-                              "fontSize": 8,
-                              "opacity": 0.5,
-                              "textTransform": "uppercase",
-                            },
+                            [
+                              {
+                                "color": "white",
+                                "fontFamily": "MulishRegular",
+                              },
+                              {
+                                "fontSize": 8,
+                                "opacity": 0.5,
+                                "textTransform": "uppercase",
+                              },
+                            ],
                           ]
                         }
                       >
@@ -1307,12 +1496,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                             style={
                               [
                                 {
-                                  "color": "white",
-                                  "fontFamily": "MulishMedium",
+                                  "color": "#1B1D4D",
+                                  "fontFamily": "MulishRegular",
+                                  "fontSize": 16,
                                 },
-                                {
-                                  "opacity": 0.8,
-                                },
+                                [
+                                  {
+                                    "color": "white",
+                                    "fontFamily": "MulishMedium",
+                                  },
+                                  {
+                                    "opacity": 0.8,
+                                  },
+                                ],
                               ]
                             }
                           >
@@ -1498,13 +1694,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishSemiBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "textAlign": "center",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "textAlign": "center",
+                },
+              ],
             ]
           }
         >
@@ -1590,13 +1793,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishSemiBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "textAlign": "center",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "textAlign": "center",
+                },
+              ],
             ]
           }
         >
@@ -1680,13 +1890,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishSemiBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "textAlign": "center",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "textAlign": "center",
+                },
+              ],
             ]
           }
         >
@@ -1770,13 +1987,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
           style={
             [
               {
-                "color": "white",
-                "fontFamily": "MulishSemiBold",
-              },
-              {
                 "color": "#1B1D4D",
-                "textAlign": "center",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
               },
+              [
+                {
+                  "color": "white",
+                  "fontFamily": "MulishSemiBold",
+                },
+                {
+                  "color": "#1B1D4D",
+                  "textAlign": "center",
+                },
+              ],
             ]
           }
         >
@@ -1815,11 +2039,18 @@ exports[`DashboardTemplate should render correctly 1`] = `
       >
         <Text
           style={
-            {
-              "color": "#1B1D4D",
-              "fontFamily": "MulishMedium",
-              "fontSize": 20,
-            }
+            [
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishRegular",
+                "fontSize": 16,
+              },
+              {
+                "color": "#1B1D4D",
+                "fontFamily": "MulishMedium",
+                "fontSize": 20,
+              },
+            ]
           }
         >
           Latest transactions
@@ -1828,13 +2059,20 @@ exports[`DashboardTemplate should render correctly 1`] = `
           style={
             [
               {
-                "color": "#FF5887",
+                "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
                 "fontSize": 16,
               },
-              {
-                "fontSize": 16,
-              },
+              [
+                {
+                  "color": "#FF5887",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "fontSize": 16,
+                },
+              ],
             ]
           }
         >
@@ -1897,22 +2135,36 @@ exports[`DashboardTemplate should render correctly 1`] = `
           <View>
             <Text
               style={
-                {
-                  "color": "#1B1D4D",
-                  "fontFamily": "MulishSemiBold",
-                  "fontSize": 14,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishSemiBold",
+                    "fontSize": 14,
+                  },
+                ]
               }
             >
               Adalyn Roth
             </Text>
             <Text
               style={
-                {
-                  "color": "#4C4C60",
-                  "fontFamily": "MulishRegular",
-                  "fontSize": 12,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 12,
+                  },
+                ]
               }
             >
               Money transfer
@@ -1932,10 +2184,17 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 [
                   {
                     "color": "#1B1D4D",
-                    "fontFamily": "MulishSemiBold",
-                    "fontSize": 14,
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  false,
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    false,
+                  ],
                 ]
               }
             >
@@ -1947,10 +2206,17 @@ exports[`DashboardTemplate should render correctly 1`] = `
                   [
                     {
                       "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 16,
                     },
-                    false,
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                      false,
+                    ],
                   ]
                 }
               >
@@ -1960,16 +2226,23 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 style={
                   [
                     {
-                      "color": "#4C4C60",
+                      "color": "#1B1D4D",
                       "fontFamily": "MulishRegular",
-                      "fontSize": 12,
+                      "fontSize": 16,
                     },
-                    {
-                      "marginLeft": "auto",
-                    },
-                    {
-                      "display": "none",
-                    },
+                    [
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                      {
+                        "marginLeft": "auto",
+                      },
+                      {
+                        "display": "none",
+                      },
+                    ],
                   ]
                 }
               >
@@ -2027,22 +2300,36 @@ exports[`DashboardTemplate should render correctly 1`] = `
           <View>
             <Text
               style={
-                {
-                  "color": "#1B1D4D",
-                  "fontFamily": "MulishSemiBold",
-                  "fontSize": 14,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishSemiBold",
+                    "fontSize": 14,
+                  },
+                ]
               }
             >
               Amazon
             </Text>
             <Text
               style={
-                {
-                  "color": "#4C4C60",
-                  "fontFamily": "MulishRegular",
-                  "fontSize": 12,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 12,
+                  },
+                ]
               }
             >
               Online payments
@@ -2062,10 +2349,17 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 [
                   {
                     "color": "#1B1D4D",
-                    "fontFamily": "MulishSemiBold",
-                    "fontSize": 14,
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  false,
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    false,
+                  ],
                 ]
               }
             >
@@ -2077,10 +2371,17 @@ exports[`DashboardTemplate should render correctly 1`] = `
                   [
                     {
                       "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 16,
                     },
-                    false,
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                      false,
+                    ],
                   ]
                 }
               >
@@ -2090,16 +2391,23 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 style={
                   [
                     {
-                      "color": "#4C4C60",
+                      "color": "#1B1D4D",
                       "fontFamily": "MulishRegular",
-                      "fontSize": 12,
+                      "fontSize": 16,
                     },
-                    {
-                      "marginLeft": "auto",
-                    },
-                    {
-                      "display": "none",
-                    },
+                    [
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                      {
+                        "marginLeft": "auto",
+                      },
+                      {
+                        "display": "none",
+                      },
+                    ],
                   ]
                 }
               >
@@ -2157,22 +2465,36 @@ exports[`DashboardTemplate should render correctly 1`] = `
           <View>
             <Text
               style={
-                {
-                  "color": "#1B1D4D",
-                  "fontFamily": "MulishSemiBold",
-                  "fontSize": 14,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishSemiBold",
+                    "fontSize": 14,
+                  },
+                ]
               }
             >
               Paypal
             </Text>
             <Text
               style={
-                {
-                  "color": "#4C4C60",
-                  "fontFamily": "MulishRegular",
-                  "fontSize": 12,
-                }
+                [
+                  {
+                    "color": "#1B1D4D",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
+                  },
+                  {
+                    "color": "#4C4C60",
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 12,
+                  },
+                ]
               }
             >
               Deposits
@@ -2192,12 +2514,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 [
                   {
                     "color": "#1B1D4D",
-                    "fontFamily": "MulishSemiBold",
-                    "fontSize": 14,
+                    "fontFamily": "MulishRegular",
+                    "fontSize": 16,
                   },
-                  {
-                    "color": "#3EB290",
-                  },
+                  [
+                    {
+                      "color": "#1B1D4D",
+                      "fontFamily": "MulishSemiBold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3EB290",
+                    },
+                  ],
                 ]
               }
             >
@@ -2209,12 +2538,19 @@ exports[`DashboardTemplate should render correctly 1`] = `
                   [
                     {
                       "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
+                      "fontFamily": "MulishRegular",
+                      "fontSize": 16,
                     },
-                    {
-                      "color": "#3EB290",
-                    },
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                      {
+                        "color": "#3EB290",
+                      },
+                    ],
                   ]
                 }
               >
@@ -2224,16 +2560,23 @@ exports[`DashboardTemplate should render correctly 1`] = `
                 style={
                   [
                     {
-                      "color": "#4C4C60",
+                      "color": "#1B1D4D",
                       "fontFamily": "MulishRegular",
-                      "fontSize": 12,
+                      "fontSize": 16,
                     },
-                    {
-                      "marginLeft": "auto",
-                    },
-                    {
-                      "display": "none",
-                    },
+                    [
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                      {
+                        "marginLeft": "auto",
+                      },
+                      {
+                        "display": "none",
+                      },
+                    ],
                   ]
                 }
               >

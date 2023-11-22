@@ -55,11 +55,18 @@ exports[`PhoneInput should render correctly 1`] = `
     />
     <Text
       style={
-        {
-          "color": "#4C4C60",
-          "fontFamily": "MulishRegular",
-          "fontSize": 14,
-        }
+        [
+          {
+            "color": "#1B1D4D",
+            "fontFamily": "MulishRegular",
+            "fontSize": 16,
+          },
+          {
+            "color": "#4C4C60",
+            "fontFamily": "MulishRegular",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       +17
@@ -67,11 +74,18 @@ exports[`PhoneInput should render correctly 1`] = `
   </View>
   <Text
     style={
-      {
-        "color": "#4C4C60",
-        "fontFamily": "MulishRegular",
-        "fontSize": 14,
-      }
+      [
+        {
+          "color": "#1B1D4D",
+          "fontFamily": "MulishRegular",
+          "fontSize": 16,
+        },
+        {
+          "color": "#4C4C60",
+          "fontFamily": "MulishRegular",
+          "fontSize": 14,
+        },
+      ]
     }
   >
     |

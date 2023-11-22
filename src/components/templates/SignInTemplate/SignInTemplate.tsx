@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { Text,View } from 'react-native'
+import { View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { Button, CheckBoxSquare, Link } from '@atoms'
 import { EmailInput, PasswordInput } from '@molecules'
 import { SocialButtonList } from '@organisms'
@@ -37,19 +38,19 @@ export default function SignInTemplate({
 }: ISignInTemplateProps){
     return (
         <View style={signInTemplateStyle.mainContainer} testID={testID}>
-            <Text style={signInTemplateStyle.heading}>Welcome to MoneyBay!</Text>
+            <CustomText style={signInTemplateStyle.heading}>Welcome to MoneyBay!</CustomText>
             <EmailInput value={emailValue} onChange={onEmailChange}/>
             <PasswordInput value={passwordValue} onChange={onPasswordChange}/>
             <View style={signInTemplateStyle.rememberAndPasswordContainer}>
                 <View style={signInTemplateStyle.rememberContainer}>
                     <CheckBoxSquare checked={rememberMeChecked} onPress={onRememberMeChange}/>
-                    <Text style={signInTemplateStyle.rememberText}>Remember me</Text>
+                    <CustomText style={signInTemplateStyle.rememberText}>Remember me</CustomText>
                 </View>
                 <Link style={{marginLeft: 'auto'}} onPress={onLostYourPasswordPress}>Lost your password?</Link>
             </View>
             <Button onClick={onSubmit}>Sign in</Button>
             <View style={signInTemplateStyle.registerTextContainer}>
-                <Text style={signInTemplateStyle.rememberText}>No account?</Text>
+                <CustomText style={signInTemplateStyle.rememberText}>No account?</CustomText>
                 <Link onPress={onRegisterNowPress}>Register now</Link>
             </View>
             <SocialButtonList socials={socials}/>

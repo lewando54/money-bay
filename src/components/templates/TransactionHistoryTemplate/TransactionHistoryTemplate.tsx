@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { FlatList,Text, View } from 'react-native'
+import { FlatList, View } from 'react-native'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { SearchInput } from '@molecules'
 import { TransactionList } from '@organisms'
 import { TTransactionsArray } from 'src/components/molecules/TransactionBar/TransactionBar'
@@ -82,14 +83,14 @@ export default function TransactionHistory({
             </View>
             <FlatList
                 data={transactionsData}
-                ListEmptyComponent={<Text style={transactionHistoryStyle.dateText}>No transactions</Text>}
+                ListEmptyComponent={<CustomText style={transactionHistoryStyle.dateText}>No transactions</CustomText>}
                 renderItem={({item, index}) => {
                     actDate = item.date
                     if(index == 0 && actDate == item.date){
                         prevDate = actDate
                         return (
                             <View key={index} style={transactionHistoryStyle.innerContainer}>
-                                <Text style={transactionHistoryStyle.dateText}>Today</Text>
+                                <CustomText style={transactionHistoryStyle.dateText}>Today</CustomText>
                                 <TransactionList onDate={item.date} transactionsData={transactionsData}/>
                             </View>
                         )
@@ -103,7 +104,7 @@ export default function TransactionHistory({
                         prevDate = actDate
                         return (
                             <View key={index} style={transactionHistoryStyle.innerContainer}>
-                                <Text style={transactionHistoryStyle.dateText}>{dateFromString}</Text>
+                                <CustomText style={transactionHistoryStyle.dateText}>{dateFromString}</CustomText>
                                 <TransactionList onDate={item.date} transactionsData={transactionsData}/>
                             </View>
                         )

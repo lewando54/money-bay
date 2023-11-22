@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Dimensions,Text, View } from 'react-native'
+import { Dimensions, View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 
+import { CustomText } from '@atoms'
 import { CircleWithIcon,UniversalContainer } from '@atoms'
 
 import transactionBarStyle from './TransactionBar.style'
@@ -44,14 +45,14 @@ export default function TransactionBar({
         <UniversalContainer padding={width * 0.0266} testID={testID} style={transactionBarStyle.container} castShadow={true}>
             <CircleWithIcon icon={icon} size={width * 0.1066}/>
             <View>
-                <Text style={globalThemeStyle.text_Title}>{title}</Text>
-                <Text style={globalThemeStyle.text_SubTitle}>{subTitle}</Text>
+                <CustomText style={globalThemeStyle.text_Title}>{title}</CustomText>
+                <CustomText style={globalThemeStyle.text_SubTitle}>{subTitle}</CustomText>
             </View>
             <View style={transactionBarStyle.balanceContainer}>
-                <Text style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{isExpense ? '-' : '+'}</Text>
+                <CustomText style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{isExpense ? '-' : '+'}</CustomText>
                 <View>
-                    <Text style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{amount.toFixed(2)}</Text>
-                    <Text style={[globalThemeStyle.text_SubTitle, {marginLeft: 'auto'}, !percent && {display: 'none'}]}>{percent+'%'}</Text>
+                    <CustomText style={[globalThemeStyle.text_Title, !isExpense && {color: globalColors.GOOD_GREEN}]}>{amount.toFixed(2)}</CustomText>
+                    <CustomText style={[globalThemeStyle.text_SubTitle, {marginLeft: 'auto'}, !percent && {display: 'none'}]}>{percent+'%'}</CustomText>
                 </View>
             </View>
         </UniversalContainer>

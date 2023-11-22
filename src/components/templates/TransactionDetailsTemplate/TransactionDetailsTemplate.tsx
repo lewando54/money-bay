@@ -1,7 +1,8 @@
 ﻿import React from 'react'
-import { Image, Text,View } from 'react-native'
+import { Image, View } from 'react-native'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { Button, Separator } from '@atoms'
 import { ButtonCircleWithText } from '@molecules'
 import { TCurrency } from '@utils/currency'
@@ -32,7 +33,7 @@ export default function TransactionDetailsTemplate({
     name='Mobile Payment',
     date=new Date('2022-09-10T11:34:13'),
     recipientName='Hillary Holmes',
-    statusElement=<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><Text style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</Text></View>,
+    statusElement=<View style={{flexDirection: 'row', gap: 5, alignItems: 'center'}}><Images.successDetailsSVG/><CustomText style={{...globalThemeStyle.text_SemiBold, color: globalColors.GOOD_GREEN, fontSize: 14}}>Success</CustomText></View>,
     cardNumber='**** 4253',
     fee=0,
     residualBalance=4853.27,
@@ -45,34 +46,34 @@ export default function TransactionDetailsTemplate({
             <Image source={Images.bgSignIn} style={transactionDetailsTemplateStyle.background} />
             <View style={transactionDetailsTemplateStyle.mainContentContainer}>
                 <ButtonCircleWithText circleBackgroundColor={globalColors.ORANGE} text={name} icon={<Images.smartphoneSVG color={'white'}/>}/>
-                <Text style={transactionDetailsTemplateStyle.dateText}>{date.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {date.toLocaleTimeString('en-US', {hourCycle: 'h12', hour: 'numeric', minute: 'numeric'})}</Text>
+                <CustomText style={transactionDetailsTemplateStyle.dateText}>{date.toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})} at {date.toLocaleTimeString('en-US', {hourCycle: 'h12', hour: 'numeric', minute: 'numeric'})}</CustomText>
                 <View style={transactionDetailsTemplateStyle.moneyContainer}>
-                    <Text style={transactionDetailsTemplateStyle.bigMoneyText}>- {currency.symbol} {wholeAmount}.</Text>
-                    <Text style={transactionDetailsTemplateStyle.smallMoneyText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</Text>
+                    <CustomText style={transactionDetailsTemplateStyle.bigMoneyText}>- {currency.symbol} {wholeAmount}.</CustomText>
+                    <CustomText style={transactionDetailsTemplateStyle.smallMoneyText}>{parseInt(decimalAmount).toLocaleString('en-US', {minimumIntegerDigits: 2})}</CustomText>
                 </View>
-                <Text style={transactionDetailsTemplateStyle.cellHeader}>Sent to {recipientName}</Text>
+                <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Sent to {recipientName}</CustomText>
                 {statusElement}
                 <Separator />
                 <View style={transactionDetailsTemplateStyle.tableContainer}>
                     <View style={transactionDetailsTemplateStyle.cellContainer}>
-                        <Text style={transactionDetailsTemplateStyle.cellHeader}>Sent to</Text>
-                        <Text style={transactionDetailsTemplateStyle.cellData}>{recipientName}</Text>
+                        <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Sent to</CustomText>
+                        <CustomText style={transactionDetailsTemplateStyle.cellData}>{recipientName}</CustomText>
                     </View>
                     <View style={transactionDetailsTemplateStyle.cellContainer}>
-                        <Text style={transactionDetailsTemplateStyle.cellHeader}>Card</Text>
-                        <Text style={transactionDetailsTemplateStyle.cellData}>{cardNumber}</Text>
+                        <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Card</CustomText>
+                        <CustomText style={transactionDetailsTemplateStyle.cellData}>{cardNumber}</CustomText>
                     </View>
                     <View style={transactionDetailsTemplateStyle.cellContainer}>
-                        <Text style={transactionDetailsTemplateStyle.cellHeader}>Amount</Text>
-                        <Text style={transactionDetailsTemplateStyle.cellData}>{wholeAmount+'.'+decimalAmount} {currency.iso.toLocaleUpperCase()}</Text>
+                        <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Amount</CustomText>
+                        <CustomText style={transactionDetailsTemplateStyle.cellData}>{wholeAmount+'.'+decimalAmount} {currency.iso.toLocaleUpperCase()}</CustomText>
                     </View>
                     <View style={transactionDetailsTemplateStyle.cellContainer}>
-                        <Text style={transactionDetailsTemplateStyle.cellHeader}>Fee</Text>
-                        <Text style={transactionDetailsTemplateStyle.cellData}>{fee} {currency.iso.toLocaleUpperCase()}</Text>
+                        <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Fee</CustomText>
+                        <CustomText style={transactionDetailsTemplateStyle.cellData}>{fee} {currency.iso.toLocaleUpperCase()}</CustomText>
                     </View>
                     <View style={transactionDetailsTemplateStyle.cellContainer}>
-                        <Text style={transactionDetailsTemplateStyle.cellHeader}>Residual balance</Text>
-                        <Text style={transactionDetailsTemplateStyle.cellData}>{residualBalance} {currency.iso.toLocaleUpperCase()}</Text>
+                        <CustomText style={transactionDetailsTemplateStyle.cellHeader}>Residual balance</CustomText>
+                        <CustomText style={transactionDetailsTemplateStyle.cellData}>{residualBalance} {currency.iso.toLocaleUpperCase()}</CustomText>
                     </View>
                     <Button containerStyle={transactionDetailsTemplateStyle.downloadButton} onClick={onDownloadPDFPress}>Download PDF</Button>
                 </View>

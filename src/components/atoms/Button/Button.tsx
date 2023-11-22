@@ -1,6 +1,8 @@
 import React from 'react'
-import { StyleProp, Text, TouchableOpacity, ViewStyle } from 'react-native'
+import { StyleProp,  TouchableOpacity, ViewStyle } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
+
+import { CustomText } from '@atoms'
 
 import buttonStyle from './Button.style'
 
@@ -46,14 +48,14 @@ export default function Button({
                     size === 'small' && { padding: 8, borderRadius: 5 },
                     color === 'secondary' && buttonStyle.secondaryButton
                 ]}>
-                <Text style={[
+                <CustomText style={[
                     buttonStyle.text,
                     color === 'primary' && buttonStyle.primaryText,
                     color === 'secondary' && buttonStyle.secondaryText,
                     size === 'small' && [{ fontSize: 12 }, GlobalThemeStyle.text_SemiBold]
                 ]}>
                     {children}
-                </Text>
+                </CustomText>
             </LinearGradient>
         </TouchableOpacity>
     )

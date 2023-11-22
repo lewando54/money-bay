@@ -1,8 +1,9 @@
 ﻿import React from 'react'
-import { Image, ImageSourcePropType,Text, View } from 'react-native'
+import { Image, ImageSourcePropType, View } from 'react-native'
 import { Easing, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { Link, UniversalContainer } from '@atoms'
 import { PinDots } from '@molecules'
 
@@ -77,7 +78,7 @@ export default function SignInWithCodeTemplate({
                 style={signInWithCodeTemplateStyle.button}
                 castShadow={true}
                 onPress={() => onChangeHandle(el)}>
-                <Text style={signInWithCodeTemplateStyle.buttonText}>{el}</Text>
+                <CustomText style={signInWithCodeTemplateStyle.buttonText}>{el}</CustomText>
             </UniversalContainer>
         }
         else if(el === 'faceid'){
@@ -106,8 +107,8 @@ export default function SignInWithCodeTemplate({
             <View style={signInWithCodeTemplateStyle.mainContainer}>
                 <Image source={profilePicture} style={signInWithCodeTemplateStyle.profilePicture}/>
                 <View style={signInWithCodeTemplateStyle.usernameContainer}>
-                    <Text style={signInWithCodeTemplateStyle.usernameText}>{name}</Text>
-                    <Text style={signInWithCodeTemplateStyle.usernameSubText}>{subname}</Text>
+                    <CustomText style={signInWithCodeTemplateStyle.usernameText}>{name}</CustomText>
+                    <CustomText style={signInWithCodeTemplateStyle.usernameSubText}>{subname}</CustomText>
                 </View>
                 <PinDots currLength={pin.length} xTransform={xTransform}/>
                 <View style={signInWithCodeTemplateStyle.buttonContainer}>

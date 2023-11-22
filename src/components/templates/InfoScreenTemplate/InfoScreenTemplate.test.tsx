@@ -1,8 +1,8 @@
 ﻿import React from 'react'
-import { Text } from 'react-native'
 import renderer from 'react-test-renderer'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 
 import InfoScreenTemplate from './InfoScreenTemplate'
 
@@ -18,7 +18,7 @@ describe('InfoScreenTemplate', () => {
             icon={<Images.accountSuccessSVG/>}
             title='Account created!'
             titleColor={globalColors.MAIN_DARK}
-            body={<Text style={{...globalThemeStyle.text_Regular, color: globalColors.BODY_TEXT_COLOR, fontSize: 16, textAlign: 'center', marginTop: 20}}>Your account has been created successfully.</Text>}
+            body={<CustomText style={{...globalThemeStyle.text_Regular, color: globalColors.BODY_TEXT_COLOR, fontSize: 16, textAlign: 'center', marginTop: 20}}>Your account has been created successfully.</CustomText>}
             onSubmit={() => console.log('test')} />)
         expect(tree).toMatchSnapshot()
     })
@@ -28,7 +28,7 @@ describe('InfoScreenTemplate', () => {
             icon={<Images.accountSuccessSVG/>}
             title='Account created!'
             titleColor={globalColors.MAIN_DARK}
-            body={<Text style={{...globalThemeStyle.text_Regular, color: globalColors.BODY_TEXT_COLOR, fontSize: 16, textAlign: 'center', marginTop: 20}}>Your account has been created successfully.</Text>}
+            body={<CustomText style={{...globalThemeStyle.text_Regular, color: globalColors.BODY_TEXT_COLOR, fontSize: 16, textAlign: 'center', marginTop: 20}}>Your account has been created successfully.</CustomText>}
             additionalButtons={[{
                 children: 'Test',
             }]}

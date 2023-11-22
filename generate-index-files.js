@@ -39,7 +39,6 @@ function generateIndexFiles(dir) {
                 console.log(err)
             }
         }
-        else
     })
 
     if (modulesPaths.includes(dir)) {

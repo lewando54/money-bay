@@ -1,6 +1,7 @@
 ﻿import React from 'react'
-import { StyleProp,Text, View, ViewStyle } from 'react-native'
+import { StyleProp, View, ViewStyle } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { TCurrency } from '@utils/currency'
 
 import moneyTextStyle from './MoneyText.style'
@@ -24,17 +25,17 @@ export default function MoneyText({
     fontSize=20,
     containerStyle
 }: IMoneyTextProps){
-    const minusSign = amount < 0 && <Text style={[globalThemeStyle.text_Regular, moneyTextStyle.minusSign]}>- </Text> 
+    const minusSign = amount < 0 && <CustomText style={[globalThemeStyle.text_Regular, moneyTextStyle.minusSign]}>- </CustomText> 
     const amountIntFinal = hasNumberFormatting ? Math.abs(Math.floor(amount)).toLocaleString('en-US').replace(',', ' ') : Math.abs(Math.floor(amount))
     const amountDecFinal = Math.abs(((amount * 100) % 100)).toLocaleString('en-US', {minimumIntegerDigits: 2})
 
     return (
         <View style={[moneyTextStyle.moneyContainer, containerStyle]}>
             {minusSign}
-            <Text style={[globalThemeStyle.text_Regular, {fontSize: fontSize, color: globalColors.MAIN_DARK}]}>{amountIntFinal}.</Text>
+            <CustomText style={[globalThemeStyle.text_Regular, {fontSize: fontSize, color: globalColors.MAIN_DARK}]}>{amountIntFinal}.</CustomText>
             <View style={[moneyTextStyle.floatCurrencyContainer, {paddingBottom: fontSize / 10}]}>
-                <Text style={[globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK}]}>{amountDecFinal}</Text>
-                <Text style={[isCurrencyBold ? globalThemeStyle.text_Bold : globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK, marginLeft: Math.ceil(fontSize / 5)}]}>{currency.iso.toLocaleUpperCase()}</Text>
+                <CustomText style={[globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK}]}>{amountDecFinal}</CustomText>
+                <CustomText style={[isCurrencyBold ? globalThemeStyle.text_Bold : globalThemeStyle.text_Regular, {fontSize: Math.ceil(fontSize / 1.5), color: globalColors.MAIN_DARK, marginLeft: Math.ceil(fontSize / 5)}]}>{currency.iso.toLocaleUpperCase()}</CustomText>
             </View>
         </View>
     )

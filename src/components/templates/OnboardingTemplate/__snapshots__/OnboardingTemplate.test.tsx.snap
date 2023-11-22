@@ -195,15 +195,22 @@ exports[`OnboardingTemplate should render correctly 1`] = `
             style={
               [
                 {
-                  "fontFamily": "MulishSemiBold",
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
                   "fontSize": 16,
-                  "textAlign": "center",
                 },
-                {
-                  "color": "white",
-                },
-                false,
-                false,
+                [
+                  {
+                    "fontFamily": "MulishSemiBold",
+                    "fontSize": 16,
+                    "textAlign": "center",
+                  },
+                  {
+                    "color": "white",
+                  },
+                  false,
+                  false,
+                ],
               ]
             }
           >
@@ -328,25 +335,39 @@ exports[`OnboardingTemplate should render correctly 1`] = `
                 <SvgMock />
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishBold",
-                      "fontSize": 28,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishBold",
+                        "fontSize": 28,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Welcome to MoneyBay app!
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 16,
-                      "paddingHorizontal": 6,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                        "paddingHorizontal": 6,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
@@ -409,25 +430,39 @@ exports[`OnboardingTemplate should render correctly 1`] = `
                 <SvgMock />
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishBold",
-                      "fontSize": 28,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishBold",
+                        "fontSize": 28,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Get a new card in a few clicks!
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 16,
-                      "paddingHorizontal": 6,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                        "paddingHorizontal": 6,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.
@@ -490,25 +525,39 @@ exports[`OnboardingTemplate should render correctly 1`] = `
                 <SvgMock />
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishBold",
-                      "fontSize": 28,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishBold",
+                        "fontSize": 28,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Easy payments all over the world!
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 16,
-                      "paddingHorizontal": 6,
-                      "textAlign": "center",
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                        "paddingHorizontal": 6,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Labore sunt culpa excepteur culpa ipsum. Labore occaecat ex nisi mollit.

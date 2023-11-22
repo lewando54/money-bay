@@ -1,6 +1,7 @@
 ﻿import React, { useRef } from 'react'
-import { Platform,Text, TextInput, View } from 'react-native'
+import { Platform, TextInput, View } from 'react-native'
 
+import { CustomText } from '@atoms'
 import { Button, UniversalContainer } from '@atoms'
 import { PhoneInput } from '@molecules'
 import { TCurrency } from '@utils/currency'
@@ -76,10 +77,10 @@ export default function MobilePaymentTemplate({
                 value={phoneValue}
                 onChange={onPhoneChange}
             />
-            <Text style={mobilePaymentTemplateStyle.balanceText}>Your balance: {balance+' '+currency.iso.toLocaleUpperCase()}</Text>
+            <CustomText style={mobilePaymentTemplateStyle.balanceText}>Your balance: {balance+' '+currency.iso.toLocaleUpperCase()}</CustomText>
             <View style={mobilePaymentTemplateStyle.amountInputWrapper}>
                 <UniversalContainer style={mobilePaymentTemplateStyle.moneyInputContainer} castShadow={true}>
-                    <Text style={[mobilePaymentTemplateStyle.bigMoneyText, {marginRight: 5}]}>$</Text>
+                    <CustomText style={[mobilePaymentTemplateStyle.bigMoneyText, {marginRight: 5}]}>$</CustomText>
                     <TextInput
                         value={wholeValue} 
                         ref={amountWholeRef}
@@ -89,7 +90,7 @@ export default function MobilePaymentTemplate({
                         keyboardType={Platform.select({android: 'numeric', ios: 'number-pad'})}
                         testID='wholeNumber'
                     />
-                    <Text style={mobilePaymentTemplateStyle.bigMoneyText}>.</Text>
+                    <CustomText style={mobilePaymentTemplateStyle.bigMoneyText}>.</CustomText>
                     <TextInput
                         value={decimalValue}
                         maxLength={2}
@@ -101,7 +102,7 @@ export default function MobilePaymentTemplate({
                         testID='decimalNumber'
                     />
                 </UniversalContainer>
-                <Text style={mobilePaymentTemplateStyle.balanceText}>No fees</Text>
+                <CustomText style={mobilePaymentTemplateStyle.balanceText}>No fees</CustomText>
             </View>
             <Button onClick={onSubmit}>Confirm</Button>
         </View>

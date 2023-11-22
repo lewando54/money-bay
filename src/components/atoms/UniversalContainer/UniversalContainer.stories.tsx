@@ -1,8 +1,10 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
 import React from 'react'
-import { Text, View } from 'react-native'
+import {  View } from 'react-native'
 import { MaterialIcons } from '@expo/vector-icons'
 import { Meta,StoryObj } from '@storybook/react-native'
+
+import { CustomText } from '@atoms'
 
 import CircleWithIcon from '../CircleWithIcon/CircleWithIcon'
 
@@ -10,9 +12,9 @@ function ExampleChildren(){
     return (
         <View style={{justifyContent: 'space-between', alignItems: 'center', width: '100%', flexDirection: 'row'}}>
             <CircleWithIcon icon={<MaterialIcons name="compare-arrows" size={24} color="black" />}/>
-            <Text>
+            <CustomText>
                 + 234.00 zł
-            </Text>
+            </CustomText>
         </View>
     )
 }

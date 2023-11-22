@@ -18,6 +18,11 @@ export const globalColors = {
 } as const
 export type TGlobalColors = keyof typeof globalColors | (typeof globalColors)[keyof typeof globalColors]
 export default StyleSheet.create({
+    text_default: {
+        fontFamily: 'MulishRegular',
+        color: globalColors.MAIN_DARK,
+        fontSize: 14
+    },
     text_SemiBold: {
         fontFamily: 'MulishSemiBold',
         color: 'white'

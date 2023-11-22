@@ -117,7 +117,7 @@ exports[`TransactionHistory should render correctly 1`] = `
   </View>
   <RCTScrollView
     ListEmptyComponent={
-      <Text
+      <CustomText
         style={
           {
             "color": "#4C4C60",
@@ -128,7 +128,7 @@ exports[`TransactionHistory should render correctly 1`] = `
         }
       >
         No transactions
-      </Text>
+      </CustomText>
     }
     data={
       [
@@ -218,12 +218,19 @@ exports[`TransactionHistory should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-                "marginBottom": 14.2738,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                  "marginBottom": 14.2738,
+                },
+              ]
             }
           >
             Today
@@ -284,22 +291,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   Adalyn Roth
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Money transfer
@@ -319,10 +340,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -334,10 +362,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -347,16 +382,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -414,22 +456,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   Amazon
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Online payments
@@ -449,10 +505,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -464,10 +527,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -477,16 +547,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -518,12 +595,19 @@ exports[`TransactionHistory should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-                "marginBottom": 14.2738,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                  "marginBottom": 14.2738,
+                },
+              ]
             }
           >
             Sep 10, 2022
@@ -584,22 +668,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   Paypal
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Deposits
@@ -619,12 +717,19 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      {
-                        "color": "#3EB290",
-                      },
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        {
+                          "color": "#3EB290",
+                        },
+                      ],
                     ]
                   }
                 >
@@ -636,12 +741,19 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        {
-                          "color": "#3EB290",
-                        },
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          {
+                            "color": "#3EB290",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -651,16 +763,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -718,22 +837,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   ATM
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Cash withdrawal
@@ -753,10 +886,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -768,10 +908,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -781,16 +928,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -848,22 +1002,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   eBay
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Online payments
@@ -883,10 +1051,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -898,10 +1073,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -911,16 +1093,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -957,12 +1146,19 @@ exports[`TransactionHistory should render correctly 1`] = `
         >
           <Text
             style={
-              {
-                "color": "#4C4C60",
-                "fontFamily": "MulishRegular",
-                "fontSize": 12,
-                "marginBottom": 14.2738,
-              }
+              [
+                {
+                  "color": "#1B1D4D",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 16,
+                },
+                {
+                  "color": "#4C4C60",
+                  "fontFamily": "MulishRegular",
+                  "fontSize": 12,
+                  "marginBottom": 14.2738,
+                },
+              ]
             }
           >
             Sep 5, 2022
@@ -1025,22 +1221,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   +17869871235
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Mobile payments
@@ -1060,10 +1270,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -1075,10 +1292,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -1088,16 +1312,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >
@@ -1155,22 +1386,36 @@ exports[`TransactionHistory should render correctly 1`] = `
               <View>
                 <Text
                   style={
-                    {
-                      "color": "#1B1D4D",
-                      "fontFamily": "MulishSemiBold",
-                      "fontSize": 14,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishSemiBold",
+                        "fontSize": 14,
+                      },
+                    ]
                   }
                 >
                   +17869871235
                 </Text>
                 <Text
                   style={
-                    {
-                      "color": "#4C4C60",
-                      "fontFamily": "MulishRegular",
-                      "fontSize": 12,
-                    }
+                    [
+                      {
+                        "color": "#1B1D4D",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
+                      },
+                      {
+                        "color": "#4C4C60",
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 12,
+                      },
+                    ]
                   }
                 >
                   Mobile payments
@@ -1190,10 +1435,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                     [
                       {
                         "color": "#1B1D4D",
-                        "fontFamily": "MulishSemiBold",
-                        "fontSize": 14,
+                        "fontFamily": "MulishRegular",
+                        "fontSize": 16,
                       },
-                      false,
+                      [
+                        {
+                          "color": "#1B1D4D",
+                          "fontFamily": "MulishSemiBold",
+                          "fontSize": 14,
+                        },
+                        false,
+                      ],
                     ]
                   }
                 >
@@ -1205,10 +1457,17 @@ exports[`TransactionHistory should render correctly 1`] = `
                       [
                         {
                           "color": "#1B1D4D",
-                          "fontFamily": "MulishSemiBold",
-                          "fontSize": 14,
+                          "fontFamily": "MulishRegular",
+                          "fontSize": 16,
                         },
-                        false,
+                        [
+                          {
+                            "color": "#1B1D4D",
+                            "fontFamily": "MulishSemiBold",
+                            "fontSize": 14,
+                          },
+                          false,
+                        ],
                       ]
                     }
                   >
@@ -1218,16 +1477,23 @@ exports[`TransactionHistory should render correctly 1`] = `
                     style={
                       [
                         {
-                          "color": "#4C4C60",
+                          "color": "#1B1D4D",
                           "fontFamily": "MulishRegular",
-                          "fontSize": 12,
+                          "fontSize": 16,
                         },
-                        {
-                          "marginLeft": "auto",
-                        },
-                        {
-                          "display": "none",
-                        },
+                        [
+                          {
+                            "color": "#4C4C60",
+                            "fontFamily": "MulishRegular",
+                            "fontSize": 12,
+                          },
+                          {
+                            "marginLeft": "auto",
+                          },
+                          {
+                            "display": "none",
+                          },
+                        ],
                       ]
                     }
                   >

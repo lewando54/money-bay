@@ -1,8 +1,10 @@
 ﻿import React from 'react'
 import { useState } from 'react'
-import { Pressable, Text, View } from 'react-native'
+import { Pressable,  View } from 'react-native'
 import Animated, { interpolate, interpolateColor, measure, runOnUI, useAnimatedRef, useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated'
 import { Entypo } from '@expo/vector-icons'
+
+import { CustomText } from '@atoms'
 
 import accordionStyle from './Accordion.style'
 
@@ -72,7 +74,7 @@ export default function Accordion({
                 </View>
                 <Animated.View testID='acc-body' style={[{borderTopColor: '#CED6E1'}, heightAnimationStyle, separatorAnimationStyle]}>
                     <Animated.View ref={textRef} style={accordionStyle.bodyText}>
-                        <Text style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>{bodyText}</Text>
+                        <CustomText style={[globalThemeStyle.text_Regular, {color: globalColors.BODY_TEXT_COLOR}]}>{bodyText}</CustomText>
                     </Animated.View>
                 </Animated.View>
             </Animated.View>

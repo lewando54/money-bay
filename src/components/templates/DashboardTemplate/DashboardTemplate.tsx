@@ -1,8 +1,9 @@
 ﻿import React from 'react'
-import { Dimensions, Image, ImageBackground, Text,View } from 'react-native'
+import { Dimensions, Image, ImageBackground, View } from 'react-native'
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
 
 import Images from '@assets/images'
+import { CustomText } from '@atoms'
 import { CreditCard, Link, Pagination, Separator } from '@atoms'
 import { ButtonCircleWithText, TTransactionsArray } from '@molecules'
 import { TransactionList } from '@organisms'
@@ -114,7 +115,7 @@ export default function DashboardTemplate({
                 <ImageBackground source={Images.bgDashboard} style={dashboardTemplateStyle.imageBackgroundContainer}>
                     <View style={dashboardTemplateStyle.headerContainer}>
                         <Image source={Images.profileIcon} style={dashboardTemplateStyle.miniProfileIcon}/>
-                        <Text style={dashboardTemplateStyle.currencyValue}>€ 1.08 / 1.12</Text>
+                        <CustomText style={dashboardTemplateStyle.currencyValue}>€ 1.08 / 1.12</CustomText>
                         <Images.creditCardSVG />
                     </View>
                     <Animated.FlatList
@@ -172,7 +173,7 @@ export default function DashboardTemplate({
                 <Separator />
                 <View style={dashboardTemplateStyle.latestTransactionContainer}>
                     <View style={dashboardTemplateStyle.latestTransactionHeadingContainer}>
-                        <Text style={dashboardTemplateStyle.latestTransactionHeading}>Latest transactions</Text>
+                        <CustomText style={dashboardTemplateStyle.latestTransactionHeading}>Latest transactions</CustomText>
                         <Link style={dashboardTemplateStyle.latestTransactionViewAllLink} onPress={onViewAllPress}>View all</Link>
                     </View>
                     <TransactionList transactionsData={transactionsData} />
