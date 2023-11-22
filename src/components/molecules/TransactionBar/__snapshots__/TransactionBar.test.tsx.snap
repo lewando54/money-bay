@@ -54,7 +54,7 @@ exports[`TransactionBar should be expense by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -72,7 +72,7 @@ exports[`TransactionBar should be expense by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -100,7 +100,7 @@ exports[`TransactionBar should be expense by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -122,7 +122,7 @@ exports[`TransactionBar should be expense by default 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -143,7 +143,7 @@ exports[`TransactionBar should be expense by default 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -222,7 +222,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -240,7 +240,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -268,7 +268,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -292,7 +292,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -315,7 +315,7 @@ exports[`TransactionBar should have green color of balance and + sign when isExp
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -394,7 +394,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -412,7 +412,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -440,7 +440,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -462,7 +462,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -483,7 +483,7 @@ exports[`TransactionBar should hide percent by default 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -562,7 +562,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -580,7 +580,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -608,7 +608,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -630,7 +630,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -651,7 +651,7 @@ exports[`TransactionBar should render correct text in title and subtitle 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -730,7 +730,7 @@ exports[`TransactionBar should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -748,7 +748,7 @@ exports[`TransactionBar should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -776,7 +776,7 @@ exports[`TransactionBar should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -798,7 +798,7 @@ exports[`TransactionBar should render correctly 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -819,7 +819,7 @@ exports[`TransactionBar should render correctly 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -898,7 +898,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#1B1D4D",
@@ -916,7 +916,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -944,7 +944,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -966,7 +966,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -987,7 +987,7 @@ exports[`TransactionBar should show percent when passed 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {

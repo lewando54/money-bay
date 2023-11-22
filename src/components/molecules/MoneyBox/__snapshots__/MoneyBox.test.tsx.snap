@@ -45,7 +45,7 @@ exports[`MoneyBox should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -80,7 +80,7 @@ exports[`MoneyBox should render correctly 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             [
               {
@@ -117,7 +117,7 @@ exports[`MoneyBox should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -140,7 +140,7 @@ exports[`MoneyBox should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -220,7 +220,7 @@ exports[`MoneyBox should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -257,7 +257,7 @@ exports[`MoneyBox should render correctly 1`] = `
                 {
                   "color": "#1B1D4D",
                   "fontFamily": "MulishRegular",
-                  "fontSize": 16,
+                  "fontSize": 14,
                 },
                 [
                   {
@@ -280,7 +280,7 @@ exports[`MoneyBox should render correctly 1`] = `
                 {
                   "color": "#1B1D4D",
                   "fontFamily": "MulishRegular",
-                  "fontSize": 16,
+                  "fontSize": 14,
                 },
                 [
                   {
@@ -384,7 +384,7 @@ exports[`MoneyBox should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -484,7 +484,7 @@ exports[`MoneyBox should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {

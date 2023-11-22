@@ -62,7 +62,7 @@ exports[`Notification should render correctly 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             {
               "color": "#1B1D4D",
@@ -82,7 +82,7 @@ exports[`Notification should render correctly 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#1B1D4D",
@@ -112,7 +112,7 @@ exports[`Notification should render correctly 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",
@@ -191,7 +191,7 @@ exports[`Notification should render green icon with checkmark 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             {
               "color": "#1B1D4D",
@@ -211,7 +211,7 @@ exports[`Notification should render green icon with checkmark 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#1B1D4D",
@@ -241,7 +241,7 @@ exports[`Notification should render green icon with checkmark 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",
@@ -320,7 +320,7 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             {
               "color": "#1B1D4D",
@@ -340,7 +340,7 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#1B1D4D",
@@ -370,7 +370,7 @@ exports[`Notification should render green icon with checkmark by default 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",
@@ -449,7 +449,7 @@ exports[`Notification should render red icon with x 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             {
               "color": "#1B1D4D",
@@ -469,7 +469,7 @@ exports[`Notification should render red icon with x 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#1B1D4D",
@@ -499,7 +499,7 @@ exports[`Notification should render red icon with x 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",
@@ -578,7 +578,7 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
             {
               "color": "#1B1D4D",
               "fontFamily": "MulishRegular",
-              "fontSize": 16,
+              "fontSize": 14,
             },
             {
               "color": "#1B1D4D",
@@ -598,7 +598,7 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#1B1D4D",
@@ -628,7 +628,7 @@ exports[`Notification should render yellow/orange icon with warning sign 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",

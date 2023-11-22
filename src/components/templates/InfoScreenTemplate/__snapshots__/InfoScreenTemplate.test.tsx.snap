@@ -39,7 +39,7 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           undefined,
         ]
@@ -53,7 +53,7 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -76,7 +76,7 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           undefined,
         ]
@@ -165,7 +165,7 @@ exports[`InfoScreenTemplate should render correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -230,7 +230,7 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -253,7 +253,7 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -348,7 +348,7 @@ exports[`InfoScreenTemplate should render correctly 2`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -413,7 +413,7 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -436,7 +436,7 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -531,7 +531,7 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {
@@ -622,7 +622,7 @@ exports[`InfoScreenTemplate should render with buttons correctly 1`] = `
               {
                 "color": "#1B1D4D",
                 "fontFamily": "MulishRegular",
-                "fontSize": 16,
+                "fontSize": 14,
               },
               [
                 {

@@ -59,7 +59,7 @@ exports[`PhoneInput should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           {
             "color": "#4C4C60",
@@ -78,7 +78,7 @@ exports[`PhoneInput should render correctly 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         {
           "color": "#4C4C60",

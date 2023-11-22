@@ -72,7 +72,7 @@ exports[`Button should render correctly 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -167,7 +167,7 @@ exports[`Button should render normal variant 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -265,7 +265,7 @@ exports[`Button should render small variant 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {
@@ -368,7 +368,7 @@ exports[`Button should render with primary color by default 1`] = `
           {
             "color": "#1B1D4D",
             "fontFamily": "MulishRegular",
-            "fontSize": 16,
+            "fontSize": 14,
           },
           [
             {

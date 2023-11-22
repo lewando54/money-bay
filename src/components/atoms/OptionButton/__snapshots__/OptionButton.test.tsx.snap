@@ -54,7 +54,7 @@ exports[`OptionButton should render correctly 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         [
           {
@@ -127,7 +127,7 @@ exports[`OptionButton should render correctly when chosen option is enabled 1`] 
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         [
           {
@@ -202,7 +202,7 @@ exports[`OptionButton should render large variant 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         [
           {
@@ -275,7 +275,7 @@ exports[`OptionButton should render normal variant 1`] = `
         {
           "color": "#1B1D4D",
           "fontFamily": "MulishRegular",
-          "fontSize": 16,
+          "fontSize": 14,
         },
         [
           {
